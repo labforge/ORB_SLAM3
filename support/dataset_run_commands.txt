@@ -1,0 +1,64 @@
+Mono Euroc:
+./Examples/Monocular/mono_euroc ./Vocabulary/ORBvoc.txt ./Examples/Monocular/EuRoC.yaml ./Datasets/euroc/MH_01_easy/ ./Examples/Monocular/EuRoC_TimeStamps/MH01.txt dataset-MH01_mono
+./Examples/Monocular-Inertial/mono_inertial_euroc ./Vocabulary/ORBvoc.txt ./Examples/Monocular-Inertial/EuRoC.yaml ./Datasets/euroc/MH_01_easy/ ./Examples/Monocular-Inertial/EuRoC_TimeStamps/MH01.txt dataset-MH01_monoi
+./Examples/Stereo/stereo_euroc ./Vocabulary/ORBvoc.txt ./Examples/Stereo/EuRoC.yaml ./Datasets/euroc/MH_01_easy/ ./Examples/Stereo/EuRoC_TimeStamps/MH01.txt dataset-MH01_stereo
+
+ Kitti:
+./Examples/Monocular/mono_kitti Vocabulary/ORBvoc.txt Examples/Monocular/KITTI00-02.yaml Datasets/kitti/dataset/sequences/00 
+./Examples/Stereo/stereo_kitti Vocabulary/ORBvoc.txt Examples/Stereo/KITTI00-02.yaml Datasets/kitti/dataset/sequences/00 
+
+Tum:
+./Examples/Monocular/mono_tum_vi Vocabulary/ORBvoc.txt Examples/Monocular/TUM-VI.yaml ./Datasets/dataset-corridor1_512_16/mav0/cam0/data Examples/Monocular/TUM_TimeStamps/dataset-corridor1_512.txt dataset-corridor1_512_mono
+./Examples/Stereo/stereo_tum_vi Vocabulary/ORBvoc.txt Examples/Stereo/TUM-VI.yaml Datasets/tum/dataset-corridor1_512_16/mav0/cam0/data Datasets/tum/dataset-corridor1_512_16/mav0/cam1/data Examples/Stereo/TUM_TimeStamps/dataset-corridor1_512.txt dataset-corridor1_512_stereo
+
+./Examples/Stereo/stereo_tum_vi Vocabulary/ORBvoc.txt Examples/Stereo/TUM-VI.yaml Datasets/tum/dataset-room1_512_16/mav0/cam0/data Datasets/tum/dataset-room1_512_16/mav0/cam1/data Examples/Stereo/TUM_TimeStamps/dataset-room1_512.txt dataset-room1_512_stereo
+
+Rolling shutter
+
+./Examples/Monocular/mono_tum_vi Vocabulary/ORBvoc.txt Datasets/rolling_shutter/dataset-seq1/calib.yaml Datasets/rolling_shutter/dataset-seq1/mav0/cam0/data Datasets/rolling_shutter/dataset-seq1/mav0/cam0/timestamps.txt dataset-seq1_mono
+./Examples/Stereo/stereo_tum_vi Vocabulary/ORBvoc.txt Datasets/rolling_shutter/dataset-seq1/calib.yaml Datasets/rolling_shutter/dataset-seq1/mav0/cam0/data Datasets/rolling_shutter/dataset-seq1/mav0/cam1/data Datasets/rolling_shutter/dataset-seq1/mav0/cam0/timestamps.txt dataset-seq1_stereo
+
+Bottlenose:
+./Examples/Monocular/mono_bottlenose ./Vocabulary/ORBvoc.txt ./Examples/Monocular/bottlenose.yaml ./Datasets/bottlenose ./Datasets/bottlenose/cam0/data/data_timestamps.txt dataset-bottlenose_mono
+./Examples/Stereo/stereo_bottlenose ./Vocabulary/ORBvoc.txt ./Examples/Stereo/bottlenose.yaml ./Datasets/bottlenose ./Datasets/bottlenose/cam0/data/data_timestamps.txt dataset-bottlenose_stereo
+
+kitti:
+evo_traj kitti --ref=Datasets/kitti/data_odometry_poses/dataset/poses/00.txt CameraTrajectory.txt -va -p --plot_mode xz
+
+euroc:
+change the ground truth to tum format
+evo_traj euroc data.csv --save_as_tum
+also change the trajectory to tum format
+evo_traj tum f_dataset-MH01_stereo.txt --save_as_tum
+f_dataset-MH01_stereo.tum will have issue with timestamp. Since the conversion is from tum to tum, timestamps will be in e+18. So use the timestampedit.py to correct this issue. Use the resultant data.tum as ground truth for comparison.
+evo_traj tum --ref=data_clean.tum f_dataset-MH01_stereo_clean.tum -p -va
+
+tum:
+replace all commas with spaces inside Datasets/tum/dataset-room1_512_16/mav0/mocap0/test/data.csv
+evo_traj tum data.csv --save_as_tum
+evo_traj tum f_dataset-room1_512_stereo.txt --save_as_tum
+python timestampedit.py for both the above
+evo_traj tum --ref=data_clean.tum f_dataset-room1_512_stereo_clean.tum -p -va
+
+Additional info:
+
+kitti:
+Do not use xyz for KITTI, it gives a wierd image. The dataset is anyways only 2d motion. So use only xz/xy.
+
+Alternate for euroc:
+replace all space with commas inside f_dataset-MH01_stereo.txt. Because euroc format is csv
+evo_traj euroc --ref=Datasets/euroc/MH_01_easy/mav0/state_groundtruth_estimate0/data.csv f_dataset-MH01_stereo.txt -p -va --plot_mode=xyz
+
+But, with above method, evo_traj was working fine, but evo_ape had issues with format, so better to use tum format for euroc dataset too.
+repalce all commas with space in the ground truth csv file. 
+evo_traj tum data.csv --save_as_tum
+Use the timestampedit.py to correct ground truth and saved trajectory
+evo_traj tum --ref=data_clean.tum f_dataset-MH01_stereo_clean.tum -p -va
+
+evo_ape:
+evo_ape tum Datasets/euroc/MH_01_easy/mav0/state_groundtruth_estimate0/data.tum f_dataset-MH01_stereo.tum -va -p --plot_mode xyz
+
+evaluate_ate_scale.py:
+change spaces in f_dataset-MH01_stereo.txt with commas
+python evaluation/evaluate_ate_scale.py Datasets/euroc/MH_01_easy/mav0/state_groundtruth_estimate0/data.csv f_dataset-MH01_stereo.txt --verbose --plot PLOT
+
