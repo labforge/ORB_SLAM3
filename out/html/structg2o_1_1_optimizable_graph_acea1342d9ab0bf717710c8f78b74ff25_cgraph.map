@@ -1,0 +1,20 @@
+<map id="g2o::OptimizableGraph::addGraph" name="g2o::OptimizableGraph::addGraph">
+<area shape="rect" id="node1" title="adds all edges and vertices of the graph g to this graph." alt="" coords="5,440,177,481"/>
+<area shape="rect" id="node2" href="$structg2o_1_1_optimizable_graph.html#a6831ed69fce3dba691f53302a2813070" title=" " alt="" coords="235,112,407,153"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a3794ff3310c1dc05619bf0b77eaa4caa" title="returns the set of hyper&#45;edges that are leaving/entering in this vertex" alt="" coords="730,25,913,67"/>
+<area shape="rect" id="node7" href="$structg2o_1_1_optimizable_graph.html#ae0b93774ce1dfa0dfd501c86ad4f773e" title=" " alt="" coords="235,301,407,343"/>
+<area shape="rect" id="node9" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a48191960395856d1b686287489e53da3" title="returns the id" alt="" coords="720,359,923,386"/>
+<area shape="rect" id="node12" href="$structg2o_1_1_optimizable_graph.html#a19e014e8ec2e9a6e894da8c3a8f8e50d" title="returns the vertex number id appropriately casted" alt="" coords="483,177,655,219"/>
+<area shape="rect" id="node13" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a32e33f86c169e234a0dde54d1309e5e3" title="returns a deep copy of the current vertex" alt="" coords="235,440,407,481"/>
+<area shape="rect" id="node14" href="$classg2o_1_1_hyper_graph.html#a4edfd2ef4bf235cf78031c505cfd2fcc" title=" " alt="" coords="232,506,411,533"/>
+<area shape="rect" id="node15" href="$classg2o_1_1_hyper_graph_1_1_edge.html#ad8913f1149a0fd5bb628f0f1c8a91a55" title=" " alt="" coords="235,557,407,599"/>
+<area shape="rect" id="node16" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a440f24c0108be5247f3529369aa1e53c" title="set the temporary index of the vertex in the parameter blocks" alt="" coords="227,623,416,664"/>
+<area shape="rect" id="node17" href="$classg2o_1_1_hyper_graph_1_1_edge.html#a5e957658d6e65c49b81197d052a7f16f" title=" " alt="" coords="235,688,407,729"/>
+<area shape="rect" id="node18" href="$classg2o_1_1_hyper_graph.html#a95fcf7cd9d89562b2c26d99ede3548ed" title=" " alt="" coords="225,754,417,781"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_hyper_graph.html#a0f1d35009a2879b238c8148c33485c89" title=" " alt="" coords="471,61,667,87"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_jacobian_workspace.html#a2d16ad6db1a51aa93c806cc9c06e223f" title=" " alt="" coords="478,112,659,153"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a86feed80301950b100142575b48e4fca" title="dimension of the estimated state belonging to this node" alt="" coords="735,112,907,153"/>
+<area shape="rect" id="node8" href="$classg2o_1_1_hyper_graph.html#a7ef87ba3479827b24c6fc29c5fc3aa21" title=" " alt="" coords="465,309,672,335"/>
+<area shape="rect" id="node11" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a858d15a4fadebfc8bce0162ac675f608" title=" " alt="" coords="483,243,655,284"/>
+<area shape="rect" id="node10" href="$classg2o_1_1_hyper_graph.html#ab07fe8bd9982a66ba34e83dff8317ea2" title="returns a vertex id in the hyper&#45;graph, or 0 if the vertex id is not present" alt="" coords="730,246,913,273"/>
+</map>

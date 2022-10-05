@@ -1,0 +1,6 @@
+<map id="g2o::LinearSolverCCS::initMatrixStructure" name="g2o::LinearSolverCCS::initMatrixStructure">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,167,112"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_sparse_block_matrix.html#a1dc1115273da4863f4625b1dc9569d89" title="indices of the column blocks" alt="" coords="224,5,400,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_sparse_block_matrix.html#a783a9c976391f0c698866e34eeef43f5" title=" " alt="" coords="215,71,409,112"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_sparse_block_matrix.html#a4fff500693b46e4f62a2f828934d198c" title="indices of the row blocks" alt="" coords="224,136,400,177"/>
+</map>

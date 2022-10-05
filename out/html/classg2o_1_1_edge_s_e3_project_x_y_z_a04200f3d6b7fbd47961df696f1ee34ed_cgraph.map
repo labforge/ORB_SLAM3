@@ -1,0 +1,4 @@
+<map id="g2o::EdgeSE3ProjectXYZ::read" name="g2o::EdgeSE3ProjectXYZ::read">
+<area shape="rect" id="node1" title="read the vertex from a stream, i.e., the internal state of the vertex" alt="" coords="5,5,187,47"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_edge.html#a405f8d52738e557a0860b52ac67a005b" title="information matrix of the constraint" alt="" coords="235,5,444,47"/>
+</map>

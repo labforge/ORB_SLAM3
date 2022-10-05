@@ -1,0 +1,4 @@
+<map id="g2o::RobustKernelHuber" name="g2o::RobustKernelHuber">
+<area shape="rect" id="node1" title="Huber Cost Function." alt="" coords="5,80,184,107"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_robust_kernel.html" title="base for all robust cost functions" alt="" coords="25,5,165,32"/>
+</map>

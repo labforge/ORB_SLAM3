@@ -1,0 +1,8 @@
+<map id="g2o::EdgeSE3::computeError" name="g2o::EdgeSE3::computeError">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,212,83"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="260,5,455,32"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_s_e3_quat.html#a894d361da0f27b25472b3a274deefed3" title=" " alt="" coords="275,56,440,83"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_s_e3_quat.html#ab19dfa20f3d0ed68f07a81ea90bcfc76" title=" " alt="" coords="289,107,426,133"/>
+<area shape="rect" id="node5" href="$namespaceg2o.html#a2e39915fb420fd7dc2d3802435e4a6a9" title=" " alt="" coords="503,81,599,108"/>
+<area shape="rect" id="node6" href="$namespaceg2o.html#adb3143a37b9bc002f4f7b6423061ef81" title=" " alt="" coords="507,132,594,159"/>
+</map>

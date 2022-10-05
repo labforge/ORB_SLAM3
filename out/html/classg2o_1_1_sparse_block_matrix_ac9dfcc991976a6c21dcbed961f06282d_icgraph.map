@@ -1,0 +1,9 @@
+<map id="g2o::SparseBlockMatrix::cols" name="g2o::SparseBlockMatrix::cols">
+<area shape="rect" id="node1" title="columns of the matrix" alt="" coords="556,156,732,197"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_linear_solver_eigen.html#a12307526d419d194620e982d8c683767" title=" " alt="" coords="243,5,489,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_linear_solver_eigen.html#ae4ac566af324a238a31145c1e50b52e1" title=" " alt="" coords="5,35,176,76"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_sparse_block_matrix.html#abd1aa3a3ed3278b82945151b02223e1c" title="dest = (*this) * M" alt="" coords="257,123,475,164"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_sparse_block_matrix.html#a06dc97167a923119bdf99818033104d8" title="number of non&#45;zero elements" alt="" coords="254,188,478,229"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_linear_solver_dense.html#a8b6eafa6e53b9f705a4e8eb436eeb403" title=" " alt="" coords="278,253,454,295"/>
+<area shape="rect" id="node7" href="$classg2o_1_1_sparse_block_matrix.html#a0dcf826fe329e922eae1ea92c73c7b23" title=" " alt="" coords="224,319,508,360"/>
+</map>

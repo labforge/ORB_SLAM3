@@ -1,0 +1,45 @@
+<map id="ORB_SLAM3::Map::SetStoredMap" name="ORB_SLAM3::Map::SetStoredMap">
+<area shape="rect" id="node1" title=" " alt="" coords="2124,398,2361,425"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_atlas.html#a553371a7dd7ecbecb7f76e23d09de2cf" title=" " alt="" coords="1848,191,2076,218"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_atlas.html#adc116f14d410bbfccc7fbc2e13656f89" title=" " alt="" coords="1865,420,2059,461"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ace9ff596b08a851a6823eefc6fa66fb3" title=" " alt="" coords="1580,5,1769,47"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="1019,297,1241,323"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a5e4851c1b0d0de361c208a68e9950b2e" title=" " alt="" coords="799,372,965,413"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_atlas.html#a0b77f43995cd262b4220a3a10ea34cb1" title=" " alt="" coords="1583,733,1767,759"/>
+<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#ac0cb3ce01f3ffb69bf400117ef5b82f0" title=" " alt="" coords="1047,231,1213,272"/>
+<area shape="rect" id="node22" href="$class_o_r_b___s_l_a_m3_1_1_atlas.html#a12d374c0cb3b4f39b44b756bb83f6eb5" title=" " alt="" coords="1549,682,1800,709"/>
+<area shape="rect" id="node43" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a9e27c5599a1a19529cbbb251c55b6d67" title=" " alt="" coords="583,907,748,948"/>
+<area shape="rect" id="node9" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a3be7816140ffacc27218a956edb1a1c3" title=" " alt="" coords="365,667,532,708"/>
+<area shape="rect" id="node11" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a9ae56ac238d5dfe53a860a0bc8100b44" title=" " alt="" coords="799,925,965,967"/>
+<area shape="rect" id="node10" href="$_monocular-_inertial_2mono__inertial__euroc_8cc.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="185,697,240,723"/>
+<area shape="rect" id="node12" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a27af981c7e57c10fd41dfb0120915113" title=" " alt="" coords="580,711,751,752"/>
+<area shape="rect" id="node16" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a18c1fdd1f5a94613fd3df5ea1f6957b9" title=" " alt="" coords="583,841,748,883"/>
+<area shape="rect" id="node19" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a6d6dad2bc132a51b16b31d194ff7e71c" title=" " alt="" coords="583,972,748,1013"/>
+<area shape="rect" id="node13" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a5301f3aaf838723535909b40e0afc349" title=" " alt="" coords="365,747,532,788"/>
+<area shape="rect" id="node14" href="$class_image_grabber.html#aeeabc012ca952da7f703bcece5ae13a9" title=" " alt="" coords="108,754,317,781"/>
+<area shape="rect" id="node15" href="$ros__mono__inertial_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,754,60,781"/>
+<area shape="rect" id="node17" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a8ba14ed9907c46696cd020907728982f" title=" " alt="" coords="365,841,532,883"/>
+<area shape="rect" id="node18" href="$_r_g_b-_d-_inertial_2rgbd__inertial__realsense___d435i_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,849,240,875"/>
+<area shape="rect" id="node20" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4" title=" " alt="" coords="365,907,532,948"/>
+<area shape="rect" id="node21" href="$_stereo-_inertial_2stereo__inertial__euroc_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,914,240,941"/>
+<area shape="rect" id="node23" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa5ba3f14da84d05c97ac3a4a8aed0014" title=" " alt="" coords="1303,289,1493,331"/>
+<area shape="rect" id="node24" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a31b779f423e6a6b9f0119fa0d98eb511" title=" " alt="" coords="1295,1140,1501,1181"/>
+<area shape="rect" id="node26" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a3e6522baa7585c6c3f4e6429ac1295b9" title=" " alt="" coords="1047,1205,1213,1247"/>
+<area shape="rect" id="node27" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#adba9005b48ac6cefa7ec816c45972bbb" title=" " alt="" coords="1298,355,1498,396"/>
+<area shape="rect" id="node29" href="$class_o_r_b___s_l_a_m3_1_1_map_drawer.html#a5dc38271ae8ce634f04e8404d0b627a8" title=" " alt="" coords="1305,616,1491,657"/>
+<area shape="rect" id="node31" href="$class_o_r_b___s_l_a_m3_1_1_map_drawer.html#ab80a3e3aa7625c97a926c8f075a1e122" title=" " alt="" coords="1305,551,1491,592"/>
+<area shape="rect" id="node32" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#abbd4bb45f894a3c0d2fc6ca0a227286f" title=" " alt="" coords="1298,420,1498,461"/>
+<area shape="rect" id="node33" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a73b9f9990537c4ce8ad21ca9a06fc1d8" title=" " alt="" coords="1303,224,1493,265"/>
+<area shape="rect" id="node34" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a9cf185be643fabb3627dcdc16b36bad6" title=" " alt="" coords="1047,761,1213,803"/>
+<area shape="rect" id="node35" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a4c65126443ba6c0f7ed57a36c76cae41" title=" " alt="" coords="1047,827,1213,868"/>
+<area shape="rect" id="node36" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#aea295ab5e9be7cdf29450e831aa26e65" title=" " alt="" coords="583,776,748,817"/>
+<area shape="rect" id="node37" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#a22895e133b33b7b31eabe0703bad0ec9" title=" " alt="" coords="1298,485,1498,527"/>
+<area shape="rect" id="node38" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a9f9b94dd01560ddb83dbd829417ff4c9" title=" " alt="" coords="1315,889,1481,931"/>
+<area shape="rect" id="node40" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a05ff23da0f959b3dde1a007003f94f1e" title=" " alt="" coords="1047,957,1213,999"/>
+<area shape="rect" id="node41" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#adb664b2fe888ac2b7d7822b0e051d978" title=" " alt="" coords="1315,1075,1481,1116"/>
+<area shape="rect" id="node25" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a6add3249e1be8a4630fc2d9e2e3681a6" title=" " alt="" coords="1041,1140,1219,1181"/>
+<area shape="rect" id="node28" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#aa3bd8a66c4ee13694fe355eee1cdc9af" title=" " alt="" coords="1013,411,1247,438"/>
+<area shape="rect" id="node30" href="$class_o_r_b___s_l_a_m3_1_1_viewer.html#a6d34d164f99aaf340c7b3e7b36459f3f" title=" " alt="" coords="1036,558,1224,585"/>
+<area shape="rect" id="node39" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#af2dc92eaa873b2c8bd91612d101793dd" title=" " alt="" coords="1047,892,1213,933"/>
+<area shape="rect" id="node42" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#ab37ac0b20bf655612855c9df63946ce9" title=" " alt="" coords="1040,1075,1220,1116"/>
+</map>

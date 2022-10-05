@@ -1,0 +1,6 @@
+<map id="g2o::RegisterActionProxy::RegisterActionProxy" name="g2o::RegisterActionProxy::RegisterActionProxy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,192,80"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_hyper_graph_action_library.html#a12074e3f4d9bcb3da20a4fe23d18b745" title="return the single instance of the HyperGraphActionLibrary" alt="" coords="240,5,459,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_hyper_graph_action_library.html#a8ff09559af9efdf636ad14a011ef73ae" title=" " alt="" coords="240,71,459,112"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_hyper_graph_element_action_collection.html#a9eb641e9c9bb22f3540dc98c2c750ea9" title=" " alt="" coords="507,71,733,112"/>
+</map>

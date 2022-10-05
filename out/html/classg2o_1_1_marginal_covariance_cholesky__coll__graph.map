@@ -1,0 +1,7 @@
+<map id="g2o::MarginalCovarianceCholesky" name="g2o::MarginalCovarianceCholesky">
+<area shape="rect" id="node1" title="computing the marginal covariance given a cholesky factor (lower triangle of the factor)" alt="" coords="172,243,415,269"/>
+<area shape="rect" id="node2" href="$classdouble.html" title=" " alt="" coords="5,5,72,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="71,102,236,129"/>
+<area shape="rect" id="node3" title=" " alt="" coords="260,95,420,136"/>
+<area shape="rect" id="node4" href="$classint.html" title=" " alt="" coords="445,102,483,129"/>
+</map>

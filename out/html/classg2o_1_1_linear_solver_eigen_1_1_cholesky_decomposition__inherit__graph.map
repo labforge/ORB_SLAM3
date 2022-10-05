@@ -1,0 +1,4 @@
+<map id="g2o::LinearSolverEigen&lt; MatrixType &gt;::CholeskyDecomposition" name="g2o::LinearSolverEigen&lt; MatrixType &gt;::CholeskyDecomposition">
+<area shape="rect" id="node1" title="Sub&#45;classing Eigen&#39;s SimplicialLDLT to perform ordering with a given ordering." alt="" coords="5,109,295,151"/>
+<area shape="rect" id="node2" title=" " alt="" coords="67,5,233,61"/>
+</map>

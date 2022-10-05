@@ -1,0 +1,5 @@
+<map id="g2o::OptimizationAlgorithmFactory::registerSolver" name="g2o::OptimizationAlgorithmFactory::registerSolver">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,208,80"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_optimization_algorithm_factory.html#a33368953cc13fc69bad64ce440d90a39" title=" " alt="" coords="256,5,459,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_abstract_optimization_algorithm_creator.html#ab074710276ea3496d5bff118e48c6030" title="return the properties of the solver" alt="" coords="259,71,456,112"/>
+</map>

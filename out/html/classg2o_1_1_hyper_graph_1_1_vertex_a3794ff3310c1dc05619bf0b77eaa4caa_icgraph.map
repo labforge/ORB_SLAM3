@@ -1,0 +1,52 @@
+<map id="g2o::HyperGraph::Vertex::edges" name="g2o::HyperGraph::Vertex::edges">
+<area shape="rect" id="node1" title="returns the set of hyper&#45;edges that are leaving/entering in this vertex" alt="" coords="2372,823,2555,864"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_hyper_graph.html#a0f1d35009a2879b238c8148c33485c89" title=" " alt="" coords="1831,546,2027,573"/>
+<area shape="rect" id="node4" href="$structg2o_1_1_optimizable_graph.html#acea1342d9ab0bf717710c8f78b74ff25" title="adds all edges and vertices of the graph g to this graph." alt="" coords="1347,5,1519,47"/>
+<area shape="rect" id="node42" href="$classg2o_1_1_block_solver.html#a17e4392d3cca9a9d7cf38bb46d073b86" title=" " alt="" coords="2093,801,2324,827"/>
+<area shape="rect" id="node43" href="$classg2o_1_1_sparse_optimizer.html#a2fba11c8572fce4a8c1bcca4fa3e43fb" title=" " alt="" coords="2127,852,2291,893"/>
+<area shape="rect" id="node44" href="$classg2o_1_1_sparse_optimizer.html#ac99e785f4822dd540b389ea179ce4f06" title=" " alt="" coords="2127,917,2290,959"/>
+<area shape="rect" id="node45" href="$classg2o_1_1_sparse_optimizer.html#ab16dd36e32577ba5856239ce721ec70b" title=" " alt="" coords="2123,983,2294,1024"/>
+<area shape="rect" id="node46" href="$classg2o_1_1_estimate_propagator.html#ae24b104ec3e8162bc75a70db9941f342" title=" " alt="" coords="2117,1048,2300,1089"/>
+<area shape="rect" id="node47" href="$classg2o_1_1_hyper_graph.html#a33e5a60705ce673d647aa1613da9d99b" title="removes a vertex from the graph. Returns true on success (edge was present)" alt="" coords="2097,750,2320,777"/>
+<area shape="rect" id="node48" href="$classg2o_1_1_hyper_graph.html#a97ab8302aa027d513253387bba9e0dd5" title="removes a vertex from the graph. Returns true on success (vertex was present)" alt="" coords="1812,750,2045,777"/>
+<area shape="rect" id="node50" href="$structg2o_1_1_hyper_dijkstra.html#a00d978615ff1bbb9917351e9cba0b4ba" title=" " alt="" coords="2137,1113,2281,1155"/>
+<area shape="rect" id="node3" href="$structg2o_1_1_optimizable_graph.html#a6831ed69fce3dba691f53302a2813070" title=" " alt="" coords="1592,517,1764,559"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_optimizer.html#ad51f2da7d383f3244457e8652bd85395" title=" " alt="" coords="1346,849,1521,891"/>
+<area shape="rect" id="node18" href="$class_o_r_b___s_l_a_m3_1_1_optimizer.html#a0da3c185355ab346d740b94805af94c3" title=" " alt="" coords="1346,784,1521,825"/>
+<area shape="rect" id="node21" href="$class_o_r_b___s_l_a_m3_1_1_optimizer.html#a7ede71f0250b267adb3e911a1e439fde" title=" " alt="" coords="1346,451,1521,492"/>
+<area shape="rect" id="node24" href="$structg2o_1_1_optimizable_graph.html#a95c2791b9fcfc118b3df147a8da2b37f" title="load the graph from a stream. Uses the Factory singleton for creating the vertices and edges." alt="" coords="1347,256,1519,297"/>
+<area shape="rect" id="node26" href="$class_o_r_b___s_l_a_m3_1_1_optimizer.html#a88c002c8c66c6269bd7bce408d2c8ed8" title=" " alt="" coords="1055,580,1239,621"/>
+<area shape="rect" id="node27" href="$class_o_r_b___s_l_a_m3_1_1_optimizer.html#a93460ac4a7e3256ed599bfa090424187" title=" " alt="" coords="1060,319,1235,360"/>
+<area shape="rect" id="node28" href="$class_o_r_b___s_l_a_m3_1_1_optimizer.html#a777a073ff619aa39e17db653dfbcd98d" title=" " alt="" coords="1346,517,1521,559"/>
+<area shape="rect" id="node29" href="$class_o_r_b___s_l_a_m3_1_1_optimizer.html#ac80d604d16284d973784cccd27c97bc6" title=" " alt="" coords="762,681,949,723"/>
+<area shape="rect" id="node30" href="$class_o_r_b___s_l_a_m3_1_1_optimizer.html#a92f03f9b4c4796a575bfb590000a8b77" title=" " alt="" coords="1323,719,1544,760"/>
+<area shape="rect" id="node31" href="$class_o_r_b___s_l_a_m3_1_1_optimizer.html#a6599cd62148dd9123e0b6219b86c5f2f" title=" " alt="" coords="1346,915,1521,956"/>
+<area shape="rect" id="node35" href="$class_o_r_b___s_l_a_m3_1_1_optimizer.html#ab5aeedc52034f807e277734ce7e318e8" title=" " alt="" coords="1324,71,1543,127"/>
+<area shape="rect" id="node37" href="$class_o_r_b___s_l_a_m3_1_1_optimizer.html#a618001695bb609c1eafe5fd1669af239" title=" " alt="" coords="746,137,965,193"/>
+<area shape="rect" id="node38" href="$class_o_r_b___s_l_a_m3_1_1_optimizer.html#a7681acdce001a4498dd1bece61b0d92c" title=" " alt="" coords="768,217,943,259"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_optimizer.html#a5628954e54bf2d6980054fc662f61f88" title=" " alt="" coords="1051,849,1243,891"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a31b779f423e6a6b9f0119fa0d98eb511" title=" " alt="" coords="752,864,959,905"/>
+<area shape="rect" id="node13" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ae839ce5697383d9b257573975f9a5fef" title=" " alt="" coords="747,799,964,840"/>
+<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a6add3249e1be8a4630fc2d9e2e3681a6" title=" " alt="" coords="503,804,682,845"/>
+<area shape="rect" id="node9" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a9ae56ac238d5dfe53a860a0bc8100b44" title=" " alt="" coords="253,275,418,316"/>
+<area shape="rect" id="node10" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a27af981c7e57c10fd41dfb0120915113" title=" " alt="" coords="5,209,176,251"/>
+<area shape="rect" id="node11" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a18c1fdd1f5a94613fd3df5ea1f6957b9" title=" " alt="" coords="8,275,173,316"/>
+<area shape="rect" id="node12" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a6d6dad2bc132a51b16b31d194ff7e71c" title=" " alt="" coords="8,340,173,381"/>
+<area shape="rect" id="node14" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa5ba3f14da84d05c97ac3a4a8aed0014" title=" " alt="" coords="498,709,687,751"/>
+<area shape="rect" id="node17" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ace9ff596b08a851a6823eefc6fa66fb3" title=" " alt="" coords="498,629,687,671"/>
+<area shape="rect" id="node15" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="224,637,447,663"/>
+<area shape="rect" id="node16" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a5e4851c1b0d0de361c208a68e9950b2e" title=" " alt="" coords="7,580,174,621"/>
+<area shape="rect" id="node19" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#abbd4bb45f894a3c0d2fc6ca0a227286f" title=" " alt="" coords="1047,515,1247,556"/>
+<area shape="rect" id="node20" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#aa3bd8a66c4ee13694fe355eee1cdc9af" title=" " alt="" coords="739,522,972,549"/>
+<area shape="rect" id="node22" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a73b9f9990537c4ce8ad21ca9a06fc1d8" title=" " alt="" coords="1053,384,1242,425"/>
+<area shape="rect" id="node23" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#a22895e133b33b7b31eabe0703bad0ec9" title=" " alt="" coords="1047,449,1247,491"/>
+<area shape="rect" id="node25" href="$structg2o_1_1_optimizable_graph.html#a305fe91c405fc960df051d9581e524bc" title=" " alt="" coords="1061,253,1233,295"/>
+<area shape="rect" id="node32" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ab9af03a4facce7d36ef30911047743a4" title=" " alt="" coords="1020,915,1275,956"/>
+<area shape="rect" id="node34" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ac98911cd2e089a0e5d88a5ef3dc7d809" title=" " alt="" coords="1024,980,1271,1021"/>
+<area shape="rect" id="node33" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa8c70961dd01d543b419effd3fa75bd0" title=" " alt="" coords="749,929,962,971"/>
+<area shape="rect" id="node36" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#af2dc92eaa873b2c8bd91612d101793dd" title=" " alt="" coords="510,144,675,185"/>
+<area shape="rect" id="node39" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a4c65126443ba6c0f7ed57a36c76cae41" title=" " alt="" coords="510,340,675,381"/>
+<area shape="rect" id="node40" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a55da5504ae1641b5d4c9dfc4038fb99e" title=" " alt="" coords="495,209,691,251"/>
+<area shape="rect" id="node41" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#ab37ac0b20bf655612855c9df63946ce9" title=" " alt="" coords="503,275,683,316"/>
+<area shape="rect" id="node49" href="$classg2o_1_1_sparse_optimizer.html#a0fb2a5e2b250bf2530a600f6dcaad03f" title=" " alt="" coords="1597,784,1759,825"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="ORB_SLAM3::ORBmatcher::SearchByProjection" name="ORB_SLAM3::ORBmatcher::SearchByProjection">
+<area shape="rect" id="node1" title=" " alt="" coords="5,397,197,439"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_o_r_bmatcher.html#a6f491a03743ed2f00fbfcf70bcd99aa1" title=" " alt="" coords="269,5,461,47"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_o_r_bmatcher.html#ab188adc1b2686d6401b320af30db70cf" title=" " alt="" coords="269,71,461,112"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a24287d31ab2cf6ececc5b77f8f9efce9" title=" " alt="" coords="279,136,450,177"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_frame.html#aad38a4037b87ab3b6617f4a46b4092b3" title=" " alt="" coords="245,201,484,243"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a62cf3b5bad8d18cf4ff2ddc02444169e" title=" " alt="" coords="277,267,452,308"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a96048f8e2fb551619c2e14ddf92ac5e1" title=" " alt="" coords="261,332,468,373"/>
+<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a777370ca879240f298efa3f3ae266ed6" title=" " alt="" coords="263,397,466,439"/>
+<area shape="rect" id="node9" href="$class_o_r_b___s_l_a_m3_1_1_frame.html#a9be89056e17144923adc1a22218ef1a6" title=" " alt="" coords="258,463,471,490"/>
+<area shape="rect" id="node10" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a00b60cc1024401aad66502013af2abc2" title=" " alt="" coords="279,515,450,556"/>
+<area shape="rect" id="node11" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a20815f069a3fc820308bd64578662d7f" title=" " alt="" coords="279,580,450,621"/>
+<area shape="rect" id="node12" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a13eae6c06893b36ec3f7d82cf8f9b19a" title=" " alt="" coords="279,645,450,687"/>
+<area shape="rect" id="node13" href="$class_o_r_b___s_l_a_m3_1_1_geometric_camera.html#af4c33180e89812755731b4ebbe0a763e" title=" " alt="" coords="250,711,479,752"/>
+<area shape="rect" id="node14" href="$class_sophus_1_1_s_e3.html#a8125109180338d0d2c4fe74a11074d59" title=" " alt="" coords="275,777,454,803"/>
+</map>

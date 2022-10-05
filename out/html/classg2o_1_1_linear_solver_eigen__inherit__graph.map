@@ -1,0 +1,4 @@
+<map id="g2o::LinearSolverEigen&lt; MatrixType &gt;" name="g2o::LinearSolverEigen&lt; MatrixType &gt;">
+<area shape="rect" id="node1" title="linear solver which uses the sparse Cholesky solver from Eigen" alt="" coords="5,95,176,136"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_linear_solver.html" title="basic solver for Ax = b" alt="" coords="17,5,164,47"/>
+</map>

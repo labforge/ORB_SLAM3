@@ -1,0 +1,31 @@
+<map id="g2o::OptimizableGraph::load" name="g2o::OptimizableGraph::load">
+<area shape="rect" id="node1" title="load the graph from a stream. Uses the Factory singleton for creating the vertices and edges." alt="" coords="5,509,177,551"/>
+<area shape="rect" id="node2" href="$structg2o_1_1_optimizable_graph.html#a6831ed69fce3dba691f53302a2813070" title=" " alt="" coords="232,68,404,109"/>
+<area shape="rect" id="node7" href="$structg2o_1_1_optimizable_graph.html#ae0b93774ce1dfa0dfd501c86ad4f773e" title=" " alt="" coords="232,192,404,233"/>
+<area shape="rect" id="node9" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a48191960395856d1b686287489e53da3" title="returns the id" alt="" coords="725,309,928,335"/>
+<area shape="rect" id="node11" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a858d15a4fadebfc8bce0162ac675f608" title=" " alt="" coords="482,301,654,343"/>
+<area shape="rect" id="node12" href="$structg2o_1_1_optimizable_graph.html#a19e014e8ec2e9a6e894da8c3a8f8e50d" title="returns the vertex number id appropriately casted" alt="" coords="482,133,654,175"/>
+<area shape="rect" id="node13" href="$classg2o_1_1_parameter_container.html#aff4d3792e2ebd022ebd4a1534b88b773" title=" " alt="" coords="225,375,411,416"/>
+<area shape="rect" id="node14" href="$classg2o_1_1_factory.html#aa61fcb8861afb1dd4c4af5d9cc03d3ec" title=" " alt="" coords="483,493,653,519"/>
+<area shape="rect" id="node15" href="$classg2o_1_1_factory.html#a8a1f33e017c5ad59399cef48972578ae" title="return the instance" alt="" coords="486,546,650,573"/>
+<area shape="rect" id="node16" href="$classg2o_1_1_factory.html#a20292a9c8417303fec92057826ba2430" title=" " alt="" coords="231,542,405,569"/>
+<area shape="rect" id="node17" href="$classg2o_1_1_parameter_container.html#ae5883ac8e2313cab310cf067b0ba12bf" title="read parameters from a stream" alt="" coords="225,644,411,685"/>
+<area shape="rect" id="node22" href="$namespaceg2o.html#a07aa1d8e5a4e25d0170010df66908611" title=" " alt="" coords="513,838,623,865"/>
+<area shape="rect" id="node24" href="$classg2o_1_1_optimizable_graph_1_1_data.html#a4a206c86daba1b47425199befd2e1ed4" title="read the data from a stream" alt="" coords="232,709,404,751"/>
+<area shape="rect" id="node25" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a356c40d33c3f1e07afa938dfb4870230" title="read the vertex from a stream, i.e., the internal state of the vertex" alt="" coords="232,775,404,816"/>
+<area shape="rect" id="node26" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#af92ef49e1bcd6a8166afa151d367b905" title="true =&gt; this node should be considered fixed during the optimization" alt="" coords="232,892,404,933"/>
+<area shape="rect" id="node28" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#ac57651173d6ce4bb4eebf8cb1d917551" title="sets the id of the node in the graph be sure that the graph keeps consistent after changing the id" alt="" coords="232,309,404,351"/>
+<area shape="rect" id="node29" href="$classg2o_1_1_optimizable_graph_1_1_data.html#a5811aac3f8eab3c19207663e946b343b" title=" " alt="" coords="232,957,404,999"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_hyper_graph.html#a0f1d35009a2879b238c8148c33485c89" title=" " alt="" coords="470,14,666,41"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_jacobian_workspace.html#a2d16ad6db1a51aa93c806cc9c06e223f" title=" " alt="" coords="477,68,659,109"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a3794ff3310c1dc05619bf0b77eaa4caa" title="returns the set of hyper&#45;edges that are leaving/entering in this vertex" alt="" coords="735,5,918,47"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a86feed80301950b100142575b48e4fca" title="dimension of the estimated state belonging to this node" alt="" coords="741,71,913,112"/>
+<area shape="rect" id="node8" href="$classg2o_1_1_hyper_graph.html#a7ef87ba3479827b24c6fc29c5fc3aa21" title=" " alt="" coords="465,199,671,226"/>
+<area shape="rect" id="node10" href="$classg2o_1_1_hyper_graph.html#ab07fe8bd9982a66ba34e83dff8317ea2" title="returns a vertex id in the hyper&#45;graph, or 0 if the vertex id is not present" alt="" coords="735,170,918,197"/>
+<area shape="rect" id="node18" href="$classg2o_1_1_parameter_container.html#a9c0b1376e780b177f2d36c4ee4f873d7" title="add parameter to the container" alt="" coords="475,765,661,807"/>
+<area shape="rect" id="node20" href="$structg2o_1_1_hyper_graph_1_1_hyper_graph_element.html#a1a9d7b748698c09d202373e06e413ef2" title=" " alt="" coords="459,597,677,639"/>
+<area shape="rect" id="node21" href="$classg2o_1_1_parameter.html#a77d9d88d8bde52198631fcd0fc4c9d0e" title="read the data from a stream" alt="" coords="489,663,647,690"/>
+<area shape="rect" id="node23" href="$classg2o_1_1_parameter.html#a2872398ab7d8c95d0a1b5ca5bbfae461" title=" " alt="" coords="487,714,649,741"/>
+<area shape="rect" id="node19" href="$classg2o_1_1_parameter.html#a1bca491a08b68a7a6b85204a5a8b0f2c" title=" " alt="" coords="755,773,898,799"/>
+<area shape="rect" id="node27" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a97294e6a1a573a44fe82ba36fc52c619" title="true =&gt; this node is fixed during the optimization" alt="" coords="482,892,654,933"/>
+</map>

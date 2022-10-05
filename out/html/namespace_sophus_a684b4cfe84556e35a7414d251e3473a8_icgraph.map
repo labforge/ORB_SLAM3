@@ -1,0 +1,24 @@
+<map id="Sophus::makeRotationMatrix" name="Sophus::makeRotationMatrix">
+<area shape="rect" id="node1" title=" " alt="" coords="732,257,943,283"/>
+<area shape="rect" id="node2" href="$class_sophus_1_1_s_o3_base.html#a7894fd88017b24f556d881b1e9b44f8f" title=" " alt="" coords="505,5,684,76"/>
+<area shape="rect" id="node3" href="$class_sophus_1_1_s_o3_base.html#a3cea0ba21882885ea4368c9215fad313" title=" " alt="" coords="505,100,684,171"/>
+<area shape="rect" id="node4" href="$class_sophus_1_1_s_o3_base.html#add7830f3e488a728175a43aedef3e9e9" title=" " alt="" coords="505,195,684,265"/>
+<area shape="rect" id="node5" href="$class_sophus_1_1_s_o2.html#aeed42a6d2ffef6a84c0f9c3c0aaeedb9" title=" " alt="" coords="513,289,676,331"/>
+<area shape="rect" id="node6" href="$class_sophus_1_1_s_o3.html#a2ee0eba2620fd17a2da18224617edd05" title=" " alt="" coords="513,355,676,396"/>
+<area shape="rect" id="node7" href="$class_sophus_1_1_tests.html#a21a9c39c8b8085aeb3eb7c9abb877ddd" title=" " alt="" coords="515,421,674,447"/>
+<area shape="rect" id="node8" href="$class_sophus_1_1_tests.html#a54e0398a2b1ac72ec878e2ee2234b3db" title=" " alt="" coords="301,421,457,447"/>
+<area shape="rect" id="node9" href="$namespace_sophus.html#ab94cb174e36388b64570ff2bec72bf39" title=" " alt="" coords="108,269,253,295"/>
+<area shape="rect" id="node11" href="$namespace_sophus.html#a293728ad178f372cda509ace88992f46" title=" " alt="" coords="108,319,253,346"/>
+<area shape="rect" id="node13" href="$namespace_sophus.html#a3e8bef8971f5e5405f44b8417e468a60" title=" " alt="" coords="115,370,247,397"/>
+<area shape="rect" id="node15" href="$namespace_sophus.html#acaec82ca592557a121005761c21f15ad" title=" " alt="" coords="115,421,247,447"/>
+<area shape="rect" id="node17" href="$namespace_sophus.html#ae6414912c0097ff88ec88bf3d414084a" title=" " alt="" coords="110,471,251,498"/>
+<area shape="rect" id="node19" href="$namespace_sophus.html#acf18636a32a1fa20407bd9f1909c281c" title=" " alt="" coords="115,522,247,549"/>
+<area shape="rect" id="node21" href="$namespace_sophus.html#aba176296a55266341c218319cdc48770" title=" " alt="" coords="115,573,247,599"/>
+<area shape="rect" id="node10" href="$test__rxso2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,269,60,295"/>
+<area shape="rect" id="node12" href="$test__rxso3_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,319,60,346"/>
+<area shape="rect" id="node14" href="$test__se2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,370,60,397"/>
+<area shape="rect" id="node16" href="$test__se3_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,421,60,447"/>
+<area shape="rect" id="node18" href="$test__sim2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,471,60,498"/>
+<area shape="rect" id="node20" href="$test__so2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,522,60,549"/>
+<area shape="rect" id="node22" href="$test__so3_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,573,60,599"/>
+</map>

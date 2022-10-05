@@ -1,0 +1,7 @@
+<map id="g2o::Solver::optimizer" name="g2o::Solver::optimizer">
+<area shape="rect" id="node1" title="the optimizer (graph) on which the solver works" alt="" coords="256,97,421,124"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_solver.html#af27b647cdc19d99ea5378b443e118bb0" title=" " alt="" coords="13,5,200,32"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_optimization_algorithm_gauss_newton.html#aba0b67eecaca01c576de7e605e5af5f1" title=" " alt="" coords="5,57,208,98"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_optimization_algorithm_levenberg.html#a7140fa989b54eac4e09ba17829dcada0" title=" " alt="" coords="5,122,208,163"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_optimization_algorithm_dogleg.html#ace62fd809c18655bd7ff104285748610" title=" " alt="" coords="5,187,208,229"/>
+</map>

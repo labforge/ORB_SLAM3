@@ -1,0 +1,14 @@
+<map id="Thirdparty/g2o/g2o/core/linear_solver.h" name="Thirdparty/g2o/g2o/core/linear_solver.h">
+<area shape="rect" id="node1" title=" " alt="" coords="194,5,349,47"/>
+<area shape="rect" id="node2" href="$block__solver_8h.html" title=" " alt="" coords="377,102,529,143"/>
+<area shape="rect" id="node11" href="$linear__solver__eigen_8h.html" title=" " alt="" coords="5,95,167,151"/>
+<area shape="rect" id="node12" href="$linear__solver__dense_8h.html" title=" " alt="" coords="191,95,352,151"/>
+<area shape="rect" id="node3" href="$_optimizer_8h.html" title=" " alt="" coords="331,213,481,240"/>
+<area shape="rect" id="node8" href="$_optimizer_8cc.html" title=" " alt="" coords="23,317,149,344"/>
+<area shape="rect" id="node10" href="$optimization__algorithm__dogleg_8cpp.html" title=" " alt="" coords="505,199,715,255"/>
+<area shape="rect" id="node4" href="$_stereo-_inertial_2stereo__inertial__euroc_8cc.html" title=" " alt="" coords="660,310,843,351"/>
+<area shape="rect" id="node5" href="$old_2_stereo-_inertial_2stereo__inertial__euroc_8cc.html" title=" " alt="" coords="867,303,1038,359"/>
+<area shape="rect" id="node6" href="$_local_mapping_8cc.html" title=" " alt="" coords="173,317,327,344"/>
+<area shape="rect" id="node7" href="$_loop_closing_8cc.html" title=" " alt="" coords="351,317,493,344"/>
+<area shape="rect" id="node9" href="$_tracking_8cc.html" title=" " alt="" coords="517,317,636,344"/>
+</map>

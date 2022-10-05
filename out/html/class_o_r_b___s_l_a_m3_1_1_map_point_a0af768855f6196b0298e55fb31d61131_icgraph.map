@@ -1,0 +1,29 @@
+<map id="ORB_SLAM3::MapPoint::GetNormal" name="ORB_SLAM3::MapPoint::GetNormal">
+<area shape="rect" id="node1" title=" " alt="" coords="2097,223,2268,265"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_o_r_bmatcher.html#a54ad9d90c30505d2ccd20b26782065ef" title=" " alt="" coords="1836,103,2028,145"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ace9ff596b08a851a6823eefc6fa66fb3" title=" " alt="" coords="1295,169,1484,210"/>
+<area shape="rect" id="node11" href="$class_o_r_b___s_l_a_m3_1_1_frame.html#abaa4659a77c6273049b0c4a96ccd1cc9" title=" " alt="" coords="1532,264,1767,291"/>
+<area shape="rect" id="node26" href="$class_o_r_b___s_l_a_m3_1_1_frame.html#ae5a0c73accbe94b4d30552ba30e94908" title=" " alt="" coords="1815,223,2049,265"/>
+<area shape="rect" id="node27" href="$class_o_r_b___s_l_a_m3_1_1_o_r_bmatcher.html#a3888d2bca1335d99b58be23eb80009fb" title=" " alt="" coords="1836,341,2028,382"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a7ffce91b4d8996e2fc12556bc9dc5e52" title=" " alt="" coords="1555,103,1744,145"/>
+<area shape="rect" id="node9" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#a963783a4fb3287c2d9d5968776af8030" title=" " alt="" coords="1549,9,1749,50"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa5ba3f14da84d05c97ac3a4a8aed0014" title=" " alt="" coords="1295,38,1484,79"/>
+<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a73b9f9990537c4ce8ad21ca9a06fc1d8" title=" " alt="" coords="1295,103,1484,145"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="1019,92,1241,119"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a5e4851c1b0d0de361c208a68e9950b2e" title=" " alt="" coords="799,59,965,101"/>
+<area shape="rect" id="node10" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#aa3bd8a66c4ee13694fe355eee1cdc9af" title=" " alt="" coords="1013,5,1247,32"/>
+<area shape="rect" id="node12" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a9f9b94dd01560ddb83dbd829417ff4c9" title=" " alt="" coords="1307,257,1472,298"/>
+<area shape="rect" id="node13" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#af2dc92eaa873b2c8bd91612d101793dd" title=" " alt="" coords="1047,257,1213,298"/>
+<area shape="rect" id="node14" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a9ae56ac238d5dfe53a860a0bc8100b44" title=" " alt="" coords="799,257,965,298"/>
+<area shape="rect" id="node15" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a27af981c7e57c10fd41dfb0120915113" title=" " alt="" coords="580,191,751,233"/>
+<area shape="rect" id="node20" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a18c1fdd1f5a94613fd3df5ea1f6957b9" title=" " alt="" coords="583,257,748,298"/>
+<area shape="rect" id="node23" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a6d6dad2bc132a51b16b31d194ff7e71c" title=" " alt="" coords="583,322,748,363"/>
+<area shape="rect" id="node16" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a5301f3aaf838723535909b40e0afc349" title=" " alt="" coords="365,191,532,233"/>
+<area shape="rect" id="node17" href="$_monocular-_inertial_2mono__inertial__euroc_8cc.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="185,156,240,183"/>
+<area shape="rect" id="node18" href="$class_image_grabber.html#aeeabc012ca952da7f703bcece5ae13a9" title=" " alt="" coords="108,207,317,233"/>
+<area shape="rect" id="node19" href="$ros__mono__inertial_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,207,60,233"/>
+<area shape="rect" id="node21" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a8ba14ed9907c46696cd020907728982f" title=" " alt="" coords="365,257,532,298"/>
+<area shape="rect" id="node22" href="$_r_g_b-_d-_inertial_2rgbd__inertial__realsense___d435i_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,264,240,291"/>
+<area shape="rect" id="node24" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4" title=" " alt="" coords="365,322,532,363"/>
+<area shape="rect" id="node25" href="$_stereo-_inertial_2stereo__inertial__euroc_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,329,240,356"/>
+</map>

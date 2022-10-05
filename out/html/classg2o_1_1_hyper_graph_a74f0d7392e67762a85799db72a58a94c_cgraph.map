@@ -1,0 +1,6 @@
+<map id="g2o::HyperGraph::changeId" name="g2o::HyperGraph::changeId">
+<area shape="rect" id="node1" title=" " alt="" coords="5,64,204,91"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a48191960395856d1b686287489e53da3" title="returns the id" alt="" coords="252,5,455,32"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#ac861d25447d8ff167d23c45458f7382f" title=" " alt="" coords="262,57,445,98"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_hyper_graph.html#ab07fe8bd9982a66ba34e83dff8317ea2" title="returns a vertex id in the hyper&#45;graph, or 0 if the vertex id is not present" alt="" coords="262,123,445,149"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="g2o::OptimizableGraph::pop" name="g2o::OptimizableGraph::pop">
+<area shape="rect" id="node1" title="pop (restore) the estimate of all variables from the stack" alt="" coords="5,13,209,39"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a3e36d925dbda1c574a285826ade5909a" title="restore the position of the vertex by retrieving the position from the stack" alt="" coords="257,5,429,47"/>
+</map>

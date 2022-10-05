@@ -1,0 +1,10 @@
+<map id="g2o::LinearSolverDense::solve" name="g2o::LinearSolverDense::solve">
+<area shape="rect" id="node1" title=" " alt="" coords="5,201,181,243"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_sparse_block_matrix.html#ab818f8923b845d08a38e8de1145fbb65" title="the block matrices per block&#45;column" alt="" coords="229,5,405,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_sparse_block_matrix.html#a502857f0a792ad37055964705a983590" title="where does the col at block&#45;col r starts?" alt="" coords="229,71,405,112"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_sparse_block_matrix.html#ac9dfcc991976a6c21dcbed961f06282d" title="columns of the matrix" alt="" coords="229,136,405,177"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_sparse_block_matrix.html#afe3ef87aecd7a76eab27e91131dbe0c1" title="how many cols does the block at block&#45;col c has?" alt="" coords="229,201,405,243"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_sparse_block_matrix.html#af718590d044a1b44e4079136c29efcd1" title="where does the row at block&#45;row r starts?" alt="" coords="229,267,405,308"/>
+<area shape="rect" id="node7" href="$classg2o_1_1_sparse_block_matrix.html#a637d4a6d2d6f444be55a158497c8a07c" title="how many rows does the block at block&#45;row r has?" alt="" coords="229,332,405,373"/>
+<area shape="rect" id="node8" href="$classg2o_1_1_sparse_block_matrix.html#a2d449bb4054991867a9b50b6c0d978eb" title="transposes a block matrix, The transposed type should match the argument false on failure" alt="" coords="229,397,405,439"/>
+</map>

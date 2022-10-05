@@ -1,0 +1,4 @@
+<map id="g2o::LinearSolverCCS&lt; MatrixType &gt;" name="g2o::LinearSolverCCS&lt; MatrixType &gt;">
+<area shape="rect" id="node1" title="Solver with faster iterating structure for the linear matrix." alt="" coords="5,95,167,136"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_linear_solver.html" title="basic solver for Ax = b" alt="" coords="13,5,159,47"/>
+</map>

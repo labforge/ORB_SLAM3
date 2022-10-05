@@ -1,0 +1,6 @@
+<map id="g2o::OptimizationAlgorithmLevenberg::computeScale" name="g2o::OptimizationAlgorithmLevenberg::computeScale">
+<area shape="rect" id="node1" title=" " alt="" coords="5,49,208,90"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_solver.html#a3212ad9d80f8f5ad15b72c2b55000095" title="return b, the right hand side of the system" alt="" coords="286,5,397,32"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_solver.html#a7a5907ca706eef77acce4ab534857c96" title="return the size of the solution vector (x) and b" alt="" coords="256,56,427,83"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_solver.html#acb097d8568624a1f3af4dba808e5593b" title="return x, the solution vector" alt="" coords="286,107,397,133"/>
+</map>

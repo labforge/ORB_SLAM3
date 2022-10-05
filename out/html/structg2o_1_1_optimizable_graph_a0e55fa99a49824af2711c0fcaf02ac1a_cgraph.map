@@ -1,0 +1,4 @@
+<map id="g2o::OptimizableGraph::vertex" name="g2o::OptimizableGraph::vertex">
+<area shape="rect" id="node1" title="returns the vertex number id appropriately casted" alt="" coords="5,5,177,47"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_hyper_graph.html#ab07fe8bd9982a66ba34e83dff8317ea2" title="returns a vertex id in the hyper&#45;graph, or 0 if the vertex id is not present" alt="" coords="225,13,408,39"/>
+</map>

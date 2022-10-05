@@ -1,0 +1,13 @@
+<map id="g2o::BlockSolver::buildStructure" name="g2o::BlockSolver::buildStructure">
+<area shape="rect" id="node1" title=" " alt="" coords="5,274,236,301"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_sparse_block_matrix_hash_map.html#a08330c47b1b60bbe008e3c4ee2f5150f" title=" " alt="" coords="287,37,497,79"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_sparse_block_matrix_hash_map.html#a07d4746ccda502bd815a09aefe42eac6" title="the block matrices per block&#45;column" alt="" coords="287,103,497,144"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a86feed80301950b100142575b48e4fca" title="dimension of the estimated state belonging to this node" alt="" coords="306,168,478,209"/>
+<area shape="rect" id="node7" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a3794ff3310c1dc05619bf0b77eaa4caa" title="returns the set of hyper&#45;edges that are leaving/entering in this vertex" alt="" coords="301,233,483,275"/>
+<area shape="rect" id="node8" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a05a371cfa6314d0f2d209289b01cc922" title="temporary index of this node in the parameter vector obtained from linearization" alt="" coords="306,299,478,340"/>
+<area shape="rect" id="node9" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a1008c0f7981a9fb11be3e3df5c4a9758" title=" " alt="" coords="284,364,500,405"/>
+<area shape="rect" id="node10" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a216d79149edcfa9f666140205159fde8" title="true =&gt; this node is marginalized out during the optimization" alt="" coords="306,429,478,471"/>
+<area shape="rect" id="node11" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#aa605891d46b99ed97accf659f10bc8d5" title="set the row of this vertex in the Hessian" alt="" coords="299,495,485,536"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_sparse_block_matrix_hash_map.html#a7f9538beeea7bed6300e864dbefccff5" title="how many cols does the block at block&#45;col c has?" alt="" coords="548,5,757,47"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_sparse_block_matrix_hash_map.html#afd5e53b51549fbe1c71d96f986120b65" title="how many rows does the block at block&#45;row r has?" alt="" coords="548,71,757,112"/>
+</map>

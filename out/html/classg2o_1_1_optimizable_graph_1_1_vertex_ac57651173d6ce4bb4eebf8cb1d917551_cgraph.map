@@ -1,0 +1,4 @@
+<map id="g2o::OptimizableGraph::Vertex::setId" name="g2o::OptimizableGraph::Vertex::setId">
+<area shape="rect" id="node1" title="sets the id of the node in the graph be sure that the graph keeps consistent after changing the id" alt="" coords="5,5,177,47"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a48191960395856d1b686287489e53da3" title="returns the id" alt="" coords="225,13,428,39"/>
+</map>

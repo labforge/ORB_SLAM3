@@ -1,0 +1,7 @@
+<map id="g2o::LinearSolverDense&lt; MatrixType &gt;" name="g2o::LinearSolverDense&lt; MatrixType &gt;">
+<area shape="rect" id="node1" title="linear solver using dense cholesky decomposition" alt="" coords="252,109,428,151"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_linear_solver.html" title="basic solver for Ax = b" alt="" coords="5,5,152,47"/>
+<area shape="rect" id="node3" title=" " alt="" coords="176,13,363,39"/>
+<area shape="rect" id="node4" href="$classbool.html" title=" " alt="" coords="387,13,437,39"/>
+<area shape="rect" id="node5" title=" " alt="" coords="462,13,543,39"/>
+</map>

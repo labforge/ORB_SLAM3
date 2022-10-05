@@ -1,0 +1,6 @@
+<map id="g2o::HyperGraph::Edge::resize" name="g2o::HyperGraph::Edge::resize">
+<area shape="rect" id="node1" title=" " alt="" coords="347,79,519,120"/>
+<area shape="rect" id="node2" href="$structg2o_1_1_optimizable_graph.html#acea1342d9ab0bf717710c8f78b74ff25" title="adds all edges and vertices of the graph g to this graph." alt="" coords="66,5,238,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_base_binary_edge.html#aacfc6e1d439f2f0fb09c6b069f478cf4" title=" " alt="" coords="5,71,299,127"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_base_unary_edge.html#a7375d1ebfb57ba0308f863739b817b15" title=" " alt="" coords="33,151,271,207"/>
+</map>

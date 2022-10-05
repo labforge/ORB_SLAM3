@@ -1,0 +1,4 @@
+<map id="g2o::DrawAction" name="g2o::DrawAction">
+<area shape="rect" id="node1" title="draw actions" alt="" coords="54,80,183,107"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_hyper_graph_element_action.html" title="Abstract action that operates on a graph entity." alt="" coords="5,5,232,32"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="ORB_SLAM3::System::SaveTrajectoryEuRoC" name="ORB_SLAM3::System::SaveTrajectoryEuRoC">
+<area shape="rect" id="node1" title=" " alt="" coords="456,78,623,119"/>
+<area shape="rect" id="node2" href="$_monocular-_inertial_2mono__inertial__euroc_8cc.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="287,5,341,32"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_viewer.html#a6d34d164f99aaf340c7b3e7b36459f3f" title=" " alt="" coords="220,56,408,83"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a56dea22d0dc11216ab192195ec987e85" title=" " alt="" coords="231,107,397,149"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a38ecd7b3b994ac3fe31ad0b79943cba5" title=" " alt="" coords="231,173,397,214"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a5e4851c1b0d0de361c208a68e9950b2e" title=" " alt="" coords="5,49,172,90"/>
+</map>

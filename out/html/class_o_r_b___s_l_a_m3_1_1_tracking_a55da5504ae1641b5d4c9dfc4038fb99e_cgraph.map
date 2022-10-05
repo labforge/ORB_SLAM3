@@ -1,0 +1,52 @@
+<map id="ORB_SLAM3::Tracking::TrackReferenceKeyFrame" name="ORB_SLAM3::Tracking::TrackReferenceKeyFrame">
+<area shape="rect" id="node1" title=" " alt="" coords="5,715,201,756"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_frame.html#a2128e2002fe54942f0f5ea3a443ba824" title=" " alt="" coords="249,137,497,163"/>
+<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_frame.html#a9be89056e17144923adc1a22218ef1a6" title=" " alt="" coords="557,195,770,222"/>
+<area shape="rect" id="node9" href="$class_o_r_b___s_l_a_m3_1_1_optimizer.html#a7681acdce001a4498dd1bece61b0d92c" title=" " alt="" coords="286,715,461,756"/>
+<area shape="rect" id="node42" href="$class_o_r_b___s_l_a_m3_1_1_frame.html#a8964e7657ca5e33fc9c88b7c10aa8fe1" title=" " alt="" coords="558,1335,769,1362"/>
+<area shape="rect" id="node46" href="$class_o_r_b___s_l_a_m3_1_1_o_r_bmatcher.html#a9784db41709d0297e0eeb9d39e1a1f06" title=" " alt="" coords="277,1452,469,1493"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_converter.html#adc9a0a270a249a67dfa621e57edd66e9" title=" " alt="" coords="576,129,751,171"/>
+<area shape="rect" id="node4" href="$class_d_bo_w2_1_1_templated_vocabulary.html#a01de3bebec37624439c7d3baf6651ff0" title=" " alt="" coords="554,64,773,105"/>
+<area shape="rect" id="node5" href="$class_d_bo_w2_1_1_bow_vector.html#a5ddf10e444d10425e5bd3568dc7ffe5e" title=" " alt="" coords="837,5,1049,47"/>
+<area shape="rect" id="node6" href="$class_d_bo_w2_1_1_bow_vector.html#a3ac92a805b252c93dc6535240d02df47" title=" " alt="" coords="829,71,1056,98"/>
+<area shape="rect" id="node7" href="$class_d_bo_w2_1_1_bow_vector.html#acd2dd34023e3053a4cc75d70c8b6ac13" title=" " alt="" coords="832,122,1053,149"/>
+<area shape="rect" id="node10" href="$structg2o_1_1_optimizable_graph.html#a6831ed69fce3dba691f53302a2813070" title=" " alt="" coords="577,597,749,639"/>
+<area shape="rect" id="node13" href="$structg2o_1_1_optimizable_graph.html#ae0b93774ce1dfa0dfd501c86ad4f773e" title=" " alt="" coords="577,715,749,756"/>
+<area shape="rect" id="node17" href="$structg2o_1_1_optimizable_graph.html#a19e014e8ec2e9a6e894da8c3a8f8e50d" title="returns the vertex number id appropriately casted" alt="" coords="857,773,1029,815"/>
+<area shape="rect" id="node18" href="$classg2o_1_1_hyper_graph.html#a4edfd2ef4bf235cf78031c505cfd2fcc" title=" " alt="" coords="574,882,753,909"/>
+<area shape="rect" id="node19" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="566,933,761,959"/>
+<area shape="rect" id="node20" href="$class_o_r_b___s_l_a_m3_1_1_frame.html#a6364ea64393d60a6e36977fc091d4a33" title=" " alt="" coords="545,984,781,1025"/>
+<area shape="rect" id="node21" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a00b60cc1024401aad66502013af2abc2" title=" " alt="" coords="578,1049,749,1091"/>
+<area shape="rect" id="node22" href="$classg2o_1_1_sparse_optimizer.html#a56c0c13954ac7204cfb031c141ece9ae" title=" " alt="" coords="578,1115,749,1156"/>
+<area shape="rect" id="node27" href="$classg2o_1_1_sparse_optimizer.html#a098257ee6f13dbb79be07075244d9930" title=" " alt="" coords="582,1269,745,1311"/>
+<area shape="rect" id="node36" href="$classg2o_1_1_s_e3_quat.html#a7345da50450b60ae725083fbdb85eb7d" title=" " alt="" coords="579,246,747,273"/>
+<area shape="rect" id="node37" href="$classg2o_1_1_sparse_optimizer.html#a5ed7404ef361b479c75a0baf34e0a2bd" title=" " alt="" coords="582,297,745,339"/>
+<area shape="rect" id="node38" href="$classg2o_1_1_robust_kernel_huber.html#a7e9ee4bbc9483dcd3d10a4c1f506a4d2" title=" " alt="" coords="574,363,753,404"/>
+<area shape="rect" id="node39" href="$classg2o_1_1_base_vertex.html#acb6e8e8f39caa04f62dd93a3dd400e06" title="set the estimate for the vertex also calls updateCache()" alt="" coords="556,429,771,455"/>
+<area shape="rect" id="node40" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#af92ef49e1bcd6a8166afa151d367b905" title="true =&gt; this node should be considered fixed during the optimization" alt="" coords="577,480,749,521"/>
+<area shape="rect" id="node41" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#ac57651173d6ce4bb4eebf8cb1d917551" title="sets the id of the node in the graph be sure that the graph keeps consistent after changing the id" alt="" coords="857,421,1029,463"/>
+<area shape="rect" id="node44" href="$class_sophus_1_1_s_e3.html#a8125109180338d0d2c4fe74a11074d59" title=" " alt="" coords="1116,1254,1295,1281"/>
+<area shape="rect" id="node45" href="$classg2o_1_1_s_e3_quat.html#a3f36961ad875394c3d305883bebb26bc" title=" " alt="" coords="570,663,757,690"/>
+<area shape="rect" id="node11" href="$classg2o_1_1_hyper_graph.html#a0f1d35009a2879b238c8148c33485c89" title=" " alt="" coords="845,487,1041,514"/>
+<area shape="rect" id="node12" href="$classg2o_1_1_jacobian_workspace.html#a2d16ad6db1a51aa93c806cc9c06e223f" title=" " alt="" coords="852,539,1033,580"/>
+<area shape="rect" id="node14" href="$classg2o_1_1_hyper_graph.html#a7ef87ba3479827b24c6fc29c5fc3aa21" title=" " alt="" coords="839,605,1046,631"/>
+<area shape="rect" id="node15" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a48191960395856d1b686287489e53da3" title="returns the id" alt="" coords="1104,605,1307,631"/>
+<area shape="rect" id="node16" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a858d15a4fadebfc8bce0162ac675f608" title=" " alt="" coords="857,656,1029,697"/>
+<area shape="rect" id="node23" href="$classg2o_1_1_jacobian_workspace.html#a8e1d23ced91b721fdb5bd68c8c4e9fc3" title=" " alt="" coords="852,1021,1033,1063"/>
+<area shape="rect" id="node24" href="$classg2o_1_1_sparse_optimizer.html#a8c6af9785e85153ade1490beacad73ce" title=" " alt="" coords="861,1087,1024,1128"/>
+<area shape="rect" id="node25" href="$classg2o_1_1_sparse_optimizer.html#ab6f1f4ad2b1fd50b8019c6abb89ac6a8" title=" " alt="" coords="861,891,1024,932"/>
+<area shape="rect" id="node26" href="$classg2o_1_1_sparse_optimizer.html#a8a8c6f08bc9b8a4e520aa73198268991" title=" " alt="" coords="859,956,1026,997"/>
+<area shape="rect" id="node28" href="$classg2o_1_1_sparse_optimizer.html#a9a8950d87cbbfe991b5f6381db19593c" title=" " alt="" coords="861,1531,1024,1572"/>
+<area shape="rect" id="node29" href="$classg2o_1_1_sparse_optimizer.html#a09572668aa85b75a5bebf7b66401ce8f" title=" " alt="" coords="859,1596,1026,1637"/>
+<area shape="rect" id="node30" href="$namespaceg2o.html#aa64237935c7d8411b4369234a5f661ea" title=" " alt="" coords="849,1153,1037,1179"/>
+<area shape="rect" id="node31" href="$classg2o_1_1_optimization_algorithm.html#af5b54ea6d40a8ab4c16d448ba02a0c80" title=" " alt="" coords="841,1204,1044,1245"/>
+<area shape="rect" id="node32" href="$structg2o_1_1_optimizable_graph.html#ac8d41dc0830f1ae07e9cb4a8341d3ffb" title="called at the end of an iteration (argument is the number of the iteration)" alt="" coords="857,1269,1029,1311"/>
+<area shape="rect" id="node33" href="$structg2o_1_1_optimizable_graph.html#ad295e7f06651db627b8ebde3d8898bab" title="called at the beginning of an iteration (argument is the number of the iteration)" alt="" coords="857,1335,1029,1376"/>
+<area shape="rect" id="node34" href="$classg2o_1_1_optimization_algorithm.html#a6683d35e67402b50924bc4744b6e282a" title=" " alt="" coords="841,1400,1044,1441"/>
+<area shape="rect" id="node35" href="$structg2o_1_1_g2_o_batch_statistics.html#a8c56e85d25e346ba87718621407247fc" title=" " alt="" coords="853,1465,1032,1507"/>
+<area shape="rect" id="node43" href="$class_o_r_b___s_l_a_m3_1_1_frame.html#ae7e885d2c50fe6c0181e3fcb33319e9b" title=" " alt="" coords="839,1661,1046,1703"/>
+<area shape="rect" id="node47" href="$class_o_r_b___s_l_a_m3_1_1_o_r_bmatcher.html#a6f491a03743ed2f00fbfcf70bcd99aa1" title=" " alt="" coords="567,1452,759,1493"/>
+<area shape="rect" id="node48" href="$class_o_r_b___s_l_a_m3_1_1_o_r_bmatcher.html#ab188adc1b2686d6401b320af30db70cf" title=" " alt="" coords="567,1517,759,1559"/>
+<area shape="rect" id="node49" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a62cf3b5bad8d18cf4ff2ddc02444169e" title=" " alt="" coords="576,1583,751,1624"/>
+<area shape="rect" id="node50" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a20815f069a3fc820308bd64578662d7f" title=" " alt="" coords="578,1387,749,1428"/>
+</map>

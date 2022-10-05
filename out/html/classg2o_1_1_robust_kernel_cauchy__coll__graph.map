@@ -1,0 +1,5 @@
+<map id="g2o::RobustKernelCauchy" name="g2o::RobustKernelCauchy">
+<area shape="rect" id="node1" title="Cauchy cost function." alt="" coords="5,171,193,197"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_robust_kernel.html" title="base for all robust cost functions" alt="" coords="29,95,169,121"/>
+<area shape="rect" id="node3" href="$classdouble.html" title=" " alt="" coords="66,5,133,32"/>
+</map>

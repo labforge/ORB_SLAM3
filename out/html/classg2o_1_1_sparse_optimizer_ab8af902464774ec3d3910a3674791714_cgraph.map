@@ -1,0 +1,7 @@
+<map id="g2o::SparseOptimizer::setToOrigin" name="g2o::SparseOptimizer::setToOrigin">
+<area shape="rect" id="node1" title=" " alt="" coords="5,68,168,109"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#ab10678592b5e707bf4abdc0ff6b8e4bf" title="sets the node to the origin (used in the multilevel stuff)" alt="" coords="226,39,398,80"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_hyper_graph.html#a95fcf7cd9d89562b2c26d99ede3548ed" title=" " alt="" coords="216,105,408,131"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#abd5fe36815f27a9c174ad41c2070c247" title="sets the node to the origin (used in the multilevel stuff)" alt="" coords="456,5,639,47"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#ab5972c8ba6834c4dcb8a2319e9bf3070" title=" " alt="" coords="461,71,633,112"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="g2o::SparseOptimizer::updateInitialization" name="g2o::SparseOptimizer::updateInitialization">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,168,145"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a97294e6a1a573a44fe82ba36fc52c619" title="true =&gt; this node is fixed during the optimization" alt="" coords="231,5,403,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a216d79149edcfa9f666140205159fde8" title="true =&gt; this node is marginalized out during the optimization" alt="" coords="231,71,403,112"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a440f24c0108be5247f3529369aa1e53c" title="set the temporary index of the vertex in the parameter blocks" alt="" coords="223,136,412,177"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_optimization_algorithm.html#a6b86c5d3c56a41c18f2aee611b62d71b" title=" " alt="" coords="216,201,419,243"/>
+</map>

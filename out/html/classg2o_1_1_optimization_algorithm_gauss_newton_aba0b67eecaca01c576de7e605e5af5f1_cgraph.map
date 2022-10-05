@@ -1,0 +1,19 @@
+<map id="g2o::OptimizationAlgorithmGaussNewton::solve" name="g2o::OptimizationAlgorithmGaussNewton::solve">
+<area shape="rect" id="node1" title=" " alt="" coords="5,223,208,265"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_solver.html#a6c93ac0f528ffe05867d33150c54f46f" title=" " alt="" coords="256,5,451,32"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_solver.html#ac1565e85d5ca68a87ad7f06f8164a8c0" title=" " alt="" coords="261,56,445,83"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_sparse_optimizer.html#a09572668aa85b75a5bebf7b66401ce8f" title=" " alt="" coords="270,158,437,199"/>
+<area shape="rect" id="node6" href="$namespaceg2o.html#aa64237935c7d8411b4369234a5f661ea" title=" " alt="" coords="259,107,447,133"/>
+<area shape="rect" id="node8" href="$structg2o_1_1_g2_o_batch_statistics.html#a06f9c667d8b48b8f0023e27011818b64" title=" " alt="" coords="264,223,443,265"/>
+<area shape="rect" id="node9" href="$classg2o_1_1_solver.html#a266bc31d289e824de6166522579ed385" title="the optimizer (graph) on which the solver works" alt="" coords="271,289,436,316"/>
+<area shape="rect" id="node10" href="$classg2o_1_1_solver.html#a9c359a886db57f2f81e54a2113f3bd38" title=" " alt="" coords="284,340,423,367"/>
+<area shape="rect" id="node11" href="$classg2o_1_1_sparse_optimizer.html#a8c479064261dae1bcbdd2a91e72f416e" title=" " alt="" coords="272,391,435,433"/>
+<area shape="rect" id="node17" href="$classg2o_1_1_solver.html#acb097d8568624a1f3af4dba808e5593b" title="return x, the solution vector" alt="" coords="298,457,409,484"/>
+<area shape="rect" id="node5" href="$namespaceg2o.html#a123840a60e0d1dde58088d15a1e1fffa" title=" " alt="" coords="529,227,671,253"/>
+<area shape="rect" id="node7" href="$namespaceg2o.html#a6baa8fdfd973b5b970df14f14fd5d844" title=" " alt="" coords="544,107,656,133"/>
+<area shape="rect" id="node12" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a86feed80301950b100142575b48e4fca" title="dimension of the estimated state belonging to this node" alt="" coords="514,457,686,498"/>
+<area shape="rect" id="node13" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a48191960395856d1b686287489e53da3" title="returns the id" alt="" coords="499,340,701,367"/>
+<area shape="rect" id="node14" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#af4357b634cfd884cd2fa1abb05832ec8" title=" " alt="" coords="514,391,686,433"/>
+<area shape="rect" id="node15" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a4537a46afb8d12c3f18c88ba9601c625" title=" " alt="" coords="749,359,921,401"/>
+<area shape="rect" id="node16" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#ab5972c8ba6834c4dcb8a2319e9bf3070" title=" " alt="" coords="749,425,921,466"/>
+</map>

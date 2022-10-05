@@ -1,0 +1,6 @@
+<map id="g2o::EdgeSE3ProjectXYZ::linearizeOplus" name="g2o::EdgeSE3ProjectXYZ::linearizeOplus">
+<area shape="rect" id="node1" title=" " alt="" coords="5,49,187,90"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="235,5,429,32"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_s_e3_quat.html#a6b2c679d255e1adc8e734215703cf01c" title=" " alt="" coords="259,56,405,83"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_s_e3_quat.html#a7345da50450b60ae725083fbdb85eb7d" title=" " alt="" coords="248,107,416,133"/>
+</map>

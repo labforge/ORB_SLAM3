@@ -1,0 +1,6 @@
+<map id="g2o::internal::axpy" name="g2o::internal::axpy">
+<area shape="rect" id="node1" title=" " alt="" coords="304,78,448,105"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_sparse_block_matrix_diagonal.html#ae7d969c12506cdcd1b7d54128f3b6985" title=" " alt="" coords="5,5,256,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_sparse_block_matrix.html#ae71075d1c8e421389316712d12ba1598" title="dest = (*this) * src" alt="" coords="22,71,239,112"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_sparse_block_matrix.html#a87a57d96e63668c7131dee642c25ac5f" title=" " alt="" coords="22,137,239,193"/>
+</map>

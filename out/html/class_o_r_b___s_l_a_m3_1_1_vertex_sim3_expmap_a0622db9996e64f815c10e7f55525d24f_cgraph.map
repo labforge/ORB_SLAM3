@@ -1,0 +1,9 @@
+<map id="ORB_SLAM3::VertexSim3Expmap::write" name="ORB_SLAM3::VertexSim3Expmap::write">
+<area shape="rect" id="node1" title="write the vertex to a stream" alt="" coords="5,100,244,141"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="321,5,493,47"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_geometric_camera.html#a4992778c2e1fa3a45cfce6ce3cbfef8d" title=" " alt="" coords="292,71,521,112"/>
+<area shape="rect" id="node4" href="$structg2o_1_1_sim3.html#a63fedc1606012b8ce197554f6489080b" title=" " alt="" coords="349,137,464,163"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_geometric_camera.html#af772a951954b86e2d711e5aa1adfae2b" title=" " alt="" coords="292,188,521,229"/>
+<area shape="rect" id="node5" href="$namespaceg2o.html#a2e39915fb420fd7dc2d3802435e4a6a9" title=" " alt="" coords="569,111,665,138"/>
+<area shape="rect" id="node6" href="$namespaceg2o.html#adb3143a37b9bc002f4f7b6423061ef81" title=" " alt="" coords="574,162,661,189"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="g2o::SparseOptimizer::findGauge" name="g2o::SparseOptimizer::findGauge">
+<area shape="rect" id="node1" title="finds a gauge in the graph to remove the undefined dof." alt="" coords="5,35,168,76"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a86feed80301950b100142575b48e4fca" title="dimension of the estimated state belonging to this node" alt="" coords="226,5,398,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_hyper_graph.html#a95fcf7cd9d89562b2c26d99ede3548ed" title=" " alt="" coords="216,71,408,98"/>
+</map>

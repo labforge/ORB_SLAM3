@@ -1,0 +1,6 @@
+<map id="g2o::HyperGraphElementAction" name="g2o::HyperGraphElementAction">
+<area shape="rect" id="node1" title="Abstract action that operates on a graph entity." alt="" coords="159,5,386,32"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_draw_action.html" title="draw actions" alt="" coords="5,87,135,114"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_hyper_graph_element_action_collection.html" title="collection of actions" alt="" coords="159,80,386,121"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_write_gnuplot_action.html" title=" " alt="" coords="410,87,591,114"/>
+</map>

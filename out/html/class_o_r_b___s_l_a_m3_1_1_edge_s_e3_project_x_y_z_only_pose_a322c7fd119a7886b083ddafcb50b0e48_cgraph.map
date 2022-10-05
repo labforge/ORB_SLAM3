@@ -1,0 +1,6 @@
+<map id="ORB_SLAM3::EdgeSE3ProjectXYZOnlyPose::linearizeOplus" name="ORB_SLAM3::EdgeSE3ProjectXYZOnlyPose::linearizeOplus">
+<area shape="rect" id="node1" title=" " alt="" coords="5,49,216,90"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="281,5,476,32"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_s_e3_quat.html#a6b2c679d255e1adc8e734215703cf01c" title=" " alt="" coords="305,56,452,83"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_geometric_camera.html#a40e0ddae6499e0e096479cb2dbdd3dfb" title=" " alt="" coords="264,107,493,149"/>
+</map>

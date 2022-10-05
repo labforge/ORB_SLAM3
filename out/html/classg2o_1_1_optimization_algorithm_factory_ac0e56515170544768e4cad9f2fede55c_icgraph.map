@@ -1,0 +1,6 @@
+<map id="g2o::OptimizationAlgorithmFactory::OptimizationAlgorithmFactory" name="g2o::OptimizationAlgorithmFactory::OptimizationAlgorithmFactory">
+<area shape="rect" id="node1" title=" " alt="" coords="583,45,808,101"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_optimization_algorithm_factory.html#a4fe827a82f01c74ef124e7a9a9c98707" title="return the instance" alt="" coords="332,53,535,94"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_register_optimization_algorithm_proxy.html#acf89c65d6156d53014e0dcafd388258c" title=" " alt="" coords="11,5,279,61"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_register_optimization_algorithm_proxy.html#a30f84a170a0d140ee60e1bc428d4c65f" title=" " alt="" coords="5,85,284,141"/>
+</map>

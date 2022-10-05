@@ -1,0 +1,4 @@
+<map id="g2o::RobustKernelDCS" name="g2o::RobustKernelDCS">
+<area shape="rect" id="node1" title="Dynamic covariance scaling &#45; DCS." alt="" coords="5,80,172,107"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_robust_kernel.html" title="base for all robust cost functions" alt="" coords="19,5,159,32"/>
+</map>

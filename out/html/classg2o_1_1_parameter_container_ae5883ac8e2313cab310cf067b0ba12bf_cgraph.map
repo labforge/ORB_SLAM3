@@ -1,0 +1,11 @@
+<map id="g2o::ParameterContainer::read" name="g2o::ParameterContainer::read">
+<area shape="rect" id="node1" title="read parameters from a stream" alt="" coords="5,181,191,223"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_parameter_container.html#a9c0b1376e780b177f2d36c4ee4f873d7" title="add parameter to the container" alt="" coords="255,5,441,47"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_factory.html#aa61fcb8861afb1dd4c4af5d9cc03d3ec" title=" " alt="" coords="263,71,433,98"/>
+<area shape="rect" id="node5" href="$structg2o_1_1_hyper_graph_1_1_hyper_graph_element.html#a1a9d7b748698c09d202373e06e413ef2" title=" " alt="" coords="239,123,457,164"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_factory.html#a8a1f33e017c5ad59399cef48972578ae" title="return the instance" alt="" coords="266,189,430,215"/>
+<area shape="rect" id="node7" href="$classg2o_1_1_parameter.html#a77d9d88d8bde52198631fcd0fc4c9d0e" title="read the data from a stream" alt="" coords="269,239,427,266"/>
+<area shape="rect" id="node8" href="$namespaceg2o.html#a07aa1d8e5a4e25d0170010df66908611" title=" " alt="" coords="293,290,403,317"/>
+<area shape="rect" id="node9" href="$classg2o_1_1_parameter.html#a2872398ab7d8c95d0a1b5ca5bbfae461" title=" " alt="" coords="267,341,429,367"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_parameter.html#a1bca491a08b68a7a6b85204a5a8b0f2c" title=" " alt="" coords="505,13,648,39"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="ORB_SLAM3::EdgeStereoOnlyPose::GetHessian" name="ORB_SLAM3::EdgeStereoOnlyPose::GetHessian">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,220,80"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_edge.html#a405f8d52738e557a0860b52ac67a005b" title="information matrix of the constraint" alt="" coords="282,5,469,47"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_edge_stereo_only_pose.html#ae79bff13c2a1d114ba52e4703998f7e2" title=" " alt="" coords="268,71,483,112"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="531,78,725,105"/>
+</map>

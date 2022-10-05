@@ -1,0 +1,5 @@
+<map id="g2o::Solver::schur" name="g2o::Solver::schur">
+<area shape="rect" id="node1" title="should the solver perform the schur complement or not" alt="" coords="256,46,395,73"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_optimization_algorithm_gauss_newton.html#aff4c1b6a9f8a2e5c6777cfef9d4a18ba" title=" " alt="" coords="5,5,208,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_optimization_algorithm_levenberg.html#a67308ead9762f478e29385229ea4b138" title=" " alt="" coords="5,71,208,112"/>
+</map>

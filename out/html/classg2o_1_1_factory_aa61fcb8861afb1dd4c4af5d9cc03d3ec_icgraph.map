@@ -1,0 +1,9 @@
+<map id="g2o::Factory::construct" name="g2o::Factory::construct">
+<area shape="rect" id="node1" title=" " alt="" coords="729,109,899,136"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_cache_container.html#a08902c228901e06c4e08c5b594683a6c" title=" " alt="" coords="510,43,667,85"/>
+<area shape="rect" id="node5" href="$structg2o_1_1_optimizable_graph.html#a95c2791b9fcfc118b3df147a8da2b37f" title="load the graph from a stream. Uses the Factory singleton for creating the vertices and edges." alt="" coords="251,135,423,177"/>
+<area shape="rect" id="node7" href="$classg2o_1_1_parameter_container.html#ae5883ac8e2313cab310cf067b0ba12bf" title="read parameters from a stream" alt="" coords="496,161,681,202"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_cache.html#a776574fb98726ff61bc1280ea624c6e5" title=" " alt="" coords="225,5,448,32"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_optimizable_graph_1_1_edge.html#ad95f2883af693de56e46a2b272dc1cdc" title=" " alt="" coords="251,57,423,98"/>
+<area shape="rect" id="node6" href="$structg2o_1_1_optimizable_graph.html#a305fe91c405fc960df051d9581e524bc" title=" " alt="" coords="5,135,177,177"/>
+</map>

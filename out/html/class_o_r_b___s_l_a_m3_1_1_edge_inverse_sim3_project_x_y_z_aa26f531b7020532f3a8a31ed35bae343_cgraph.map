@@ -1,0 +1,4 @@
+<map id="ORB_SLAM3::EdgeInverseSim3ProjectXYZ::read" name="ORB_SLAM3::EdgeInverseSim3ProjectXYZ::read">
+<area shape="rect" id="node1" title="read the vertex from a stream, i.e., the internal state of the vertex" alt="" coords="5,5,228,47"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_edge.html#a405f8d52738e557a0860b52ac67a005b" title="information matrix of the constraint" alt="" coords="276,5,463,47"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="g2o::SE3Quat::fromVector" name="g2o::SE3Quat::fromVector">
+<area shape="rect" id="node1" title=" " alt="" coords="228,13,419,39"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_vertex_s_e3_expmap.html#a4f5913373d24ea5963fffc6830406a52" title="read the vertex from a stream, i.e., the internal state of the vertex" alt="" coords="5,5,180,47"/>
+</map>

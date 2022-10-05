@@ -1,0 +1,6 @@
+<map id="g2o::OptimizableGraph::Vertex::pop" name="g2o::OptimizableGraph::Vertex::pop">
+<area shape="rect" id="node1" title="restore the position of the vertex by retrieving the position from the stack" alt="" coords="257,78,429,119"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_multi_edge.html#a6196a4cd1ddc2ef27c1474252bb60e9f" title=" " alt="" coords="12,5,203,61"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_sparse_optimizer.html#aa6688f8636bf89ef919d72947692d59c" title="pop (restore) the estimate a subset of the variables from the stack" alt="" coords="10,85,205,112"/>
+<area shape="rect" id="node4" href="$structg2o_1_1_optimizable_graph.html#a8487f537b16ac7a2ee416ea294a1e22e" title="pop (restore) the estimate of all variables from the stack" alt="" coords="5,136,209,163"/>
+</map>

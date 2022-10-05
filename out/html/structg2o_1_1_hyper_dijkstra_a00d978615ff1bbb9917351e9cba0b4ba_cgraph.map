@@ -1,0 +1,9 @@
+<map id="g2o::HyperDijkstra::shortestPaths" name="g2o::HyperDijkstra::shortestPaths">
+<area shape="rect" id="node1" title=" " alt="" coords="5,174,149,215"/>
+<area shape="rect" id="node2" href="$structg2o_1_1_hyper_dijkstra_1_1_adjacency_map_entry.html#a2db2f9eaa364a04f07c81c70784f2193" title=" " alt="" coords="219,5,378,61"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a3794ff3310c1dc05619bf0b77eaa4caa" title="returns the set of hyper&#45;edges that are leaving/entering in this vertex" alt="" coords="207,86,390,127"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a48191960395856d1b686287489e53da3" title="returns the id" alt="" coords="197,152,400,179"/>
+<area shape="rect" id="node5" href="$structg2o_1_1_hyper_dijkstra.html#ad9c39fd01a0740f2beff98c927aaebbd" title=" " alt="" coords="227,203,371,245"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_hyper_graph_1_1_edge.html#ab644c1c4e38a0112db1435fbc0233f25" title=" " alt="" coords="213,269,385,310"/>
+<area shape="rect" id="node7" href="$classg2o_1_1_hyper_graph_1_1_edge.html#aba1717ff01f972bd39ba992c0d9d9e04" title=" " alt="" coords="213,334,385,375"/>
+</map>

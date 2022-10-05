@@ -1,0 +1,7 @@
+<map id="g2o::AbstractOptimizationAlgorithmCreator::property" name="g2o::AbstractOptimizationAlgorithmCreator::property">
+<area shape="rect" id="node1" title="return the properties of the solver" alt="" coords="583,65,780,106"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_register_optimization_algorithm_proxy.html#acf89c65d6156d53014e0dcafd388258c" title=" " alt="" coords="11,7,279,63"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_optimization_algorithm_factory.html#a7726ae90dc3d5baf62fa364517e0fed7" title=" " alt="" coords="332,31,535,73"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_optimization_algorithm_factory.html#adf79430f6176c9e9309a703ba2dbd14b" title=" " alt="" coords="332,97,535,138"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_register_optimization_algorithm_proxy.html#a30f84a170a0d140ee60e1bc428d4c65f" title=" " alt="" coords="5,108,284,164"/>
+</map>

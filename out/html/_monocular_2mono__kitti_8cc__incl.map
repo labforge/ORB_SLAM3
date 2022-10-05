@@ -1,0 +1,52 @@
+<map id="Examples/Monocular/mono_kitti.cc" name="Examples/Monocular/mono_kitti.cc">
+<area shape="rect" id="node1" title=" " alt="" coords="3134,5,3293,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,85,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="1857,907,1943,934"/>
+<area shape="rect" id="node4" title=" " alt="" coords="3027,907,3101,934"/>
+<area shape="rect" id="node5" title=" " alt="" coords="3301,95,3368,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="3392,95,3467,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="2289,907,2458,934"/>
+<area shape="rect" id="node8" href="$_system_8h.html" title=" " alt="" coords="2555,95,2637,121"/>
+<area shape="rect" id="node9" title=" " alt="" coords="2813,818,2888,845"/>
+<area shape="rect" id="node10" title=" " alt="" coords="2912,818,2979,845"/>
+<area shape="rect" id="node11" title=" " alt="" coords="3003,818,3074,845"/>
+<area shape="rect" id="node12" title=" " alt="" coords="2653,907,2712,934"/>
+<area shape="rect" id="node13" title=" " alt="" coords="2368,333,2432,360"/>
+<area shape="rect" id="node14" href="$_tracking_8h.html" title=" " alt="" coords="1463,169,1553,196"/>
+<area shape="rect" id="node16" href="$_viewer_8h.html" title=" " alt="" coords="1014,244,1093,271"/>
+<area shape="rect" id="node17" href="$_frame_drawer_8h.html" title=" " alt="" coords="1069,333,1192,360"/>
+<area shape="rect" id="node20" href="$_o_r_b_vocabulary_8h.html" title=" " alt="" coords="2379,736,2511,763"/>
+<area shape="rect" id="node27" href="$_imu_types_8h.html" title=" " alt="" coords="1723,736,1819,763"/>
+<area shape="rect" id="node33" href="$_settings_8h.html" title=" " alt="" coords="2735,736,2822,763"/>
+<area shape="rect" id="node37" href="$_key_frame_database_8h.html" title=" " alt="" coords="1750,572,1911,599"/>
+<area shape="rect" id="node42" href="$_atlas_8h.html" title=" " alt="" coords="744,423,811,449"/>
+<area shape="rect" id="node46" href="$_map_drawer_8h.html" title=" " alt="" coords="936,333,1045,360"/>
+<area shape="rect" id="node47" href="$_local_mapping_8h.html" title=" " alt="" coords="1446,333,1570,360"/>
+<area shape="rect" id="node48" href="$_loop_closing_8h.html" title=" " alt="" coords="1697,244,1810,271"/>
+<area shape="rect" id="node15" title=" " alt="" coords="50,900,201,941"/>
+<area shape="rect" id="node24" href="$_o_r_bextractor_8h.html" title=" " alt="" coords="2163,572,2285,599"/>
+<area shape="rect" id="node26" href="$_frame_8h.html" title=" " alt="" coords="1824,654,1899,681"/>
+<area shape="rect" id="node31" title=" " alt="" coords="1248,818,1312,845"/>
+<area shape="rect" id="node34" href="$_geometric_camera_8h.html" title=" " alt="" coords="693,818,947,845"/>
+<area shape="rect" id="node45" title=" " alt="" coords="1189,423,1304,449"/>
+<area shape="rect" id="node18" href="$_map_point_8h.html" title=" " alt="" coords="1097,572,1191,599"/>
+<area shape="rect" id="node19" href="$_key_frame_8h.html" title=" " alt="" coords="1433,497,1532,524"/>
+<area shape="rect" id="node39" href="$_map_8h.html" title=" " alt="" coords="1078,654,1141,681"/>
+<area shape="rect" id="node32" title=" " alt="" coords="749,900,891,941"/>
+<area shape="rect" id="node35" title=" " alt="" coords="1105,900,1247,941"/>
+<area shape="rect" id="node21" href="$_f_o_r_b_8h.html" title=" " alt="" coords="2494,811,2687,852"/>
+<area shape="rect" id="node23" href="$_templated_vocabulary_8h.html" title=" " alt="" coords="2277,811,2470,852"/>
+<area shape="rect" id="node22" title=" " alt="" coords="2055,907,2118,934"/>
+<area shape="rect" id="node25" title=" " alt="" coords="2192,654,2235,681"/>
+<area shape="rect" id="node29" title=" " alt="" coords="1906,818,1998,845"/>
+<area shape="rect" id="node28" title=" " alt="" coords="1770,818,1830,845"/>
+<area shape="rect" id="node30" title=" " alt="" coords="1387,907,1514,934"/>
+<area shape="rect" id="node36" title=" " alt="" coords="403,900,546,941"/>
+<area shape="rect" id="node38" title=" " alt="" coords="1099,736,1141,763"/>
+<area shape="rect" id="node41" title=" " alt="" coords="1923,647,2066,688"/>
+<area shape="rect" id="node40" title=" " alt="" coords="771,736,922,763"/>
+<area shape="rect" id="node43" href="$_pinhole_8h.html" title=" " alt="" coords="627,497,709,524"/>
+<area shape="rect" id="node44" href="$_kannala_brandt8_8h.html" title=" " alt="" coords="413,497,552,524"/>
+<area shape="rect" id="node49" title=" " alt="" coords="1899,333,2093,360"/>
+<area shape="rect" id="node50" href="$types__seven__dof__expmap_8h.html" title=" " alt="" coords="2117,319,2293,375"/>
+</map>

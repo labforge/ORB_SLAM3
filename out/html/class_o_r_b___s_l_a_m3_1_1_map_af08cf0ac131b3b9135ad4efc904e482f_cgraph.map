@@ -1,0 +1,13 @@
+<map id="ORB_SLAM3::Map::ApplyScaledRotation" name="ORB_SLAM3::Map::ApplyScaledRotation">
+<area shape="rect" id="node1" title=" " alt="" coords="5,220,232,261"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a5f1e59365572741bda9985b63cc090d3" title=" " alt="" coords="287,5,462,47"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a549ffa81c5a0d3698177b65444d99941" title=" " alt="" coords="287,71,462,112"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a00b60cc1024401aad66502013af2abc2" title=" " alt="" coords="289,136,460,177"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a3919049a26ce680d618ee61cd17b9c8d" title=" " alt="" coords="521,187,695,228"/>
+<area shape="rect" id="node6" href="$class_sophus_1_1_s_e3.html#a8125109180338d0d2c4fe74a11074d59" title=" " alt="" coords="747,253,925,279"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a93bee497959053a57e4b652eaea478f9" title=" " alt="" coords="287,304,462,345"/>
+<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a5c1c4420a2bca28a5d4a51c5a6e19d10" title=" " alt="" coords="289,369,460,411"/>
+<area shape="rect" id="node9" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#ae138e26f6f86462fd168de6ffa3852ff" title=" " alt="" coords="280,435,469,476"/>
+<area shape="rect" id="node10" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a08c74f1e97f0dc960fb9017fe6dfb813" title=" " alt="" coords="521,336,695,377"/>
+<area shape="rect" id="node11" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a1bff85f759e52c254933cd4f33a7b662" title=" " alt="" coords="517,435,699,476"/>
+</map>

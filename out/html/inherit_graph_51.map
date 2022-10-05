@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title="STL class." alt="" coords="5,107,140,133"/>
+<area shape="rect" id="node2" href="$class_d_bo_w2_1_1_bow_vector.html" title="Vector of words to represent images." alt="" coords="227,5,375,32"/>
+<area shape="rect" id="node3" href="$class_d_bo_w2_1_1_feature_vector.html" title="Vector of nodes with indexes of local features." alt="" coords="217,56,386,83"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_cache_container.html" title=" " alt="" coords="223,107,380,133"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_parameter_container.html" title="map id to parameters" alt="" coords="209,157,394,184"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_property_map.html" title="a collection of properties mapping from name to the property itself" alt="" coords="233,208,370,235"/>
+<area shape="rect" id="node7" href="$classg2o_1_1_draw_action_1_1_parameters.html" title=" " alt="" coords="463,208,675,235"/>
+<area shape="rect" id="node8" href="$structg2o_1_1_hyper_graph_element_action_1_1_parameters.html" title=" " alt="" coords="188,259,415,301"/>
+<area shape="rect" id="node9" href="$structg2o_1_1_write_gnuplot_action_1_1_parameters.html" title=" " alt="" coords="478,259,659,301"/>
+</map>

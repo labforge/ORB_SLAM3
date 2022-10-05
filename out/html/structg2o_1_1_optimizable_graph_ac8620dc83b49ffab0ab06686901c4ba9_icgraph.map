@@ -1,0 +1,4 @@
+<map id="g2o::OptimizableGraph::save" name="g2o::OptimizableGraph::save">
+<area shape="rect" id="node1" title="save the graph to a stream. Again uses the Factory system." alt="" coords="225,5,397,47"/>
+<area shape="rect" id="node2" href="$structg2o_1_1_optimizable_graph.html#a29c40a9cb3bf3660e59d55cfad264c71" title="function provided for convenience, see save() above" alt="" coords="5,5,177,47"/>
+</map>

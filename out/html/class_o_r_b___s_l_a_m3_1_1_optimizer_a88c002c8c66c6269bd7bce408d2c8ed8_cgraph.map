@@ -1,0 +1,52 @@
+<map id="ORB_SLAM3::Optimizer::LocalBundleAdjustment" name="ORB_SLAM3::Optimizer::LocalBundleAdjustment">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1249,189,1291"/>
+<area shape="rect" id="node2" href="$structg2o_1_1_optimizable_graph.html#a6831ed69fce3dba691f53302a2813070" title=" " alt="" coords="265,64,437,105"/>
+<area shape="rect" id="node5" href="$structg2o_1_1_optimizable_graph.html#ae0b93774ce1dfa0dfd501c86ad4f773e" title=" " alt="" coords="265,232,437,273"/>
+<area shape="rect" id="node9" href="$structg2o_1_1_optimizable_graph.html#a19e014e8ec2e9a6e894da8c3a8f8e50d" title="returns the vertex number id appropriately casted" alt="" coords="529,291,701,332"/>
+<area shape="rect" id="node10" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a39186c34045f49d5be0723bd5aa37ce1" title=" " alt="" coords="781,1031,955,1072"/>
+<area shape="rect" id="node11" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a49d810ed4b09470d48fdb59a026a4fce" title=" " alt="" coords="265,1833,436,1875"/>
+<area shape="rect" id="node13" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="253,465,448,491"/>
+<area shape="rect" id="node14" href="$class_o_r_b___s_l_a_m3_1_1_map.html#abe561198b94ec7c0b307bc1ac94cded5" title=" " alt="" coords="242,515,459,542"/>
+<area shape="rect" id="node15" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#ab4d256e29a50589c9ae962a5eb57f66c" title=" " alt="" coords="265,567,436,608"/>
+<area shape="rect" id="node16" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#aa58317abc58d81c8bc56fade6aabafd3" title=" " alt="" coords="263,632,438,673"/>
+<area shape="rect" id="node17" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a62cf3b5bad8d18cf4ff2ddc02444169e" title=" " alt="" coords="263,697,438,739"/>
+<area shape="rect" id="node18" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a189ca80c8e454fe0da2c364ea24e0066" title=" " alt="" coords="265,763,436,804"/>
+<area shape="rect" id="node19" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a40e624325f3e66e4f473c9d0c9aae954" title=" " alt="" coords="263,828,438,869"/>
+<area shape="rect" id="node20" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a8b60ed8014a6f80d5fc80ecc5cad9a7c" title=" " alt="" coords="237,893,464,935"/>
+<area shape="rect" id="node21" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a00b60cc1024401aad66502013af2abc2" title=" " alt="" coords="265,959,436,1000"/>
+<area shape="rect" id="node22" href="$class_o_r_b___s_l_a_m3_1_1_map.html#a9a96f01652bb6beb6ed8ec3009c605b7" title=" " alt="" coords="250,1024,451,1065"/>
+<area shape="rect" id="node23" href="$classg2o_1_1_sparse_optimizer.html#a56c0c13954ac7204cfb031c141ece9ae" title=" " alt="" coords="265,1089,436,1131"/>
+<area shape="rect" id="node28" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a20815f069a3fc820308bd64578662d7f" title=" " alt="" coords="265,1155,436,1196"/>
+<area shape="rect" id="node29" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a9e801be900d973e29f54d642507ea314" title=" " alt="" coords="263,1220,438,1261"/>
+<area shape="rect" id="node30" href="$class_o_r_b___s_l_a_m3_1_1_map.html#a224ddc84fd568afb344f1cd3ef43f00e" title=" " alt="" coords="249,1286,452,1313"/>
+<area shape="rect" id="node31" href="$classg2o_1_1_sparse_optimizer.html#a098257ee6f13dbb79be07075244d9930" title=" " alt="" coords="269,1337,432,1379"/>
+<area shape="rect" id="node35" href="$class_o_r_b___s_l_a_m3_1_1_verbose.html#a2e1cd79eff78762b1d39ce310673e6de" title=" " alt="" coords="269,1403,432,1444"/>
+<area shape="rect" id="node36" href="$classg2o_1_1_s_e3_quat.html#a7345da50450b60ae725083fbdb85eb7d" title=" " alt="" coords="267,1469,435,1495"/>
+<area shape="rect" id="node37" href="$classg2o_1_1_sparse_optimizer.html#a5ed7404ef361b479c75a0baf34e0a2bd" title=" " alt="" coords="269,1520,432,1561"/>
+<area shape="rect" id="node38" href="$classg2o_1_1_robust_kernel_huber.html#a7e9ee4bbc9483dcd3d10a4c1f506a4d2" title=" " alt="" coords="261,1585,440,1627"/>
+<area shape="rect" id="node39" href="$classg2o_1_1_base_vertex.html#acb6e8e8f39caa04f62dd93a3dd400e06" title="set the estimate for the vertex also calls updateCache()" alt="" coords="243,1651,458,1678"/>
+<area shape="rect" id="node40" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#af92ef49e1bcd6a8166afa151d367b905" title="true =&gt; this node should be considered fixed during the optimization" alt="" coords="265,1703,437,1744"/>
+<area shape="rect" id="node41" href="$classg2o_1_1_sparse_optimizer.html#a32afd0ab949f170297b4a59f0d9eab81" title=" " alt="" coords="269,1768,432,1809"/>
+<area shape="rect" id="node42" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#ac57651173d6ce4bb4eebf8cb1d917551" title="sets the id of the node in the graph be sure that the graph keeps consistent after changing the id" alt="" coords="529,356,701,397"/>
+<area shape="rect" id="node43" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#afabf1782886c78bf7b312bb1f2c90524" title="true =&gt; this node should be marginalized out during the optimization" alt="" coords="258,1899,443,1940"/>
+<area shape="rect" id="node44" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a3919049a26ce680d618ee61cd17b9c8d" title=" " alt="" coords="263,1964,438,2005"/>
+<area shape="rect" id="node45" href="$class_sophus_1_1_s_e3.html#a8125109180338d0d2c4fe74a11074d59" title=" " alt="" coords="526,2001,705,2027"/>
+<area shape="rect" id="node46" href="$classg2o_1_1_optimization_algorithm_levenberg.html#a9388e5e7800b18acb0db0a9a7be031a6" title="specify the initial lambda used for the first iteraion, if not given the SparseOptimizer tries to com..." alt="" coords="240,2081,461,2123"/>
+<area shape="rect" id="node47" href="$classg2o_1_1_sparse_optimizer.html#a422f4c5c78a0c475f4998e24ee173cc7" title=" " alt="" coords="269,2147,432,2188"/>
+<area shape="rect" id="node48" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a5c1c4420a2bca28a5d4a51c5a6e19d10" title=" " alt="" coords="265,2212,436,2253"/>
+<area shape="rect" id="node49" href="$classg2o_1_1_s_e3_quat.html#a3f36961ad875394c3d305883bebb26bc" title=" " alt="" coords="257,2278,444,2305"/>
+<area shape="rect" id="node50" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#ae138e26f6f86462fd168de6ffa3852ff" title=" " alt="" coords="256,2329,445,2371"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_hyper_graph.html#a0f1d35009a2879b238c8148c33485c89" title=" " alt="" coords="517,71,713,98"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_jacobian_workspace.html#a2d16ad6db1a51aa93c806cc9c06e223f" title=" " alt="" coords="525,5,706,47"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_hyper_graph.html#a7ef87ba3479827b24c6fc29c5fc3aa21" title=" " alt="" coords="512,122,719,149"/>
+<area shape="rect" id="node7" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a48191960395856d1b686287489e53da3" title="returns the id" alt="" coords="767,239,969,266"/>
+<area shape="rect" id="node8" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a858d15a4fadebfc8bce0162ac675f608" title=" " alt="" coords="529,173,701,215"/>
+<area shape="rect" id="node12" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a87983d200d52ad06b82eaa0b796e2878" title=" " alt="" coords="530,1647,701,1688"/>
+<area shape="rect" id="node24" href="$classg2o_1_1_jacobian_workspace.html#a8e1d23ced91b721fdb5bd68c8c4e9fc3" title=" " alt="" coords="525,1053,706,1095"/>
+<area shape="rect" id="node25" href="$classg2o_1_1_sparse_optimizer.html#a8c6af9785e85153ade1490beacad73ce" title=" " alt="" coords="534,1119,697,1160"/>
+<area shape="rect" id="node26" href="$classg2o_1_1_sparse_optimizer.html#ab6f1f4ad2b1fd50b8019c6abb89ac6a8" title=" " alt="" coords="534,1184,697,1225"/>
+<area shape="rect" id="node27" href="$classg2o_1_1_sparse_optimizer.html#a8a8c6f08bc9b8a4e520aa73198268991" title=" " alt="" coords="532,988,699,1029"/>
+<area shape="rect" id="node32" href="$classg2o_1_1_sparse_optimizer.html#a9a8950d87cbbfe991b5f6381db19593c" title=" " alt="" coords="534,1396,697,1437"/>
+<area shape="rect" id="node33" href="$classg2o_1_1_sparse_optimizer.html#a09572668aa85b75a5bebf7b66401ce8f" title=" " alt="" coords="532,1279,699,1320"/>
+<area shape="rect" id="node34" href="$namespaceg2o.html#aa64237935c7d8411b4369234a5f661ea" title=" " alt="" coords="521,1345,709,1371"/>
+</map>

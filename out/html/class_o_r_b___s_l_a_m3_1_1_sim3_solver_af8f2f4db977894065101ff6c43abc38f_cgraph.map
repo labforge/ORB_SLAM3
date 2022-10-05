@@ -1,0 +1,12 @@
+<map id="ORB_SLAM3::Sim3Solver::iterate" name="ORB_SLAM3::Sim3Solver::iterate">
+<area shape="rect" id="node1" title=" " alt="" coords="5,115,189,156"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_sim3_solver.html#a428a3f80586a6ffc683b1e32d6a1e5b2" title=" " alt="" coords="247,20,431,61"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_sim3_solver.html#ac1932f3979355197971ed6f682f3b8be" title=" " alt="" coords="247,115,431,156"/>
+<area shape="rect" id="node10" href="$class_d_utils_1_1_random.html#aa25012101ecbca54025d5430bcf93d86" title=" " alt="" coords="237,181,440,207"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_sim3_solver.html#a4169e270ddb701fe0ecdebb8d1675242" title=" " alt="" coords="488,5,672,47"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_geometric_camera.html#af4c33180e89812755731b4ebbe0a763e" title=" " alt="" coords="720,5,949,47"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_sim3_solver.html#a8c0111fae2bce01720b8b6b59973243b" title=" " alt="" coords="488,71,672,112"/>
+<area shape="rect" id="node7" href="$class_sophus_1_1_s_o3.html#aac06ae003e3c72dd0e0004f589d02c1b" title=" " alt="" coords="513,137,647,163"/>
+<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_converter.html#a74ce6668783e8dc430dff7cd59c812a5" title=" " alt="" coords="493,188,667,229"/>
+<area shape="rect" id="node9" href="$classg2o_1_1_s_e3_quat.html#a88de9de9db852e2a0414bcd2afdc0fda" title=" " alt="" coords="720,188,949,229"/>
+</map>

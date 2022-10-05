@@ -1,0 +1,39 @@
+<map id="Sophus::Constants::epsilon" name="Sophus::Constants::epsilon">
+<area shape="rect" id="node1" title=" " alt="" coords="1585,399,1736,441"/>
+<area shape="rect" id="node2" href="$namespace_sophus_1_1details.html#a67c0aae10b100e468278edf83bd7f30b" title=" " alt="" coords="1315,5,1483,32"/>
+<area shape="rect" id="node3" href="$namespace_sophus_1_1details.html#a9774e3e0d7dd287598b2be0ebcbb6cf3" title=" " alt="" coords="1305,56,1493,83"/>
+<area shape="rect" id="node4" href="$struct_sophus_1_1_constants.html#abdddb2ba56f5cb4fd7d6d78170894efd" title=" " alt="" coords="1323,107,1474,149"/>
+<area shape="rect" id="node5" href="$struct_sophus_1_1_constants_3_01float_01_4.html#a09381192f545090a5eed6048bf648e48" title=" " alt="" coords="1322,173,1475,214"/>
+<area shape="rect" id="node6" href="$struct_sophus_1_1interp__details_1_1_traits_3_01_s_o2_3_01_scalar_01_4_01_4.html#a7ea89865f75477a95ffe06ca0c1bb649" title=" " alt="" coords="1282,239,1515,295"/>
+<area shape="rect" id="node7" href="$struct_sophus_1_1interp__details_1_1_traits_3_01_s_o3_3_01_scalar_01_4_01_4.html#a8a0dce140b9a9d40094dedd9a9c3fe42" title=" " alt="" coords="1282,319,1515,375"/>
+<area shape="rect" id="node8" href="$class_sophus_1_1_lie_group_tests.html#ad8e56fadf68e1f74372f5915af7935b1" title=" " alt="" coords="1305,399,1493,441"/>
+<area shape="rect" id="node27" href="$namespace_sophus.html#ad3c58a9cb01fc75f04973e8b066cb7f5" title=" " alt="" coords="1319,465,1479,492"/>
+<area shape="rect" id="node32" href="$class_sophus_1_1_rx_s_o2_base.html#acfbdff75aa9606d87de9086a2c82a132" title=" " alt="" coords="1301,517,1497,587"/>
+<area shape="rect" id="node33" href="$test__ceres__se3_8cpp.html#a8f4361e221ea259018e71dd3eeb4f357" title=" " alt="" coords="1375,612,1422,639"/>
+<area shape="rect" id="node35" href="$namespace_sophus_1_1anonymous__namespace_02test__geometry_8cpp_03.html#a0811e91659744c696242b068922e5b3d" title=" " alt="" coords="1260,663,1537,705"/>
+<area shape="rect" id="node36" href="$namespace_sophus_1_1anonymous__namespace_02test__geometry_8cpp_03.html#aacdcb28b70dfb960635e06b4677bab5c" title=" " alt="" coords="1260,729,1537,770"/>
+<area shape="rect" id="node37" href="$namespace_sophus_1_1experimental.html#a9b24644917caf7b1ea467d432fa503d1" title=" " alt="" coords="1297,794,1500,835"/>
+<area shape="rect" id="node9" href="$class_sophus_1_1_lie_group_tests.html#a33f98ee787e32c92bcd7944c8a8e14e9" title=" " alt="" coords="1017,254,1192,295"/>
+<area shape="rect" id="node10" href="$class_sophus_1_1_lie_group_tests.html#a09623a1fb21245a6711b81ed9bc34da9" title=" " alt="" coords="781,254,949,295"/>
+<area shape="rect" id="node11" href="$class_sophus_1_1_tests.html#a3d96c0189eca227ac2d868ab461fd5b1" title=" " alt="" coords="505,261,733,288"/>
+<area shape="rect" id="node12" href="$class_sophus_1_1_tests.html#a54e0398a2b1ac72ec878e2ee2234b3db" title=" " alt="" coords="301,261,457,288"/>
+<area shape="rect" id="node13" href="$namespace_sophus.html#ab94cb174e36388b64570ff2bec72bf39" title=" " alt="" coords="108,109,253,136"/>
+<area shape="rect" id="node15" href="$namespace_sophus.html#a293728ad178f372cda509ace88992f46" title=" " alt="" coords="108,160,253,187"/>
+<area shape="rect" id="node17" href="$namespace_sophus.html#a3e8bef8971f5e5405f44b8417e468a60" title=" " alt="" coords="115,211,247,237"/>
+<area shape="rect" id="node19" href="$namespace_sophus.html#acaec82ca592557a121005761c21f15ad" title=" " alt="" coords="115,261,247,288"/>
+<area shape="rect" id="node21" href="$namespace_sophus.html#ae6414912c0097ff88ec88bf3d414084a" title=" " alt="" coords="110,312,251,339"/>
+<area shape="rect" id="node23" href="$namespace_sophus.html#acf18636a32a1fa20407bd9f1909c281c" title=" " alt="" coords="115,363,247,389"/>
+<area shape="rect" id="node25" href="$namespace_sophus.html#aba176296a55266341c218319cdc48770" title=" " alt="" coords="115,413,247,440"/>
+<area shape="rect" id="node14" href="$test__rxso2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,109,60,136"/>
+<area shape="rect" id="node16" href="$test__rxso3_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,160,60,187"/>
+<area shape="rect" id="node18" href="$test__se2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,211,60,237"/>
+<area shape="rect" id="node20" href="$test__se3_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,261,60,288"/>
+<area shape="rect" id="node22" href="$test__sim2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,312,60,339"/>
+<area shape="rect" id="node24" href="$test__so2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,363,60,389"/>
+<area shape="rect" id="node26" href="$test__so3_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,413,60,440"/>
+<area shape="rect" id="node28" href="$class_sophus_1_1_s_e2_base.html#ae15adb83cb446cd6b5663adcc0406ea3" title=" " alt="" coords="997,319,1212,390"/>
+<area shape="rect" id="node29" href="$class_sophus_1_1_s_e3_base.html#af0e13f3b8155eefef864182d7222a639" title=" " alt="" coords="997,414,1212,485"/>
+<area shape="rect" id="node30" href="$class_sophus_1_1_s_o2.html#a91658e9c66fe0d5d7836479542c0d8b1" title=" " alt="" coords="1023,509,1186,550"/>
+<area shape="rect" id="node31" href="$class_sophus_1_1_s_o3.html#a66e5e0c111ad025d0b98988742f32f0e" title=" " alt="" coords="1023,574,1186,615"/>
+<area shape="rect" id="node34" href="$_stereo-_inertial_2stereo__inertial__realsense__t265_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="1077,640,1132,667"/>
+</map>

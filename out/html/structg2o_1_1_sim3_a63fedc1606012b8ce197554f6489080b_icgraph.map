@@ -1,0 +1,7 @@
+<map id="g2o::Sim3::log" name="g2o::Sim3::log">
+<area shape="rect" id="node1" title=" " alt="" coords="292,93,407,120"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_edge_sim3.html#a68f55d11f6b8b210318f167d04722a8b" title=" " alt="" coords="17,5,232,32"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_vertex_sim3_expmap.html#ab5725f98a0d40f4cdb5d352a45c79fc7" title="write the vertex to a stream" alt="" coords="33,57,216,98"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_edge_sim3.html#ae1f72205352bf73156b70080ecfa235b" title="write the vertex to a stream" alt="" coords="45,123,205,149"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_vertex_sim3_expmap.html#a0622db9996e64f815c10e7f55525d24f" title="write the vertex to a stream" alt="" coords="5,174,244,215"/>
+</map>

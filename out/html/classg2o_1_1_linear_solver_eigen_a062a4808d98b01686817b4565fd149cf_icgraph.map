@@ -1,0 +1,4 @@
+<map id="g2o::LinearSolverEigen::blockOrdering" name="g2o::LinearSolverEigen::blockOrdering">
+<area shape="rect" id="node1" title="do the AMD ordering on the blocks or on the scalar matrix" alt="" coords="224,5,395,47"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_linear_solver_eigen.html#a33a924364fc517e69c5ade5aeacd8ee3" title=" " alt="" coords="5,5,176,47"/>
+</map>

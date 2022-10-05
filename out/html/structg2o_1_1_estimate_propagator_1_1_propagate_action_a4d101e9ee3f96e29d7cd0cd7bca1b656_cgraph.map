@@ -1,0 +1,4 @@
+<map id="g2o::EstimatePropagator::PropagateAction::operator()" name="g2o::EstimatePropagator::PropagateAction::operator()">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,216,47"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a97294e6a1a573a44fe82ba36fc52c619" title="true =&gt; this node is fixed during the optimization" alt="" coords="264,5,436,47"/>
+</map>

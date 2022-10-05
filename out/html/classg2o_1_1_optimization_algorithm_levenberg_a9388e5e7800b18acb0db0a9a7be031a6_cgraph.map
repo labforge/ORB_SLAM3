@@ -1,0 +1,4 @@
+<map id="g2o::OptimizationAlgorithmLevenberg::setUserLambdaInit" name="g2o::OptimizationAlgorithmLevenberg::setUserLambdaInit">
+<area shape="rect" id="node1" title="specify the initial lambda used for the first iteraion, if not given the SparseOptimizer tries to com..." alt="" coords="5,5,227,47"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_property.html#a438d1ca338ce8c3a371654023200068d" title=" " alt="" coords="275,13,448,39"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="g2o::BlockSolver::buildSystem" name="g2o::BlockSolver::buildSystem">
+<area shape="rect" id="node1" title=" " alt="" coords="5,228,225,255"/>
+<area shape="rect" id="node2" href="$namespaceg2o.html#a123840a60e0d1dde58088d15a1e1fffa" title=" " alt="" coords="307,5,449,32"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a803897f6bae25dece4d7e23330f0f9da" title=" " alt="" coords="273,57,483,98"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a4d22b2e6832ae2ec040bfc0acb4cabb9" title="get the row of this vertex in the Hessian" alt="" coords="292,122,464,163"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#af544f0050ea6e05950fd6e53931bdf61" title=" " alt="" coords="292,187,464,229"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a86feed80301950b100142575b48e4fca" title="dimension of the estimated state belonging to this node" alt="" coords="292,253,464,294"/>
+<area shape="rect" id="node7" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a97294e6a1a573a44fe82ba36fc52c619" title="true =&gt; this node is fixed during the optimization" alt="" coords="292,318,464,359"/>
+<area shape="rect" id="node8" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a216d79149edcfa9f666140205159fde8" title="true =&gt; this node is marginalized out during the optimization" alt="" coords="292,383,464,425"/>
+<area shape="rect" id="node9" href="$classg2o_1_1_jacobian_workspace.html#ad68c37d7779d3a034bc1b864cd98690b" title=" " alt="" coords="287,449,469,490"/>
+</map>

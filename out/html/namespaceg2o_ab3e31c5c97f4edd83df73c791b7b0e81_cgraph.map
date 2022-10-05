@@ -1,0 +1,6 @@
+<map id="g2o::operator&lt;&lt;" name="g2o::operator&lt;&lt;">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,136,105"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_sparse_block_matrix.html#ab818f8923b845d08a38e8de1145fbb65" title="the block matrices per block&#45;column" alt="" coords="184,5,360,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_sparse_block_matrix.html#a1dc1115273da4863f4625b1dc9569d89" title="indices of the column blocks" alt="" coords="184,71,360,112"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_sparse_block_matrix.html#a4fff500693b46e4f62a2f828934d198c" title="indices of the row blocks" alt="" coords="184,136,360,177"/>
+</map>

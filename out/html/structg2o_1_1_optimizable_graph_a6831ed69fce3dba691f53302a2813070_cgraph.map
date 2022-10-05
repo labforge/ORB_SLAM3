@@ -1,0 +1,7 @@
+<map id="g2o::OptimizableGraph::addEdge" name="g2o::OptimizableGraph::addEdge">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,177,80"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_hyper_graph.html#a0f1d35009a2879b238c8148c33485c89" title=" " alt="" coords="225,15,421,42"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_jacobian_workspace.html#a2d16ad6db1a51aa93c806cc9c06e223f" title=" " alt="" coords="233,68,414,109"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a3794ff3310c1dc05619bf0b77eaa4caa" title="returns the set of hyper&#45;edges that are leaving/entering in this vertex" alt="" coords="469,5,652,47"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a86feed80301950b100142575b48e4fca" title="dimension of the estimated state belonging to this node" alt="" coords="475,71,647,112"/>
+</map>

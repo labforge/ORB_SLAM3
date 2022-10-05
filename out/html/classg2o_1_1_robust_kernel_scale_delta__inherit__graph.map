@@ -1,0 +1,4 @@
+<map id="g2o::RobustKernelScaleDelta" name="g2o::RobustKernelScaleDelta">
+<area shape="rect" id="node1" title="scale a robust kernel to another delta (window size)" alt="" coords="5,80,216,107"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_robust_kernel.html" title="base for all robust cost functions" alt="" coords="41,5,181,32"/>
+</map>

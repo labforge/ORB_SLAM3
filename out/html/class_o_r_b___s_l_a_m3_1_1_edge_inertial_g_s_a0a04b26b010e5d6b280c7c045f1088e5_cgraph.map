@@ -1,0 +1,10 @@
+<map id="ORB_SLAM3::EdgeInertialGS::computeError" name="ORB_SLAM3::EdgeInertialGS::computeError">
+<area shape="rect" id="node1" title=" " alt="" coords="5,122,212,163"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="279,5,473,32"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_preintegrated.html#ac6095ac081647f23f9bb1cca7f8ecb0a" title=" " alt="" coords="260,57,492,98"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_preintegrated.html#abf9c1ffdecab2e91aa9e5428156e2b60" title=" " alt="" coords="260,122,492,163"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_preintegrated.html#aefb6621d19de1177d9c6abc6bc55779c" title=" " alt="" coords="260,187,492,229"/>
+<area shape="rect" id="node8" href="$namespace_o_r_b___s_l_a_m3.html#a1bbc473ecb70c749f353a25bebaa7dd2" title=" " alt="" coords="297,253,455,280"/>
+<area shape="rect" id="node5" href="$class_sophus_1_1_s_o3.html#aac06ae003e3c72dd0e0004f589d02c1b" title=" " alt="" coords="578,100,713,127"/>
+<area shape="rect" id="node6" href="$namespace_o_r_b___s_l_a_m3_1_1_i_m_u.html#ad31994cb4537edc3a9b6d684e6579d5f" title=" " alt="" coords="540,151,751,193"/>
+</map>

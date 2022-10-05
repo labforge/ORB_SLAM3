@@ -1,0 +1,6 @@
+<map id="ORB_SLAM3::VertexSim3Expmap::read" name="ORB_SLAM3::VertexSim3Expmap::read">
+<area shape="rect" id="node1" title="read the vertex from a stream, i.e., the internal state of the vertex" alt="" coords="5,71,244,112"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_vertex.html#acb6e8e8f39caa04f62dd93a3dd400e06" title="set the estimate for the vertex also calls updateCache()" alt="" coords="311,5,503,47"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_geometric_camera.html#aefe1c2797fe8b23ab53c04ce070ea1f4" title=" " alt="" coords="292,71,521,112"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_geometric_camera.html#af772a951954b86e2d711e5aa1adfae2b" title=" " alt="" coords="292,136,521,177"/>
+</map>

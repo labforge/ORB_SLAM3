@@ -1,0 +1,7 @@
+<map id="ORB_SLAM3::EdgeInverseSim3ProjectXYZ::computeError" name="ORB_SLAM3::EdgeInverseSim3ProjectXYZ::computeError">
+<area shape="rect" id="node1" title=" " alt="" coords="5,74,228,115"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="293,5,488,32"/>
+<area shape="rect" id="node3" href="$structg2o_1_1_sim3.html#aad881b9ea79640adac90d8ae58b4a5f0" title=" " alt="" coords="319,56,462,83"/>
+<area shape="rect" id="node4" href="$structg2o_1_1_sim3.html#a577ba985864cab536688123df6063b39" title=" " alt="" coords="329,107,453,133"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_geometric_camera.html#af4c33180e89812755731b4ebbe0a763e" title=" " alt="" coords="276,158,505,199"/>
+</map>

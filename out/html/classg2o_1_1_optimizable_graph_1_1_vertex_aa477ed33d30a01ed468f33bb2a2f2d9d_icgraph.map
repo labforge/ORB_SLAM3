@@ -1,0 +1,7 @@
+<map id="g2o::OptimizableGraph::Vertex::push" name="g2o::OptimizableGraph::Vertex::push">
+<area shape="rect" id="node1" title="backup the position of the vertex to a stack" alt="" coords="244,116,416,157"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_sparse_optimizer.html#a2fba11c8572fce4a8c1bcca4fa3e43fb" title=" " alt="" coords="19,5,183,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_base_multi_edge.html#a6196a4cd1ddc2ef27c1474252bb60e9f" title=" " alt="" coords="5,71,196,127"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_sparse_optimizer.html#ac9a5fd64764e61d99e8a90734118a8bf" title="push the estimate of a subset of the variables onto a stack" alt="" coords="19,152,182,193"/>
+<area shape="rect" id="node5" href="$structg2o_1_1_optimizable_graph.html#a3db385b25818a5659d1fa8407cb0db45" title="push the estimate of all variables onto a stack" alt="" coords="15,217,187,259"/>
+</map>

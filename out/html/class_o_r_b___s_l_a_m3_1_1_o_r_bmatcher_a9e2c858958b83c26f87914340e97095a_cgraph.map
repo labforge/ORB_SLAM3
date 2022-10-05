@@ -1,0 +1,15 @@
+<map id="ORB_SLAM3::ORBmatcher::SearchBySim3" name="ORB_SLAM3::ORBmatcher::SearchBySim3">
+<area shape="rect" id="node1" title=" " alt="" coords="5,365,197,407"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_o_r_bmatcher.html#ab188adc1b2686d6401b320af30db70cf" title=" " alt="" coords="253,5,445,47"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a24287d31ab2cf6ececc5b77f8f9efce9" title=" " alt="" coords="263,71,434,112"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a7f3ea451351dad7c285638e1650278e3" title=" " alt="" coords="261,136,436,177"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a34f41b27550a649f4a265e19bc33e3c8" title=" " alt="" coords="263,201,434,243"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a62cf3b5bad8d18cf4ff2ddc02444169e" title=" " alt="" coords="261,267,436,308"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a96048f8e2fb551619c2e14ddf92ac5e1" title=" " alt="" coords="245,332,452,373"/>
+<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a777370ca879240f298efa3f3ae266ed6" title=" " alt="" coords="247,397,450,439"/>
+<area shape="rect" id="node9" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a40e624325f3e66e4f473c9d0c9aae954" title=" " alt="" coords="261,463,436,504"/>
+<area shape="rect" id="node10" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a00b60cc1024401aad66502013af2abc2" title=" " alt="" coords="263,528,434,569"/>
+<area shape="rect" id="node11" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a20815f069a3fc820308bd64578662d7f" title=" " alt="" coords="263,593,434,635"/>
+<area shape="rect" id="node12" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#ab4c591ab30e3eaf0b30dc1671dce10fe" title=" " alt="" coords="261,659,436,700"/>
+<area shape="rect" id="node13" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a13eae6c06893b36ec3f7d82cf8f9b19a" title=" " alt="" coords="263,724,434,765"/>
+</map>

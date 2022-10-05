@@ -1,0 +1,4 @@
+<map id="g2o::EstimatePropagatorCostOdometry" name="g2o::EstimatePropagatorCostOdometry">
+<area shape="rect" id="node1" title="cost for traversing only odometry edges." alt="" coords="5,80,217,121"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_estimate_propagator_cost.html" title="cost for traversing along active edges in the optimizer" alt="" coords="5,5,217,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="g2o::VertexSE3Expmap" name="g2o::VertexSE3Expmap">
+<area shape="rect" id="node1" title="SE3 Vertex parameterized internally with a transformation matrix and externally with its exponential ..." alt="" coords="27,348,202,375"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_vertex.html" title=" " alt="" coords="37,259,193,300"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html" title="A general case Vertex for optimization." alt="" coords="29,169,201,211"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_hyper_graph_1_1_vertex.html" title="abstract Vertex, your types must derive from that one" alt="" coords="23,95,206,121"/>
+<area shape="rect" id="node5" href="$structg2o_1_1_hyper_graph_1_1_hyper_graph_element.html" title=" " alt="" coords="5,5,224,47"/>
+</map>

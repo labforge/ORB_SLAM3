@@ -1,0 +1,4 @@
+<map id="g2o::VertexSE3Expmap::write" name="g2o::VertexSE3Expmap::write">
+<area shape="rect" id="node1" title="write the vertex to a stream" alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="228,5,391,47"/>
+</map>

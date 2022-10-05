@@ -1,0 +1,4 @@
+<map id="g2o::OptimizableGraph::Vertex::clone" name="g2o::OptimizableGraph::Vertex::clone">
+<area shape="rect" id="node1" title="returns a deep copy of the current vertex" alt="" coords="225,5,397,47"/>
+<area shape="rect" id="node2" href="$structg2o_1_1_optimizable_graph.html#acea1342d9ab0bf717710c8f78b74ff25" title="adds all edges and vertices of the graph g to this graph." alt="" coords="5,5,177,47"/>
+</map>

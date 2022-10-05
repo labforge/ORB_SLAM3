@@ -1,0 +1,4 @@
+<map id="g2o::OptimizationAlgorithmLevenberg::maxTrialsAfterFailure" name="g2o::OptimizationAlgorithmLevenberg::maxTrialsAfterFailure">
+<area shape="rect" id="node1" title="get the number of inner iterations for Levenberg&#45;Marquardt" alt="" coords="5,5,243,47"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_property.html#a76f706f786f6f1ed351f0629b3bbd382" title=" " alt="" coords="291,13,443,39"/>
+</map>

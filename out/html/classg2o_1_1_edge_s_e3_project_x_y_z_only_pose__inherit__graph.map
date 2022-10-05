@@ -1,0 +1,8 @@
+<map id="g2o::EdgeSE3ProjectXYZOnlyPose" name="g2o::EdgeSE3ProjectXYZOnlyPose">
+<area shape="rect" id="node1" title=" " alt="" coords="11,423,254,449"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_unary_edge.html" title=" " alt="" coords="5,333,260,375"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_base_edge.html" title=" " alt="" coords="21,259,245,285"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_optimizable_graph_1_1_edge.html" title=" " alt="" coords="47,169,219,211"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_hyper_graph_1_1_edge.html" title=" " alt="" coords="47,95,219,121"/>
+<area shape="rect" id="node6" href="$structg2o_1_1_hyper_graph_1_1_hyper_graph_element.html" title=" " alt="" coords="23,5,242,47"/>
+</map>

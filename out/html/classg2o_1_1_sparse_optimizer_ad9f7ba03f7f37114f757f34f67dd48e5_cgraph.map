@@ -1,0 +1,7 @@
+<map id="g2o::SparseOptimizer::computeMarginals" name="g2o::SparseOptimizer::computeMarginals">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,168,80"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_sparse_optimizer.html#a656be8b8244a48dc1207f29eec77af5a" title=" " alt="" coords="221,5,383,47"/>
+<area shape="rect" id="node4" href="$structg2o_1_1_optimizable_graph.html#a19e014e8ec2e9a6e894da8c3a8f8e50d" title="returns the vertex number id appropriately casted" alt="" coords="216,71,388,112"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_optimization_algorithm.html#a67b159f3a83471ba9ebcc0a9162a0e23" title=" " alt="" coords="436,5,639,47"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_hyper_graph.html#ab07fe8bd9982a66ba34e83dff8317ea2" title="returns a vertex id in the hyper&#45;graph, or 0 if the vertex id is not present" alt="" coords="446,78,629,105"/>
+</map>

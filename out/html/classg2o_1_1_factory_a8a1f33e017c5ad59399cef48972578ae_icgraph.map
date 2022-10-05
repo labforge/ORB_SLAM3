@@ -1,0 +1,20 @@
+<map id="g2o::Factory::instance" name="g2o::Factory::instance">
+<area shape="rect" id="node1" title="return the instance" alt="" coords="764,286,928,313"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_cache_container.html#a08902c228901e06c4e08c5b594683a6c" title=" " alt="" coords="283,71,441,112"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_cache.html#a2e0a0de318ff4a0f50c263869a87908b" title=" " alt="" coords="543,27,669,54"/>
+<area shape="rect" id="node7" href="$structg2o_1_1_optimizable_graph.html#a95c2791b9fcfc118b3df147a8da2b37f" title="load the graph from a stream. Uses the Factory singleton for creating the vertices and edges." alt="" coords="276,159,448,200"/>
+<area shape="rect" id="node9" href="$classg2o_1_1_parameter_container.html#ae5883ac8e2313cab310cf067b0ba12bf" title="read parameters from a stream" alt="" coords="513,180,699,221"/>
+<area shape="rect" id="node10" href="$classg2o_1_1_register_type_proxy.html#a179d0d498d8a53f9432d1635019705f5" title=" " alt="" coords="519,245,693,287"/>
+<area shape="rect" id="node11" href="$structg2o_1_1_optimizable_graph.html#a3852abe611f2fd90a0a05979987615a2" title=" " alt="" coords="520,311,692,352"/>
+<area shape="rect" id="node15" href="$structg2o_1_1_optimizable_graph.html#a221656c91e253b4246553a33e33c3e6b" title=" " alt="" coords="520,376,692,417"/>
+<area shape="rect" id="node16" href="$structg2o_1_1_optimizable_graph.html#afaa77a4624619237563fe94cfd7b76fd" title=" " alt="" coords="496,507,716,548"/>
+<area shape="rect" id="node17" href="$classg2o_1_1_parameter_container.html#a15c92fab12ad8f3bd51b3f555e95b00e" title="write the data to a stream" alt="" coords="513,441,699,483"/>
+<area shape="rect" id="node18" href="$classg2o_1_1_register_type_proxy.html#ab8469d11a8e3548e74b1de4b3a332d4e" title=" " alt="" coords="519,572,693,613"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_cache.html#a776574fb98726ff61bc1280ea624c6e5" title=" " alt="" coords="5,15,228,42"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_optimizable_graph_1_1_edge.html#ad95f2883af693de56e46a2b272dc1cdc" title=" " alt="" coords="31,69,203,111"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_cache_container.html#a2a0230117e0e71210f3d10a9e7143d0f" title=" " alt="" coords="283,5,441,47"/>
+<area shape="rect" id="node8" href="$structg2o_1_1_optimizable_graph.html#a305fe91c405fc960df051d9581e524bc" title=" " alt="" coords="31,159,203,200"/>
+<area shape="rect" id="node12" href="$structg2o_1_1_optimizable_graph.html#ac8620dc83b49ffab0ab06686901c4ba9" title="save the graph to a stream. Again uses the Factory system." alt="" coords="276,409,448,451"/>
+<area shape="rect" id="node14" href="$structg2o_1_1_optimizable_graph.html#adcf211f9c7bf3ee9dab65b130807402c" title="save a subgraph to a stream. Again uses the Factory system." alt="" coords="276,344,448,385"/>
+<area shape="rect" id="node13" href="$structg2o_1_1_optimizable_graph.html#a29c40a9cb3bf3660e59d55cfad264c71" title="function provided for convenience, see save() above" alt="" coords="31,409,203,451"/>
+</map>

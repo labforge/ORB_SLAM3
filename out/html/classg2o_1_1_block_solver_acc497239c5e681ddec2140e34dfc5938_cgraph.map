@@ -1,0 +1,8 @@
+<map id="g2o::BlockSolver::updateStructure" name="g2o::BlockSolver::updateStructure">
+<area shape="rect" id="node1" title=" " alt="" coords="5,136,189,177"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a86feed80301950b100142575b48e4fca" title="dimension of the estimated state belonging to this node" alt="" coords="259,5,431,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a05a371cfa6314d0f2d209289b01cc922" title="temporary index of this node in the parameter vector obtained from linearization" alt="" coords="259,71,431,112"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a1008c0f7981a9fb11be3e3df5c4a9758" title=" " alt="" coords="237,136,453,177"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a216d79149edcfa9f666140205159fde8" title="true =&gt; this node is marginalized out during the optimization" alt="" coords="259,201,431,243"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#aa605891d46b99ed97accf659f10bc8d5" title="set the row of this vertex in the Hessian" alt="" coords="252,267,439,308"/>
+</map>

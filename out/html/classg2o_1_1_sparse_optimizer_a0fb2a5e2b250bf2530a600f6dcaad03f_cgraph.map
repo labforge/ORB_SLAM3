@@ -1,0 +1,9 @@
+<map id="g2o::SparseOptimizer::removeVertex" name="g2o::SparseOptimizer::removeVertex">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,168,112"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_sparse_optimizer.html#ab6f1f4ad2b1fd50b8019c6abb89ac6a8" title=" " alt="" coords="251,5,414,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a05a371cfa6314d0f2d209289b01cc922" title="temporary index of this node in the parameter vector obtained from linearization" alt="" coords="247,71,419,112"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_hyper_graph.html#a97ab8302aa027d513253387bba9e0dd5" title="removes a vertex from the graph. Returns true on success (vertex was present)" alt="" coords="216,137,449,163"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a3794ff3310c1dc05619bf0b77eaa4caa" title="returns the set of hyper&#45;edges that are leaving/entering in this vertex" alt="" coords="768,129,951,171"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a48191960395856d1b686287489e53da3" title="returns the id" alt="" coords="507,137,710,163"/>
+<area shape="rect" id="node7" href="$classg2o_1_1_hyper_graph.html#a33e5a60705ce673d647aa1613da9d99b" title="removes a vertex from the graph. Returns true on success (edge was present)" alt="" coords="497,187,720,214"/>
+</map>

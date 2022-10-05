@@ -1,0 +1,5 @@
+<map id="g2o::HyperGraph::addVertex" name="g2o::HyperGraph::addVertex">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,212,57"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a48191960395856d1b686287489e53da3" title="returns the id" alt="" coords="260,5,463,32"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_hyper_graph.html#ab07fe8bd9982a66ba34e83dff8317ea2" title="returns a vertex id in the hyper&#45;graph, or 0 if the vertex id is not present" alt="" coords="270,56,453,83"/>
+</map>

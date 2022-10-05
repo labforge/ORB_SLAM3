@@ -1,0 +1,8 @@
+<map id="g2o::HyperGraph::Edge" name="g2o::HyperGraph::Edge">
+<area shape="rect" id="node1" title=" " alt="" coords="118,109,290,136"/>
+<area shape="rect" id="node6" title=" " alt="" coords="85,199,227,225"/>
+<area shape="rect" id="node2" href="$structg2o_1_1_hyper_graph_1_1_hyper_graph_element.html" title=" " alt="" coords="5,5,224,47"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_hyper_graph_1_1_vertex.html" title="abstract Vertex, your types must derive from that one" alt="" coords="45,288,227,315"/>
+<area shape="rect" id="node3" title=" " alt="" coords="114,377,289,404"/>
+<area shape="rect" id="node5" href="$classint.html" title=" " alt="" coords="290,13,329,39"/>
+</map>

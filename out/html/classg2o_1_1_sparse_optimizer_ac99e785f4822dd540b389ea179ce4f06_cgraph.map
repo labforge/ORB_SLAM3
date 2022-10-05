@@ -1,0 +1,7 @@
+<map id="g2o::SparseOptimizer::gaugeFreedom" name="g2o::SparseOptimizer::gaugeFreedom">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,168,145"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a86feed80301950b100142575b48e4fca" title="dimension of the estimated state belonging to this node" alt="" coords="226,5,398,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a3794ff3310c1dc05619bf0b77eaa4caa" title="returns the set of hyper&#45;edges that are leaving/entering in this vertex" alt="" coords="221,71,403,112"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a97294e6a1a573a44fe82ba36fc52c619" title="true =&gt; this node is fixed during the optimization" alt="" coords="226,136,398,177"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_hyper_graph.html#a95fcf7cd9d89562b2c26d99ede3548ed" title=" " alt="" coords="216,202,408,229"/>
+</map>

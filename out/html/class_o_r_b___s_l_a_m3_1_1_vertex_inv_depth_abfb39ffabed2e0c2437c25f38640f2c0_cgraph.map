@@ -1,0 +1,4 @@
+<map id="ORB_SLAM3::VertexInvDepth::VertexInvDepth" name="ORB_SLAM3::VertexInvDepth::VertexInvDepth">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,217,47"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_vertex.html#acb6e8e8f39caa04f62dd93a3dd400e06" title="set the estimate for the vertex also calls updateCache()" alt="" coords="265,5,484,47"/>
+</map>

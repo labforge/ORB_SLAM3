@@ -1,0 +1,8 @@
+<map id="ORB_SLAM3::EdgeStereoOnlyPose" name="ORB_SLAM3::EdgeStereoOnlyPose">
+<area shape="rect" id="node1" title=" " alt="" coords="5,452,251,479"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_unary_edge.html" title=" " alt="" coords="49,348,207,404"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_base_edge.html" title=" " alt="" coords="35,259,221,300"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_optimizable_graph_1_1_edge.html" title=" " alt="" coords="42,169,214,211"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_hyper_graph_1_1_edge.html" title=" " alt="" coords="42,95,214,121"/>
+<area shape="rect" id="node6" href="$structg2o_1_1_hyper_graph_1_1_hyper_graph_element.html" title=" " alt="" coords="19,5,237,47"/>
+</map>

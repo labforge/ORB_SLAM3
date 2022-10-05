@@ -1,0 +1,5 @@
+<map id="ORB_SLAM3::EdgeSE3ProjectXYZToBody::computeError" name="ORB_SLAM3::EdgeSE3ProjectXYZToBody::computeError">
+<area shape="rect" id="node1" title=" " alt="" coords="5,27,216,69"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="281,5,476,32"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_geometric_camera.html#af4c33180e89812755731b4ebbe0a763e" title=" " alt="" coords="264,57,493,98"/>
+</map>

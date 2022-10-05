@@ -1,0 +1,9 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,163,60,189"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_sparse_block_matrix.html#ae873eb42e1b3fbbe44d3cee48959c09a" title="adds the current matrix to the destination" alt="" coords="108,5,316,32"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_sparse_block_matrix.html#aaca7b38d2e9a18eebf9e6f5957af0cf7" title="returns the block at location r,c. if alloc=true he block is created if it does not exist" alt="" coords="124,57,300,98"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_sparse_block_matrix.html#af14b7aaa588b339f2c06793fcc0d4e09" title="this zeroes all the blocks. If dealloc=true the blocks are removed from memory" alt="" coords="124,122,300,163"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_sparse_block_matrix.html#abd1aa3a3ed3278b82945151b02223e1c" title="dest = (*this) * M" alt="" coords="124,187,300,229"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_sparse_block_matrix.html#a0dcf826fe329e922eae1ea92c73c7b23" title=" " alt="" coords="124,253,300,294"/>
+<area shape="rect" id="node7" href="$classg2o_1_1_sparse_block_matrix.html#a2d449bb4054991867a9b50b6c0d978eb" title="transposes a block matrix, The transposed type should match the argument false on failure" alt="" coords="124,318,300,359"/>
+</map>

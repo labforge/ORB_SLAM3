@@ -1,0 +1,8 @@
+<map id="ORB_SLAM3::EdgePriorPoseImu::GetHessian" name="ORB_SLAM3::EdgePriorPoseImu::GetHessian">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,208,80"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_edge.html#a405f8d52738e557a0860b52ac67a005b" title="information matrix of the constraint" alt="" coords="256,5,473,47"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_edge_prior_pose_imu.html#aa8c407680f2d3c398f8868b45bf83e31" title=" " alt="" coords="263,71,466,112"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="561,27,755,54"/>
+<area shape="rect" id="node5" href="$namespace_o_r_b___s_l_a_m3.html#a189aef602b76ca9d6ea72f91cb3d7412" title=" " alt="" coords="521,78,795,105"/>
+<area shape="rect" id="node6" href="$namespace_o_r_b___s_l_a_m3.html#a1bbc473ecb70c749f353a25bebaa7dd2" title=" " alt="" coords="579,129,737,155"/>
+</map>

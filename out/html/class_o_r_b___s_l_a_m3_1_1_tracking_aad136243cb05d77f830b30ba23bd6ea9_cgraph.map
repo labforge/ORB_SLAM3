@@ -1,0 +1,11 @@
+<map id="ORB_SLAM3::Tracking::UpdateLocalKeyFrames" name="ORB_SLAM3::Tracking::UpdateLocalKeyFrames">
+<area shape="rect" id="node1" title=" " alt="" coords="5,201,188,243"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a608db901c5cacfce880f21ca35025da6" title=" " alt="" coords="248,5,475,47"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a44f0e8b35ad9ea79e19dd856fee40260" title=" " alt="" coords="274,71,449,112"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a189ca80c8e454fe0da2c364ea24e0066" title=" " alt="" coords="276,136,447,177"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a22316350535432b8331b42eddfe5b566" title=" " alt="" coords="274,201,449,243"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a20815f069a3fc820308bd64578662d7f" title=" " alt="" coords="276,267,447,308"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a9e801be900d973e29f54d642507ea314" title=" " alt="" coords="274,332,449,373"/>
+<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_atlas.html#a48f0db7083253166c9e2030f69e0ecd8" title=" " alt="" coords="236,398,487,425"/>
+<area shape="rect" id="node9" href="$class_o_r_b___s_l_a_m3_1_1_map.html#ad55e783b7fe4a1709ea424bd5c5c99e2" title=" " alt="" coords="535,398,781,425"/>
+</map>

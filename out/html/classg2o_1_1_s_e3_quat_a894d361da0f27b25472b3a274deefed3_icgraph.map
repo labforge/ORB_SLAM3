@@ -1,0 +1,6 @@
+<map id="g2o::SE3Quat::inverse" name="g2o::SE3Quat::inverse">
+<area shape="rect" id="node1" title=" " alt="" coords="260,64,425,91"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_edge_s_e3.html#a563547050ed1d466cd599120519e5e40" title=" " alt="" coords="5,5,212,32"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_vertex_s_e3_expmap.html#a4f5913373d24ea5963fffc6830406a52" title="read the vertex from a stream, i.e., the internal state of the vertex" alt="" coords="21,57,196,98"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_edge_s_e3.html#a7bcd3552fe35bc44fc04cf5cba2e15d0" title="read the vertex from a stream, i.e., the internal state of the vertex" alt="" coords="35,123,182,149"/>
+</map>

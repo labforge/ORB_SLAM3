@@ -1,0 +1,8 @@
+<map id="g2o::LinearSolverEigen&lt; MatrixType &gt;" name="g2o::LinearSolverEigen&lt; MatrixType &gt;">
+<area shape="rect" id="node1" title="linear solver which uses the sparse Cholesky solver from Eigen" alt="" coords="661,99,832,140"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_linear_solver.html" title="basic solver for Ax = b" alt="" coords="293,5,439,47"/>
+<area shape="rect" id="node3" href="$classbool.html" title=" " alt="" coords="341,74,391,101"/>
+<area shape="rect" id="node4" title=" " alt="" coords="281,125,451,167"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_linear_solver_eigen_1_1_cholesky_decomposition.html" title="Sub&#45;classing Eigen&#39;s SimplicialLDLT to perform ordering with a given ordering." alt="" coords="221,191,511,232"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,183,172,239"/>
+</map>

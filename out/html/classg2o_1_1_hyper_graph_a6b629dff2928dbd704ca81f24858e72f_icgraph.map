@@ -1,0 +1,7 @@
+<map id="g2o::HyperGraph::clear" name="g2o::HyperGraph::clear">
+<area shape="rect" id="node1" title="clears the graph and empties all structures." alt="" coords="491,71,663,98"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_sparse_optimizer.html#a4881e4ac9ba9a58d4e249dc03ef9683d" title=" " alt="" coords="247,5,409,47"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_hyper_graph.html#a0ef6e1d65e0f9171a518bce3fc559693" title="destroys the hyper&#45;graph and all the vertices of the graph" alt="" coords="213,71,443,98"/>
+<area shape="rect" id="node5" href="$structg2o_1_1_optimizable_graph.html#a98f4399dfc23cac840a64ae2d0d3898f" title=" " alt="" coords="242,123,414,164"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_block_solver.html#a8bf01018abc3bfddfa3b29a380a1d6cb" title=" " alt="" coords="5,13,165,39"/>
+</map>

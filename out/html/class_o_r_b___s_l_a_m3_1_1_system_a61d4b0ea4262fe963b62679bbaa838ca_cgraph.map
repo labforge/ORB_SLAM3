@@ -1,0 +1,10 @@
+<map id="ORB_SLAM3::System::SaveKeyFrameTrajectoryEuRoC" name="ORB_SLAM3::System::SaveKeyFrameTrajectoryEuRoC">
+<area shape="rect" id="node1" title=" " alt="" coords="5,188,232,229"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_map.html#a4b1b7912e4206c44890153b9dd22b0fa" title=" " alt="" coords="280,5,491,47"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_map.html#aa4bd6723321415146bf819cec1fa5cde" title=" " alt="" coords="295,71,476,98"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#ad9d42b5a255635ee05d543d1d0a3a9b1" title=" " alt="" coords="298,123,473,164"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a5f1e59365572741bda9985b63cc090d3" title=" " alt="" coords="298,188,473,229"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a9e801be900d973e29f54d642507ea314" title=" " alt="" coords="298,253,473,295"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#ade016417625728dde1445681ea6fdacc" title=" " alt="" coords="286,319,485,346"/>
+<area shape="rect" id="node8" href="$class_sophus_1_1_s_e3.html#a8125109180338d0d2c4fe74a11074d59" title=" " alt="" coords="296,370,475,397"/>
+</map>

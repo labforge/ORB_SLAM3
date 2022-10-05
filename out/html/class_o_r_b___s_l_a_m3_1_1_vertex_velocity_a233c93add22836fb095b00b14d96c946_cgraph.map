@@ -1,0 +1,5 @@
+<map id="ORB_SLAM3::VertexVelocity::oplusImpl" name="ORB_SLAM3::VertexVelocity::oplusImpl">
+<area shape="rect" id="node1" title=" " alt="" coords="5,53,212,94"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="260,5,416,61"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_base_vertex.html#acb6e8e8f39caa04f62dd93a3dd400e06" title="set the estimate for the vertex also calls updateCache()" alt="" coords="260,85,416,141"/>
+</map>

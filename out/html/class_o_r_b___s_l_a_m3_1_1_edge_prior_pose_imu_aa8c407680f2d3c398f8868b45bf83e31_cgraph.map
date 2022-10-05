@@ -1,0 +1,6 @@
+<map id="ORB_SLAM3::EdgePriorPoseImu::linearizeOplus" name="ORB_SLAM3::EdgePriorPoseImu::linearizeOplus">
+<area shape="rect" id="node1" title=" " alt="" coords="5,49,208,90"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="295,5,490,32"/>
+<area shape="rect" id="node3" href="$namespace_o_r_b___s_l_a_m3.html#a189aef602b76ca9d6ea72f91cb3d7412" title=" " alt="" coords="256,56,529,83"/>
+<area shape="rect" id="node4" href="$namespace_o_r_b___s_l_a_m3.html#a1bbc473ecb70c749f353a25bebaa7dd2" title=" " alt="" coords="313,107,472,133"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="g2o::SparseOptimizer::initializeOptimization" name="g2o::SparseOptimizer::initializeOptimization">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,176,145"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_jacobian_workspace.html#a8e1d23ced91b721fdb5bd68c8c4e9fc3" title=" " alt="" coords="224,5,405,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_sparse_optimizer.html#a8c6af9785e85153ade1490beacad73ce" title=" " alt="" coords="233,71,396,112"/>
+<area shape="rect" id="node7" href="$classg2o_1_1_sparse_optimizer.html#ab6f1f4ad2b1fd50b8019c6abb89ac6a8" title=" " alt="" coords="233,136,396,177"/>
+<area shape="rect" id="node8" href="$classg2o_1_1_sparse_optimizer.html#a8a8c6f08bc9b8a4e520aa73198268991" title=" " alt="" coords="231,201,398,243"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a97294e6a1a573a44fe82ba36fc52c619" title="true =&gt; this node is fixed during the optimization" alt="" coords="462,5,634,47"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a216d79149edcfa9f666140205159fde8" title="true =&gt; this node is marginalized out during the optimization" alt="" coords="462,71,634,112"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a440f24c0108be5247f3529369aa1e53c" title="set the temporary index of the vertex in the parameter blocks" alt="" coords="453,136,643,177"/>
+</map>

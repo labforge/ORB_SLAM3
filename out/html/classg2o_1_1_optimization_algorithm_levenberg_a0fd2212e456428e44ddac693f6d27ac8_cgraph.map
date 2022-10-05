@@ -1,0 +1,4 @@
+<map id="g2o::OptimizationAlgorithmLevenberg::setMaxTrialsAfterFailure" name="g2o::OptimizationAlgorithmLevenberg::setMaxTrialsAfterFailure">
+<area shape="rect" id="node1" title="the number of internal iteration if an update step increases chi^2 within Levenberg&#45;Marquardt" alt="" coords="5,5,261,47"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_property.html#a438d1ca338ce8c3a371654023200068d" title=" " alt="" coords="309,13,483,39"/>
+</map>

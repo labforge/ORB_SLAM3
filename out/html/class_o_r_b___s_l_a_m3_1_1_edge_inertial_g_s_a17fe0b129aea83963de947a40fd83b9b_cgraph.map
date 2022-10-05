@@ -1,0 +1,14 @@
+<map id="ORB_SLAM3::EdgeInertialGS::GetHessian3" name="ORB_SLAM3::EdgeInertialGS::GetHessian3">
+<area shape="rect" id="node1" title=" " alt="" coords="5,149,212,190"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_edge.html#a405f8d52738e557a0860b52ac67a005b" title="information matrix of the constraint" alt="" coords="260,115,469,157"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_edge_inertial_g_s.html#a88e324e7b9ba3319a1026117bea0b4ba" title=" " alt="" coords="261,181,468,222"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="557,5,751,32"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_preintegrated.html#a7aa3ca23c74d14f92b492a54821169d1" title=" " alt="" coords="538,57,770,98"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_preintegrated.html#abf9c1ffdecab2e91aa9e5428156e2b60" title=" " alt="" coords="538,122,770,163"/>
+<area shape="rect" id="node9" href="$class_sophus_1_1_s_o3.html#a2b962b17c1c1454ab50d39671740ab87" title=" " alt="" coords="588,188,720,215"/>
+<area shape="rect" id="node10" href="$namespace_o_r_b___s_l_a_m3.html#a189aef602b76ca9d6ea72f91cb3d7412" title=" " alt="" coords="517,239,791,265"/>
+<area shape="rect" id="node11" href="$namespace_o_r_b___s_l_a_m3.html#a1bbc473ecb70c749f353a25bebaa7dd2" title=" " alt="" coords="575,289,733,316"/>
+<area shape="rect" id="node12" href="$namespace_o_r_b___s_l_a_m3.html#a753f63c077b7ad92b2057c09c74778e8" title=" " alt="" coords="541,340,767,367"/>
+<area shape="rect" id="node7" href="$class_sophus_1_1_s_o3.html#aac06ae003e3c72dd0e0004f589d02c1b" title=" " alt="" coords="877,100,1011,127"/>
+<area shape="rect" id="node8" href="$namespace_o_r_b___s_l_a_m3_1_1_i_m_u.html#ad31994cb4537edc3a9b6d684e6579d5f" title=" " alt="" coords="839,151,1049,193"/>
+</map>

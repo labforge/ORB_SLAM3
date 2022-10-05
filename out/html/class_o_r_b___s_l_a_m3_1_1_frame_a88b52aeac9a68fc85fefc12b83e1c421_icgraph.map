@@ -1,0 +1,10 @@
+<map id="ORB_SLAM3::Frame::imuIsPreintegrated" name="ORB_SLAM3::Frame::imuIsPreintegrated">
+<area shape="rect" id="node1" title=" " alt="" coords="963,78,1245,105"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#aff4bca634e5138446ea48b23630969b0" title=" " alt="" coords="749,71,915,112"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#abbd4bb45f894a3c0d2fc6ca0a227286f" title=" " alt="" coords="501,5,701,47"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a73b9f9990537c4ce8ad21ca9a06fc1d8" title=" " alt="" coords="507,136,696,177"/>
+<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#a22895e133b33b7b31eabe0703bad0ec9" title=" " alt="" coords="501,71,701,112"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#aa3bd8a66c4ee13694fe355eee1cdc9af" title=" " alt="" coords="220,78,453,105"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a5e4851c1b0d0de361c208a68e9950b2e" title=" " alt="" coords="5,97,172,139"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="225,137,448,163"/>
+</map>

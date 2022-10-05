@@ -1,0 +1,5 @@
+<map id="g2o::RobustKernelSaturated" name="g2o::RobustKernelSaturated">
+<area shape="rect" id="node1" title="Saturated cost function." alt="" coords="5,171,208,197"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_robust_kernel.html" title="base for all robust cost functions" alt="" coords="37,95,177,121"/>
+<area shape="rect" id="node3" href="$classdouble.html" title=" " alt="" coords="73,5,140,32"/>
+</map>

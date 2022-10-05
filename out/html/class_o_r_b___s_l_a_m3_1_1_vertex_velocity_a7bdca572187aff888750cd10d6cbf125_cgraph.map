@@ -1,0 +1,5 @@
+<map id="ORB_SLAM3::VertexVelocity::VertexVelocity" name="ORB_SLAM3::VertexVelocity::VertexVelocity">
+<area shape="rect" id="node1" title=" " alt="" coords="5,43,212,84"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a549ffa81c5a0d3698177b65444d99941" title=" " alt="" coords="260,5,435,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_base_vertex.html#acb6e8e8f39caa04f62dd93a3dd400e06" title="set the estimate for the vertex also calls updateCache()" alt="" coords="269,71,425,127"/>
+</map>

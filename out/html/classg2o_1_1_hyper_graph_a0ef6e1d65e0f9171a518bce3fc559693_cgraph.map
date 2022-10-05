@@ -1,0 +1,4 @@
+<map id="g2o::HyperGraph::~HyperGraph" name="g2o::HyperGraph::~HyperGraph">
+<area shape="rect" id="node1" title="destroys the hyper&#45;graph and all the vertices of the graph" alt="" coords="5,5,235,32"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_hyper_graph.html#a6b629dff2928dbd704ca81f24858e72f" title="clears the graph and empties all structures." alt="" coords="283,5,455,32"/>
+</map>

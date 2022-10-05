@@ -1,0 +1,32 @@
+<map id="ORB_SLAM3::ORBmatcher::Fuse" name="ORB_SLAM3::ORBmatcher::Fuse">
+<area shape="rect" id="node1" title=" " alt="" coords="5,645,197,687"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a8102c48281cfd1deeb6c33531cef9bbd" title=" " alt="" coords="273,5,447,47"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a3bc623ffc6c73ebd1d7145e4183728ce" title=" " alt="" coords="554,123,725,164"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_o_r_bmatcher.html#ab188adc1b2686d6401b320af30db70cf" title=" " alt="" coords="804,127,996,168"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a08c74f1e97f0dc960fb9017fe6dfb813" title=" " alt="" coords="273,319,447,360"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a24287d31ab2cf6ececc5b77f8f9efce9" title=" " alt="" coords="275,384,445,425"/>
+<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a7f3ea451351dad7c285638e1650278e3" title=" " alt="" coords="273,449,447,491"/>
+<area shape="rect" id="node9" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#af6502edc4962fd2e1e8f0efe3c863b46" title=" " alt="" coords="273,515,447,556"/>
+<area shape="rect" id="node10" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a96048f8e2fb551619c2e14ddf92ac5e1" title=" " alt="" coords="257,580,463,621"/>
+<area shape="rect" id="node11" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a777370ca879240f298efa3f3ae266ed6" title=" " alt="" coords="259,645,461,687"/>
+<area shape="rect" id="node12" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a0af768855f6196b0298e55fb31d61131" title=" " alt="" coords="275,711,445,752"/>
+<area shape="rect" id="node13" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a40e624325f3e66e4f473c9d0c9aae954" title=" " alt="" coords="273,776,447,817"/>
+<area shape="rect" id="node14" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a1bff85f759e52c254933cd4f33a7b662" title=" " alt="" coords="269,841,451,883"/>
+<area shape="rect" id="node15" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a8dde0ef27bb60acfad714d97a430ca30" title=" " alt="" coords="273,907,447,948"/>
+<area shape="rect" id="node16" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a00b60cc1024401aad66502013af2abc2" title=" " alt="" coords="275,972,445,1013"/>
+<area shape="rect" id="node17" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a20815f069a3fc820308bd64578662d7f" title=" " alt="" coords="275,1037,445,1079"/>
+<area shape="rect" id="node18" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#ab4c591ab30e3eaf0b30dc1671dce10fe" title=" " alt="" coords="273,1103,447,1144"/>
+<area shape="rect" id="node19" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a70cc562535e62f83b0ed282108fa2568" title=" " alt="" coords="554,188,725,229"/>
+<area shape="rect" id="node20" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a91007c558c2242491e494e6fcab19f7d" title=" " alt="" coords="275,1168,445,1209"/>
+<area shape="rect" id="node21" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a13eae6c06893b36ec3f7d82cf8f9b19a" title=" " alt="" coords="275,1233,445,1275"/>
+<area shape="rect" id="node22" href="$class_o_r_b___s_l_a_m3_1_1_geometric_camera.html#af4c33180e89812755731b4ebbe0a763e" title=" " alt="" coords="245,1299,475,1340"/>
+<area shape="rect" id="node23" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#ab2348bdafb672949f1f6e30fc98d5b12" title=" " alt="" coords="275,253,445,295"/>
+<area shape="rect" id="node6" href="$class_sophus_1_1_s_e3.html#a8125109180338d0d2c4fe74a11074d59" title=" " alt="" coords="550,646,729,673"/>
+<area shape="rect" id="node24" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#aab059059e1fc0ffc51139db00d1ee3e9" title=" " alt="" coords="523,253,756,295"/>
+<area shape="rect" id="node26" href="$class_o_r_b___s_l_a_m3_1_1_map.html#aa07934f98724a922c4c5edf0bfd12627" title=" " alt="" coords="534,319,745,360"/>
+<area shape="rect" id="node27" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a39186c34045f49d5be0723bd5aa37ce1" title=" " alt="" coords="552,384,727,425"/>
+<area shape="rect" id="node28" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a9e0bbd9d18156e4f610a47e68e2f845e" title=" " alt="" coords="554,449,725,491"/>
+<area shape="rect" id="node29" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a7fa6c15214152391214806e96ea87f6c" title=" " alt="" coords="554,515,725,556"/>
+<area shape="rect" id="node30" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#ae055c31dfda55db7a7fab386c4b499eb" title=" " alt="" coords="548,580,731,621"/>
+<area shape="rect" id="node25" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a9e801be900d973e29f54d642507ea314" title=" " alt="" coords="813,253,987,295"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="g2o::OptimizableGraph::Vertex::setMarginalized" name="g2o::OptimizableGraph::Vertex::setMarginalized">
+<area shape="rect" id="node1" title="true =&gt; this node should be marginalized out during the optimization" alt="" coords="5,5,191,47"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a216d79149edcfa9f666140205159fde8" title="true =&gt; this node is marginalized out during the optimization" alt="" coords="239,5,411,47"/>
+</map>

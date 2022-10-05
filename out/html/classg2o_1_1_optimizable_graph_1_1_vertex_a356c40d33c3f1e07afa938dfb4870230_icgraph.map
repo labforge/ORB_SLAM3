@@ -1,0 +1,5 @@
+<map id="g2o::OptimizableGraph::Vertex::read" name="g2o::OptimizableGraph::Vertex::read">
+<area shape="rect" id="node1" title="read the vertex from a stream, i.e., the internal state of the vertex" alt="" coords="445,5,617,47"/>
+<area shape="rect" id="node2" href="$structg2o_1_1_optimizable_graph.html#a95c2791b9fcfc118b3df147a8da2b37f" title="load the graph from a stream. Uses the Factory singleton for creating the vertices and edges." alt="" coords="225,5,397,47"/>
+<area shape="rect" id="node3" href="$structg2o_1_1_optimizable_graph.html#a305fe91c405fc960df051d9581e524bc" title=" " alt="" coords="5,5,177,47"/>
+</map>

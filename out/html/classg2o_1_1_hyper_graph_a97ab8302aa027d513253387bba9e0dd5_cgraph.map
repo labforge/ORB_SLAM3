@@ -1,0 +1,6 @@
+<map id="g2o::HyperGraph::removeVertex" name="g2o::HyperGraph::removeVertex">
+<area shape="rect" id="node1" title="removes a vertex from the graph. Returns true on success (vertex was present)" alt="" coords="5,24,239,50"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a3794ff3310c1dc05619bf0b77eaa4caa" title="returns the set of hyper&#45;edges that are leaving/entering in this vertex" alt="" coords="557,16,740,58"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a48191960395856d1b686287489e53da3" title="returns the id" alt="" coords="297,24,499,50"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_hyper_graph.html#a33e5a60705ce673d647aa1613da9d99b" title="removes a vertex from the graph. Returns true on success (edge was present)" alt="" coords="287,74,509,101"/>
+</map>

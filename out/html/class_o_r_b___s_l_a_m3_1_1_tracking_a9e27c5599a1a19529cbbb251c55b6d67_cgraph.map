@@ -1,0 +1,19 @@
+<map id="ORB_SLAM3::Tracking::Reset" name="ORB_SLAM3::Tracking::Reset">
+<area shape="rect" id="node1" title=" " alt="" coords="5,287,171,328"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#a51dc02e14aff8107b3ea812f2111c60e" title=" " alt="" coords="219,5,456,47"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_atlas.html#ae256c59c305993ff2be870196752891c" title=" " alt="" coords="229,71,445,98"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_atlas.html#adc116f14d410bbfccc7fbc2e13656f89" title=" " alt="" coords="240,123,435,164"/>
+<area shape="rect" id="node10" href="$class_o_r_b___s_l_a_m3_1_1_viewer.html#a7f54a31ee1748bf1258474966249ec52" title=" " alt="" coords="256,188,419,229"/>
+<area shape="rect" id="node11" href="$class_o_r_b___s_l_a_m3_1_1_verbose.html#a2e1cd79eff78762b1d39ce310673e6de" title=" " alt="" coords="256,253,419,295"/>
+<area shape="rect" id="node12" href="$class_o_r_b___s_l_a_m3_1_1_viewer.html#ae18d75730ecc221ebcf61994f24604ab" title=" " alt="" coords="256,319,419,360"/>
+<area shape="rect" id="node13" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#a47ebe60c6f127c5ce2c2deb569d5ec03" title=" " alt="" coords="237,384,437,425"/>
+<area shape="rect" id="node14" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a7f57eba85ed4d638ae9f75aad0e5f84e" title=" " alt="" coords="243,449,432,491"/>
+<area shape="rect" id="node15" href="$class_o_r_b___s_l_a_m3_1_1_viewer.html#a8d93e612cd468fe43cda9088794460b1" title=" " alt="" coords="256,515,419,556"/>
+<area shape="rect" id="node16" href="$class_o_r_b___s_l_a_m3_1_1_atlas.html#a628870e4badc6e8ebe31581bbe245f96" title=" " alt="" coords="228,580,447,621"/>
+<area shape="rect" id="node3" href="$class_d_bo_w2_1_1_templated_vocabulary.html#a8baad280d6daf74ee43d7cd911363137" title=" " alt="" coords="516,5,735,47"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_map.html#aa4bd6723321415146bf819cec1fa5cde" title=" " alt="" coords="535,75,716,102"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_map.html#a4bb818db94ca6536f0b95d455f41ab30" title=" " alt="" coords="513,126,737,153"/>
+<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_map.html#ac63101396c291b03d42af7d56ee977fe" title=" " alt="" coords="504,177,747,203"/>
+<area shape="rect" id="node9" href="$class_o_r_b___s_l_a_m3_1_1_map.html#a2c39aae76b53eb36f4d784a1f241b943" title=" " alt="" coords="507,227,744,254"/>
+<area shape="rect" id="node17" href="$class_o_r_b___s_l_a_m3_1_1_map.html#aeab7fa663b806b2317f055c713fd0572" title=" " alt="" coords="519,580,732,621"/>
+</map>

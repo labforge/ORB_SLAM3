@@ -1,0 +1,8 @@
+<map id="g2o::EdgeSim3::write" name="g2o::EdgeSim3::write">
+<area shape="rect" id="node1" title="write the vertex to a stream" alt="" coords="5,71,165,98"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_edge.html#a405f8d52738e557a0860b52ac67a005b" title="information matrix of the constraint" alt="" coords="213,5,397,47"/>
+<area shape="rect" id="node3" href="$structg2o_1_1_sim3.html#a63fedc1606012b8ce197554f6489080b" title=" " alt="" coords="248,71,363,98"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_base_edge.html#a8e890d43f491afdd035713ff176ddd5c" title="accessor functions for the measurement represented by the edge" alt="" coords="213,123,397,164"/>
+<area shape="rect" id="node4" href="$namespaceg2o.html#a2e39915fb420fd7dc2d3802435e4a6a9" title=" " alt="" coords="445,46,541,73"/>
+<area shape="rect" id="node5" href="$namespaceg2o.html#adb3143a37b9bc002f4f7b6423061ef81" title=" " alt="" coords="450,97,537,123"/>
+</map>

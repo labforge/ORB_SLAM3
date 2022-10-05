@@ -1,0 +1,5 @@
+<map id="g2o::BlockSolver::init" name="g2o::BlockSolver::init">
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,165,39"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_sparse_optimizer.html#a4881e4ac9ba9a58d4e249dc03ef9683d" title=" " alt="" coords="213,5,376,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_hyper_graph.html#a6b629dff2928dbd704ca81f24858e72f" title="clears the graph and empties all structures." alt="" coords="424,13,596,39"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="g2o::OptimizationAlgorithmFactory" name="g2o::OptimizationAlgorithmFactory">
+<area shape="rect" id="node1" title="create solvers based on their short name" alt="" coords="47,527,250,568"/>
+<area shape="rect" id="node2" title=" " alt="" coords="37,423,260,464"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_abstract_optimization_algorithm_creator.html" title="base for allocating an optimization algorithm" alt="" coords="53,319,245,360"/>
+<area shape="rect" id="node4" href="$structg2o_1_1_optimization_algorithm_property.html" title="describe the properties of a solver" alt="" coords="47,215,250,256"/>
+<area shape="rect" id="node5" href="$classint.html" title=" " alt="" coords="5,96,44,123"/>
+<area shape="rect" id="node6" href="$classbool.html" title=" " alt="" coords="123,96,174,123"/>
+<area shape="rect" id="node7" title="STL class." alt="" coords="269,96,356,123"/>
+<area shape="rect" id="node8" title="STL class." alt="" coords="243,5,382,47"/>
+</map>

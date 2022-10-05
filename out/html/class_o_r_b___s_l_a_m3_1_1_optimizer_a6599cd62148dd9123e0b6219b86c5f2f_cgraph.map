@@ -1,0 +1,52 @@
+<map id="ORB_SLAM3::Optimizer::OptimizeSim3" name="ORB_SLAM3::Optimizer::OptimizeSim3">
+<area shape="rect" id="node1" title=" " alt="" coords="5,874,180,915"/>
+<area shape="rect" id="node2" href="$structg2o_1_1_optimizable_graph.html#a6831ed69fce3dba691f53302a2813070" title=" " alt="" coords="260,57,432,98"/>
+<area shape="rect" id="node5" href="$structg2o_1_1_optimizable_graph.html#ae0b93774ce1dfa0dfd501c86ad4f773e" title=" " alt="" coords="260,230,432,271"/>
+<area shape="rect" id="node9" href="$structg2o_1_1_optimizable_graph.html#a19e014e8ec2e9a6e894da8c3a8f8e50d" title="returns the vertex number id appropriately casted" alt="" coords="541,342,713,383"/>
+<area shape="rect" id="node10" href="$classg2o_1_1_base_edge.html#a8316137ded4396a2dbf7529d83888400" title="computes the chi2 based on the cached error value, only valid after computeError has been called." alt="" coords="269,347,423,373"/>
+<area shape="rect" id="node11" href="$class_o_r_b___s_l_a_m3_1_1_edge_sim3_project_x_y_z.html#a2353e7c5a39d91ef17144b22b4db2324" title=" " alt="" coords="236,449,456,490"/>
+<area shape="rect" id="node12" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="529,408,724,435"/>
+<area shape="rect" id="node15" href="$class_o_r_b___s_l_a_m3_1_1_edge_inverse_sim3_project_x_y_z.html#a79e88dc0b23912bb997acde82af1de72" title=" " alt="" coords="235,514,457,555"/>
+<area shape="rect" id="node17" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a34f41b27550a649f4a265e19bc33e3c8" title=" " alt="" coords="261,579,431,621"/>
+<area shape="rect" id="node18" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a62cf3b5bad8d18cf4ff2ddc02444169e" title=" " alt="" coords="259,645,433,686"/>
+<area shape="rect" id="node19" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a17d09bb632bb14e876648e28135bef6f" title=" " alt="" coords="259,710,433,751"/>
+<area shape="rect" id="node20" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#aa20f251480cdfb64e4ce056f14633d34" title=" " alt="" coords="259,775,433,817"/>
+<area shape="rect" id="node22" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a00b60cc1024401aad66502013af2abc2" title=" " alt="" coords="261,841,431,882"/>
+<area shape="rect" id="node23" href="$classg2o_1_1_sparse_optimizer.html#a56c0c13954ac7204cfb031c141ece9ae" title=" " alt="" coords="261,906,431,947"/>
+<area shape="rect" id="node28" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a20815f069a3fc820308bd64578662d7f" title=" " alt="" coords="261,971,431,1013"/>
+<area shape="rect" id="node29" href="$classg2o_1_1_sparse_optimizer.html#a098257ee6f13dbb79be07075244d9930" title=" " alt="" coords="265,1037,427,1078"/>
+<area shape="rect" id="node40" href="$class_o_r_b___s_l_a_m3_1_1_verbose.html#a2e1cd79eff78762b1d39ce310673e6de" title=" " alt="" coords="265,1102,427,1143"/>
+<area shape="rect" id="node41" href="$classg2o_1_1_hyper_graph.html#a33e5a60705ce673d647aa1613da9d99b" title="removes a vertex from the graph. Returns true on success (edge was present)" alt="" coords="235,1168,457,1195"/>
+<area shape="rect" id="node42" href="$classg2o_1_1_sparse_optimizer.html#a5ed7404ef361b479c75a0baf34e0a2bd" title=" " alt="" coords="265,1219,427,1261"/>
+<area shape="rect" id="node43" href="$classg2o_1_1_robust_kernel_huber.html#a7e9ee4bbc9483dcd3d10a4c1f506a4d2" title=" " alt="" coords="257,1285,435,1326"/>
+<area shape="rect" id="node44" href="$classg2o_1_1_base_vertex.html#acb6e8e8f39caa04f62dd93a3dd400e06" title="set the estimate for the vertex also calls updateCache()" alt="" coords="239,1351,453,1377"/>
+<area shape="rect" id="node45" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#af92ef49e1bcd6a8166afa151d367b905" title="true =&gt; this node should be considered fixed during the optimization" alt="" coords="260,1402,432,1443"/>
+<area shape="rect" id="node46" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#ac57651173d6ce4bb4eebf8cb1d917551" title="sets the id of the node in the graph be sure that the graph keeps consistent after changing the id" alt="" coords="260,145,432,186"/>
+<area shape="rect" id="node47" href="$classg2o_1_1_base_edge.html#a9bb871a94d2413ec3113a147417f2dc4" title=" " alt="" coords="235,1468,457,1495"/>
+<area shape="rect" id="node48" href="$classg2o_1_1_base_edge.html#a24aae7b4fc35d311158f104cfdd95aeb" title=" " alt="" coords="228,1519,464,1545"/>
+<area shape="rect" id="node49" href="$classg2o_1_1_optimizable_graph_1_1_edge.html#a42955172c19f16e2cfbb30d611d1bd87" title=" " alt="" coords="258,1570,434,1611"/>
+<area shape="rect" id="node50" href="$classg2o_1_1_hyper_graph_1_1_edge.html#a5e957658d6e65c49b81197d052a7f16f" title=" " alt="" coords="260,1635,432,1677"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_hyper_graph.html#a0f1d35009a2879b238c8148c33485c89" title=" " alt="" coords="529,5,725,32"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_jacobian_workspace.html#a2d16ad6db1a51aa93c806cc9c06e223f" title=" " alt="" coords="536,57,717,98"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_hyper_graph.html#a7ef87ba3479827b24c6fc29c5fc3aa21" title=" " alt="" coords="523,173,730,200"/>
+<area shape="rect" id="node7" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a48191960395856d1b686287489e53da3" title="returns the id" alt="" coords="789,173,992,200"/>
+<area shape="rect" id="node8" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a858d15a4fadebfc8bce0162ac675f608" title=" " alt="" coords="541,225,713,266"/>
+<area shape="rect" id="node13" href="$structg2o_1_1_sim3.html#a577ba985864cab536688123df6063b39" title=" " alt="" coords="565,459,689,485"/>
+<area shape="rect" id="node14" href="$class_o_r_b___s_l_a_m3_1_1_geometric_camera.html#af4c33180e89812755731b4ebbe0a763e" title=" " alt="" coords="512,510,741,551"/>
+<area shape="rect" id="node16" href="$structg2o_1_1_sim3.html#aad881b9ea79640adac90d8ae58b4a5f0" title=" " alt="" coords="555,576,698,603"/>
+<area shape="rect" id="node21" href="$class_sophus_1_1_s_e3.html#a8125109180338d0d2c4fe74a11074d59" title=" " alt="" coords="537,627,716,653"/>
+<area shape="rect" id="node24" href="$classg2o_1_1_jacobian_workspace.html#a8e1d23ced91b721fdb5bd68c8c4e9fc3" title=" " alt="" coords="536,809,717,850"/>
+<area shape="rect" id="node25" href="$classg2o_1_1_sparse_optimizer.html#a8c6af9785e85153ade1490beacad73ce" title=" " alt="" coords="545,874,708,915"/>
+<area shape="rect" id="node26" href="$classg2o_1_1_sparse_optimizer.html#ab6f1f4ad2b1fd50b8019c6abb89ac6a8" title=" " alt="" coords="545,678,708,719"/>
+<area shape="rect" id="node27" href="$classg2o_1_1_sparse_optimizer.html#a8a8c6f08bc9b8a4e520aa73198268991" title=" " alt="" coords="543,743,710,785"/>
+<area shape="rect" id="node30" href="$classg2o_1_1_sparse_optimizer.html#a9a8950d87cbbfe991b5f6381db19593c" title=" " alt="" coords="545,1449,708,1490"/>
+<area shape="rect" id="node31" href="$classg2o_1_1_sparse_optimizer.html#a09572668aa85b75a5bebf7b66401ce8f" title=" " alt="" coords="543,1514,710,1555"/>
+<area shape="rect" id="node32" href="$namespaceg2o.html#aa64237935c7d8411b4369234a5f661ea" title=" " alt="" coords="533,940,721,967"/>
+<area shape="rect" id="node33" href="$classg2o_1_1_optimization_algorithm.html#af5b54ea6d40a8ab4c16d448ba02a0c80" title=" " alt="" coords="525,991,728,1033"/>
+<area shape="rect" id="node34" href="$structg2o_1_1_optimizable_graph.html#ac8d41dc0830f1ae07e9cb4a8341d3ffb" title="called at the end of an iteration (argument is the number of the iteration)" alt="" coords="541,1057,713,1098"/>
+<area shape="rect" id="node35" href="$structg2o_1_1_optimizable_graph.html#ad295e7f06651db627b8ebde3d8898bab" title="called at the beginning of an iteration (argument is the number of the iteration)" alt="" coords="541,1122,713,1163"/>
+<area shape="rect" id="node36" href="$classg2o_1_1_optimization_algorithm.html#a6683d35e67402b50924bc4744b6e282a" title=" " alt="" coords="525,1187,728,1229"/>
+<area shape="rect" id="node37" href="$structg2o_1_1_g2_o_batch_statistics.html#a8c56e85d25e346ba87718621407247fc" title=" " alt="" coords="537,1253,716,1294"/>
+<area shape="rect" id="node38" href="$classg2o_1_1_optimization_algorithm.html#ab174deeeb2551ceaf715ea09f0f9c077" title=" " alt="" coords="525,1318,728,1359"/>
+<area shape="rect" id="node39" href="$classg2o_1_1_sparse_optimizer.html#ae592f525151d0cfb5bde3e7213f7ab11" title="if external stop flag is given, return its state. False otherwise" alt="" coords="545,1383,708,1425"/>
+</map>

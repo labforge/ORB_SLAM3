@@ -1,0 +1,5 @@
+<map id="ORB_SLAM3::EdgeStereo::GetJacobian" name="ORB_SLAM3::EdgeStereo::GetJacobian">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,189,47"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_edge_stereo.html#a9e26c4fe8a92b49200590eee1ea390dc" title=" " alt="" coords="237,5,421,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="469,13,664,39"/>
+</map>

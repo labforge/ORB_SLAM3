@@ -1,0 +1,4 @@
+<map id="ORB_SLAM3::VertexPose::read" name="ORB_SLAM3::VertexPose::read">
+<area shape="rect" id="node1" title="read the vertex from a stream, i.e., the internal state of the vertex" alt="" coords="5,5,189,47"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#ab5972c8ba6834c4dcb8a2319e9bf3070" title=" " alt="" coords="237,5,409,47"/>
+</map>

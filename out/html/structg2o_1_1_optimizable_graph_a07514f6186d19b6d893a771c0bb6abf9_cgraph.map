@@ -1,0 +1,5 @@
+<map id="g2o::OptimizableGraph::setFixed" name="g2o::OptimizableGraph::setFixed">
+<area shape="rect" id="node1" title="fixes/releases a set of vertices" alt="" coords="5,5,177,47"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#af92ef49e1bcd6a8166afa151d367b905" title="true =&gt; this node should be considered fixed during the optimization" alt="" coords="225,5,397,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a97294e6a1a573a44fe82ba36fc52c619" title="true =&gt; this node is fixed during the optimization" alt="" coords="445,5,617,47"/>
+</map>

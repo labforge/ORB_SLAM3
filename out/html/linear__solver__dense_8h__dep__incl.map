@@ -1,0 +1,10 @@
+<map id="Thirdparty/g2o/g2o/solvers/linear_solver_dense.h" name="Thirdparty/g2o/g2o/solvers/linear_solver_dense.h">
+<area shape="rect" id="node1" title=" " alt="" coords="632,5,793,61"/>
+<area shape="rect" id="node2" href="$_optimizer_8h.html" title=" " alt="" coords="582,109,731,136"/>
+<area shape="rect" id="node7" href="$_optimizer_8cc.html" title=" " alt="" coords="895,199,1021,225"/>
+<area shape="rect" id="node3" href="$_stereo-_inertial_2stereo__inertial__euroc_8cc.html" title=" " alt="" coords="5,191,188,233"/>
+<area shape="rect" id="node4" href="$old_2_stereo-_inertial_2stereo__inertial__euroc_8cc.html" title=" " alt="" coords="213,184,383,240"/>
+<area shape="rect" id="node5" href="$_local_mapping_8cc.html" title=" " alt="" coords="408,199,561,225"/>
+<area shape="rect" id="node6" href="$_loop_closing_8cc.html" title=" " alt="" coords="585,199,728,225"/>
+<area shape="rect" id="node8" href="$_tracking_8cc.html" title=" " alt="" coords="752,199,871,225"/>
+</map>

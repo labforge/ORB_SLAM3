@@ -1,0 +1,4 @@
+<map id="g2o::EdgeInverseSim3ProjectXYZ::write" name="g2o::EdgeInverseSim3ProjectXYZ::write">
+<area shape="rect" id="node1" title="write the vertex to a stream" alt="" coords="5,5,217,47"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_edge.html#a405f8d52738e557a0860b52ac67a005b" title="information matrix of the constraint" alt="" coords="265,5,475,47"/>
+</map>

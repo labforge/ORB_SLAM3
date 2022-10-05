@@ -1,0 +1,7 @@
+<map id="ORB_SLAM3::Sim3Solver::ComputeSim3" name="ORB_SLAM3::Sim3Solver::ComputeSim3">
+<area shape="rect" id="node1" title=" " alt="" coords="5,64,189,105"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_sim3_solver.html#a8c0111fae2bce01720b8b6b59973243b" title=" " alt="" coords="237,5,421,47"/>
+<area shape="rect" id="node3" href="$class_sophus_1_1_s_o3.html#aac06ae003e3c72dd0e0004f589d02c1b" title=" " alt="" coords="262,71,397,98"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_converter.html#a74ce6668783e8dc430dff7cd59c812a5" title=" " alt="" coords="242,123,417,164"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_s_e3_quat.html#a88de9de9db852e2a0414bcd2afdc0fda" title=" " alt="" coords="469,123,699,164"/>
+</map>

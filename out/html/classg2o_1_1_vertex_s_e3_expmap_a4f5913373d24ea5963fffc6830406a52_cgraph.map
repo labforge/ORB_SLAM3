@@ -1,0 +1,6 @@
+<map id="g2o::VertexSE3Expmap::read" name="g2o::VertexSE3Expmap::read">
+<area shape="rect" id="node1" title="read the vertex from a stream, i.e., the internal state of the vertex" alt="" coords="5,49,180,90"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_s_e3_quat.html#a59aa7dffe9320761ee65bcdfa2bc61fd" title=" " alt="" coords="228,5,419,32"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_s_e3_quat.html#a894d361da0f27b25472b3a274deefed3" title=" " alt="" coords="241,56,406,83"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_base_vertex.html#acb6e8e8f39caa04f62dd93a3dd400e06" title="set the estimate for the vertex also calls updateCache()" alt="" coords="232,107,415,149"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="Thirdparty/Sophus/test/ceres/local_parameterization_se3.hpp" name="Thirdparty/Sophus/test/ceres/local_parameterization_se3.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="432,5,647,61"/>
+<area shape="rect" id="node2" title=" " alt="" coords="329,109,552,136"/>
+<area shape="rect" id="node3" href="$se3_8hpp.html" title=" " alt="" coords="577,109,699,136"/>
+<area shape="rect" id="node4" href="$so3_8hpp.html" title=" " alt="" coords="601,184,675,211"/>
+<area shape="rect" id="node5" href="$rotation__matrix_8hpp.html" title=" " alt="" coords="85,348,236,375"/>
+<area shape="rect" id="node8" href="$types_8hpp.html" title=" " alt="" coords="488,423,575,449"/>
+<area shape="rect" id="node18" href="$so2_8hpp.html" title=" " alt="" coords="365,266,439,293"/>
+<area shape="rect" id="node21" title=" " alt="" coords="620,259,771,300"/>
+<area shape="rect" id="node22" title=" " alt="" coords="795,259,945,300"/>
+<area shape="rect" id="node23" title=" " alt="" coords="969,259,1120,300"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,423,108,449"/>
+<area shape="rect" id="node7" title=" " alt="" coords="132,423,221,449"/>
+<area shape="rect" id="node9" title=" " alt="" coords="228,572,320,599"/>
+<area shape="rect" id="node10" href="$common_8hpp.html" title=" " alt="" coords="487,497,594,524"/>
+<area shape="rect" id="node11" title=" " alt="" coords="344,572,407,599"/>
+<area shape="rect" id="node12" title=" " alt="" coords="431,572,493,599"/>
+<area shape="rect" id="node13" title=" " alt="" coords="517,572,583,599"/>
+<area shape="rect" id="node14" title=" " alt="" coords="607,572,679,599"/>
+<area shape="rect" id="node15" title=" " alt="" coords="704,572,796,599"/>
+<area shape="rect" id="node16" href="$formatstring_8hpp.html" title=" " alt="" coords="821,572,951,599"/>
+<area shape="rect" id="node17" title=" " alt="" coords="846,647,926,673"/>
+<area shape="rect" id="node19" title=" " alt="" coords="312,348,391,375"/>
+<area shape="rect" id="node20" title=" " alt="" coords="415,348,493,375"/>
+</map>

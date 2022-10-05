@@ -1,0 +1,5 @@
+<map id="ORB_SLAM3::EdgePriorPoseImu::computeError" name="ORB_SLAM3::EdgePriorPoseImu::computeError">
+<area shape="rect" id="node1" title=" " alt="" coords="5,23,208,65"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_vertex.html#afea20bbcf50eb2a7d9d598b3eae49172" title="return the current estimate of the vertex" alt="" coords="256,5,451,32"/>
+<area shape="rect" id="node3" href="$namespace_o_r_b___s_l_a_m3.html#a1bbc473ecb70c749f353a25bebaa7dd2" title=" " alt="" coords="274,56,433,83"/>
+</map>

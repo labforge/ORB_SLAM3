@@ -1,0 +1,5 @@
+<map id="ORB_SLAM3::IMU::Preintegrated::IntegrateNewMeasurement" name="ORB_SLAM3::IMU::Preintegrated::IntegrateNewMeasurement">
+<area shape="rect" id="node1" title=" " alt="" coords="5,27,237,69"/>
+<area shape="rect" id="node2" href="$class_sophus_1_1_s_o3.html#a2b962b17c1c1454ab50d39671740ab87" title=" " alt="" coords="325,5,457,32"/>
+<area shape="rect" id="node3" href="$namespace_o_r_b___s_l_a_m3_1_1_i_m_u.html#ad31994cb4537edc3a9b6d684e6579d5f" title=" " alt="" coords="285,57,496,98"/>
+</map>

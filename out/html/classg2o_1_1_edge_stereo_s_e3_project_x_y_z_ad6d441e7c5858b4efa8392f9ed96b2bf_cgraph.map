@@ -1,0 +1,5 @@
+<map id="g2o::EdgeStereoSE3ProjectXYZ::write" name="g2o::EdgeStereoSE3ProjectXYZ::write">
+<area shape="rect" id="node1" title="write the vertex to a stream" alt="" coords="5,39,203,80"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_base_edge.html#a405f8d52738e557a0860b52ac67a005b" title="information matrix of the constraint" alt="" coords="251,5,460,47"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_base_edge.html#a8e890d43f491afdd035713ff176ddd5c" title="accessor functions for the measurement represented by the edge" alt="" coords="251,71,460,112"/>
+</map>

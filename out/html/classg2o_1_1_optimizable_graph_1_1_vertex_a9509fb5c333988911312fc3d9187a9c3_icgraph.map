@@ -1,0 +1,4 @@
+<map id="g2o::OptimizableGraph::Vertex::discardTop" name="g2o::OptimizableGraph::Vertex::discardTop">
+<area shape="rect" id="node1" title="pop the last element from the stack, without restoring the current estimate" alt="" coords="225,5,397,47"/>
+<area shape="rect" id="node2" href="$structg2o_1_1_optimizable_graph.html#a368b5f22dbc57abd2f651a20d039f61c" title="discard the last backup of the estimate for all variables by removing it from the stack" alt="" coords="5,5,177,47"/>
+</map>

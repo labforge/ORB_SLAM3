@@ -1,0 +1,15 @@
+<map id="g2o::OptimizableGraph::save" name="g2o::OptimizableGraph::save">
+<area shape="rect" id="node1" title="save the graph to a stream. Again uses the Factory system." alt="" coords="5,90,177,131"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_hyper_graph.html#a4edfd2ef4bf235cf78031c505cfd2fcc" title=" " alt="" coords="229,5,407,32"/>
+<area shape="rect" id="node3" href="$structg2o_1_1_optimizable_graph.html#a3852abe611f2fd90a0a05979987615a2" title=" " alt="" coords="232,122,404,163"/>
+<area shape="rect" id="node7" href="$structg2o_1_1_optimizable_graph.html#a221656c91e253b4246553a33e33c3e6b" title=" " alt="" coords="232,202,404,243"/>
+<area shape="rect" id="node13" href="$classg2o_1_1_parameter_container.html#a15c92fab12ad8f3bd51b3f555e95b00e" title="write the data to a stream" alt="" coords="225,57,411,98"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_hyper_graph_1_1_vertex.html#a48191960395856d1b686287489e53da3" title="returns the id" alt="" coords="459,151,661,177"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_factory.html#a8a1f33e017c5ad59399cef48972578ae" title="return the instance" alt="" coords="478,49,642,76"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_factory.html#ae6b0fb89dc45ea1e506401d349c869f0" title="return the TAG given a vertex" alt="" coords="495,100,625,127"/>
+<area shape="rect" id="node8" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a97294e6a1a573a44fe82ba36fc52c619" title="true =&gt; this node is fixed during the optimization" alt="" coords="474,463,646,505"/>
+<area shape="rect" id="node9" href="$classg2o_1_1_optimizable_graph_1_1_data.html#a1e36ab8bfbbd4df1639338330bbaaf3c" title=" " alt="" coords="474,202,646,243"/>
+<area shape="rect" id="node10" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a506c9664e88d886ba612d3ea95b6c76b" title="the user data associated with this vertex" alt="" coords="474,267,646,309"/>
+<area shape="rect" id="node11" href="$classg2o_1_1_optimizable_graph_1_1_data.html#ad80cd8ea8013c54c766684ec0ef3daa3" title="write the data to a stream" alt="" coords="474,333,646,374"/>
+<area shape="rect" id="node12" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a4cac277db656fddb5f844d9009d601eb" title="write the vertex to a stream" alt="" coords="474,398,646,439"/>
+</map>

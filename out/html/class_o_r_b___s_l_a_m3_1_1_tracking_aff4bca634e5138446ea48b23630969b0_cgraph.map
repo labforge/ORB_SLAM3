@@ -1,0 +1,20 @@
+<map id="ORB_SLAM3::Tracking::UpdateFrameIMU" name="ORB_SLAM3::Tracking::UpdateFrameIMU">
+<area shape="rect" id="node1" title=" " alt="" coords="5,391,171,432"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#aff46312dd7c372f7eab953d00169d135" title=" " alt="" coords="273,5,447,47"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a07878596dfde17ce9a72de7d1fba6595" title=" " alt="" coords="273,71,447,112"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#aa58317abc58d81c8bc56fade6aabafd3" title=" " alt="" coords="273,136,447,177"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a22316350535432b8331b42eddfe5b566" title=" " alt="" coords="273,201,447,243"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_preintegrated.html#a91fb11b238db12365cac947f0ac85282" title=" " alt="" coords="244,267,476,308"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_preintegrated.html#a78477b5d6780ed8a6167de4c77d3959e" title=" " alt="" coords="244,332,476,373"/>
+<area shape="rect" id="node9" href="$namespace_o_r_b___s_l_a_m3_1_1_i_m_u.html#ad31994cb4537edc3a9b6d684e6579d5f" title=" " alt="" coords="560,391,771,432"/>
+<area shape="rect" id="node10" href="$class_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_preintegrated.html#ad419b220099a2693cfe0d9c2f29e8d4a" title=" " alt="" coords="244,449,476,491"/>
+<area shape="rect" id="node11" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a549ffa81c5a0d3698177b65444d99941" title=" " alt="" coords="273,515,447,556"/>
+<area shape="rect" id="node12" href="$class_o_r_b___s_l_a_m3_1_1_frame.html#a88b52aeac9a68fc85fefc12b83e1c421" title=" " alt="" coords="219,581,501,607"/>
+<area shape="rect" id="node13" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a9e801be900d973e29f54d642507ea314" title=" " alt="" coords="273,632,447,673"/>
+<area shape="rect" id="node14" href="$class_o_r_b___s_l_a_m3_1_1_frame.html#a8ee159afb5a972e95a040bc17d4951e7" title=" " alt="" coords="257,697,463,739"/>
+<area shape="rect" id="node17" href="$class_o_r_b___s_l_a_m3_1_1_frame.html#a30ca319bd73ccd20cae516d7ee88d006" title=" " alt="" coords="241,765,479,791"/>
+<area shape="rect" id="node8" href="$class_sophus_1_1_s_o3.html#aac06ae003e3c72dd0e0004f589d02c1b" title=" " alt="" coords="598,339,733,366"/>
+<area shape="rect" id="node15" href="$class_o_r_b___s_l_a_m3_1_1_frame.html#ae7e885d2c50fe6c0181e3fcb33319e9b" title=" " alt="" coords="562,695,769,736"/>
+<area shape="rect" id="node16" href="$class_sophus_1_1_s_e3.html#a8125109180338d0d2c4fe74a11074d59" title=" " alt="" coords="829,702,1008,729"/>
+<area shape="rect" id="node18" href="$class_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_preintegrated.html#a4bd1174058a2d063ad67cc9449690f1c" title=" " alt="" coords="549,760,781,801"/>
+</map>

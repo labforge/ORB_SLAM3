@@ -1,0 +1,5 @@
+<map id="g2o::ParameterContainer::write" name="g2o::ParameterContainer::write">
+<area shape="rect" id="node1" title="write the data to a stream" alt="" coords="5,23,191,65"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_factory.html#a8a1f33e017c5ad59399cef48972578ae" title="return the instance" alt="" coords="239,5,403,32"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_factory.html#ae6b0fb89dc45ea1e506401d349c869f0" title="return the TAG given a vertex" alt="" coords="255,56,386,83"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="ORB_SLAM3::Tracking::PreintegrateIMU" name="ORB_SLAM3::Tracking::PreintegrateIMU">
+<area shape="rect" id="node1" title=" " alt="" coords="5,93,171,134"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_preintegrated.html#aec6bf89fd4dca650044bad524fb20bf4" title=" " alt="" coords="226,27,458,69"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_verbose.html#a2e1cd79eff78762b1d39ce310673e6de" title=" " alt="" coords="261,93,423,134"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_frame.html#aa14ccb669995610e05fe035d40b15d4c" title=" " alt="" coords="219,159,465,185"/>
+<area shape="rect" id="node3" href="$class_sophus_1_1_s_o3.html#a2b962b17c1c1454ab50d39671740ab87" title=" " alt="" coords="553,5,685,32"/>
+<area shape="rect" id="node4" href="$namespace_o_r_b___s_l_a_m3_1_1_i_m_u.html#ad31994cb4537edc3a9b6d684e6579d5f" title=" " alt="" coords="513,57,724,98"/>
+</map>
