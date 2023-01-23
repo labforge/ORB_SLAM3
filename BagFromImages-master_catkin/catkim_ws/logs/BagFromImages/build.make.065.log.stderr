@@ -1,0 +1,19 @@
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:[m[K In function ‘[01m[Kvoid descriptorToROS(const cv::Mat&, BagFromImages::Descriptor&, bool)[m[K’:
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:114:21:[m[K [01;31m[Kerror: [m[K‘[01m[KBagFromImages::Descriptor[m[K’ {aka ‘[01m[Kstruct BagFromImages::Descriptor_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+  114 |             dataMsg.[01;31m[Kdata[m[K = compressData(data);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:116:27:[m[K [01;31m[Kerror: [m[K‘[01m[KBagFromImages::Descriptor[m[K’ {aka ‘[01m[Kstruct BagFromImages::Descriptor_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+  116 |    dataMsg.cols = dataMsg.[01;31m[Kdata[m[K.size();
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:121:12:[m[K [01;31m[Kerror: [m[K‘[01m[KBagFromImages::Descriptor[m[K’ {aka ‘[01m[Kstruct BagFromImages::Descriptor_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+  121 |    dataMsg.[01;31m[Kdata[m[K.resize(data.step[0] * data.rows); // use step for non-contiguous matrices
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:122:19:[m[K [01;31m[Kerror: [m[K‘[01m[KBagFromImages::Descriptor[m[K’ {aka ‘[01m[Kstruct BagFromImages::Descriptor_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+  122 |    memcpy(dataMsg.[01;31m[Kdata[m[K.data(), data.data, dataMsg.data.size());
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:122:51:[m[K [01;31m[Kerror: [m[K‘[01m[KBagFromImages::Descriptor[m[K’ {aka ‘[01m[Kstruct BagFromImages::Descriptor_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+  122 |    memcpy(dataMsg.data.data(), data.data, dataMsg.[01;31m[Kdata[m[K.size());
+      |                                                   [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/main.dir/build.make:66: CMakeFiles/main.dir/main.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1775: CMakeFiles/main.dir/all] Error 2
+make: *** [Makefile:144: all] Error 2

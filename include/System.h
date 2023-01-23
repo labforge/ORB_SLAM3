@@ -109,6 +109,10 @@ public:
     // Returns the camera pose (empty if tracking fails).
     Sophus::SE3f TrackStereo(const cv::Mat &imLeft, const cv::Mat &imRight, const double &timestamp, const vector<IMU::Point>& vImuMeas = vector<IMU::Point>(), string filename="");
 
+    Sophus::SE3f TrackStereo(const cv::Mat &imLeft, const vector<cv::KeyPoint> &imLeftKeypts, const cv::OutputArray imLeftDescs, 
+                            const cv::Mat &imRight, const vector<cv::KeyPoint> &imRightKeypts, const cv::OutputArray imRightDescs, 
+                            const double &timestamp, const vector<IMU::Point>& vImuMeas = vector<IMU::Point>(), string filename="");
+
     // Process the given rgbd frame. Depthmap must be registered to the RGB frame.
     // Input image: RGB (CV_8UC3) or grayscale (CV_8U). RGB is converted to grayscale.
     // Input depthmap: Float (CV_32F).

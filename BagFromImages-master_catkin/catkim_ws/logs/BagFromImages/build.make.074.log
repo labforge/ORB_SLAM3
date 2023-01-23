@@ -1,0 +1,266 @@
+/usr/bin/cmake -S/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master -B/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/FileFunctions.dir/build.make CMakeFiles/FileFunctions.dir/depend
+/usr/bin/make -f CMakeFiles/_BagFromImages_generate_messages_check_deps_KeyPoints.dir/build.make CMakeFiles/_BagFromImages_generate_messages_check_deps_KeyPoints.dir/depend
+/usr/bin/make -f CMakeFiles/_BagFromImages_generate_messages_check_deps_Descriptor.dir/build.make CMakeFiles/_BagFromImages_generate_messages_check_deps_Descriptor.dir/depend
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/depend
+/usr/bin/make -f CMakeFiles/_BagFromImages_generate_messages_check_deps_GlobalDescriptor.dir/build.make CMakeFiles/_BagFromImages_generate_messages_check_deps_GlobalDescriptor.dir/depend
+/usr/bin/make -f CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
+/usr/bin/make -f CMakeFiles/_BagFromImages_generate_messages_check_deps_KeyPoint.dir/build.make CMakeFiles/_BagFromImages_generate_messages_check_deps_KeyPoint.dir/depend
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/_BagFromImages_generate_messages_check_deps_KeyPoints.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/_BagFromImages_generate_messages_check_deps_Descriptor.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/_BagFromImages_generate_messages_check_deps_GlobalDescriptor.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/_BagFromImages_generate_messages_check_deps_KeyPoint.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/FileFunctions.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/build
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/FileFunctions.dir/build.make CMakeFiles/FileFunctions.dir/build
+/usr/bin/make -f CMakeFiles/_BagFromImages_generate_messages_check_deps_KeyPoints.dir/build.make CMakeFiles/_BagFromImages_generate_messages_check_deps_KeyPoints.dir/build
+/usr/bin/make -f CMakeFiles/_BagFromImages_generate_messages_check_deps_Descriptor.dir/build.make CMakeFiles/_BagFromImages_generate_messages_check_deps_Descriptor.dir/build
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/sensor_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/msg/KeyPoints.msg BagFromImages/Point2f:std_msgs/Header:BagFromImages/KeyPoint
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+/usr/bin/make -f CMakeFiles/_BagFromImages_generate_messages_check_deps_GlobalDescriptor.dir/build.make CMakeFiles/_BagFromImages_generate_messages_check_deps_GlobalDescriptor.dir/build
+/usr/bin/make -f CMakeFiles/_BagFromImages_generate_messages_check_deps_KeyPoint.dir/build.make CMakeFiles/_BagFromImages_generate_messages_check_deps_KeyPoint.dir/build
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/geometry_msgs_generate_messages_py.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/msg/Descriptor.msg std_msgs/Header
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/msg/GlobalDescriptor.msg std_msgs/Header
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/msg/KeyPoint.msg BagFromImages/Point2f
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/FileFunctions.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+/usr/bin/make -f CMakeFiles/_BagFromImages_generate_messages_check_deps_Point2f.dir/build.make CMakeFiles/_BagFromImages_generate_messages_check_deps_Point2f.dir/depend
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
+/usr/bin/make -f CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/_BagFromImages_generate_messages_check_deps_Point2f.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+[  6%] Built target FileFunctions
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/_BagFromImages_generate_messages_check_deps_Point2f.dir/build.make CMakeFiles/_BagFromImages_generate_messages_check_deps_Point2f.dir/build
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/msg/Point2f.msg 
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+[  6%] Built target sensor_msgs_generate_messages_cpp
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+[  6%] Built target std_msgs_generate_messages_cpp
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+[  6%] Built target _BagFromImages_generate_messages_check_deps_KeyPoints
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+[  6%] Built target _BagFromImages_generate_messages_check_deps_KeyPoint
+[  6%] Built target geometry_msgs_generate_messages_cpp
+[  6%] Built target _BagFromImages_generate_messages_check_deps_Descriptor
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_lisp.dir/build'.
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/depend
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
+/usr/bin/make -f CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=
+make[2]: Nothing to be done for 'CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+[  6%] Built target _BagFromImages_generate_messages_check_deps_GlobalDescriptor
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=
+[  6%] Built target std_msgs_generate_messages_lisp
+/usr/bin/make -f CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/build
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+/usr/bin/make -f CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+[  6%] Built target sensor_msgs_generate_messages_lisp
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_eus.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/geometry_msgs_generate_messages_eus.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/sensor_msgs_generate_messages_eus.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
+[  6%] Built target geometry_msgs_generate_messages_lisp
+/usr/bin/make -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/main.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/std_msgs_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+[  6%] Built target std_msgs_generate_messages_eus
+[  6%] Built target _BagFromImages_generate_messages_check_deps_Point2f
+/usr/bin/make -f CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+[  6%] Built target geometry_msgs_generate_messages_eus
+[  6%] Built target sensor_msgs_generate_messages_eus
+/usr/bin/make -f CMakeFiles/BagFromImages_generate_messages_py.dir/build.make CMakeFiles/BagFromImages_generate_messages_py.dir/depend
+/usr/bin/make -f CMakeFiles/BagFromImages_generate_messages_cpp.dir/build.make CMakeFiles/BagFromImages_generate_messages_cpp.dir/depend
+/usr/bin/make -f CMakeFiles/BagFromImages_generate_messages_lisp.dir/build.make CMakeFiles/BagFromImages_generate_messages_lisp.dir/depend
+/usr/bin/make -f CMakeFiles/BagFromImages_generate_messages_eus.dir/build.make CMakeFiles/BagFromImages_generate_messages_eus.dir/depend
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/BagFromImages_generate_messages_py.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/BagFromImages_generate_messages_cpp.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/BagFromImages_generate_messages_lisp.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/BagFromImages_generate_messages_eus.dir/DependInfo.cmake --color=
+[  6%] Built target std_msgs_generate_messages_nodejs
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+[35m[1mScanning dependencies of target main[0m
+[  6%] Built target sensor_msgs_generate_messages_nodejs
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/BagFromImages_generate_messages_cpp.dir/build.make CMakeFiles/BagFromImages_generate_messages_cpp.dir/build
+/usr/bin/make -f CMakeFiles/BagFromImages_generate_messages_eus.dir/build.make CMakeFiles/BagFromImages_generate_messages_eus.dir/build
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/BagFromImages_generate_messages_py.dir/build.make CMakeFiles/BagFromImages_generate_messages_py.dir/build
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/BagFromImages_generate_messages_lisp.dir/build.make CMakeFiles/BagFromImages_generate_messages_lisp.dir/build
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/BagFromImages_generate_messages_eus.dir/build'.
+make[2]: Nothing to be done for 'CMakeFiles/BagFromImages_generate_messages_cpp.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/BagFromImages_generate_messages_py.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/BagFromImages_generate_messages_lisp.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+[  6%] Built target geometry_msgs_generate_messages_nodejs
+/usr/bin/make -f CMakeFiles/BagFromImages_generate_messages_nodejs.dir/build.make CMakeFiles/BagFromImages_generate_messages_nodejs.dir/depend
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/BagFromImages_generate_messages_nodejs.dir/DependInfo.cmake --color=
+[ 25%] Built target BagFromImages_generate_messages_py
+[ 45%] Built target BagFromImages_generate_messages_eus
+[ 61%] Built target BagFromImages_generate_messages_cpp
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+[ 77%] Built target BagFromImages_generate_messages_lisp
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/BagFromImages_generate_messages_nodejs.dir/build.make CMakeFiles/BagFromImages_generate_messages_nodejs.dir/build
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/BagFromImages_generate_messages_nodejs.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+[ 80%] [32mBuilding CXX object CMakeFiles/main.dir/main.cc.o[0m
+/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"BagFromImages\" -I/home/emslab/BagFromImages-master_catkin/catkim_ws/devel/.private/BagFromImages/include -I/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/ThirdParty/DLib -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4 -isystem /usr/local/include/opencv4  -Wall -W -Wno-unused-parameter   -std=gnu++11 -o CMakeFiles/main.dir/main.cc.o -c /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc
+[ 96%] Built target BagFromImages_generate_messages_nodejs
+/usr/bin/make -f CMakeFiles/BagFromImages_generate_messages.dir/build.make CMakeFiles/BagFromImages_generate_messages.dir/depend
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+cd /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages /home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages/CMakeFiles/BagFromImages_generate_messages.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+/usr/bin/make -f CMakeFiles/BagFromImages_generate_messages.dir/build.make CMakeFiles/BagFromImages_generate_messages.dir/build
+make[2]: Entering directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[2]: Nothing to be done for 'CMakeFiles/BagFromImages_generate_messages.dir/build'.
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+[ 96%] Built target BagFromImages_generate_messages
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:272:25:[m[K [01;31m[Kerror: [m[K‘[01m[KimrightDescs[m[K’ was not declared in this scope; did you mean ‘[01m[KimRightDescs[m[K’?
+  272 |         descriptorToROS([01;31m[KimrightDescs[m[K, right_descs_to_bag, false);
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+      |                         [32m[KimRightDescs[m[K
+make[2]: *** [CMakeFiles/main.dir/build.make:66: CMakeFiles/main.dir/main.cc.o] Error 1
+make[2]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make[1]: *** [CMakeFiles/Makefile2:1775: CMakeFiles/main.dir/all] Error 2
+make[1]: Leaving directory '/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages'
+make: *** [Makefile:144: all] Error 2

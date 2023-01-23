@@ -1,0 +1,43 @@
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:59:59:[m[K [01;31m[Kerror: [m[K‘[01m[KBagFromImages::Descriptor[m[K’ has not been declared
+   59 | void descriptorToROS(const cv::Mat & data, BagFromImages::[01;31m[KDescriptor[m[K & dataMsg, bool compress)
+      |                                                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:[m[K In function ‘[01m[Kvoid descriptorToROS(const cv::Mat&, int&, bool)[m[K’:
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:65:12:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdata[m[K’ in ‘[01m[KdataMsg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   65 |    dataMsg.[01;31m[Kdata[m[K = BagFromImages::compressData(data);
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:65:34:[m[K [01;31m[Kerror: [m[K‘[01m[KcompressData[m[K’ is not a member of ‘[01m[KBagFromImages[m[K’
+   65 |    dataMsg.data = BagFromImages::[01;31m[KcompressData[m[K(data);
+      |                                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:66:12:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Krows[m[K’ in ‘[01m[KdataMsg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   66 |    dataMsg.[01;31m[Krows[m[K = 1;
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:67:12:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcols[m[K’ in ‘[01m[KdataMsg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   67 |    dataMsg.[01;31m[Kcols[m[K = dataMsg.data.size();
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:67:27:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdata[m[K’ in ‘[01m[KdataMsg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   67 |    dataMsg.cols = dataMsg.[01;31m[Kdata[m[K.size();
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:68:12:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ktype[m[K’ in ‘[01m[KdataMsg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   68 |    dataMsg.[01;31m[Ktype[m[K = CV_8UC1;
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:72:12:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdata[m[K’ in ‘[01m[KdataMsg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   72 |    dataMsg.[01;31m[Kdata[m[K.resize(data.step[0] * data.rows); // use step for non-contiguous matrices
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:73:19:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdata[m[K’ in ‘[01m[KdataMsg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   73 |    memcpy(dataMsg.[01;31m[Kdata[m[K.data(), data.data, dataMsg.data.size());
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:73:51:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kdata[m[K’ in ‘[01m[KdataMsg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   73 |    memcpy(dataMsg.data.data(), data.data, dataMsg.[01;31m[Kdata[m[K.size());
+      |                                                   [01;31m[K^~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:74:12:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Krows[m[K’ in ‘[01m[KdataMsg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   74 |    dataMsg.[01;31m[Krows[m[K = data.rows;
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:75:12:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kcols[m[K’ in ‘[01m[KdataMsg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   75 |    dataMsg.[01;31m[Kcols[m[K = data.cols;
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:76:12:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ktype[m[K’ in ‘[01m[KdataMsg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   76 |    dataMsg.[01;31m[Ktype[m[K = data.type();
+      |            [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/main.dir/build.make:66: CMakeFiles/main.dir/main.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1742: CMakeFiles/main.dir/all] Error 2
+make: *** [Makefile:144: all] Error 2

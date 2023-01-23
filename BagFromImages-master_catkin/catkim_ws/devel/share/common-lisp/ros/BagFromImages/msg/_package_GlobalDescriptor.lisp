@@ -1,0 +1,1 @@
+/home/emslab/BagFromImages-master_catkin/catkim_ws/devel/.private/BagFromImages/share/common-lisp/ros/BagFromImages/msg/_package_GlobalDescriptor.lisp

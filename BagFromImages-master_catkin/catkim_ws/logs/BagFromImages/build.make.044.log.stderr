@@ -1,0 +1,10 @@
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:[m[K In function ‘[01m[Kvoid descriptorToROS(const cv::Mat&, BagFromImages::Descriptor&, bool)[m[K’:
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:99:34:[m[K [01;31m[Kerror: [m[K‘[01m[KcompressData[m[K’ is not a member of ‘[01m[KBagFromImages[m[K’; did you mean ‘[01m[KcompressData[m[K’?
+   99 |    dataMsg.data = BagFromImages::[01;31m[KcompressData[m[K(data);
+      |                                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:62:28:[m[K [01;36m[Knote: [m[K‘[01m[KcompressData[m[K’ declared here
+   62 | std::vector<unsigned char> [01;36m[KcompressData[m[K(const cv::Mat & data)
+      |                            [01;36m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/main.dir/build.make:66: CMakeFiles/main.dir/main.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1742: CMakeFiles/main.dir/all] Error 2
+make: *** [Makefile:144: all] Error 2

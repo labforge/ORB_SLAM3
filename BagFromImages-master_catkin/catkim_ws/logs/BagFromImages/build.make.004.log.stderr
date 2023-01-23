@@ -1,0 +1,6 @@
+WARNING: Package name "BagFromImages" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "BagFromImages" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "BagFromImages" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "BagFromImages" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+WARNING: Package name "BagFromImages" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+/usr/bin/ld: warning: libopencv_core.so.4.4, needed by /usr/local/lib/libopencv_imgcodecs.so.4.4.0, may conflict with libopencv_core.so.4.2

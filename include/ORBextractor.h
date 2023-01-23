@@ -58,6 +58,10 @@ public:
                     std::vector<cv::KeyPoint>& _keypoints,
                     cv::OutputArray _descriptors, std::vector<int> &vLappingArea);
 
+    int operator()( cv::InputArray _image, cv::InputArray _mask,
+                    std::vector<cv::KeyPoint>& _keypoints, std::vector<cv::KeyPoint>& _keypoints_r,
+                    cv::OutputArray _descriptors, cv::OutputArray _descriptors_r, std::vector<int> &vLappingArea);
+                    
     int inline GetLevels(){
         return nlevels;}
 
@@ -81,7 +85,11 @@ public:
     }
 
     std::vector<cv::Mat> mvImagePyramid;
+    //std::vector<cv::Mat> mvImage;
+    cv::Mat mvImage;
 
+    cv::Ptr<cv::ORB> orb;
+    cv::Ptr<cv::AKAZE> akaze;
 protected:
 
     void ComputePyramid(cv::Mat image);

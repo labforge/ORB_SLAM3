@@ -116,3 +116,12 @@ src/ros_stereo_inertial.cc
 target_link_libraries(Stereo_Inertial
 ${LIBS}
 )
+
+# Node for stereo_2 camera
+rosbuild_add_executable(Stereo_2
+src/ros_stereo_2.cc
+)
+
+target_link_libraries(Stereo_2
+${LIBS}
+)

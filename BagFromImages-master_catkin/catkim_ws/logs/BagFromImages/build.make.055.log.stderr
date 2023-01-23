@@ -1,0 +1,7 @@
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:228:73:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KBagFromImages::Descriptor[m[K’ {aka ‘[01m[KBagFromImages::Descriptor_<std::allocator<void> >[m[K’} and ‘[01m[Kint[m[K’)
+  228 |         bag_out.write("/cam0/descriptors",ros::Time(t),left_descs_to_bag[01;31m[K[[m[K0]); //Must change to full list
+      |                                                                         [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/main.dir/build.make:66: CMakeFiles/main.dir/main.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1742: CMakeFiles/main.dir/all] Error 2
+make: *** [Makefile:144: all] Error 2

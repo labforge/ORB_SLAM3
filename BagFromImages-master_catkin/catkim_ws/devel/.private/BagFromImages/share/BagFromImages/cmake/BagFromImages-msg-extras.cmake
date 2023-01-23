@@ -1,0 +1,2 @@
+set(BagFromImages_MESSAGE_FILES "/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/msg/Point2f.msg;/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/msg/KeyPoint.msg;/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/msg/KeyPoints.msg;/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/msg/GlobalDescriptor.msg;/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/msg/Descriptor.msg")
+set(BagFromImages_SERVICE_FILES "")

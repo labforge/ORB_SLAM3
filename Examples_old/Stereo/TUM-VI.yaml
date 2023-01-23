@@ -68,6 +68,8 @@ ThDepth: 40.0
 
 Camera.bf: 19.3079
 
+DepthMapFactor: 1.0
+
 #--------------------------------------------------------------------------------------------
 # ORB Parameters
 #--------------------------------------------------------------------------------------------
@@ -93,12 +95,12 @@ ORBextractor.minThFAST: 7
 # Viewer Parameters
 #--------------------------------------------------------------------------------------------
 Viewer.KeyFrameSize: 0.05
-Viewer.KeyFrameLineWidth: 1
-Viewer.GraphLineWidth: 1
-Viewer.PointSize:2
+Viewer.KeyFrameLineWidth: 1.0
+Viewer.GraphLineWidth: 1.0
+Viewer.PointSize: 2.0
 Viewer.CameraSize: 0.05
-Viewer.CameraLineWidth: 2
-Viewer.ViewpointX: 0
-Viewer.ViewpointY: -10
+Viewer.CameraLineWidth: 2.0
+Viewer.ViewpointX: 0.0
+Viewer.ViewpointY: -10.0
 Viewer.ViewpointZ: -0.1
-Viewer.ViewpointF: 2000
+Viewer.ViewpointF: 2000.0

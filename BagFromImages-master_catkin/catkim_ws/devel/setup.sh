@@ -1,0 +1,1 @@
+/home/emslab/BagFromImages-master_catkin/catkim_ws/devel/.private/catkin_tools_prebuild/setup.sh

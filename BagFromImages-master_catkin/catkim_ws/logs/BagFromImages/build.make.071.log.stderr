@@ -1,0 +1,10 @@
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:235:38:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[KBagFromImages::KeyPoints&[m[K’ {aka ‘[01m[KBagFromImages::KeyPoints_<std::allocator<void> >&[m[K’} from an rvalue of type ‘[01m[KBagFromImages::KeyPoints*[m[K’ {aka ‘[01m[KBagFromImages::KeyPoints_<std::allocator<void> >*[m[K’}
+  235 |         keypointsToROS(imLeftKeypts, [01;31m[K&left_kpts_to_bag[m[K);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:75:88:[m[K [01;36m[Knote: [m[Kin passing argument 2 of ‘[01m[Kvoid keypointsToROS(const std::vector<cv::KeyPoint>&, BagFromImages::KeyPoints&)[m[K’
+   75 | void keypointsToROS(const std::vector<cv::KeyPoint> & kpts, [01;36m[KBagFromImages::KeyPoints & msg[m[K)
+      |                                                             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/main.dir/build.make:66: CMakeFiles/main.dir/main.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1775: CMakeFiles/main.dir/all] Error 2
+make: *** [Makefile:144: all] Error 2

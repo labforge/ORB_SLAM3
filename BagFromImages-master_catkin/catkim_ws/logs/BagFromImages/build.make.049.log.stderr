@@ -1,0 +1,28 @@
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:117:85:[m[K [01;31m[Kerror: [m[K‘[01m[KUserData[m[K’ is not a member of ‘[01m[KBagFromImages[m[K’
+  117 | void descriptorsToROS(const std::vector<cv::Mat> & data, std::vector<BagFromImages::[01;31m[KUserData[m[K> & dataMsg)
+      |                                                                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:117:85:[m[K [01;31m[Kerror: [m[K‘[01m[KUserData[m[K’ is not a member of ‘[01m[KBagFromImages[m[K’
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:117:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  117 | void descriptorsToROS(const std::vector<cv::Mat> & data, std::vector<BagFromImages::UserData[01;31m[K>[m[K & dataMsg)
+      |                                                                                             [01;31m[K^[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:117:93:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:[m[K In function ‘[01m[Kvoid descriptorsToROS(const std::vector<cv::Mat>&, int&)[m[K’:
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:119:13:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kresize[m[K’ in ‘[01m[KdataMsg[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  119 |     dataMsg.[01;31m[Kresize[m[K(data.size());
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:120:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+  120 |  for(unsigned int i=0; i<[01;31m[Kmsg[m[K.size(); ++i)
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:122:35:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kint[unsigned int][m[K’ for array subscript
+  122 |   keypointToROS(data[i], dataMsg[i[01;31m[K][m[K);
+      |                                   [01;31m[K^[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:219:39:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kint&[m[K’ from expression of type ‘[01m[Kstd::vector<BagFromImages::Descriptor_<std::allocator<void> > >[m[K’
+  219 |         descriptorsToROS(imLeftDescs, [01;31m[Kleft_descs_to_bag[m[K); //Must change to full list
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:117:97:[m[K [01;36m[Knote: [m[Kin passing argument 2 of ‘[01m[Kvoid descriptorsToROS(const std::vector<cv::Mat>&, int&)[m[K’
+  117 | void descriptorsToROS(const std::vector<cv::Mat> & data, [01;36m[Kstd::vector<BagFromImages::UserData> & dataMsg[m[K)
+      |                                                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+make[2]: *** [CMakeFiles/main.dir/build.make:66: CMakeFiles/main.dir/main.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1742: CMakeFiles/main.dir/all] Error 2
+make: *** [Makefile:144: all] Error 2

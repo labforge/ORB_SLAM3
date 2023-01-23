@@ -82,6 +82,7 @@ src/GeometricTools.cc
 src/TwoViewReconstruction.cc
 src/Config.cc
 src/Settings.cc
+include/Log.h
 include/System.h
 include/Tracking.h
 include/LocalMapping.h
@@ -179,6 +180,10 @@ target_link_libraries(stereo_bottlenose ${PROJECT_NAME})
 add_executable(stereo_tum_vi
         Examples/Stereo/stereo_tum_vi.cc)
 target_link_libraries(stereo_tum_vi ${PROJECT_NAME})
+
+add_executable(stereo_tum_vi_acc
+        Examples/Stereo/stereo_tum_vi_acc.cc)
+target_link_libraries(stereo_tum_vi_acc ${PROJECT_NAME})
 
 if(realsense2_FOUND)
     add_executable(stereo_realsense_t265

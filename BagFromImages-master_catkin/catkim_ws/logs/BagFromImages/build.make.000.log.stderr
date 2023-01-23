@@ -1,0 +1,7 @@
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:48:43:[m[K [01;31m[Kerror: [m[K‘[01m[KCV_LOAD_IMAGE_COLOR[m[K’ was not declared in this scope
+   48 |         cv::Mat im = cv::imread(file_name,[01;31m[KCV_LOAD_IMAGE_COLOR[m[K);
+      |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/main.dir/build.make:66: CMakeFiles/main.dir/main.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:180: CMakeFiles/main.dir/all] Error 2
+make: *** [Makefile:144: all] Error 2

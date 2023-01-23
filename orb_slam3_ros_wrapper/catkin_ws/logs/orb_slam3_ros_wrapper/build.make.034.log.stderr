@@ -1,0 +1,3 @@
+/usr/bin/ld: warning: libopencv_highgui.so.4.4, needed by /home/emslab/ORB_SLAM3/lib/libORB_SLAM3.so, may conflict with libopencv_highgui.so.4.2
+/usr/bin/ld: warning: libopencv_calib3d.so.4.4, needed by /home/emslab/ORB_SLAM3/lib/libORB_SLAM3.so, may conflict with libopencv_calib3d.so.4.2
+/usr/bin/ld: warning: libopencv_core.so.4.4, needed by /home/emslab/ORB_SLAM3/lib/libORB_SLAM3.so, may conflict with libopencv_core.so.4.2

@@ -1,0 +1,1 @@
+/home/emslab/ORB_SLAM3/catkin_ws/devel/.private/orb_slam3_ros_wrapper/share/gennodejs/ros/orb_slam3_ros_wrapper/msg/Descriptor.js

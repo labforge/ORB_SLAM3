@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/emslab/BagFromImages-master_catkin/catkim_ws/devel/.private/BagFromImages/setup.sh

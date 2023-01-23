@@ -1,0 +1,2 @@
+set(orb_slam3_ros_wrapper_MESSAGE_FILES "/home/emslab/ORB_SLAM3/catkin_ws/src/orb_slam3_ros_wrapper/msg/Point2f.msg;/home/emslab/ORB_SLAM3/catkin_ws/src/orb_slam3_ros_wrapper/msg/KeyPoint.msg;/home/emslab/ORB_SLAM3/catkin_ws/src/orb_slam3_ros_wrapper/msg/KeyPoints.msg;/home/emslab/ORB_SLAM3/catkin_ws/src/orb_slam3_ros_wrapper/msg/GlobalDescriptor.msg;/home/emslab/ORB_SLAM3/catkin_ws/src/orb_slam3_ros_wrapper/msg/Descriptor.msg")
+set(orb_slam3_ros_wrapper_SERVICE_FILES "")

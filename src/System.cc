@@ -32,6 +32,9 @@
 #include <boost/archive/binary_oarchive.hpp>
 #include <boost/archive/xml_iarchive.hpp>
 #include <boost/archive/xml_oarchive.hpp>
+#include "Log.h"
+FILE *log_file;
+char* log_file_path = "./slam_log_file";
 
 namespace ORB_SLAM3
 {
@@ -43,6 +46,12 @@ System::System(const string &strVocFile, const string &strSettingsFile, const eS
     mSensor(sensor), mpViewer(static_cast<Viewer*>(NULL)), mbReset(false), mbResetActiveMap(false),
     mbActivateLocalizationMode(false), mbDeactivateLocalizationMode(false), mbShutDown(false)
 {
+    log_file = fopen(log_file_path,"w+");
+    if(NULL==log_file)
+    {
+        cout<<"ERROR"<<endl;
+    }
+    FN_ENTRY_LOG
     // Output welcome message
     cout << endl <<
     "ORB-SLAM3 Copyright (C) 2017-2020 Carlos Campos, Richard Elvira, Juan J. Gómez, José M.M. Montiel and Juan D. Tardós, University of Zaragoza." << endl <<
@@ -325,6 +334,93 @@ Sophus::SE3f System::TrackStereo(const cv::Mat &imLeft, const cv::Mat &imRight, 
     return Tcw;
 }
 
+Sophus::SE3f System::TrackStereo(const cv::Mat &imLeft, const vector<cv::KeyPoint> &imLeftKeypts, const cv::OutputArray imLeftDescs, 
+                            const cv::Mat &imRight,  const vector<cv::KeyPoint> &imRightKeypts, const cv::OutputArray imRightDescs, 
+                            const double &timestamp, const vector<IMU::Point>& vImuMeas, string filename)
+{
+    if(mSensor!=STEREO && mSensor!=IMU_STEREO)
+    {
+        cerr << "ERROR: you called TrackStereo but input sensor was not set to Stereo nor Stereo-Inertial." << endl;
+        exit(-1);
+    }
+
+    cv::Mat imLeftToFeed, imRightToFeed;
+    if(settings_ && settings_->needToRectify()){
+        cv::Mat M1l = settings_->M1l();
+        cv::Mat M2l = settings_->M2l();
+        cv::Mat M1r = settings_->M1r();
+        cv::Mat M2r = settings_->M2r();
+
+        cv::remap(imLeft, imLeftToFeed, M1l, M2l, cv::INTER_LINEAR);
+        cv::remap(imRight, imRightToFeed, M1r, M2r, cv::INTER_LINEAR);
+    }
+    else if(settings_ && settings_->needToResize()){
+        cv::resize(imLeft,imLeftToFeed,settings_->newImSize());
+        cv::resize(imRight,imRightToFeed,settings_->newImSize());
+    }
+    else{
+        imLeftToFeed = imLeft.clone();
+        imRightToFeed = imRight.clone();
+    }
+
+    // Check mode change
+    {
+        unique_lock<mutex> lock(mMutexMode);
+        if(mbActivateLocalizationMode)
+        {
+            mpLocalMapper->RequestStop();
+
+            // Wait until Local Mapping has effectively stopped
+            while(!mpLocalMapper->isStopped())
+            {
+                usleep(1000);
+            }
+
+            mpTracker->InformOnlyTracking(true);
+            mbActivateLocalizationMode = false;
+        }
+        if(mbDeactivateLocalizationMode)
+        {
+            mpTracker->InformOnlyTracking(false);
+            mpLocalMapper->Release();
+            mbDeactivateLocalizationMode = false;
+        }
+    }
+
+    // Check reset
+    {
+        unique_lock<mutex> lock(mMutexReset);
+        if(mbReset)
+        {
+            mpTracker->Reset();
+            mbReset = false;
+            mbResetActiveMap = false;
+        }
+        else if(mbResetActiveMap)
+        {
+            mpTracker->ResetActiveMap();
+            mbResetActiveMap = false;
+        }
+    }
+
+    if (mSensor == System::IMU_STEREO)
+        for(size_t i_imu = 0; i_imu < vImuMeas.size(); i_imu++)
+            mpTracker->GrabImuData(vImuMeas[i_imu]);
+
+    // std::cout << "start GrabImageStereo" << std::endl;
+    Sophus::SE3f Tcw = mpTracker->GrabImageStereo(imLeftToFeed,imLeftKeypts,imLeftDescs,imRightToFeed,imRightKeypts,imRightDescs,timestamp,filename);
+    //Sophus::SE3f Tcw = mpTracker->GrabImageStereo(imLeftToFeed,imRightToFeed,timestamp,filename);
+
+    // std::cout << "out grabber" << std::endl;
+
+    unique_lock<mutex> lock2(mMutexState);
+    mTrackingState = mpTracker->mState;
+    mTrackedMapPoints = mpTracker->mCurrentFrame.mvpMapPoints;
+    mTrackedKeyPointsUn = mpTracker->mCurrentFrame.mvKeysUn;
+
+    return Tcw;
+}
+
 Sophus::SE3f System::TrackRGBD(const cv::Mat &im, const cv::Mat &depthmap, const double &timestamp, const vector<IMU::Point>& vImuMeas, string filename)
 {
     if(mSensor!=RGBD  && mSensor!=IMU_RGBD)
@@ -549,6 +645,7 @@ void System::Shutdown()
     {
         Verbose::PrintMess("Atlas saving to file " + mStrSaveAtlasToFile, Verbose::VERBOSITY_NORMAL);
         SaveAtlas(FileType::BINARY_FILE);
+        //SaveAtlas(FileType::TEXT_FILE);
     }
 
     /*if(mpViewer)

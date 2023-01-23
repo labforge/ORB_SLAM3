@@ -1,0 +1,1 @@
+/usr/bin/cmake -S/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master -B/home/emslab/BagFromImages-master_catkin/catkim_ws/build/BagFromImages --check-build-system CMakeFiles/Makefile.cmake 0

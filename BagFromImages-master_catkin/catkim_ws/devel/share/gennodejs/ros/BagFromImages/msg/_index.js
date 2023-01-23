@@ -1,0 +1,1 @@
+/home/emslab/BagFromImages-master_catkin/catkim_ws/devel/.private/BagFromImages/share/gennodejs/ros/BagFromImages/msg/_index.js
