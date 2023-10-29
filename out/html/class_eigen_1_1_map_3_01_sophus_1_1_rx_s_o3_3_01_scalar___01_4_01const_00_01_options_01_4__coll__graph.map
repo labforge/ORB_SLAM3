@@ -1,6 +1,6 @@
 <map id="Eigen::Map&lt; Sophus::RxSO3&lt; Scalar_ &gt; const, Options &gt;" name="Eigen::Map&lt; Sophus::RxSO3&lt; Scalar_ &gt; const, Options &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="560,92,753,148"/>
-<area shape="rect" id="node2" href="$class_sophus_1_1_rx_s_o3_base.html" title=" " alt="" coords="204,36,431,92"/>
-<area shape="rect" id="node3" href="$classint.html" title=" " alt="" coords="5,51,44,77"/>
-<area shape="rect" id="node4" title=" " alt="" coords="207,117,427,158"/>
+<area shape="rect" id="node1" title=" " alt="" coords="668,92,861,148"/>
+<area shape="rect" id="node2" href="$class_sophus_1_1_rx_s_o3_base.html" title=" " alt="" coords="312,36,539,92"/>
+<area shape="rect" id="node3" href="$classstatic_01constexpr_01int.html" title=" " alt="" coords="5,51,152,77"/>
+<area shape="rect" id="node4" title=" " alt="" coords="315,117,535,158"/>
 </map>

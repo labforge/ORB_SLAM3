@@ -1,20 +1,5 @@
 var searchData=
 [
-  ['anonymous_5fnamespace_7btest_5fcommon_2ecpp_7d_4051',['anonymous_namespace{test_common.cpp}',['../namespace_sophus_1_1anonymous__namespace_02test__common_8cpp_03.html',1,'Sophus']]],
-  ['anonymous_5fnamespace_7btest_5fgeometry_2ecpp_7d_4052',['anonymous_namespace{test_geometry.cpp}',['../namespace_sophus_1_1anonymous__namespace_02test__geometry_8cpp_03.html',1,'Sophus']]],
-  ['complex_4053',['complex',['../namespacesophus_1_1complex.html',1,'sophus']]],
-  ['cse_5fcodegen_4054',['cse_codegen',['../namespacesophus_1_1cse__codegen.html',1,'sophus']]],
-  ['details_4055',['details',['../namespace_sophus_1_1details.html',1,'Sophus']]],
-  ['dual_5fquaternion_4056',['dual_quaternion',['../namespacesophus_1_1dual__quaternion.html',1,'sophus']]],
-  ['experimental_4057',['experimental',['../namespace_sophus_1_1experimental.html',1,'Sophus']]],
-  ['interp_5fdetails_4058',['interp_details',['../namespace_sophus_1_1interp__details.html',1,'Sophus']]],
-  ['matrix_4059',['matrix',['../namespacesophus_1_1matrix.html',1,'sophus']]],
-  ['quaternion_4060',['quaternion',['../namespacesophus_1_1quaternion.html',1,'sophus']]],
-  ['se2_4061',['se2',['../namespacesophus_1_1se2.html',1,'sophus']]],
-  ['se3_4062',['se3',['../namespacesophus_1_1se3.html',1,'sophus']]],
-  ['so2_4063',['so2',['../namespacesophus_1_1so2.html',1,'sophus']]],
-  ['so3_4064',['so3',['../namespacesophus_1_1so3.html',1,'sophus']]],
-  ['so3_5fcodegen_4065',['so3_codegen',['../namespacesophus_1_1so3__codegen.html',1,'sophus']]],
-  ['sophus_4066',['Sophus',['../namespace_sophus.html',1,'Sophus'],['../namespacesophus.html',1,'sophus']]],
-  ['test_4067',['test',['../namespace_sophus_1_1test.html',1,'Sophus']]]
+  ['pkg_4871',['pkg',['../namespacepkg.html',1,'']]],
+  ['process_5fimu_4872',['process_imu',['../namespaceprocess__imu.html',1,'']]]
 ];

@@ -1,6 +1,0 @@
-/usr/bin/ld: CMakeFiles/main.dir/main.cc.o: undefined reference to symbol 'compressBound@@ZLIB_1.2.0'
-/usr/bin/ld: /lib/x86_64-linux-gnu/libz.so.1: error adding symbols: DSO missing from command line
-collect2: error: ld returned 1 exit status
-make[2]: *** [CMakeFiles/main.dir/build.make:220: /home/emslab/BagFromImages-master_catkin/catkim_ws/devel/.private/BagFromImages/lib/BagFromImages/main] Error 1
-make[1]: *** [CMakeFiles/Makefile2:1742: CMakeFiles/main.dir/all] Error 2
-make: *** [Makefile:144: all] Error 2

@@ -1,11 +1,10 @@
 <map id="g2o::CacheContainer::createCache" name="g2o::CacheContainer::createCache">
-<area shape="rect" id="node1" title=" " alt="" coords="5,125,163,166"/>
-<area shape="rect" id="node2" href="$classg2o_1_1_factory.html#aa61fcb8861afb1dd4c4af5d9cc03d3ec" title=" " alt="" coords="247,5,417,32"/>
-<area shape="rect" id="node3" href="$classg2o_1_1_factory.html#a8a1f33e017c5ad59399cef48972578ae" title="return the instance" alt="" coords="507,56,671,83"/>
-<area shape="rect" id="node4" href="$classg2o_1_1_cache.html#a2e0a0de318ff4a0f50c263869a87908b" title=" " alt="" coords="269,107,395,133"/>
-<area shape="rect" id="node6" href="$classg2o_1_1_cache.html#a0c26f0baa33a5902002f1ca2d5f57ece" title=" " alt="" coords="211,157,453,184"/>
-<area shape="rect" id="node7" href="$classg2o_1_1_cache_1_1_cache_key.html#a426acdbf2c72f48f7923dcd7e2137aef" title=" " alt="" coords="249,209,415,250"/>
-<area shape="rect" id="node8" href="$classg2o_1_1_cache.html#aaea446a5eb59569acc67c94793975a0b" title=" " alt="" coords="259,275,405,301"/>
-<area shape="rect" id="node5" href="$classg2o_1_1_factory.html#ae6b0fb89dc45ea1e506401d349c869f0" title="return the TAG given a vertex" alt="" coords="524,107,655,133"/>
-<area shape="rect" id="node9" href="$classg2o_1_1_cache.html#ae46e4a4e37c034925edd6bbfdfaa1cb2" title="redefine this to do the update" alt="" coords="501,275,677,301"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,99,163,141"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_factory.html#a8a1f33e017c5ad59399cef48972578ae" title="return the instance" alt="" coords="507,5,671,32"/>
+<area shape="rect" id="node3" href="$classg2o_1_1_cache.html#a2e0a0de318ff4a0f50c263869a87908b" title=" " alt="" coords="269,56,395,83"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_cache.html#a0c26f0baa33a5902002f1ca2d5f57ece" title=" " alt="" coords="211,107,453,133"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_cache_1_1_cache_key.html#a426acdbf2c72f48f7923dcd7e2137aef" title=" " alt="" coords="249,158,415,199"/>
+<area shape="rect" id="node7" href="$classg2o_1_1_cache.html#aaea446a5eb59569acc67c94793975a0b" title=" " alt="" coords="259,224,405,251"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_factory.html#ae6b0fb89dc45ea1e506401d349c869f0" title="return the TAG given a vertex" alt="" coords="524,56,655,83"/>
+<area shape="rect" id="node8" href="$classg2o_1_1_cache.html#ae46e4a4e37c034925edd6bbfdfaa1cb2" title="redefine this to do the update" alt="" coords="501,224,677,251"/>
 </map>

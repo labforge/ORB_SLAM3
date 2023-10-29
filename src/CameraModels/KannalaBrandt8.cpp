@@ -281,6 +281,7 @@ namespace ORB_SLAM3 {
         float errY1 = uv1(1) - kp1.pt.y;
 
         if((errX1*errX1+errY1*errY1)>5.991*sigmaLevel1){   //Reprojection error is high
+            //std::cout << "Reprojection error is high" <<std::endl;
             return false;
         }
 
@@ -293,6 +294,7 @@ namespace ORB_SLAM3 {
         float errY2 = uv2(1) - kp2.pt.y;
 
         if((errX2*errX2+errY2*errY2)>5.991*sigmaLevel2){   //Reprojection error is high
+            //std::cout << "Reprojection error is high" <<std::endl;
             return false;
         }
 
@@ -356,6 +358,7 @@ namespace ORB_SLAM3 {
         float errY1 = uv1(1) - kp1.pt.y;
 
         if((errX1*errX1+errY1*errY1)>5.991 * sigmaLevel){   //Reprojection error is high
+            //std::cout << "Reprojection error"<<std::endl;
             return -4;
         }
 
@@ -366,6 +369,7 @@ namespace ORB_SLAM3 {
         float errY2 = uv2(1) - kp2.pt.y;
 
         if((errX2*errX2+errY2*errY2)>5.991 * unc){   //Reprojection error is high
+            //std::cout << "Reprojection error"<<std::endl;
             return -5;
         }
 

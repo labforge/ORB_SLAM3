@@ -1,12 +1,4 @@
 <map id="ORB_SLAM3::LoopClosing::RequestReset" name="ORB_SLAM3::LoopClosing::RequestReset">
-<area shape="rect" id="node1" title=" " alt="" coords="793,106,983,147"/>
-<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a9e27c5599a1a19529cbbb251c55b6d67" title=" " alt="" coords="580,106,745,147"/>
-<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a5301f3aaf838723535909b40e0afc349" title=" " alt="" coords="365,41,532,82"/>
-<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a8ba14ed9907c46696cd020907728982f" title=" " alt="" coords="365,106,532,147"/>
-<area shape="rect" id="node9" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4" title=" " alt="" coords="365,171,532,213"/>
-<area shape="rect" id="node4" href="$_monocular-_inertial_2mono__inertial__euroc_8cc.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="185,5,240,32"/>
-<area shape="rect" id="node5" href="$class_image_grabber.html#aeeabc012ca952da7f703bcece5ae13a9" title=" " alt="" coords="108,56,317,83"/>
-<area shape="rect" id="node6" href="$ros__mono__inertial_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,56,60,83"/>
-<area shape="rect" id="node8" href="$_r_g_b-_d-_inertial_2rgbd__inertial__realsense___d435i_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,113,240,140"/>
-<area shape="rect" id="node10" href="$_stereo-_inertial_2stereo__inertial__euroc_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,179,240,205"/>
+<area shape="rect" id="node1" title=" " alt="" coords="219,5,408,47"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a9e27c5599a1a19529cbbb251c55b6d67" title=" " alt="" coords="5,5,171,47"/>
 </map>

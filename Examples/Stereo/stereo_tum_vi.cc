@@ -103,16 +103,62 @@ int main(int argc, char **argv)
     double t_track = 0.f;
 
     int proccIm = 0;
+
+    // vector<cv::KeyPoint> imLeftKeypts,imRightKeypts;
+    // cv::Mat imLeftDescs,imRightDescs;
+
+    // cv::FileStorage fskeyptsLeft("keypointsLeft_r.yml", cv::FileStorage::READ);
+    // cv::FileStorage fsdescsLeft("descriptorsLeft_r.yml", cv::FileStorage::READ);
+    // cv::FileStorage fskeyptsRight("keypointsRight_r.yml", cv::FileStorage::READ);
+    // cv::FileStorage fsdescsRight("descriptorsRight_r.yml", cv::FileStorage::READ);
+    
+    // cv::FileNode kptLeftFileNode, descLeftFileNode, kptRightFileNode, descRightFileNode;
+  
     for (seq = 0; seq<num_seq; seq++)
     {
+        //for(int ni=0; ni<nImages[seq]; ni++, proccIm++)
+        // {
+        //     cout << "img"+ std::to_string( vTimestampsCam[seq][ni]) << endl;
+        // }
         // Main loop
         proccIm = 0;
         for(int ni=0; ni<nImages[seq]; ni++, proccIm++)
         {
-
             // Read image from file
             imLeft = cv::imread(vstrImageLeftFilenames[seq][ni],cv::IMREAD_GRAYSCALE);
             imRight = cv::imread(vstrImageRightFilenames[seq][ni],cv::IMREAD_GRAYSCALE);
+
+            //cout << "img"+vTimestampsCam[ni] << endl;
+
+            //char str[]="imgDatasets/tum/dataset-room1_512_16/mav0/cam0/data/1520530308199447626.png" ; // declare the size of string      
+            char *ptr,*ptr1; // declare a ptr pointer
+            ptr = strtok((char*)(vstrImageLeftFilenames[seq][ni]).c_str(), "/"); // use strtok() function to separate string using comma (,) delimiter.  
+            //cout << " Split string using strtok() function: " << endl;   
+            while (ptr != NULL)  
+            {  
+                ptr1=ptr;
+                ptr = strtok (NULL, "/");  
+            }
+            string str1(ptr1);
+            std::string filename = str1.substr (0,str1.find(".png"));
+            //cout << filename << endl;
+
+            // kptLeftFileNode = fskeyptsLeft["img"+filename];
+            // descLeftFileNode = fsdescsLeft["img"+filename];
+            // kptRightFileNode = fskeyptsRight["img"+filename];
+            // descRightFileNode = fsdescsRight["img"+filename];
+
+            // read(kptLeftFileNode, imLeftKeypts);
+            // read(descLeftFileNode, imLeftDescs);
+            // read(kptRightFileNode, imRightKeypts);
+            // read(descRightFileNode, imRightDescs);
+
+            // cout << "Cut now" << endl;
+            // for (cv::KeyPoint i: imLeftKeypts)
+            //     cout << i.pt << ' ';
+
+            // cout << "Cut now" << endl;
+            // sleep(5);
 
             if(imageScale != 1.f)
             {
@@ -159,6 +205,8 @@ int main(int argc, char **argv)
 
             // Pass the image to the SLAM system
             SLAM.TrackStereo(imLeft,imRight,tframe);
+            //cout << "Init crossed" << endl;
+            //SLAM.TrackStereo(imLeft,imLeftKeypts,imLeftDescs,imRight,imRightKeypts,imRightDescs,tframe);
 
     #ifdef COMPILEDWITHC11
             std::chrono::steady_clock::time_point t2 = std::chrono::steady_clock::now();
@@ -173,7 +221,7 @@ int main(int argc, char **argv)
 
             double ttrack= std::chrono::duration_cast<std::chrono::duration<double> >(t2 - t1).count();
             ttrack_tot += ttrack;
-            // std::cout << "ttrack: " << ttrack << std::endl;
+            //std::cout << "ttrack: " << ttrack << std::endl;
 
             vTimesTrack[ni]=ttrack;
 
@@ -185,7 +233,10 @@ int main(int argc, char **argv)
                 T = tframe-vTimestampsCam[seq][ni-1];
 
             if(ttrack<T)
+            {
+                //std::cout << "T-ttrack us: " << (T-ttrack)*1e6 << std::endl;
                 usleep((T-ttrack)*1e6); // 1e6
+            }
         }
         if(seq < num_seq - 1)
         {
@@ -195,6 +246,10 @@ int main(int argc, char **argv)
         }
     }
 
+    // fskeyptsLeft.release();
+    // fsdescsLeft.release();
+    // fskeyptsRight.release();
+    // fsdescsRight.release();
 
     // Stop all threads
     SLAM.Shutdown();
@@ -211,13 +266,18 @@ int main(int argc, char **argv)
     {
         const string kf_file =  "kf_" + string(argv[argc-1]) + ".txt";
         const string f_file =  "f_" + string(argv[argc-1]) + ".txt";
-        SLAM.SaveTrajectoryEuRoC(f_file);
-        SLAM.SaveKeyFrameTrajectoryEuRoC(kf_file);
+        SLAM.SaveTrajectoryTUM(f_file);
+        SLAM.SaveKeyFrameTrajectoryTUM(kf_file);
     }
     else
     {
-        SLAM.SaveTrajectoryEuRoC("CameraTrajectory.txt");
-        SLAM.SaveKeyFrameTrajectoryEuRoC("KeyFrameTrajectory.txt");
+        SLAM.SaveTrajectoryTUM("CameraTrajectory.txt");
+        SLAM.SaveKeyFrameTrajectoryTUM("KeyFrameTrajectory.txt");
+    }
+
+    std::ofstream file("ttrack.csv");
+    for (const auto& value : vTimesTrack) {
+        file << value << std::endl;
     }
 
     sort(vTimesTrack.begin(),vTimesTrack.end());
@@ -227,9 +287,17 @@ int main(int argc, char **argv)
         totaltime+=vTimesTrack[ni];
     }
     cout << "-------" << endl << endl;
-    cout << "median tracking time: " << vTimesTrack[nImages[0]/2] << endl;
-    cout << "mean tracking time: " << totaltime/proccIm << endl;
-
+    float mean, median;
+    mean = totaltime/proccIm;
+    median = vTimesTrack[nImages[0]/2];
+    cout << "median tracking time: " << median << endl;
+    cout << "mean tracking time: " << mean << endl;
+    //cout <<"proccIm: "<< proccIm << endl;
+    //cout <<"nImages[0]: "<< nImages[0] << endl;
+    //while(1);
+    file << "median tracking time: " << median << std::endl;
+    file << "mean tracking time: " << mean << std::endl;
+    file.close();
     return 0;
 }
 

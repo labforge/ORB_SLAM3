@@ -1,8 +1,20 @@
 var searchData=
 [
-  ['data_3735',['Data',['../classg2o_1_1_optimizable_graph_1_1_data.html',1,'g2o::OptimizableGraph']]],
-  ['dataset_3736',['dataset',['../classprocess__imu_1_1dataset.html',1,'process_imu']]],
-  ['dotproductscoring_3737',['DotProductScoring',['../class_d_bo_w2_1_1_dot_product_scoring.html',1,'DBoW2']]],
-  ['drawaction_3738',['DrawAction',['../classg2o_1_1_draw_action.html',1,'g2o']]],
-  ['dualquaternion_3739',['DualQuaternion',['../classsophus_1_1dual__quaternion_1_1_dual_quaternion.html',1,'sophus::dual_quaternion']]]
+  ['data_4463',['Data',['../classg2o_1_1_optimizable_graph_1_1_data.html',1,'g2o::OptimizableGraph']]],
+  ['dataset_4464',['dataset',['../classprocess__imu_1_1dataset.html',1,'process_imu']]],
+  ['datatype_3c_20_3a_3aorb_5fslam3_5fros_5fwrapper_3a_3adescriptor_5f_3c_20containerallocator_20_3e_20_3e_4465',['DataType&lt; ::orb_slam3_ros_wrapper::Descriptor_&lt; ContainerAllocator &gt; &gt;',['../structros_1_1message__traits_1_1_data_type_3_01_1_1orb__slam3__ros__wrapper_1_1_descriptor___3_01_container_allocator_01_4_01_4.html',1,'ros::message_traits']]],
+  ['datatype_3c_20_3a_3aorb_5fslam3_5fros_5fwrapper_3a_3aglobaldescriptor_5f_3c_20containerallocator_20_3e_20_3e_4466',['DataType&lt; ::orb_slam3_ros_wrapper::GlobalDescriptor_&lt; ContainerAllocator &gt; &gt;',['../structros_1_1message__traits_1_1_data_type_3_01_1_1orb__slam3__ros__wrapper_1_1_global_descripto5229e27c1a74053e4b72f49ba33e4842.html',1,'ros::message_traits']]],
+  ['datatype_3c_20_3a_3aorb_5fslam3_5fros_5fwrapper_3a_3akeypoint_5f_3c_20containerallocator_20_3e_20_3e_4467',['DataType&lt; ::orb_slam3_ros_wrapper::KeyPoint_&lt; ContainerAllocator &gt; &gt;',['../structros_1_1message__traits_1_1_data_type_3_01_1_1orb__slam3__ros__wrapper_1_1_key_point___3_01_container_allocator_01_4_01_4.html',1,'ros::message_traits']]],
+  ['datatype_3c_20_3a_3aorb_5fslam3_5fros_5fwrapper_3a_3akeypoints_5f_3c_20containerallocator_20_3e_20_3e_4468',['DataType&lt; ::orb_slam3_ros_wrapper::KeyPoints_&lt; ContainerAllocator &gt; &gt;',['../structros_1_1message__traits_1_1_data_type_3_01_1_1orb__slam3__ros__wrapper_1_1_key_points___3_01_container_allocator_01_4_01_4.html',1,'ros::message_traits']]],
+  ['datatype_3c_20_3a_3aorb_5fslam3_5fros_5fwrapper_3a_3apoint2f_5f_3c_20containerallocator_20_3e_20_3e_4469',['DataType&lt; ::orb_slam3_ros_wrapper::Point2f_&lt; ContainerAllocator &gt; &gt;',['../structros_1_1message__traits_1_1_data_type_3_01_1_1orb__slam3__ros__wrapper_1_1_point2f___3_01_container_allocator_01_4_01_4.html',1,'ros::message_traits']]],
+  ['definition_3c_20_3a_3aorb_5fslam3_5fros_5fwrapper_3a_3adescriptor_5f_3c_20containerallocator_20_3e_20_3e_4470',['Definition&lt; ::orb_slam3_ros_wrapper::Descriptor_&lt; ContainerAllocator &gt; &gt;',['../structros_1_1message__traits_1_1_definition_3_01_1_1orb__slam3__ros__wrapper_1_1_descriptor___3_4dee4877b8bba18289a0958198ab1642.html',1,'ros::message_traits']]],
+  ['definition_3c_20_3a_3aorb_5fslam3_5fros_5fwrapper_3a_3aglobaldescriptor_5f_3c_20containerallocator_20_3e_20_3e_4471',['Definition&lt; ::orb_slam3_ros_wrapper::GlobalDescriptor_&lt; ContainerAllocator &gt; &gt;',['../structros_1_1message__traits_1_1_definition_3_01_1_1orb__slam3__ros__wrapper_1_1_global_descriptc4e23b1a9b51343359fd630a1d23f132.html',1,'ros::message_traits']]],
+  ['definition_3c_20_3a_3aorb_5fslam3_5fros_5fwrapper_3a_3akeypoint_5f_3c_20containerallocator_20_3e_20_3e_4472',['Definition&lt; ::orb_slam3_ros_wrapper::KeyPoint_&lt; ContainerAllocator &gt; &gt;',['../structros_1_1message__traits_1_1_definition_3_01_1_1orb__slam3__ros__wrapper_1_1_key_point___3_01_container_allocator_01_4_01_4.html',1,'ros::message_traits']]],
+  ['definition_3c_20_3a_3aorb_5fslam3_5fros_5fwrapper_3a_3akeypoints_5f_3c_20containerallocator_20_3e_20_3e_4473',['Definition&lt; ::orb_slam3_ros_wrapper::KeyPoints_&lt; ContainerAllocator &gt; &gt;',['../structros_1_1message__traits_1_1_definition_3_01_1_1orb__slam3__ros__wrapper_1_1_key_points___3_4984503b8580cb4585dff005f1400889.html',1,'ros::message_traits']]],
+  ['definition_3c_20_3a_3aorb_5fslam3_5fros_5fwrapper_3a_3apoint2f_5f_3c_20containerallocator_20_3e_20_3e_4474',['Definition&lt; ::orb_slam3_ros_wrapper::Point2f_&lt; ContainerAllocator &gt; &gt;',['../structros_1_1message__traits_1_1_definition_3_01_1_1orb__slam3__ros__wrapper_1_1_point2f___3_01_container_allocator_01_4_01_4.html',1,'ros::message_traits']]],
+  ['descriptor_4475',['Descriptor',['../classorb__slam3__ros__wrapper_1_1msg_1_1___descriptor_1_1_descriptor.html',1,'orb_slam3_ros_wrapper::msg::_Descriptor']]],
+  ['descriptor_5f_4476',['Descriptor_',['../structorb__slam3__ros__wrapper_1_1_descriptor__.html',1,'orb_slam3_ros_wrapper']]],
+  ['dotproductscoring_4477',['DotProductScoring',['../class_d_bo_w2_1_1_dot_product_scoring.html',1,'DBoW2']]],
+  ['drawaction_4478',['DrawAction',['../classg2o_1_1_draw_action.html',1,'g2o']]],
+  ['dualquaternion_4479',['DualQuaternion',['../classsophus_1_1dual__quaternion_1_1_dual_quaternion.html',1,'sophus::dual_quaternion']]]
 ];

@@ -30,6 +30,9 @@
 #include <include/CameraModels/Pinhole.h>
 #include <include/CameraModels/KannalaBrandt8.h>
 
+#include "Log.h"
+extern FILE *log_file;
+
 namespace ORB_SLAM3
 {
 
@@ -481,6 +484,101 @@ Frame::Frame(const cv::Mat &imGray, const double &timeStamp, ORBextractor* extra
     mpMutexImu = new std::mutex();
 }
 
+Frame::Frame(const cv::Mat &imGray, const vector<cv::KeyPoint> &imKeypts, const cv::OutputArray imDescs, const double &timeStamp, ORBextractor* extractor,ORBVocabulary* voc, GeometricCamera* pCamera, cv::Mat &distCoef, const float &bf, const float &thDepth, Frame* pPrevF, const IMU::Calib &ImuCalib)
+    :mpcpi(NULL),mpORBvocabulary(voc),mpORBextractorLeft(extractor),mpORBextractorRight(static_cast<ORBextractor*>(NULL)),
+     mTimeStamp(timeStamp), mK(static_cast<Pinhole*>(pCamera)->toK()), mK_(static_cast<Pinhole*>(pCamera)->toK_()), mDistCoef(distCoef.clone()), mbf(bf), mThDepth(thDepth),
+     mImuCalib(ImuCalib), mpImuPreintegrated(NULL),mpPrevFrame(pPrevF),mpImuPreintegratedFrame(NULL), mpReferenceKF(static_cast<KeyFrame*>(NULL)), mbIsSet(false), mbImuPreintegrated(false), mpCamera(pCamera),
+     mpCamera2(nullptr), mbHasPose(false), mbHasVelocity(false)
+{
+    // Frame ID
+    mnId=nNextId++;
+
+    // Scale Level Info
+    mnScaleLevels = mpORBextractorLeft->GetLevels();
+    mfScaleFactor = mpORBextractorLeft->GetScaleFactor();
+    mfLogScaleFactor = log(mfScaleFactor);
+    mvScaleFactors = mpORBextractorLeft->GetScaleFactors();
+    mvInvScaleFactors = mpORBextractorLeft->GetInverseScaleFactors();
+    mvLevelSigma2 = mpORBextractorLeft->GetScaleSigmaSquares();
+    mvInvLevelSigma2 = mpORBextractorLeft->GetInverseScaleSigmaSquares();
+
+    // ORB extraction
+#ifdef REGISTER_TIMES
+    std::chrono::steady_clock::time_point time_StartExtORB = std::chrono::steady_clock::now();
+#endif
+    //ExtractORB(0,imGray,0,1000);
+    ExtractORB_r(0,imGray,imKeypts,imDescs,0,1000);
+#ifdef REGISTER_TIMES
+    std::chrono::steady_clock::time_point time_EndExtORB = std::chrono::steady_clock::now();
+
+    mTimeORB_Ext = std::chrono::duration_cast<std::chrono::duration<double,std::milli> >(time_EndExtORB - time_StartExtORB).count();
+#endif
+
+
+    N = mvKeys.size();
+    if(mvKeys.empty())
+        return;
+
+    UndistortKeyPoints();
+
+    // Set no stereo information
+    mvuRight = vector<float>(N,-1);
+    mvDepth = vector<float>(N,-1);
+    mnCloseMPs = 0;
+
+    mvpMapPoints = vector<MapPoint*>(N,static_cast<MapPoint*>(NULL));
+
+    mmProjectPoints.clear();// = map<long unsigned int, cv::Point2f>(N, static_cast<cv::Point2f>(NULL));
+    mmMatchedInImage.clear();
+
+    mvbOutlier = vector<bool>(N,false);
+
+    // This is done only for the first Frame (or after a change in the calibration)
+    if(mbInitialComputations)
+    {
+        ComputeImageBounds(imGray);
+
+        mfGridElementWidthInv=static_cast<float>(FRAME_GRID_COLS)/static_cast<float>(mnMaxX-mnMinX);
+        mfGridElementHeightInv=static_cast<float>(FRAME_GRID_ROWS)/static_cast<float>(mnMaxY-mnMinY);
+
+        fx = static_cast<Pinhole*>(mpCamera)->toK().at<float>(0,0);
+        fy = static_cast<Pinhole*>(mpCamera)->toK().at<float>(1,1);
+        cx = static_cast<Pinhole*>(mpCamera)->toK().at<float>(0,2);
+        cy = static_cast<Pinhole*>(mpCamera)->toK().at<float>(1,2);
+        invfx = 1.0f/fx;
+        invfy = 1.0f/fy;
+
+        mbInitialComputations=false;
+    }
+
+
+    mb = mbf/fx;
+
+    //Set no stereo fisheye information
+    Nleft = -1;
+    Nright = -1;
+    mvLeftToRightMatch = vector<int>(0);
+    mvRightToLeftMatch = vector<int>(0);
+    mvStereo3Dpoints = vector<Eigen::Vector3f>(0);
+    monoLeft = -1;
+    monoRight = -1;
+
+    AssignFeaturesToGrid();
+
+    if(pPrevF)
+    {
+        if(pPrevF->HasVelocity())
+        {
+            SetVelocity(pPrevF->GetVelocity());
+        }
+    }
+    else
+    {
+        mVw.setZero();
+    }
+
+    mpMutexImu = new std::mutex();
+}
 
 void Frame::AssignFeaturesToGrid()
 {
@@ -515,6 +613,7 @@ void Frame::AssignFeaturesToGrid()
     }
 }
 #if 1
+//enable for normal run
 void Frame::ExtractORB(int flag, const cv::Mat &im, const int x0, const int x1)
 {
     vector<int> vLapping = {x0,x1};
@@ -527,9 +626,8 @@ void Frame::ExtractORB(int flag, const cv::Mat &im, const int x0, const int x1)
         monoRight = (*mpORBextractorRight)(im,cv::Mat(),mvKeysRight,mDescriptorsRight,vLapping);
 }
 }
-#endif
-#if 0
-//to collect keypoints and descriptors
+#else
+//enable to collect keypoints and descriptors
 void Frame::ExtractORB(int flag, const cv::Mat &im, const int x0, const int x1)
 {
     vector<int> vLapping = {x0,x1};
@@ -550,8 +648,8 @@ void Frame::ExtractORB(int flag, const cv::Mat &im, const int x0, const int x1)
         monoRightcount++;
         cv::FileStorage fskptsRight("keypointsRight.yml", cv::FileStorage::APPEND);
         cv::FileStorage fsdescsRight("descriptorsRight.yml", cv::FileStorage::APPEND);
-        write( fskptsRight , "img"+to_string(monoLeftcount), mvKeysRight );
-        write( fsdescsRight , "img"+to_string(monoLeftcount), mDescriptorsRight );
+        write( fskptsRight , "img"+to_string(monoRightcount), mvKeysRight );
+        write( fsdescsRight , "img"+to_string(monoRightcount), mDescriptorsRight );
         fskptsRight.release();
         fsdescsRight.release();
     }
@@ -559,16 +657,20 @@ void Frame::ExtractORB(int flag, const cv::Mat &im, const int x0, const int x1)
 }
 #endif
 
+//enable for accelerated run
 void Frame::ExtractORB_r(int flag, const cv::Mat &im, const vector<cv::KeyPoint> &imKeypts, const cv::OutputArray imDescs, const int x0, const int x1)
 {
+    //cout << "DBG point2" << endl;
+    //cout << "DBG point2" << endl;
     //cout << "No issues till ExtractORB_r" << endl;
     vector<int> vLapping = {x0,x1};
     if(flag==0)
     {
-        //monoLeft = (*mpORBextractorLeft)(im,cv::Mat(),mvKeys,imKeypts,mDescriptors,imDescs,vLapping);
-        mvKeys = imKeypts;
-        imDescs.copyTo(mDescriptors);
-        monoLeft = 0;
+        monoLeft = (*mpORBextractorLeft)(im,cv::Mat(),mvKeys,imKeypts,mDescriptors,imDescs,vLapping);
+        
+        //mvKeys = imKeypts;
+        //imDescs.copyTo(mDescriptors);
+        //monoLeft = 0;
 
         // monoLeftcount++;
         // monoLeft = (*mpORBextractorLeft)(im,cv::Mat(),mvKeys,mDescriptors,vLapping);
@@ -583,10 +685,10 @@ void Frame::ExtractORB_r(int flag, const cv::Mat &im, const vector<cv::KeyPoint>
     }
     else
     {
-        //monoRight = (*mpORBextractorRight)(im,cv::Mat(),mvKeysRight,imKeypts,mDescriptorsRight,imDescs,vLapping);
-        mvKeysRight = imKeypts;
-        imDescs.copyTo(mDescriptorsRight);
-        monoRight = 0;
+        monoRight = (*mpORBextractorRight)(im,cv::Mat(),mvKeysRight,imKeypts,mDescriptorsRight,imDescs,vLapping);
+        //mvKeysRight = imKeypts;
+        //imDescs.copyTo(mDescriptorsRight);
+        //monoRight = 0;
 
         // monoRightcount++;
         // monoRight = (*mpORBextractorRight)(im,cv::Mat(),mvKeysRight,mDescriptorsRight,vLapping);
@@ -988,13 +1090,15 @@ void Frame::ComputeImageBounds(const cv::Mat &imLeft)
 
 void Frame::ComputeStereoMatches()
 {
+    //cout << "ComputeStereoMatches" << endl;
+
     mvuRight = vector<float>(N,-1.0f);
     mvDepth = vector<float>(N,-1.0f);
 
     const int thOrbDist = (ORBmatcher::TH_HIGH+ORBmatcher::TH_LOW)/2;
 
-    //const int nRows = mpORBextractorLeft->mvImagePyramid[0].rows;
-    const int nRows = mpORBextractorLeft->mvImage.rows;
+    const int nRows = mpORBextractorLeft->mvImagePyramid[0].rows;
+    //const int nRows = mpORBextractorLeft->mvImage.rows;
 
     //Assign keypoints to row table
     vector<vector<size_t> > vRowIndices(nRows,vector<size_t>());
@@ -1027,6 +1131,7 @@ void Frame::ComputeStereoMatches()
 
     for(int iL=0; iL<N; iL++)
     {
+        //cout << "Loop" << endl;
         const cv::KeyPoint &kpL = mvKeys[iL];
         const int &levelL = kpL.octave;
         const float &vL = kpL.pt.y;
@@ -1084,8 +1189,9 @@ void Frame::ComputeStereoMatches()
 
             // sliding window search
             const int w = 5;
-            //cv::Mat IL = mpORBextractorLeft->mvImagePyramid[kpL.octave].rowRange(scaledvL-w,scaledvL+w+1).colRange(scaleduL-w,scaleduL+w+1);
-            cv::Mat IL = mpORBextractorLeft->mvImage.rowRange(scaledvL-w,scaledvL+w+1).colRange(scaleduL-w,scaleduL+w+1);
+            cv::Mat IL = mpORBextractorLeft->mvImagePyramid[kpL.octave].rowRange(scaledvL-w,scaledvL+w+1).colRange(scaleduL-w,scaleduL+w+1);
+            //cv::Mat IL = mpORBextractorLeft->mvImage.rowRange(scaledvL-w,scaledvL+w+1).colRange(scaleduL-w,scaleduL+w+1);
+            cout << "kpL.octave:" << kpL.octave << endl;
             int bestDist = INT_MAX;
             int bestincR = 0;
             const int L = 5;
@@ -1094,14 +1200,14 @@ void Frame::ComputeStereoMatches()
 
             const float iniu = scaleduR0+L-w;
             const float endu = scaleduR0+L+w+1;
-            //if(iniu<0 || endu >= mpORBextractorRight->mvImagePyramid[kpL.octave].cols)
-            if(iniu<0 || endu >= mpORBextractorRight->mvImage.cols)
+            if(iniu<0 || endu >= mpORBextractorRight->mvImagePyramid[kpL.octave].cols)
+            //if(iniu<0 || endu >= mpORBextractorRight->mvImage.cols)
                 continue;
 
             for(int incR=-L; incR<=+L; incR++)
             {
-                //cv::Mat IR = mpORBextractorRight->mvImagePyramid[kpL.octave].rowRange(scaledvL-w,scaledvL+w+1).colRange(scaleduR0+incR-w,scaleduR0+incR+w+1);
-                cv::Mat IR = mpORBextractorRight->mvImage.rowRange(scaledvL-w,scaledvL+w+1).colRange(scaleduR0+incR-w,scaleduR0+incR+w+1);
+                cv::Mat IR = mpORBextractorRight->mvImagePyramid[kpL.octave].rowRange(scaledvL-w,scaledvL+w+1).colRange(scaleduR0+incR-w,scaleduR0+incR+w+1);
+                //cv::Mat IR = mpORBextractorRight->mvImage.rowRange(scaledvL-w,scaledvL+w+1).colRange(scaleduR0+incR-w,scaleduR0+incR+w+1);
 
                 float dist = cv::norm(IL,IR,cv::NORM_L1);
                 if(dist<bestDist)
@@ -1396,6 +1502,7 @@ Frame::Frame(const cv::Mat &imLeft, const vector<cv::KeyPoint> &imLeftKeypts, co
 }
 
 void Frame::ComputeStereoFishEyeMatches() {
+    //cout << "ComputeStereoFishEyeMatches" << endl;
     //Speed it up by matching keypoints in the lapping area
     vector<cv::KeyPoint> stereoLeft(mvKeys.begin() + monoLeft, mvKeys.end());
     vector<cv::KeyPoint> stereoRight(mvKeysRight.begin() + monoRight, mvKeysRight.end());

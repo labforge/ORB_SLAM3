@@ -168,7 +168,7 @@ int main(int argc, char **argv)
 
             double ttrack= std::chrono::duration_cast<std::chrono::duration<double> >(t2 - t1).count();
             ttrack_tot += ttrack;
-
+            //std::cout << "ttrack: " << ttrack << std::endl;
             vTimesTrack[ni]=ttrack;
 
             // Wait to load the next frame
@@ -213,6 +213,11 @@ int main(int argc, char **argv)
         SLAM.SaveKeyFrameTrajectoryTUM("KeyFrameTrajectory.txt");
     }
 
+    std::ofstream file("ttrack.csv");
+    for (const auto& value : vTimesTrack) {
+        file << value << std::endl;
+    }
+
     sort(vTimesTrack.begin(),vTimesTrack.end());
     float totaltime = 0;
     for(int ni=0; ni<nImages[0]; ni++)
@@ -220,10 +225,17 @@ int main(int argc, char **argv)
         totaltime+=vTimesTrack[ni];
     }
     cout << "-------" << endl << endl;
-    cout << "median tracking time: " << vTimesTrack[nImages[0]/2] << endl;
-    cout << "mean tracking time: " << totaltime/proccIm << endl;
-
-
+    float mean, median;
+    mean = totaltime/proccIm;
+    median = vTimesTrack[nImages[0]/2];
+    cout << "median tracking time: " << median << endl;
+    cout << "mean tracking time: " << mean << endl;
+    //cout <<"proccIm: "<< proccIm << endl;
+    //cout <<"nImages[0]: "<< nImages[0] << endl;
+    //while(1);
+    file << "median tracking time: " << median << std::endl;
+    file << "mean tracking time: " << mean << std::endl;
+    file.close();
     return 0;
 }
 

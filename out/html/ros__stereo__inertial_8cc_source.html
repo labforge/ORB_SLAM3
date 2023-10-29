@@ -88,7 +88,7 @@ $(function() {
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#include&quot;../../../include/System.h&quot;</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include&quot;../include/ImuTypes.h&quot;</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">using namespace </span><a class="code" href="build_2_c_make_files_2mono__euroc_8dir_2link_8txt.html#a0b997b6ec44f7e87b762da2274325271">std</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">using namespace </span><a class="code" href="build_2_c_make_files_2mono__bottlenose_8dir_2link_8txt.html#a0b997b6ec44f7e87b762da2274325271">std</a>;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">class </span><a class="code" href="class_imu_grabber.html">ImuGrabber</a></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
@@ -110,13 +110,13 @@ $(function() {
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    cv::Mat GetImage(<span class="keyword">const</span> sensor_msgs::ImageConstPtr &amp;img_msg);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">void</span> SyncWithImu();</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="class_image_grabber.html#a5f3d194e18afdc03b9904e688e6da690">   59</a></span>&#160;    queue&lt;sensor_msgs::ImageConstPtr&gt; imgLeftBuf, <a class="code" href="class_image_grabber.html#a5f3d194e18afdc03b9904e688e6da690">imgRightBuf</a>;</div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="class_image_grabber.html#af7c46a50d5112f5a38dbd83940a209d1">   60</a></span>&#160;    std::mutex mBufMutexLeft,<a class="code" href="class_image_grabber.html#af7c46a50d5112f5a38dbd83940a209d1">mBufMutexRight</a>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    queue&lt;sensor_msgs::ImageConstPtr&gt; imgLeftBuf, imgRightBuf;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    std::mutex mBufMutexLeft,mBufMutexRight;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;   </div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a>* mpSLAM;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="class_imu_grabber.html">ImuGrabber</a> *mpImuGb;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="class_image_grabber.html#a2f96cfa2afc523225fbf0cc15f4c4eca">   65</a></span>&#160;    <span class="keyword">const</span> <span class="keywordtype">bool</span> <a class="code" href="class_image_grabber.html#a2f96cfa2afc523225fbf0cc15f4c4eca">do_rectify</a>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">bool</span> do_rectify;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    cv::Mat M1l,M2l,M1r,M2r;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">bool</span> mbClahe;</div>
@@ -147,12 +147,12 @@ $(function() {
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  }</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <span class="comment">// Create SLAM system. It initializes all system threads and gets ready to process frames.</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  <a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a> SLAM(argv[1],argv[2],<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#aafb52f69567ea0d9256abe98f051d80da10e3c98ac4e9909b72a3d6b1285e57b1">ORB_SLAM3::System::IMU_STEREO</a>,<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  <a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a> <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>(argv[1],argv[2],<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#aafb52f69567ea0d9256abe98f051d80dab997876e6643bdb12eb109598142787b">ORB_SLAM3::System::IMU_STEREO</a>,<span class="keyword">true</span>);</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  <a class="code" href="class_imu_grabber.html">ImuGrabber</a> imugb;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  <a class="code" href="class_image_grabber.html">ImageGrabber</a> igb(&amp;SLAM,&amp;imugb,sbRect == <span class="stringliteral">&quot;true&quot;</span>,bEqual);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  <a class="code" href="class_image_grabber.html">ImageGrabber</a> igb(&amp;<a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>,&amp;imugb,sbRect == <span class="stringliteral">&quot;true&quot;</span>,bEqual);</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  </div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">if</span>(igb.<a class="code" href="class_image_grabber.html#a773e5d7e773fd5e2cf695e9b7de418b0">do_rectify</a>)</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">if</span>(igb.<a class="code" href="class_image_grabber.html#a2f96cfa2afc523225fbf0cc15f4c4eca">do_rectify</a>)</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    {      </div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="comment">// Load settings related to stereo calibration</span></div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        cv::FileStorage fsSettings(argv[2], cv::FileStorage::READ);</div>
@@ -200,175 +200,187 @@ $(function() {
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160; </div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  ros::spin();</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160; </div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;}</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="comment">// Stop all threads</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5733a59874cb63617aa98b2345f8e7ea">Shutdown</a>();</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160; </div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
-<div class="line"><a name="l00154"></a><span class="lineno"><a class="line" href="class_image_grabber.html#a242b0935dfdc7f72823ccad673834b57">  154</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_image_grabber.html#a242b0935dfdc7f72823ccad673834b57">ImageGrabber::GrabImageLeft</a>(<span class="keyword">const</span> sensor_msgs::ImageConstPtr &amp;img_msg)</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;{</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  mBufMutexLeft.lock();</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;  <span class="keywordflow">if</span> (!imgLeftBuf.empty())</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    imgLeftBuf.pop();</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  imgLeftBuf.push(img_msg);</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;  mBufMutexLeft.unlock();</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;}</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="comment">// Save camera trajectory</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#ab89c7f700ddc5346edc82736108cf26c">SaveKeyFrameTrajectoryTUM</a>(<span class="stringliteral">&quot;KeyFrameTrajectory_TUM_Format.txt&quot;</span>);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a822babc6a5fc8dffdae4cb9169c586e0">SaveTrajectoryTUM</a>(<span class="stringliteral">&quot;FrameTrajectory_TUM_Format.txt&quot;</span>);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a75d43e1868bb870f6f38db9c483621fb">SaveTrajectoryKITTI</a>(<span class="stringliteral">&quot;FrameTrajectory_KITTI_Format.txt&quot;</span>);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    ros::shutdown();</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160; </div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;}</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160; </div>
-<div class="line"><a name="l00163"></a><span class="lineno"><a class="line" href="class_image_grabber.html#a129b9cb80fc987f459192ded92cb674b">  163</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_image_grabber.html#a129b9cb80fc987f459192ded92cb674b">ImageGrabber::GrabImageRight</a>(<span class="keyword">const</span> sensor_msgs::ImageConstPtr &amp;img_msg)</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;{</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  mBufMutexRight.lock();</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  <span class="keywordflow">if</span> (!imgRightBuf.empty())</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    imgRightBuf.pop();</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;  imgRightBuf.push(img_msg);</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  mBufMutexRight.unlock();</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;}</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160; </div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;cv::Mat <a class="code" href="class_image_grabber.html#a67a7f9527135b5a657dfe02b9927986e">ImageGrabber::GetImage</a>(<span class="keyword">const</span> sensor_msgs::ImageConstPtr &amp;img_msg)</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;{</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  <span class="comment">// Copy the ros image message to cv::Mat.</span></div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  cv_bridge::CvImageConstPtr cv_ptr;</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  <span class="keywordflow">try</span></div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  {</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    cv_ptr = cv_bridge::toCvShare(img_msg, sensor_msgs::image_encodings::MONO8);</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  }</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  <span class="keywordflow">catch</span> (cv_bridge::Exception&amp; <a class="code" href="namespace__setup__util.html#acdce690b925de33d6249bbbfa1109d61">e</a>)</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  {</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    ROS_ERROR(<span class="stringliteral">&quot;cv_bridge exception: %s&quot;</span>, <a class="code" href="namespace__setup__util.html#acdce690b925de33d6249bbbfa1109d61">e</a>.what());</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  }</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  </div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  <span class="keywordflow">if</span>(cv_ptr-&gt;image.type()==0)</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  {</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordflow">return</span> cv_ptr-&gt;image.clone();</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  }</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  {</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;Error type&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="keywordflow">return</span> cv_ptr-&gt;image.clone();</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160; </div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_image_grabber.html#a242b0935dfdc7f72823ccad673834b57">ImageGrabber::GrabImageLeft</a>(<span class="keyword">const</span> sensor_msgs::ImageConstPtr &amp;img_msg)</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;{</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  mBufMutexLeft.lock();</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;  <span class="keywordflow">if</span> (!imgLeftBuf.empty())</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    imgLeftBuf.pop();</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  imgLeftBuf.push(img_msg);</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  mBufMutexLeft.unlock();</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;}</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160; </div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_image_grabber.html#a129b9cb80fc987f459192ded92cb674b">ImageGrabber::GrabImageRight</a>(<span class="keyword">const</span> sensor_msgs::ImageConstPtr &amp;img_msg)</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;{</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;  mBufMutexRight.lock();</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  <span class="keywordflow">if</span> (!imgRightBuf.empty())</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    imgRightBuf.pop();</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  imgRightBuf.push(img_msg);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  mBufMutexRight.unlock();</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;}</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160; </div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;cv::Mat <a class="code" href="class_image_grabber.html#a67a7f9527135b5a657dfe02b9927986e">ImageGrabber::GetImage</a>(<span class="keyword">const</span> sensor_msgs::ImageConstPtr &amp;img_msg)</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;{</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  <span class="comment">// Copy the ros image message to cv::Mat.</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;  cv_bridge::CvImageConstPtr cv_ptr;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  {</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    cv_ptr = cv_bridge::toCvShare(img_msg, sensor_msgs::image_encodings::MONO8);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  }</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  <span class="keywordflow">catch</span> (cv_bridge::Exception&amp; <a class="code" href="namespace__setup__util.html#acdce690b925de33d6249bbbfa1109d61">e</a>)</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  {</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    ROS_ERROR(<span class="stringliteral">&quot;cv_bridge exception: %s&quot;</span>, <a class="code" href="namespace__setup__util.html#acdce690b925de33d6249bbbfa1109d61">e</a>.what());</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;  }</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;}</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160; </div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_image_grabber.html#aeeabc012ca952da7f703bcece5ae13a9">ImageGrabber::SyncWithImu</a>()</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;{</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> maxTimeDiff = 0.01;</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;  <span class="keywordflow">while</span>(1)</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;  </div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;  <span class="keywordflow">if</span>(cv_ptr-&gt;image.type()==0)</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;  {</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keywordflow">return</span> cv_ptr-&gt;image.clone();</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;  }</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;  <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;  {</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    cv::Mat imLeft, imRight;</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="keywordtype">double</span> tImLeft = 0, tImRight = 0;</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <span class="keywordflow">if</span> (!imgLeftBuf.empty()&amp;&amp;!imgRightBuf.empty()&amp;&amp;!mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.empty())</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    {</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;      tImLeft = imgLeftBuf.front()-&gt;header.stamp.toSec();</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;      tImRight = imgRightBuf.front()-&gt;header.stamp.toSec();</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160; </div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;      this-&gt;mBufMutexRight.lock();</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;      <span class="keywordflow">while</span>((tImLeft-tImRight)&gt;maxTimeDiff &amp;&amp; imgRightBuf.size()&gt;1)</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;      {</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        imgRightBuf.pop();</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        tImRight = imgRightBuf.front()-&gt;header.stamp.toSec();</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;      }</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;      this-&gt;mBufMutexRight.unlock();</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160; </div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;      this-&gt;mBufMutexLeft.lock();</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;      <span class="keywordflow">while</span>((tImRight-tImLeft)&gt;maxTimeDiff &amp;&amp; imgLeftBuf.size()&gt;1)</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;      {</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        imgLeftBuf.pop();</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        tImLeft = imgLeftBuf.front()-&gt;header.stamp.toSec();</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;      }</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;      this-&gt;mBufMutexLeft.unlock();</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160; </div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;      <span class="keywordflow">if</span>((tImLeft-tImRight)&gt;maxTimeDiff || (tImRight-tImLeft)&gt;maxTimeDiff)</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;      {</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="comment">// std::cout &lt;&lt; &quot;big time difference&quot; &lt;&lt; std::endl;</span></div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;      }</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;      <span class="keywordflow">if</span>(tImLeft&gt;mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.back()-&gt;header.stamp.toSec())</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;          <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160; </div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;      this-&gt;mBufMutexLeft.lock();</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;      imLeft = GetImage(imgLeftBuf.front());</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;      imgLeftBuf.pop();</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;      this-&gt;mBufMutexLeft.unlock();</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160; </div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;      this-&gt;mBufMutexRight.lock();</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;      imRight = GetImage(imgRightBuf.front());</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;      imgRightBuf.pop();</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;      this-&gt;mBufMutexRight.unlock();</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    std::cout &lt;&lt; <span class="stringliteral">&quot;Error type&quot;</span> &lt;&lt; std::endl;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="keywordflow">return</span> cv_ptr-&gt;image.clone();</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  }</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;}</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160; </div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_image_grabber.html#aeeabc012ca952da7f703bcece5ae13a9">ImageGrabber::SyncWithImu</a>()</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;{</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">double</span> maxTimeDiff = 0.01;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  <span class="keywordflow">while</span>(1)</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;  {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    cv::Mat imLeft, imRight;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="keywordtype">double</span> tImLeft = 0, tImRight = 0;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="keywordflow">if</span> (!imgLeftBuf.empty()&amp;&amp;!imgRightBuf.empty()&amp;&amp;!mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.empty())</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    {</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;      tImLeft = imgLeftBuf.front()-&gt;header.stamp.toSec();</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;      tImRight = imgRightBuf.front()-&gt;header.stamp.toSec();</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160; </div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;      this-&gt;mBufMutexRight.lock();</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;      <span class="keywordflow">while</span>((tImLeft-tImRight)&gt;maxTimeDiff &amp;&amp; imgRightBuf.size()&gt;1)</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;      {</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        imgRightBuf.pop();</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        tImRight = imgRightBuf.front()-&gt;header.stamp.toSec();</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;      }</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;      this-&gt;mBufMutexRight.unlock();</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160; </div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;      this-&gt;mBufMutexLeft.lock();</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;      <span class="keywordflow">while</span>((tImRight-tImLeft)&gt;maxTimeDiff &amp;&amp; imgLeftBuf.size()&gt;1)</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;      {</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        imgLeftBuf.pop();</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        tImLeft = imgLeftBuf.front()-&gt;header.stamp.toSec();</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;      }</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;      this-&gt;mBufMutexLeft.unlock();</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160; </div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;      <span class="keywordflow">if</span>((tImLeft-tImRight)&gt;maxTimeDiff || (tImRight-tImLeft)&gt;maxTimeDiff)</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;      {</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <span class="comment">// std::cout &lt;&lt; &quot;big time difference&quot; &lt;&lt; std::endl;</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;      }</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;      <span class="keywordflow">if</span>(tImLeft&gt;mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.back()-&gt;header.stamp.toSec())</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;          <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;      vector&lt;ORB_SLAM3::IMU::Point&gt; vImuMeas;</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;      mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a0006e556a0f97f4389436205d1a57ae7">mBufMutex</a>.lock();</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;      <span class="keywordflow">if</span>(!mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.empty())</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;      {</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        <span class="comment">// Load imu measurements from buffer</span></div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        vImuMeas.clear();</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        <span class="keywordflow">while</span>(!mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.empty() &amp;&amp; mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.front()-&gt;header.stamp.toSec()&lt;=tImLeft)</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        {</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;          <span class="keywordtype">double</span> t = mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.front()-&gt;header.stamp.toSec();</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;          cv::Point3f acc(mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.front()-&gt;linear_acceleration.x, mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.front()-&gt;linear_acceleration.y, mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.front()-&gt;linear_acceleration.z);</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;          cv::Point3f gyr(mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.front()-&gt;angular_velocity.x, mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.front()-&gt;angular_velocity.y, mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.front()-&gt;angular_velocity.z);</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;          vImuMeas.push_back(<a class="code" href="class_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_point.html">ORB_SLAM3::IMU::Point</a>(acc,gyr,t));</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;          mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.pop();</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        }</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;      }</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;      mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a0006e556a0f97f4389436205d1a57ae7">mBufMutex</a>.unlock();</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;      <span class="keywordflow">if</span>(mbClahe)</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;      {</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        mClahe-&gt;apply(imLeft,imLeft);</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        mClahe-&gt;apply(imRight,imRight);</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;      }</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160; </div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;      <span class="keywordflow">if</span>(do_rectify)</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;      {</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        cv::remap(imLeft,imLeft,M1l,M2l,cv::INTER_LINEAR);</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        cv::remap(imRight,imRight,M1r,M2r,cv::INTER_LINEAR);</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;      }</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160; </div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;      mpSLAM-&gt;<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4">TrackStereo</a>(imLeft,imRight,tImLeft,vImuMeas);</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160; </div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;      std::chrono::milliseconds tSleep(1);</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;      std::this_thread::sleep_for(tSleep);</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    }</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;  }</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;}</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160; </div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_imu_grabber.html#a24513e0e6321405a43a0f52dc7d74081">ImuGrabber::GrabImu</a>(<span class="keyword">const</span> sensor_msgs::ImuConstPtr &amp;imu_msg)</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;{</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;  mBufMutex.lock();</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;  imuBuf.push(imu_msg);</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;  mBufMutex.unlock();</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;  <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;}</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160; </div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160; </div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;      this-&gt;mBufMutexLeft.lock();</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;      imLeft = GetImage(imgLeftBuf.front());</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;      imgLeftBuf.pop();</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;      this-&gt;mBufMutexLeft.unlock();</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160; </div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      this-&gt;mBufMutexRight.lock();</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;      imRight = GetImage(imgRightBuf.front());</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;      imgRightBuf.pop();</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;      this-&gt;mBufMutexRight.unlock();</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160; </div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;      vector&lt;ORB_SLAM3::IMU::Point&gt; vImuMeas;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;      mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a0006e556a0f97f4389436205d1a57ae7">mBufMutex</a>.lock();</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;      <span class="keywordflow">if</span>(!mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.empty())</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;      {</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <span class="comment">// Load imu measurements from buffer</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        vImuMeas.clear();</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="keywordflow">while</span>(!mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.empty() &amp;&amp; mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.front()-&gt;header.stamp.toSec()&lt;=tImLeft)</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        {</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;          <span class="keywordtype">double</span> t = mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.front()-&gt;header.stamp.toSec();</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;          cv::Point3f acc(mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.front()-&gt;linear_acceleration.x, mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.front()-&gt;linear_acceleration.y, mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.front()-&gt;linear_acceleration.z);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;          cv::Point3f gyr(mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.front()-&gt;angular_velocity.x, mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.front()-&gt;angular_velocity.y, mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.front()-&gt;angular_velocity.z);</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;          vImuMeas.push_back(<a class="code" href="class_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_point.html">ORB_SLAM3::IMU::Point</a>(acc,gyr,t));</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;          mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">imuBuf</a>.pop();</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        }</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;      }</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;      mpImuGb-&gt;<a class="code" href="class_imu_grabber.html#a0006e556a0f97f4389436205d1a57ae7">mBufMutex</a>.unlock();</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;      <span class="keywordflow">if</span>(mbClahe)</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;      {</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        mClahe-&gt;apply(imLeft,imLeft);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        mClahe-&gt;apply(imRight,imRight);</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;      }</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160; </div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;      <span class="keywordflow">if</span>(do_rectify)</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;      {</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        cv::remap(imLeft,imLeft,M1l,M2l,cv::INTER_LINEAR);</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        cv::remap(imRight,imRight,M1r,M2r,cv::INTER_LINEAR);</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;      }</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160; </div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;      mpSLAM-&gt;<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4">TrackStereo</a>(imLeft,imRight,tImLeft,vImuMeas);</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160; </div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;      std::chrono::milliseconds tSleep(1);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;      std::this_thread::sleep_for(tSleep);</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    }</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;  }</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;}</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160; </div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_imu_grabber.html#a24513e0e6321405a43a0f52dc7d74081">ImuGrabber::GrabImu</a>(<span class="keyword">const</span> sensor_msgs::ImuConstPtr &amp;imu_msg)</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;{</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;  mBufMutex.lock();</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  imuBuf.push(imu_msg);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;  mBufMutex.unlock();</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;  <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;}</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160; </div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160; </div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="aclass_image_grabber_html_aaf139de883a63055e03d4c82e953bb88"><div class="ttname"><a href="class_image_grabber.html#aaf139de883a63055e03d4c82e953bb88">ImageGrabber::M2r</a></div><div class="ttdeci">cv::Mat M2r</div><div class="ttdef"><b>Definition:</b> <a href="ros__stereo_8cc_source.html#l00046">ros_stereo.cc:46</a></div></div>
-<div class="ttc" id="aclass_imu_grabber_html_a0006e556a0f97f4389436205d1a57ae7"><div class="ttname"><a href="class_imu_grabber.html#a0006e556a0f97f4389436205d1a57ae7">ImuGrabber::mBufMutex</a></div><div class="ttdeci">std::mutex mBufMutex</div><div class="ttdef"><b>Definition:</b> <a href="ros__mono__inertial_8cc_source.html#l00046">ros_mono_inertial.cc:46</a></div></div>
-<div class="ttc" id="aclass_image_grabber_html"><div class="ttname"><a href="class_image_grabber.html">ImageGrabber</a></div><div class="ttdef"><b>Definition:</b> <a href="ros__mono__ar_8cc_source.html#l00048">ros_mono_ar.cc:48</a></div></div>
-<div class="ttc" id="aclass_imu_grabber_html"><div class="ttname"><a href="class_imu_grabber.html">ImuGrabber</a></div><div class="ttdef"><b>Definition:</b> <a href="ros__mono__inertial_8cc_source.html#l00039">ros_mono_inertial.cc:39</a></div></div>
-<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_aafb52f69567ea0d9256abe98f051d80da10e3c98ac4e9909b72a3d6b1285e57b1"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#aafb52f69567ea0d9256abe98f051d80da10e3c98ac4e9909b72a3d6b1285e57b1">ORB_SLAM3::System::IMU_STEREO</a></div><div class="ttdeci">@ IMU_STEREO</div><div class="ttdef"><b>Definition:</b> <a href="_system_8h_source.html#l00092">System.h:92</a></div></div>
-<div class="ttc" id="aclass_image_grabber_html_a1b32be412baa2e1a606863375ba8ff83"><div class="ttname"><a href="class_image_grabber.html#a1b32be412baa2e1a606863375ba8ff83">ImageGrabber::M1r</a></div><div class="ttdeci">cv::Mat M1r</div><div class="ttdef"><b>Definition:</b> <a href="ros__stereo_8cc_source.html#l00046">ros_stereo.cc:46</a></div></div>
+<div class="ttc" id="aclass_image_grabber_html_aaf139de883a63055e03d4c82e953bb88"><div class="ttname"><a href="class_image_grabber.html#aaf139de883a63055e03d4c82e953bb88">ImageGrabber::M2r</a></div><div class="ttdeci">cv::Mat M2r</div><div class="ttdef"><b>Definition:</b> <a href="stereo__node_8cc_source.html#l00024">stereo_node.cc:24</a></div></div>
+<div class="ttc" id="aclass_imu_grabber_html_a0006e556a0f97f4389436205d1a57ae7"><div class="ttname"><a href="class_imu_grabber.html#a0006e556a0f97f4389436205d1a57ae7">ImuGrabber::mBufMutex</a></div><div class="ttdeci">std::mutex mBufMutex</div><div class="ttdef"><b>Definition:</b> <a href="mono__inertial__node_8cc_source.html#l00018">mono_inertial_node.cc:18</a></div></div>
+<div class="ttc" id="aclass_image_grabber_html"><div class="ttname"><a href="class_image_grabber.html">ImageGrabber</a></div><div class="ttdef"><b>Definition:</b> <a href="mono__acc__filtersubscriber_01copy_8cc_source.html#l00045">mono_acc_filtersubscriber copy.cc:45</a></div></div>
+<div class="ttc" id="abuild_2_c_make_files_2mono__bottlenose_8dir_2link_8txt_html_a0b997b6ec44f7e87b762da2274325271"><div class="ttname"><a href="build_2_c_make_files_2mono__bottlenose_8dir_2link_8txt.html#a0b997b6ec44f7e87b762da2274325271">std</a></div><div class="ttdeci">usr bin c Wall O3 std</div><div class="ttdef"><b>Definition:</b> <a href="build_2_c_make_files_2mono__bottlenose_8dir_2link_8txt_source.html#l00001">link.txt:1</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a75d43e1868bb870f6f38db9c483621fb"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a75d43e1868bb870f6f38db9c483621fb">ORB_SLAM3::System::SaveTrajectoryKITTI</a></div><div class="ttdeci">void SaveTrajectoryKITTI(const string &amp;filename)</div></div>
+<div class="ttc" id="amono__bottlenose__gige_8cc_html_a02bc2eece0a1a10e6021bba7376a3f58"><div class="ttname"><a href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a></div><div class="ttdeci">ORB_SLAM3::System SLAM(vocab_file, yaml_file, ORB_SLAM3::System::MONOCULAR, true, 0, string(&quot;Testrun&quot;))</div></div>
+<div class="ttc" id="aclass_imu_grabber_html"><div class="ttname"><a href="class_imu_grabber.html">ImuGrabber</a></div><div class="ttdef"><b>Definition:</b> <a href="mono__inertial__node_8cc_source.html#l00011">mono_inertial_node.cc:11</a></div></div>
+<div class="ttc" id="aclass_image_grabber_html_a1b32be412baa2e1a606863375ba8ff83"><div class="ttname"><a href="class_image_grabber.html#a1b32be412baa2e1a606863375ba8ff83">ImageGrabber::M1r</a></div><div class="ttdeci">cv::Mat M1r</div><div class="ttdef"><b>Definition:</b> <a href="stereo__node_8cc_source.html#l00024">stereo_node.cc:24</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a5733a59874cb63617aa98b2345f8e7ea"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a5733a59874cb63617aa98b2345f8e7ea">ORB_SLAM3::System::Shutdown</a></div><div class="ttdeci">void Shutdown()</div><div class="ttdef"><b>Definition:</b> <a href="backup_2src_2_system_8cc_source.html#l00692">System.cc:692</a></div></div>
 <div class="ttc" id="aclass_imu_grabber_html_a9a878f138b9caabc850e03f1c7321491"><div class="ttname"><a href="class_imu_grabber.html#a9a878f138b9caabc850e03f1c7321491">ImuGrabber::ImuGrabber</a></div><div class="ttdeci">ImuGrabber()</div><div class="ttdef"><b>Definition:</b> <a href="ros__stereo__inertial_8cc_source.html#l00042">ros_stereo_inertial.cc:42</a></div></div>
-<div class="ttc" id="aclass_image_grabber_html_a129b9cb80fc987f459192ded92cb674b"><div class="ttname"><a href="class_image_grabber.html#a129b9cb80fc987f459192ded92cb674b">ImageGrabber::GrabImageRight</a></div><div class="ttdeci">void GrabImageRight(const sensor_msgs::ImageConstPtr &amp;msg)</div><div class="ttdef"><b>Definition:</b> <a href="ros__stereo__inertial_8cc_source.html#l00163">ros_stereo_inertial.cc:163</a></div></div>
-<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a05ad775f15134ca22413748c792d88f4"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4">ORB_SLAM3::System::TrackStereo</a></div><div class="ttdeci">Sophus::SE3f TrackStereo(const cv::Mat &amp;imLeft, const cv::Mat &amp;imRight, const double &amp;timestamp, const vector&lt; IMU::Point &gt; &amp;vImuMeas=vector&lt; IMU::Point &gt;(), string filename=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="_system_8cc_source.html#l00244">System.cc:244</a></div></div>
-<div class="ttc" id="aclass_image_grabber_html_aeeabc012ca952da7f703bcece5ae13a9"><div class="ttname"><a href="class_image_grabber.html#aeeabc012ca952da7f703bcece5ae13a9">ImageGrabber::SyncWithImu</a></div><div class="ttdeci">void SyncWithImu()</div><div class="ttdef"><b>Definition:</b> <a href="ros__mono__inertial_8cc_source.html#l00141">ros_mono_inertial.cc:141</a></div></div>
-<div class="ttc" id="aclass_image_grabber_html_a67a7f9527135b5a657dfe02b9927986e"><div class="ttname"><a href="class_image_grabber.html#a67a7f9527135b5a657dfe02b9927986e">ImageGrabber::GetImage</a></div><div class="ttdeci">cv::Mat GetImage(const sensor_msgs::ImageConstPtr &amp;img_msg)</div><div class="ttdef"><b>Definition:</b> <a href="ros__mono__inertial_8cc_source.html#l00117">ros_mono_inertial.cc:117</a></div></div>
-<div class="ttc" id="anamespace__setup__util_html_acdce690b925de33d6249bbbfa1109d61"><div class="ttname"><a href="namespace__setup__util.html#acdce690b925de33d6249bbbfa1109d61">_setup_util.e</a></div><div class="ttdeci">e</div><div class="ttdef"><b>Definition:</b> <a href="atomic__configure_2__setup__util_8py_source.html#l00266">_setup_util.py:266</a></div></div>
-<div class="ttc" id="abuild_2_c_make_files_2mono__euroc_8dir_2link_8txt_html_a0b997b6ec44f7e87b762da2274325271"><div class="ttname"><a href="build_2_c_make_files_2mono__euroc_8dir_2link_8txt.html#a0b997b6ec44f7e87b762da2274325271">std</a></div><div class="ttdeci">usr bin c Wall O3 std</div><div class="ttdef"><b>Definition:</b> <a href="build_2_c_make_files_2mono__euroc_8dir_2link_8txt_source.html#l00001">link.txt:1</a></div></div>
-<div class="ttc" id="aclass_image_grabber_html_a6074a577631bc9ca7cb1e9a53d384175"><div class="ttname"><a href="class_image_grabber.html#a6074a577631bc9ca7cb1e9a53d384175">ImageGrabber::M1l</a></div><div class="ttdeci">cv::Mat M1l</div><div class="ttdef"><b>Definition:</b> <a href="ros__stereo_8cc_source.html#l00046">ros_stereo.cc:46</a></div></div>
-<div class="ttc" id="aclass_image_grabber_html_ac85158e1dfb61d91c16271649d9a0354"><div class="ttname"><a href="class_image_grabber.html#ac85158e1dfb61d91c16271649d9a0354">ImageGrabber::M2l</a></div><div class="ttdeci">cv::Mat M2l</div><div class="ttdef"><b>Definition:</b> <a href="ros__stereo_8cc_source.html#l00046">ros_stereo.cc:46</a></div></div>
+<div class="ttc" id="aclass_image_grabber_html_a129b9cb80fc987f459192ded92cb674b"><div class="ttname"><a href="class_image_grabber.html#a129b9cb80fc987f459192ded92cb674b">ImageGrabber::GrabImageRight</a></div><div class="ttdeci">void GrabImageRight(const sensor_msgs::ImageConstPtr &amp;msg)</div><div class="ttdef"><b>Definition:</b> <a href="stereo__inertial__node_8cc_source.html#l00097">stereo_inertial_node.cc:97</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_aafb52f69567ea0d9256abe98f051d80dab997876e6643bdb12eb109598142787b"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#aafb52f69567ea0d9256abe98f051d80dab997876e6643bdb12eb109598142787b">ORB_SLAM3::System::IMU_STEREO</a></div><div class="ttdeci">@ IMU_STEREO</div><div class="ttdef"><b>Definition:</b> <a href="backup_2include_2_system_8h_source.html#l00092">System.h:92</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a05ad775f15134ca22413748c792d88f4"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4">ORB_SLAM3::System::TrackStereo</a></div><div class="ttdeci">Sophus::SE3f TrackStereo(const cv::Mat &amp;imLeft, const cv::Mat &amp;imRight, const double &amp;timestamp, const vector&lt; IMU::Point &gt; &amp;vImuMeas=vector&lt; IMU::Point &gt;(), string filename=&quot;&quot;)</div></div>
+<div class="ttc" id="aclass_image_grabber_html_aeeabc012ca952da7f703bcece5ae13a9"><div class="ttname"><a href="class_image_grabber.html#aeeabc012ca952da7f703bcece5ae13a9">ImageGrabber::SyncWithImu</a></div><div class="ttdeci">void SyncWithImu()</div><div class="ttdef"><b>Definition:</b> <a href="mono__inertial__node_8cc_source.html#l00124">mono_inertial_node.cc:124</a></div></div>
+<div class="ttc" id="aclass_image_grabber_html_a67a7f9527135b5a657dfe02b9927986e"><div class="ttname"><a href="class_image_grabber.html#a67a7f9527135b5a657dfe02b9927986e">ImageGrabber::GetImage</a></div><div class="ttdeci">cv::Mat GetImage(const sensor_msgs::ImageConstPtr &amp;img_msg)</div><div class="ttdef"><b>Definition:</b> <a href="mono__inertial__node_8cc_source.html#l00100">mono_inertial_node.cc:100</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a822babc6a5fc8dffdae4cb9169c586e0"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a822babc6a5fc8dffdae4cb9169c586e0">ORB_SLAM3::System::SaveTrajectoryTUM</a></div><div class="ttdeci">void SaveTrajectoryTUM(const string &amp;filename)</div></div>
+<div class="ttc" id="anamespace__setup__util_html_acdce690b925de33d6249bbbfa1109d61"><div class="ttname"><a href="namespace__setup__util.html#acdce690b925de33d6249bbbfa1109d61">_setup_util.e</a></div><div class="ttdeci">e</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00266">_setup_util.py:266</a></div></div>
+<div class="ttc" id="aclass_image_grabber_html_a6074a577631bc9ca7cb1e9a53d384175"><div class="ttname"><a href="class_image_grabber.html#a6074a577631bc9ca7cb1e9a53d384175">ImageGrabber::M1l</a></div><div class="ttdeci">cv::Mat M1l</div><div class="ttdef"><b>Definition:</b> <a href="stereo__node_8cc_source.html#l00024">stereo_node.cc:24</a></div></div>
+<div class="ttc" id="aclass_image_grabber_html_ac85158e1dfb61d91c16271649d9a0354"><div class="ttname"><a href="class_image_grabber.html#ac85158e1dfb61d91c16271649d9a0354">ImageGrabber::M2l</a></div><div class="ttdeci">cv::Mat M2l</div><div class="ttdef"><b>Definition:</b> <a href="stereo__node_8cc_source.html#l00024">stereo_node.cc:24</a></div></div>
 <div class="ttc" id="aclass_image_grabber_html_ac4c5d5081bf6959fd62356798fed0412"><div class="ttname"><a href="class_image_grabber.html#ac4c5d5081bf6959fd62356798fed0412">ImageGrabber::ImageGrabber</a></div><div class="ttdeci">ImageGrabber(ORB_SLAM3::System *pSLAM, ImuGrabber *pImuGb, const bool bRect, const bool bClahe)</div><div class="ttdef"><b>Definition:</b> <a href="ros__stereo__inertial_8cc_source.html#l00052">ros_stereo_inertial.cc:52</a></div></div>
-<div class="ttc" id="aclass_image_grabber_html_a5f3d194e18afdc03b9904e688e6da690"><div class="ttname"><a href="class_image_grabber.html#a5f3d194e18afdc03b9904e688e6da690">ImageGrabber::imgRightBuf</a></div><div class="ttdeci">queue&lt; sensor_msgs::ImageConstPtr &gt; imgRightBuf</div><div class="ttdef"><b>Definition:</b> <a href="ros__stereo__inertial_8cc_source.html#l00059">ros_stereo_inertial.cc:59</a></div></div>
-<div class="ttc" id="aclass_image_grabber_html_a242b0935dfdc7f72823ccad673834b57"><div class="ttname"><a href="class_image_grabber.html#a242b0935dfdc7f72823ccad673834b57">ImageGrabber::GrabImageLeft</a></div><div class="ttdeci">void GrabImageLeft(const sensor_msgs::ImageConstPtr &amp;msg)</div><div class="ttdef"><b>Definition:</b> <a href="ros__stereo__inertial_8cc_source.html#l00154">ros_stereo_inertial.cc:154</a></div></div>
-<div class="ttc" id="aclass_image_grabber_html_a773e5d7e773fd5e2cf695e9b7de418b0"><div class="ttname"><a href="class_image_grabber.html#a773e5d7e773fd5e2cf695e9b7de418b0">ImageGrabber::do_rectify</a></div><div class="ttdeci">bool do_rectify</div><div class="ttdef"><b>Definition:</b> <a href="ros__stereo_8cc_source.html#l00045">ros_stereo.cc:45</a></div></div>
-<div class="ttc" id="aclass_imu_grabber_html_a48123a266aafb040d3354bec75071a86"><div class="ttname"><a href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">ImuGrabber::imuBuf</a></div><div class="ttdeci">queue&lt; sensor_msgs::ImuConstPtr &gt; imuBuf</div><div class="ttdef"><b>Definition:</b> <a href="ros__mono__inertial_8cc_source.html#l00045">ros_mono_inertial.cc:45</a></div></div>
-<div class="ttc" id="aclass_imu_grabber_html_a24513e0e6321405a43a0f52dc7d74081"><div class="ttname"><a href="class_imu_grabber.html#a24513e0e6321405a43a0f52dc7d74081">ImuGrabber::GrabImu</a></div><div class="ttdeci">void GrabImu(const sensor_msgs::ImuConstPtr &amp;imu_msg)</div><div class="ttdef"><b>Definition:</b> <a href="ros__mono__inertial_8cc_source.html#l00186">ros_mono_inertial.cc:186</a></div></div>
+<div class="ttc" id="aclass_image_grabber_html_a242b0935dfdc7f72823ccad673834b57"><div class="ttname"><a href="class_image_grabber.html#a242b0935dfdc7f72823ccad673834b57">ImageGrabber::GrabImageLeft</a></div><div class="ttdeci">void GrabImageLeft(const sensor_msgs::ImageConstPtr &amp;msg)</div><div class="ttdef"><b>Definition:</b> <a href="stereo__inertial__node_8cc_source.html#l00088">stereo_inertial_node.cc:88</a></div></div>
+<div class="ttc" id="aclass_imu_grabber_html_a48123a266aafb040d3354bec75071a86"><div class="ttname"><a href="class_imu_grabber.html#a48123a266aafb040d3354bec75071a86">ImuGrabber::imuBuf</a></div><div class="ttdeci">queue&lt; sensor_msgs::ImuConstPtr &gt; imuBuf</div><div class="ttdef"><b>Definition:</b> <a href="mono__inertial__node_8cc_source.html#l00017">mono_inertial_node.cc:17</a></div></div>
+<div class="ttc" id="aclass_imu_grabber_html_a24513e0e6321405a43a0f52dc7d74081"><div class="ttname"><a href="class_imu_grabber.html#a24513e0e6321405a43a0f52dc7d74081">ImuGrabber::GrabImu</a></div><div class="ttdeci">void GrabImu(const sensor_msgs::ImuConstPtr &amp;imu_msg)</div><div class="ttdef"><b>Definition:</b> <a href="mono__inertial__node_8cc_source.html#l00178">mono_inertial_node.cc:178</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_ab89c7f700ddc5346edc82736108cf26c"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#ab89c7f700ddc5346edc82736108cf26c">ORB_SLAM3::System::SaveKeyFrameTrajectoryTUM</a></div><div class="ttdeci">void SaveKeyFrameTrajectoryTUM(const string &amp;filename)</div></div>
 <div class="ttc" id="anamespaceg2o_1_1types__six__dof__expmap_html_a2bec58737fccd3c11536ce1eb2692b73"><div class="ttname"><a href="namespaceg2o_1_1types__six__dof__expmap.html#a2bec58737fccd3c11536ce1eb2692b73">g2o::types_six_dof_expmap::init</a></div><div class="ttdeci">void init()</div></div>
-<div class="ttc" id="aclass_image_grabber_html_a2f96cfa2afc523225fbf0cc15f4c4eca"><div class="ttname"><a href="class_image_grabber.html#a2f96cfa2afc523225fbf0cc15f4c4eca">ImageGrabber::do_rectify</a></div><div class="ttdeci">const bool do_rectify</div><div class="ttdef"><b>Definition:</b> <a href="ros__stereo__inertial_8cc_source.html#l00065">ros_stereo_inertial.cc:65</a></div></div>
-<div class="ttc" id="aclass_image_grabber_html_af7c46a50d5112f5a38dbd83940a209d1"><div class="ttname"><a href="class_image_grabber.html#af7c46a50d5112f5a38dbd83940a209d1">ImageGrabber::mBufMutexRight</a></div><div class="ttdeci">std::mutex mBufMutexRight</div><div class="ttdef"><b>Definition:</b> <a href="ros__stereo__inertial_8cc_source.html#l00060">ros_stereo_inertial.cc:60</a></div></div>
-<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a></div><div class="ttdef"><b>Definition:</b> <a href="_system_8h_source.html#l00083">System.h:83</a></div></div>
+<div class="ttc" id="aclass_image_grabber_html_a2f96cfa2afc523225fbf0cc15f4c4eca"><div class="ttname"><a href="class_image_grabber.html#a2f96cfa2afc523225fbf0cc15f4c4eca">ImageGrabber::do_rectify</a></div><div class="ttdeci">bool do_rectify</div><div class="ttdef"><b>Definition:</b> <a href="ros__stereo_8cc_source.html#l00045">ros_stereo.cc:45</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a></div><div class="ttdef"><b>Definition:</b> <a href="backup_2include_2_system_8h_source.html#l00083">System.h:83</a></div></div>
 <div class="ttc" id="aros__stereo__inertial_8cc_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="ros__stereo__inertial_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> <a href="ros__stereo__inertial_8cc_source.html#l00074">ros_stereo_inertial.cc:74</a></div></div>
-<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_point_html"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_point.html">ORB_SLAM3::IMU::Point</a></div><div class="ttdef"><b>Definition:</b> <a href="_imu_types_8h_source.html#l00046">ImuTypes.h:46</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_point_html"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_point.html">ORB_SLAM3::IMU::Point</a></div><div class="ttdef"><b>Definition:</b> <a href="backup_2include_2_imu_types_8h_source.html#l00046">ImuTypes.h:46</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 1 2022 22:35:23 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 26 2023 09:59:11 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

@@ -1,6 +1,7 @@
 <map id="ORB_SLAM3::Plane::Recompute" name="ORB_SLAM3::Plane::Recompute">
 <area shape="rect" id="node1" title=" " alt="" coords="5,64,233,91"/>
-<area shape="rect" id="node2" href="$namespace_o_r_b___s_l_a_m3.html#afe8285ab57c7b6a452399c20876854ec" title=" " alt="" coords="287,5,447,32"/>
-<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a00b60cc1024401aad66502013af2abc2" title=" " alt="" coords="281,57,452,98"/>
-<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a20815f069a3fc820308bd64578662d7f" title=" " alt="" coords="281,122,452,163"/>
+<area shape="rect" id="node2" href="$namespace_o_r_b___s_l_a_m3.html#a738f3916cbc79e1819e81765f00e00ae" title=" " alt="" coords="287,5,447,32"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a00b60cc1024401aad66502013af2abc2" title=" " alt="" coords="281,57,452,98"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_map_point.html#a20815f069a3fc820308bd64578662d7f" title=" " alt="" coords="281,122,452,163"/>
+<area shape="rect" id="node3" href="$namespace_o_r_b___s_l_a_m3.html#aa1ec07af38d80e2e653187ab81c411c7" title=" " alt="" coords="500,5,732,32"/>
 </map>

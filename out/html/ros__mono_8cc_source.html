@@ -82,7 +82,7 @@ $(function() {
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include&quot;../../../include/System.h&quot;</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">using namespace </span><a class="code" href="build_2_c_make_files_2mono__euroc_8dir_2link_8txt.html#a0b997b6ec44f7e87b762da2274325271">std</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">using namespace </span><a class="code" href="build_2_c_make_files_2mono__bottlenose_8dir_2link_8txt.html#a0b997b6ec44f7e87b762da2274325271">std</a>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">class </span><a class="code" href="class_image_grabber.html">ImageGrabber</a></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
@@ -107,60 +107,62 @@ $(function() {
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }    </div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">// Create SLAM system. It initializes all system threads and gets ready to process frames.</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a> SLAM(argv[1],argv[2],<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#aafb52f69567ea0d9256abe98f051d80dab5e537f3e2332858cca5a8b3725abc3e">ORB_SLAM3::System::MONOCULAR</a>,<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a> <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>(argv[1],argv[2],<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#aafb52f69567ea0d9256abe98f051d80daf74c4722bc4446a5fd563ea279c8b603">ORB_SLAM3::System::MONOCULAR</a>,<span class="keyword">true</span>);</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="class_image_grabber.html">ImageGrabber</a> igb(&amp;SLAM);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="class_image_grabber.html">ImageGrabber</a> igb(&amp;<a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>);</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    ros::NodeHandle nodeHandler;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">//ros::Subscriber sub = nodeHandler.subscribe(&quot;/camera/image_raw&quot;, 1, &amp;ImageGrabber::GrabImage,&amp;igb);</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    ros::Subscriber sub = nodeHandler.subscribe(<span class="stringliteral">&quot;/usb_cam/image_raw&quot;</span>, 1, &amp;<a class="code" href="class_image_grabber.html#a66758ed685acbf1a7e77b3325001e47c">ImageGrabber::GrabImage</a>,&amp;igb);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    ros::Subscriber sub = nodeHandler.subscribe(<span class="stringliteral">&quot;/camera/image_raw&quot;</span>, 1, &amp;<a class="code" href="class_image_grabber.html#a8199930adbd84177ef8edcd737f6995d">ImageGrabber::GrabImage</a>,&amp;igb);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">//ros::Subscriber sub = nodeHandler.subscribe(&quot;/usb_cam/image_raw&quot;, 1, &amp;ImageGrabber::GrabImage,&amp;igb);</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    ros::spin();</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment">// Stop all threads</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    SLAM.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5733a59874cb63617aa98b2345f8e7ea">Shutdown</a>();</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5733a59874cb63617aa98b2345f8e7ea">Shutdown</a>();</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="comment">// Save camera trajectory</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    SLAM.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#ab89c7f700ddc5346edc82736108cf26c">SaveKeyFrameTrajectoryTUM</a>(<span class="stringliteral">&quot;KeyFrameTrajectory.txt&quot;</span>);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#ab89c7f700ddc5346edc82736108cf26c">SaveKeyFrameTrajectoryTUM</a>(<span class="stringliteral">&quot;KeyFrameTrajectory.txt&quot;</span>);</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    ros::shutdown();</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;}</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_image_grabber.html#a66758ed685acbf1a7e77b3325001e47c">ImageGrabber::GrabImage</a>(<span class="keyword">const</span> sensor_msgs::ImageConstPtr&amp; msg)</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="keywordtype">void</span> <a class="code" href="class_image_grabber.html#a8199930adbd84177ef8edcd737f6995d">ImageGrabber::GrabImage</a>(<span class="keyword">const</span> sensor_msgs::ImageConstPtr&amp; msg)</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;{</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">// Copy the ros image message to cv::Mat.</span></div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    cv_bridge::CvImageConstPtr cv_ptr;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">try</span></div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    {</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        cv_ptr = cv_bridge::toCvShare(msg);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">catch</span> (cv_bridge::Exception&amp; <a class="code" href="namespace__setup__util.html#acdce690b925de33d6249bbbfa1109d61">e</a>)</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    {</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        ROS_ERROR(<span class="stringliteral">&quot;cv_bridge exception: %s&quot;</span>, <a class="code" href="namespace__setup__util.html#acdce690b925de33d6249bbbfa1109d61">e</a>.what());</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    mpSLAM-&gt;TrackMonocular(cv_ptr-&gt;image,cv_ptr-&gt;header.stamp.toSec());</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;}</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="comment">//cv_ptr = cv_bridge::toCvShare(msg);</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        cv_ptr = cv_bridge::toCvShare(msg, sensor_msgs::image_encodings::MONO8);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">catch</span> (cv_bridge::Exception&amp; <a class="code" href="namespace__setup__util.html#acdce690b925de33d6249bbbfa1109d61">e</a>)</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        ROS_ERROR(<span class="stringliteral">&quot;cv_bridge exception: %s&quot;</span>, <a class="code" href="namespace__setup__util.html#acdce690b925de33d6249bbbfa1109d61">e</a>.what());</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    mpSLAM-&gt;TrackMonocular(cv_ptr-&gt;image,cv_ptr-&gt;header.stamp.toSec());</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aros__mono_8cc_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="ros__mono_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> <a href="ros__mono_8cc_source.html#l00044">ros_mono.cc:44</a></div></div>
-<div class="ttc" id="aclass_image_grabber_html_a66758ed685acbf1a7e77b3325001e47c"><div class="ttname"><a href="class_image_grabber.html#a66758ed685acbf1a7e77b3325001e47c">ImageGrabber::GrabImage</a></div><div class="ttdeci">void GrabImage(const sensor_msgs::ImageConstPtr &amp;msg)</div><div class="ttdef"><b>Definition:</b> <a href="ros__mono__ar_8cc_source.html#l00139">ros_mono_ar.cc:139</a></div></div>
-<div class="ttc" id="aclass_image_grabber_html"><div class="ttname"><a href="class_image_grabber.html">ImageGrabber</a></div><div class="ttdef"><b>Definition:</b> <a href="ros__mono__ar_8cc_source.html#l00048">ros_mono_ar.cc:48</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_aafb52f69567ea0d9256abe98f051d80daf74c4722bc4446a5fd563ea279c8b603"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#aafb52f69567ea0d9256abe98f051d80daf74c4722bc4446a5fd563ea279c8b603">ORB_SLAM3::System::MONOCULAR</a></div><div class="ttdeci">@ MONOCULAR</div><div class="ttdef"><b>Definition:</b> <a href="backup_2include_2_system_8h_source.html#l00088">System.h:88</a></div></div>
+<div class="ttc" id="aclass_image_grabber_html"><div class="ttname"><a href="class_image_grabber.html">ImageGrabber</a></div><div class="ttdef"><b>Definition:</b> <a href="mono__acc__filtersubscriber_01copy_8cc_source.html#l00045">mono_acc_filtersubscriber copy.cc:45</a></div></div>
+<div class="ttc" id="abuild_2_c_make_files_2mono__bottlenose_8dir_2link_8txt_html_a0b997b6ec44f7e87b762da2274325271"><div class="ttname"><a href="build_2_c_make_files_2mono__bottlenose_8dir_2link_8txt.html#a0b997b6ec44f7e87b762da2274325271">std</a></div><div class="ttdeci">usr bin c Wall O3 std</div><div class="ttdef"><b>Definition:</b> <a href="build_2_c_make_files_2mono__bottlenose_8dir_2link_8txt_source.html#l00001">link.txt:1</a></div></div>
+<div class="ttc" id="amono__bottlenose__gige_8cc_html_a02bc2eece0a1a10e6021bba7376a3f58"><div class="ttname"><a href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a></div><div class="ttdeci">ORB_SLAM3::System SLAM(vocab_file, yaml_file, ORB_SLAM3::System::MONOCULAR, true, 0, string(&quot;Testrun&quot;))</div></div>
 <div class="ttc" id="aclass_image_grabber_html_ab50b450f89550f6d00f03d1233270608"><div class="ttname"><a href="class_image_grabber.html#ab50b450f89550f6d00f03d1233270608">ImageGrabber::ImageGrabber</a></div><div class="ttdeci">ImageGrabber(ORB_SLAM3::System *pSLAM)</div><div class="ttdef"><b>Definition:</b> <a href="ros__mono_8cc_source.html#l00037">ros_mono.cc:37</a></div></div>
-<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a5733a59874cb63617aa98b2345f8e7ea"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a5733a59874cb63617aa98b2345f8e7ea">ORB_SLAM3::System::Shutdown</a></div><div class="ttdeci">void Shutdown()</div><div class="ttdef"><b>Definition:</b> <a href="_system_8cc_source.html#l00515">System.cc:515</a></div></div>
-<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_aafb52f69567ea0d9256abe98f051d80dab5e537f3e2332858cca5a8b3725abc3e"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#aafb52f69567ea0d9256abe98f051d80dab5e537f3e2332858cca5a8b3725abc3e">ORB_SLAM3::System::MONOCULAR</a></div><div class="ttdeci">@ MONOCULAR</div><div class="ttdef"><b>Definition:</b> <a href="_system_8h_source.html#l00088">System.h:88</a></div></div>
-<div class="ttc" id="anamespace__setup__util_html_acdce690b925de33d6249bbbfa1109d61"><div class="ttname"><a href="namespace__setup__util.html#acdce690b925de33d6249bbbfa1109d61">_setup_util.e</a></div><div class="ttdeci">e</div><div class="ttdef"><b>Definition:</b> <a href="atomic__configure_2__setup__util_8py_source.html#l00266">_setup_util.py:266</a></div></div>
-<div class="ttc" id="abuild_2_c_make_files_2mono__euroc_8dir_2link_8txt_html_a0b997b6ec44f7e87b762da2274325271"><div class="ttname"><a href="build_2_c_make_files_2mono__euroc_8dir_2link_8txt.html#a0b997b6ec44f7e87b762da2274325271">std</a></div><div class="ttdeci">usr bin c Wall O3 std</div><div class="ttdef"><b>Definition:</b> <a href="build_2_c_make_files_2mono__euroc_8dir_2link_8txt_source.html#l00001">link.txt:1</a></div></div>
-<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_ab89c7f700ddc5346edc82736108cf26c"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#ab89c7f700ddc5346edc82736108cf26c">ORB_SLAM3::System::SaveKeyFrameTrajectoryTUM</a></div><div class="ttdeci">void SaveKeyFrameTrajectoryTUM(const string &amp;filename)</div><div class="ttdef"><b>Definition:</b> <a href="_system_8cc_source.html#l00629">System.cc:629</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a5733a59874cb63617aa98b2345f8e7ea"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a5733a59874cb63617aa98b2345f8e7ea">ORB_SLAM3::System::Shutdown</a></div><div class="ttdeci">void Shutdown()</div><div class="ttdef"><b>Definition:</b> <a href="backup_2src_2_system_8cc_source.html#l00692">System.cc:692</a></div></div>
+<div class="ttc" id="anamespace__setup__util_html_acdce690b925de33d6249bbbfa1109d61"><div class="ttname"><a href="namespace__setup__util.html#acdce690b925de33d6249bbbfa1109d61">_setup_util.e</a></div><div class="ttdeci">e</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00266">_setup_util.py:266</a></div></div>
+<div class="ttc" id="aclass_image_grabber_html_a8199930adbd84177ef8edcd737f6995d"><div class="ttname"><a href="class_image_grabber.html#a8199930adbd84177ef8edcd737f6995d">ImageGrabber::GrabImage</a></div><div class="ttdeci">void GrabImage(const sensor_msgs::ImageConstPtr &amp;img_msg, const orb_slam3_ros_wrapper::KeyPointsConstPtr &amp;kpts_msg, const orb_slam3_ros_wrapper::DescriptorConstPtr &amp;descs_msg)</div><div class="ttdef"><b>Definition:</b> <a href="mono__acc__filtersubscriber_01copy_8cc_source.html#l00154">mono_acc_filtersubscriber copy.cc:154</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_ab89c7f700ddc5346edc82736108cf26c"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#ab89c7f700ddc5346edc82736108cf26c">ORB_SLAM3::System::SaveKeyFrameTrajectoryTUM</a></div><div class="ttdeci">void SaveKeyFrameTrajectoryTUM(const string &amp;filename)</div></div>
 <div class="ttc" id="anamespaceg2o_1_1types__six__dof__expmap_html_a2bec58737fccd3c11536ce1eb2692b73"><div class="ttname"><a href="namespaceg2o_1_1types__six__dof__expmap.html#a2bec58737fccd3c11536ce1eb2692b73">g2o::types_six_dof_expmap::init</a></div><div class="ttdeci">void init()</div></div>
-<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a></div><div class="ttdef"><b>Definition:</b> <a href="_system_8h_source.html#l00083">System.h:83</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a></div><div class="ttdef"><b>Definition:</b> <a href="backup_2include_2_system_8h_source.html#l00083">System.h:83</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 1 2022 22:35:23 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 26 2023 09:59:11 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

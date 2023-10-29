@@ -479,9 +479,11 @@ namespace ORB_SLAM3
         */
        //orb = ORB::create(nfeatures, scaleFactor, nlevels, 31, 0, 2, ORB::FAST_SCORE, 31, 20);
         //orb = ORB::create(1000, 1.2,8,31,0,2,ORB::FAST_SCORE, 31, 20);
-        orb = ORB::create(7000, 1.2,8,19,0,4,ORB::FAST_SCORE, 31, 5);
+        orb = ORB::create(2000, 1.2,8,19,0,4,ORB::FAST_SCORE, 31, 5);
+        //orb = ORB::create(2000, 1.2,8,31,0,2,ORB::FAST_SCORE, 31, 5);
         //akaze = AKAZE::create();
-        akaze = AKAZE::create(AKAZE::DESCRIPTOR_MLDB, 256, 3, 0.0001f, 4, 4, KAZE::DIFF_PM_G2 );
+        //akaze = AKAZE::create(AKAZE::DESCRIPTOR_MLDB, 256, 3, 0.0001f, 8, 8, KAZE::DIFF_PM_G2 );
+        akaze = AKAZE::create(AKAZE::DESCRIPTOR_MLDB, 256, 3, 0.001f, 8, 8, KAZE::DIFF_PM_G2 );
         /*size in bits */
         //akaze->setDescriptorSize(256);
     }
@@ -1099,10 +1101,13 @@ namespace ORB_SLAM3
 
         for (size_t i = 0; i < keypoints.size(); i++)
             computeOrbDescriptor(keypoints[i], image, &pattern[0], descriptors.ptr((int)i));
+        //cv::Ptr<cv::ORB> orb = ORB::create();
+        //orb->compute(image, keypoints, descriptors);
     }
 #endif
 
-#if 0
+#if 1
+//enable for default ORB SLAM ORB extractor
     int ORBextractor::operator()( InputArray _image, InputArray _mask, vector<KeyPoint>& _keypoints,
                                   OutputArray _descriptors, std::vector<int> &vLappingArea)
     {
@@ -1111,7 +1116,10 @@ namespace ORB_SLAM3
             return -1;
 
         Mat image = _image.getMat();
+
+        //cout << "image.type(): " << image.type() << endl; 
         assert(image.type() == CV_8UC1 );
+
 
         // Pre-compute the scale pyramid
         ComputePyramid(image);
@@ -1149,7 +1157,10 @@ namespace ORB_SLAM3
             int nkeypointsLevel = (int)keypoints.size();
 
             if(nkeypointsLevel==0)
+            {
+                cout << "DEBUG: No keypoints detected !!! "<<endl;
                 continue;
+            }
 
             // preprocess the resized image
             Mat workingMat = mvImagePyramid[level].clone();
@@ -1203,6 +1214,7 @@ namespace ORB_SLAM3
         return monoIndex;
     }
 #else
+// enable for opencv akaze or opencv orb based extraction
     int ORBextractor::operator()( InputArray _image, InputArray _mask, vector<KeyPoint>& _keypoints,
                                   OutputArray _descriptors, std::vector<int> &vLappingArea)
     {
@@ -1214,8 +1226,19 @@ namespace ORB_SLAM3
         mvImage = _image.getMat();
         assert(image.type() == CV_8UC1 );
 
-        //orb->detectAndCompute(image, noArray(), _keypoints, _descriptors, false);
-        akaze->detectAndCompute(image, noArray(), _keypoints, _descriptors, false);
+        orb->detectAndCompute(image, noArray(), _keypoints, _descriptors, false);
+        //akaze->detectAndCompute(image, noArray(), _keypoints, _descriptors, false);
+
+        /*
+        for(int i=0;i<_keypoints.size();i++)
+           {
+            _keypoints[i].size = 0;
+            _keypoints[i].octave = 0;
+            _keypoints[i].angle = -1;
+            _keypoints[i].class_id = 0;
+            _keypoints[i].response = 0;
+           }
+        */
 #if 0
         // Pre-compute the scale pyramid
         ComputePyramid(image);
@@ -1315,114 +1338,46 @@ namespace ORB_SLAM3
     }
 #endif
 
-    int ORBextractor::operator()( InputArray _image, InputArray _mask, vector<KeyPoint>& _keypoints, vector<KeyPoint>& _keypoints_r,
-                                  OutputArray _descriptors, OutputArray _descriptors_r, std::vector<int> &vLappingArea)
+#if 1
+//normal accelerated run
+    int ORBextractor::operator()( InputArray _image, InputArray _mask, vector<KeyPoint>& _keypoints, const vector<KeyPoint>& _keypoints_r,
+                                  cv::OutputArray _descriptors, const OutputArray _descriptors_r, std::vector<int> &vLappingArea)
     {
-            //cout << "[ORBextractor]: Max Features: " << nfeatures << endl;
-        if(_image.empty())
-            return -1;
-
-        Mat image = _image.getMat();
-        mvImage = _image.getMat();
-        assert(image.type() == CV_8UC1 );
-
-        // Pre-compute the scale pyramid
-        //ComputePyramid(image);
-        //orb->detectAndCompute(image, noArray(), _keypoints, _descriptors, false);
-        //akaze->detectAndCompute(image, noArray(), _keypoints, _descriptors, false);
-        //akaze->compute(image, _keypoints, _descriptors);
-
-        // bool eq = std::equal(image.begin<uchar>(), image.end<uchar>(), mvImagePyramid[0].begin<uchar>());
-        // eq ? cout << "Assumption true: Level 0 is just the image" << endl : cout<< "Assumption false: Level 0 is not the image" << endl;
-        /*
-        vector < vector<KeyPoint> > allKeypoints;
-        ComputeKeyPointsOctTree(allKeypoints);
-        //ComputeKeyPointsOld(allKeypoints);
-
-        Mat descriptors;
-
-        int nkeypoints = 0;
-        for (int level = 0; level < nlevels; ++level)
-        {
-            nkeypoints += (int)allKeypoints[level].size();
-            //cout << "level:" << level << " keypoints: " <<nkeypoints << endl;
-        }
-        if( nkeypoints == 0 )
-            _descriptors.release();
-        else
-        {
-            _descriptors.create(nkeypoints, 32, CV_8U);
-            descriptors = _descriptors.getMat();
+        //cout << "DBG point" << endl;
+        //cout << "DBG point" << endl;
+        _keypoints = _keypoints_r;
+        _keypoints.clear();
+        _keypoints.reserve(_keypoints_r.size());
+        for (const auto& keypoint : _keypoints_r) {
+            _keypoints.push_back(keypoint);
         }
 
-        //_keypoints.clear();
-        //_keypoints.reserve(nkeypoints);
-        _keypoints = vector<cv::KeyPoint>(nkeypoints);
-
-        int offset = 0;
-        //Modified for speeding up stereo fisheye matching
-        int monoIndex = 0, stereoIndex = nkeypoints-1;
-        for (int level = 0; level < nlevels; ++level)
-        {
-            vector<KeyPoint>& keypoints = allKeypoints[level];
-            int nkeypointsLevel = (int)keypoints.size();
-
-            if(nkeypointsLevel==0)
-                continue;
-
-            // preprocess the resized image
-            Mat workingMat = mvImagePyramid[level].clone();
-            GaussianBlur(workingMat, workingMat, Size(7, 7), 2, 2, BORDER_REFLECT_101);
-
-            // Compute the descriptors
-            //Mat desc = descriptors.rowRange(offset, offset + nkeypointsLevel);
-            Mat desc = cv::Mat(nkeypointsLevel, 32, CV_8U);
-            computeDescriptors(workingMat, keypoints, desc, pattern);
-
-            //orb->compute(workingMat, keypoints, desc);
-            //orb->detectAndCompute(workingMat, noArray(), keypoints, desc, true);
-            
-            //keypoints[1].class_id = 0;
-            //cout << "DBG: Overwriting class id"<<endl; 
-            //for(int i=0;i<keypoints.size();i++)
-             //   {keypoints[i].class_id = 0;}
-            //cout << "DBG: Overwriting class id successfull"<<endl; 
-            
-            //cout << "DBG: Calling akaze compute"<<endl; 
-            //akaze->compute(workingMat, keypoints, desc);
-            //cout << "DBG: Compute successfull"<<endl;
-
-            offset += nkeypointsLevel;
-
-            float scale = mvScaleFactor[level]; //getScale(level, firstLevel, scaleFactor);
-            int i = 0;
-            for (vector<KeyPoint>::iterator keypoint = keypoints.begin(),
-                         keypointEnd = keypoints.end(); keypoint != keypointEnd; ++keypoint){
-
-                // Scale keypoint coordinates
-                if (level != 0){
-                    keypoint->pt *= scale;
-                }
-
-                if(keypoint->pt.x >= vLappingArea[0] && keypoint->pt.x <= vLappingArea[1]){
-                    _keypoints.at(stereoIndex) = (*keypoint);
-                    desc.row(i).copyTo(descriptors.row(stereoIndex));
-                    stereoIndex--;
-                }
-                else{
-                    _keypoints.at(monoIndex) = (*keypoint);
-                    desc.row(i).copyTo(descriptors.row(monoIndex));
-                    monoIndex++;
-                }
-                i++;
-            }
-        }        
-        //cout << "[ORBextractor]: extracted " << _keypoints.size() << " KeyPoints" << endl;
-        //cout << "stereoIndex: " << stereoIndex << " monoIndex: " << monoIndex << endl;
-        return monoIndex;*/
-
+        cv::Mat descriptorsMat = _descriptors_r.getMat();
+        descriptorsMat.copyTo(_descriptors); 
         return 0;
     }
+
+
+#else
+
+//bottlenose accelerated run
+    int ORBextractor::operator()( InputArray _image, InputArray _mask, vector<KeyPoint>& _keypoints, const vector<KeyPoint>& _keypoints_r,
+                                  cv::OutputArray _descriptors, const OutputArray _descriptors_r, std::vector<int> &vLappingArea)
+        {
+        _keypoints = _keypoints_r;
+        _keypoints.clear();
+        _keypoints.reserve(_keypoints_r.size());
+        for (const auto& keypoint : _keypoints_r) {
+            _keypoints.push_back(keypoint);
+        }
+        computeOrientation(_image.getMat(), _keypoints, umax);
+
+        cv::Mat descriptorsMat = _descriptors_r.getMat();
+        descriptorsMat.copyTo(_descriptors); 
+        return 0;
+    }
+#endif
+
 #if 1
     void ORBextractor::ComputePyramid(cv::Mat image)
     {

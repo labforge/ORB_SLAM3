@@ -1,12 +1,14 @@
 <map id="ORB_SLAM3::ORBextractor" name="ORB_SLAM3::ORBextractor">
-<area shape="rect" id="node1" title=" " alt="" coords="536,177,733,204"/>
-<area shape="rect" id="node2" href="$classdouble.html" title=" " alt="" coords="229,5,295,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="173,56,351,83"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,56,60,83"/>
-<area shape="rect" id="node5" href="$classint.html" title=" " alt="" coords="13,176,52,203"/>
-<area shape="rect" id="node8" title=" " alt="" coords="193,213,331,240"/>
-<area shape="rect" id="node6" title=" " alt="" coords="187,289,337,316"/>
-<area shape="rect" id="node7" title=" " alt="" coords="7,289,59,316"/>
-<area shape="rect" id="node9" title=" " alt="" coords="177,340,347,367"/>
-<area shape="rect" id="node10" title=" " alt="" coords="9,340,56,367"/>
+<area shape="rect" id="node1" title=" " alt="" coords="536,257,733,284"/>
+<area shape="rect" id="node2" href="$classdouble.html" title=" " alt="" coords="229,9,295,36"/>
+<area shape="rect" id="node3" title=" " alt="" coords="173,60,351,87"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,60,60,87"/>
+<area shape="rect" id="node5" title=" " alt="" coords="193,111,331,137"/>
+<area shape="rect" id="node6" title=" " alt="" coords="201,161,323,188"/>
+<area shape="rect" id="node7" href="$classint.html" title=" " alt="" coords="13,281,52,308"/>
+<area shape="rect" id="node11" title=" " alt="" coords="193,319,331,345"/>
+<area shape="rect" id="node8" title=" " alt="" coords="9,395,56,421"/>
+<area shape="rect" id="node12" title=" " alt="" coords="177,432,347,459"/>
+<area shape="rect" id="node9" title=" " alt="" coords="187,495,337,521"/>
+<area shape="rect" id="node10" title=" " alt="" coords="7,495,59,521"/>
 </map>

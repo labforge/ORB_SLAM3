@@ -70,6 +70,20 @@ target_link_libraries(Mono
 ${LIBS}
 )
 
+# Node for Accelerated monocular camera
+#rosbuild_add_executable(Mono_acc_filtersubscriber
+#src/mono_acc_filtersubscriber.cc
+#)
+#target_link_libraries(Mono_acc_filtersubscriber
+#${LIBS}
+#)
+#rosbuild_add_executable(Mono_acc_subscriber
+#src/mono_acc_subscriber.cc
+#)
+#target_link_libraries(Mono_acc_subscriber
+#${LIBS}
+#)
+
 # Node for monocular camera (Augmented Reality Demo)
 rosbuild_add_executable(MonoAR
 src/AR/ros_mono_ar.cc

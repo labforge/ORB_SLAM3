@@ -1,14 +1,15 @@
 <map id="DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;" name="DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;">
-<area shape="rect" id="node1" title="Generic Vocabulary." alt="" coords="1256,225,1475,266"/>
-<area shape="rect" id="node2" title=" " alt="" coords="948,217,1119,273"/>
-<area shape="rect" id="node3" href="$struct_d_bo_w2_1_1_templated_vocabulary_1_1_node.html" title="Tree node." alt="" coords="504,155,723,197"/>
-<area shape="rect" id="node11" title=" " alt="" coords="948,137,1119,193"/>
-<area shape="rect" id="node4" title=" " alt="" coords="255,93,353,120"/>
-<area shape="rect" id="node5" href="$classdouble.html" title=" " alt="" coords="271,36,337,63"/>
-<area shape="rect" id="node9" href="$class_d_bo_w2_1_1_general_scoring.html" title="Base class of scoring functions." alt="" coords="747,11,924,37"/>
-<area shape="rect" id="node6" href="$classint.html" title=" " alt="" coords="285,321,323,348"/>
-<area shape="rect" id="node7" title=" " alt="" coords="221,159,387,201"/>
-<area shape="rect" id="node8" href="$classunsigned_01int.html" title=" " alt="" coords="5,167,108,193"/>
-<area shape="rect" id="node10" title=" " alt="" coords="974,297,1093,324"/>
-<area shape="rect" id="node12" title=" " alt="" coords="983,399,1083,425"/>
+<area shape="rect" id="node1" title="Generic Vocabulary." alt="" coords="1253,237,1472,278"/>
+<area shape="rect" id="node2" title=" " alt="" coords="930,164,1101,220"/>
+<area shape="rect" id="node3" href="$struct_d_bo_w2_1_1_templated_vocabulary_1_1_node.html" title="Tree node." alt="" coords="471,109,689,150"/>
+<area shape="rect" id="node12" title=" " alt="" coords="930,84,1101,140"/>
+<area shape="rect" id="node4" title=" " alt="" coords="221,125,319,152"/>
+<area shape="rect" id="node5" href="$classdouble.html" title=" " alt="" coords="237,7,303,33"/>
+<area shape="rect" id="node10" href="$class_d_bo_w2_1_1_general_scoring.html" title="Base class of scoring functions." alt="" coords="713,5,891,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="187,75,353,101"/>
+<area shape="rect" id="node7" href="$class_node_id.html" title=" " alt="" coords="5,75,73,101"/>
+<area shape="rect" id="node8" href="$classint.html" title=" " alt="" coords="251,221,289,248"/>
+<area shape="rect" id="node9" title=" " alt="" coords="915,295,1116,321"/>
+<area shape="rect" id="node11" title=" " alt="" coords="956,345,1075,372"/>
+<area shape="rect" id="node13" title=" " alt="" coords="965,396,1065,423"/>
 </map>

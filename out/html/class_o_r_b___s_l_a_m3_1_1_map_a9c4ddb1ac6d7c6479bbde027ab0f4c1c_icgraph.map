@@ -1,6 +1,5 @@
 <map id="ORB_SLAM3::Map::GetIniertialBA1" name="ORB_SLAM3::Map::GetIniertialBA1">
-<area shape="rect" id="node1" title=" " alt="" coords="501,31,747,57"/>
-<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#aa3bd8a66c4ee13694fe355eee1cdc9af" title=" " alt="" coords="220,5,453,32"/>
-<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="225,56,448,83"/>
-<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a5e4851c1b0d0de361c208a68e9950b2e" title=" " alt="" coords="5,23,172,65"/>
+<area shape="rect" id="node1" title=" " alt="" coords="287,31,532,57"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#aa3bd8a66c4ee13694fe355eee1cdc9af" title=" " alt="" coords="5,5,239,32"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="11,56,233,83"/>
 </map>

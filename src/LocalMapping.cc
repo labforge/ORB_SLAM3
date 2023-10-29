@@ -631,7 +631,10 @@ void LocalMapping::CreateNewMapPoints()
                 float errY1 = uv1.y - kp1.pt.y;
 
                 if((errX1*errX1+errY1*errY1)>5.991*sigmaSquare1)
+                    {
+                        //std::cout << "Reprojection error in 1st key frame 1"<<std::endl;
                     continue;
+                    }
 
             }
             else
@@ -643,7 +646,10 @@ void LocalMapping::CreateNewMapPoints()
                 float errY1 = v1 - kp1.pt.y;
                 float errX1_r = u1_r - kp1_ur;
                 if((errX1*errX1+errY1*errY1+errX1_r*errX1_r)>7.8*sigmaSquare1)
+                {
+                    //std::cout << "Reprojection error in 1st key frame 2"<<std::endl;
                     continue;
+            }
             }
 
             //Check reprojection error in second keyframe
@@ -657,7 +663,10 @@ void LocalMapping::CreateNewMapPoints()
                 float errX2 = uv2.x - kp2.pt.x;
                 float errY2 = uv2.y - kp2.pt.y;
                 if((errX2*errX2+errY2*errY2)>5.991*sigmaSquare2)
+                {
+                    //std::cout << "Reprojection error in 2nd key frame 1"<<std::endl;
                     continue;
+            }
             }
             else
             {
@@ -668,7 +677,10 @@ void LocalMapping::CreateNewMapPoints()
                 float errY2 = v2 - kp2.pt.y;
                 float errX2_r = u2_r - kp2_ur;
                 if((errX2*errX2+errY2*errY2+errX2_r*errX2_r)>7.8*sigmaSquare2)
+                {
+                    //std::cout << "Reprojection error in 2nd key frame 2"<<std::endl;
                     continue;
+            }
             }
 
             //Check scale consistency
@@ -911,11 +923,20 @@ void LocalMapping::KeyFrameCulling()
 
     float redundant_th;
     if(!mbInertial)
+        {
+            //cout<<"redundant_th Option1"<<endl;
         redundant_th = 0.9;
+        }
     else if (mbMonocular)
+        {
+            //cout<<"redundant_th Option2"<<endl;
         redundant_th = 0.9;
+        }
     else
+        {
+            //cout<<"redundant_th Option3"<<endl;
         redundant_th = 0.5;
+        }
 
     const bool bInitImu = mpAtlas->isImuInitialized();
     int count=0;

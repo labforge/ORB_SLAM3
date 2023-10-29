@@ -1,13 +1,6 @@
 <map id="ORB_SLAM3::LoopClosing::RequestResetActiveMap" name="ORB_SLAM3::LoopClosing::RequestResetActiveMap">
-<area shape="rect" id="node1" title=" " alt="" coords="793,104,983,145"/>
-<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#aea295ab5e9be7cdf29450e831aa26e65" title=" " alt="" coords="580,104,745,145"/>
-<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a3be7816140ffacc27218a956edb1a1c3" title=" " alt="" coords="365,5,532,47"/>
-<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a5301f3aaf838723535909b40e0afc349" title=" " alt="" coords="365,71,532,112"/>
-<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a8ba14ed9907c46696cd020907728982f" title=" " alt="" coords="365,136,532,177"/>
-<area shape="rect" id="node10" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4" title=" " alt="" coords="365,201,532,243"/>
-<area shape="rect" id="node4" href="$_monocular-_inertial_2mono__inertial__euroc_8cc.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="185,21,240,47"/>
-<area shape="rect" id="node6" href="$class_image_grabber.html#aeeabc012ca952da7f703bcece5ae13a9" title=" " alt="" coords="108,78,317,105"/>
-<area shape="rect" id="node7" href="$ros__mono__inertial_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,78,60,105"/>
-<area shape="rect" id="node9" href="$_r_g_b-_d-_inertial_2rgbd__inertial__realsense___d435i_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,143,240,170"/>
-<area shape="rect" id="node11" href="$_stereo-_inertial_2stereo__inertial__euroc_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,209,240,235"/>
+<area shape="rect" id="node1" title=" " alt="" coords="536,5,725,47"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#aea295ab5e9be7cdf29450e831aa26e65" title=" " alt="" coords="323,5,488,47"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a3be7816140ffacc27218a956edb1a1c3" title=" " alt="" coords="108,5,275,47"/>
+<area shape="rect" id="node4" href="$_monocular-_inertial_2mono__inertial__euroc_8cc.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="5,13,60,39"/>
 </map>

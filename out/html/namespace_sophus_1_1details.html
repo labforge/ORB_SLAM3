@@ -550,7 +550,7 @@ template&lt;class T , typename... Args&gt; </div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="associate_8py_source.html#l00116">associate::args</a>, <a class="el" href="formatstring_8hpp_source.html#l00036">FormatStream()</a>, and <a class="el" href="formatstring_8hpp_source.html#l00031">Sophus::details::ArgToStream&lt; T &gt;::impl()</a>.</p>
+<p class="reference">References <a class="el" href="associate_8py_source.html#l00118">associate::args</a>, <a class="el" href="formatstring_8hpp_source.html#l00036">FormatStream()</a>, and <a class="el" href="formatstring_8hpp_source.html#l00031">Sophus::details::ArgToStream&lt; T &gt;::impl()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -627,7 +627,7 @@ template&lt;class... Args&gt; </div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <span class="keywordflow">return</span> stream.str();</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="associate_8py_source.html#l00116">associate::args</a>, and <a class="el" href="formatstring_8hpp_source.html#l00036">FormatStream()</a>.</p>
+<p class="reference">References <a class="el" href="associate_8py_source.html#l00118">associate::args</a>, and <a class="el" href="formatstring_8hpp_source.html#l00036">FormatStream()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="test__macros_8hpp_source.html#l00013">Sophus::details::Pretty&lt; Scalar &gt;::impl()</a>, <a class="el" href="test__macros_8hpp_source.html#l00019">Sophus::details::Pretty&lt; Eigen::Matrix&lt; Scalar, M, N &gt; &gt;::impl()</a>, <a class="el" href="test__macros_8hpp_source.html#l00030">testFailed()</a>, and <a class="el" href="test__common_8cpp_source.html#l00010">Sophus::anonymous_namespace{test_common.cpp}::testFormatString()</a>.</p>
 <div class="dynheader">
@@ -879,12 +879,12 @@ template&lt;class... Args&gt; </div>
 <p class="definition">Definition at line <a class="el" href="test__macros_8hpp_source.html#l00030">30</a> of file <a class="el" href="test__macros_8hpp_source.html">test_macros.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                                      {</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  std::cerr &lt;&lt; <a class="code" href="namespace_sophus_1_1details.html#a54c77349f06093af7f41729820f1fba5">FormatString</a>(<span class="stringliteral">&quot;Test failed in function %, file %, line %\n&quot;</span>, func,</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                            <a class="code" href="namespaceevaluate__ate__scale.html#a14cdedaf3b4a3ff3b66f55bd7aa826ce">file</a>, line);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                            <a class="code" href="namespace__setup__util.html#aea63a1b32cc79bc3d872ab7cb30dd07e">file</a>, line);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  std::cerr &lt;&lt; msg &lt;&lt; <span class="stringliteral">&quot;\n\n&quot;</span>;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  passed = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="evaluate__ate__scale_8py_source.html#l00197">evaluate_ate_scale::file</a>, and <a class="el" href="formatstring_8hpp_source.html#l00061">FormatString()</a>.</p>
+<p class="reference">References <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00266">_setup_util::file</a>, and <a class="el" href="formatstring_8hpp_source.html#l00061">FormatString()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="test__common_8cpp_source.html#l00030">Sophus::anonymous_namespace{test_common.cpp}::testSmokeDetails()</a>.</p>
 <div class="dynheader">
@@ -930,12 +930,12 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="acommon_8hpp_html_af56d9d7343d43bf8673a11efe87e4454"><div class="ttname"><a href="common_8hpp.html#af56d9d7343d43bf8673a11efe87e4454">SOPHUS_ENSURE</a></div><div class="ttdeci">#define SOPHUS_ENSURE(expr,...)</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00084">common.hpp:84</a></div></div>
 <div class="ttc" id="anamespace_sophus_1_1details_html_aab17f74f56fac1a9704099887bdb1198"><div class="ttname"><a href="namespace_sophus_1_1details.html#aab17f74f56fac1a9704099887bdb1198">Sophus::details::getUnitQuaternion</a></div><div class="ttdeci">Eigen::Quaternion&lt; Scalar &gt; getUnitQuaternion(RxSO3&lt; Scalar &gt; const &amp;sR)</div><div class="ttdef"><b>Definition:</b> <a href="average_8hpp_source.html#l00114">average.hpp:114</a></div></div>
 <div class="ttc" id="anamespaceevaluate__ate__scale_html_acffb841d4d292db0c6742e6ebf26c27d"><div class="ttname"><a href="namespaceevaluate__ate__scale.html#acffb841d4d292db0c6742e6ebf26c27d">evaluate_ate_scale.scale</a></div><div class="ttdeci">scale</div><div class="ttdef"><b>Definition:</b> <a href="evaluate__ate__scale_8py_source.html#l00162">evaluate_ate_scale.py:162</a></div></div>
-<div class="ttc" id="anamespaceevaluate__ate__scale_html_a14cdedaf3b4a3ff3b66f55bd7aa826ce"><div class="ttname"><a href="namespaceevaluate__ate__scale.html#a14cdedaf3b4a3ff3b66f55bd7aa826ce">evaluate_ate_scale.file</a></div><div class="ttdeci">file</div><div class="ttdef"><b>Definition:</b> <a href="evaluate__ate__scale_8py_source.html#l00197">evaluate_ate_scale.py:197</a></div></div>
 <div class="ttc" id="anamespace_sophus_1_1details_html_a54c77349f06093af7f41729820f1fba5"><div class="ttname"><a href="namespace_sophus_1_1details.html#a54c77349f06093af7f41729820f1fba5">Sophus::details::FormatString</a></div><div class="ttdeci">std::string FormatString(char const *text, Args &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> <a href="formatstring_8hpp_source.html#l00061">formatstring.hpp:61</a></div></div>
-<div class="ttc" id="anamespaceassociate_html_ac6ebdbfa74fdecd9498d101000a05155"><div class="ttname"><a href="namespaceassociate.html#ac6ebdbfa74fdecd9498d101000a05155">associate.args</a></div><div class="ttdeci">args</div><div class="ttdef"><b>Definition:</b> <a href="associate_8py_source.html#l00116">associate.py:116</a></div></div>
+<div class="ttc" id="anamespace__setup__util_html_aea63a1b32cc79bc3d872ab7cb30dd07e"><div class="ttname"><a href="namespace__setup__util.html#aea63a1b32cc79bc3d872ab7cb30dd07e">_setup_util.file</a></div><div class="ttdeci">file</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00266">_setup_util.py:266</a></div></div>
+<div class="ttc" id="anamespaceassociate_html_ac6ebdbfa74fdecd9498d101000a05155"><div class="ttname"><a href="namespaceassociate.html#ac6ebdbfa74fdecd9498d101000a05155">associate.args</a></div><div class="ttdeci">args</div><div class="ttdef"><b>Definition:</b> <a href="associate_8py_source.html#l00118">associate.py:118</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 1 2022 22:35:29 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 26 2023 09:59:17 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

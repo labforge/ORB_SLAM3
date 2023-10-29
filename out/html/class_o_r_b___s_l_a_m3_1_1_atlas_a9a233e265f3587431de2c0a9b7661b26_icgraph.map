@@ -1,11 +1,10 @@
 <map id="ORB_SLAM3::Atlas::CountMaps" name="ORB_SLAM3::Atlas::CountMaps">
-<area shape="rect" id="node1" title=" " alt="" coords="973,78,1197,105"/>
-<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa5ba3f14da84d05c97ac3a4a8aed0014" title=" " alt="" coords="731,5,921,47"/>
-<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_frame_drawer.html#abc1a62c505880581bcde15afbc938e29" title=" " alt="" coords="727,136,925,177"/>
-<area shape="rect" id="node9" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ace9ff596b08a851a6823eefc6fa66fb3" title=" " alt="" coords="731,71,921,112"/>
-<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="456,49,679,75"/>
-<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a5e4851c1b0d0de361c208a68e9950b2e" title=" " alt="" coords="5,75,172,116"/>
-<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_frame_drawer.html#a1c644a3fd662e4ac7b4fba47494204ae" title=" " alt="" coords="468,100,667,141"/>
-<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_frame_drawer.html#a32f52d4095076a6527a9c56f24c0d591" title=" " alt="" coords="468,165,667,207"/>
-<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_viewer.html#a6d34d164f99aaf340c7b3e7b36459f3f" title=" " alt="" coords="220,107,408,134"/>
+<area shape="rect" id="node1" title=" " alt="" coords="759,78,983,105"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa5ba3f14da84d05c97ac3a4a8aed0014" title=" " alt="" coords="517,5,706,47"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_frame_drawer.html#abc1a62c505880581bcde15afbc938e29" title=" " alt="" coords="512,136,711,177"/>
+<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ace9ff596b08a851a6823eefc6fa66fb3" title=" " alt="" coords="517,71,706,112"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="241,31,464,58"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_frame_drawer.html#a1c644a3fd662e4ac7b4fba47494204ae" title=" " alt="" coords="253,100,452,141"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_frame_drawer.html#a32f52d4095076a6527a9c56f24c0d591" title=" " alt="" coords="253,165,452,207"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_viewer.html#a6d34d164f99aaf340c7b3e7b36459f3f" title=" " alt="" coords="5,141,193,167"/>
 </map>

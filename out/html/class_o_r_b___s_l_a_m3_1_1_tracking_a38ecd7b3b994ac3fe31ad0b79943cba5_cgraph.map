@@ -1,13 +1,4 @@
 <map id="ORB_SLAM3::Tracking::SaveSubTrajectory" name="ORB_SLAM3::Tracking::SaveSubTrajectory">
-<area shape="rect" id="node1" title=" " alt="" coords="5,221,171,263"/>
-<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_system.html#aae5c00c6de5c15962c967f62c1b65e48" title=" " alt="" coords="219,221,385,263"/>
-<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_map.html#a4b1b7912e4206c44890153b9dd22b0fa" title=" " alt="" coords="441,5,652,47"/>
-<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_atlas.html#a5450ec234a70eafbade9b594aa12d228" title=" " alt="" coords="433,71,660,98"/>
-<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#aa58317abc58d81c8bc56fade6aabafd3" title=" " alt="" coords="459,123,634,164"/>
-<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a22316350535432b8331b42eddfe5b566" title=" " alt="" coords="459,188,634,229"/>
-<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a40e624325f3e66e4f473c9d0c9aae954" title=" " alt="" coords="459,253,634,295"/>
-<area shape="rect" id="node9" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a9e801be900d973e29f54d642507ea314" title=" " alt="" coords="459,319,634,360"/>
-<area shape="rect" id="node10" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#ade016417625728dde1445681ea6fdacc" title=" " alt="" coords="447,385,646,411"/>
-<area shape="rect" id="node11" href="$class_sophus_1_1_s_e3.html#a8125109180338d0d2c4fe74a11074d59" title=" " alt="" coords="457,435,636,462"/>
-<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_map.html#aa4bd6723321415146bf819cec1fa5cde" title=" " alt="" coords="708,71,889,98"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,171,47"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_system.html#aae5c00c6de5c15962c967f62c1b65e48" title=" " alt="" coords="219,5,385,47"/>
 </map>

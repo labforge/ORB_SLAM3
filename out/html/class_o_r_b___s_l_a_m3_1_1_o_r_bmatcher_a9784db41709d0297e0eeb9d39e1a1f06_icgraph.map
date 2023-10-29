@@ -1,21 +1,12 @@
 <map id="ORB_SLAM3::ORBmatcher::SearchByBoW" name="ORB_SLAM3::ORBmatcher::SearchByBoW">
-<area shape="rect" id="node1" title=" " alt="" coords="1407,71,1599,112"/>
-<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ac98911cd2e089a0e5d88a5ef3dc7d809" title=" " alt="" coords="1112,5,1359,47"/>
-<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a4c65126443ba6c0f7ed57a36c76cae41" title=" " alt="" coords="1153,71,1318,112"/>
-<area shape="rect" id="node19" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a55da5504ae1641b5d4c9dfc4038fb99e" title=" " alt="" coords="1137,136,1333,177"/>
-<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa8c70961dd01d543b419effd3fa75bd0" title=" " alt="" coords="851,5,1064,47"/>
-<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="580,13,803,39"/>
-<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a5e4851c1b0d0de361c208a68e9950b2e" title=" " alt="" coords="365,5,532,47"/>
-<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a9ae56ac238d5dfe53a860a0bc8100b44" title=" " alt="" coords="875,136,1040,177"/>
-<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a27af981c7e57c10fd41dfb0120915113" title=" " alt="" coords="606,71,777,112"/>
-<area shape="rect" id="node13" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a18c1fdd1f5a94613fd3df5ea1f6957b9" title=" " alt="" coords="609,136,774,177"/>
-<area shape="rect" id="node16" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a6d6dad2bc132a51b16b31d194ff7e71c" title=" " alt="" coords="609,201,774,243"/>
-<area shape="rect" id="node9" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a5301f3aaf838723535909b40e0afc349" title=" " alt="" coords="365,71,532,112"/>
-<area shape="rect" id="node10" href="$_monocular-_inertial_2mono__inertial__euroc_8cc.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="185,35,240,62"/>
-<area shape="rect" id="node11" href="$class_image_grabber.html#aeeabc012ca952da7f703bcece5ae13a9" title=" " alt="" coords="108,86,317,113"/>
-<area shape="rect" id="node12" href="$ros__mono__inertial_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,86,60,113"/>
-<area shape="rect" id="node14" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a8ba14ed9907c46696cd020907728982f" title=" " alt="" coords="365,136,532,177"/>
-<area shape="rect" id="node15" href="$_r_g_b-_d-_inertial_2rgbd__inertial__realsense___d435i_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,143,240,170"/>
-<area shape="rect" id="node17" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4" title=" " alt="" coords="365,201,532,243"/>
-<area shape="rect" id="node18" href="$_stereo-_inertial_2stereo__inertial__euroc_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,209,240,235"/>
+<area shape="rect" id="node1" title=" " alt="" coords="832,71,1024,112"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ac98911cd2e089a0e5d88a5ef3dc7d809" title=" " alt="" coords="537,5,784,47"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a4c65126443ba6c0f7ed57a36c76cae41" title=" " alt="" coords="578,71,743,112"/>
+<area shape="rect" id="node10" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a55da5504ae1641b5d4c9dfc4038fb99e" title=" " alt="" coords="563,136,759,177"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa8c70961dd01d543b419effd3fa75bd0" title=" " alt="" coords="276,5,489,47"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="5,13,228,39"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a9ae56ac238d5dfe53a860a0bc8100b44" title=" " alt="" coords="300,132,465,173"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a27af981c7e57c10fd41dfb0120915113" title=" " alt="" coords="31,67,202,108"/>
+<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a18c1fdd1f5a94613fd3df5ea1f6957b9" title=" " alt="" coords="34,132,199,173"/>
+<area shape="rect" id="node9" href="$class_o_r_b___s_l_a_m3_1_1_tracking.html#a6d6dad2bc132a51b16b31d194ff7e71c" title=" " alt="" coords="34,197,199,239"/>
 </map>

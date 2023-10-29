@@ -1,16 +1,5 @@
 <map id="ORB_SLAM3::Tracking::SaveSubTrajectory" name="ORB_SLAM3::Tracking::SaveSubTrajectory">
-<area shape="rect" id="node1" title=" " alt="" coords="5,312,171,353"/>
-<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_system.html#af09dc0d866db0851e587aebe25f0d594" title=" " alt="" coords="219,344,445,385"/>
-<area shape="rect" id="node11" href="$class_o_r_b___s_l_a_m3_1_1_system.html#aae5c00c6de5c15962c967f62c1b65e48" title=" " alt="" coords="249,253,415,295"/>
-<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_map.html#a4b1b7912e4206c44890153b9dd22b0fa" title=" " alt="" coords="501,253,712,295"/>
-<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_atlas.html#a5450ec234a70eafbade9b594aa12d228" title=" " alt="" coords="493,319,720,346"/>
-<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#ad9d42b5a255635ee05d543d1d0a3a9b1" title=" " alt="" coords="519,488,694,529"/>
-<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a5f1e59365572741bda9985b63cc090d3" title=" " alt="" coords="519,553,694,595"/>
-<area shape="rect" id="node8" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a9e801be900d973e29f54d642507ea314" title=" " alt="" coords="519,371,694,412"/>
-<area shape="rect" id="node9" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#ade016417625728dde1445681ea6fdacc" title=" " alt="" coords="507,437,706,463"/>
-<area shape="rect" id="node10" href="$class_sophus_1_1_s_e3.html#a8125109180338d0d2c4fe74a11074d59" title=" " alt="" coords="517,202,696,229"/>
-<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_map.html#aa4bd6723321415146bf819cec1fa5cde" title=" " alt="" coords="768,319,949,346"/>
-<area shape="rect" id="node12" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#aa58317abc58d81c8bc56fade6aabafd3" title=" " alt="" coords="519,5,694,47"/>
-<area shape="rect" id="node13" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a22316350535432b8331b42eddfe5b566" title=" " alt="" coords="519,71,694,112"/>
-<area shape="rect" id="node14" href="$class_o_r_b___s_l_a_m3_1_1_key_frame.html#a40e624325f3e66e4f473c9d0c9aae954" title=" " alt="" coords="519,136,694,177"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,171,80"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_system.html#af09dc0d866db0851e587aebe25f0d594" title=" " alt="" coords="219,5,445,47"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_system.html#aae5c00c6de5c15962c967f62c1b65e48" title=" " alt="" coords="249,71,415,112"/>
 </map>

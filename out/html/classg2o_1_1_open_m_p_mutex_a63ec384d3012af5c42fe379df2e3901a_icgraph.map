@@ -1,9 +1,8 @@
 <map id="g2o::OpenMPMutex::unlock" name="g2o::OpenMPMutex::unlock">
-<area shape="rect" id="node1" title=" " alt="" coords="608,159,808,186"/>
-<area shape="rect" id="node2" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a5badd602625433ee1ce8e2aa7bb3b2ac" title=" " alt="" coords="340,119,560,160"/>
-<area shape="rect" id="node7" href="$classg2o_1_1_scoped_open_m_p_mutex.html#af3c190c5fba832ce48db9edf6ea10552" title=" " alt="" coords="352,184,548,225"/>
+<area shape="rect" id="node1" title=" " alt="" coords="608,119,808,146"/>
+<area shape="rect" id="node2" href="$classg2o_1_1_optimizable_graph_1_1_vertex.html#a5badd602625433ee1ce8e2aa7bb3b2ac" title=" " alt="" coords="340,79,560,120"/>
+<area shape="rect" id="node6" href="$classg2o_1_1_scoped_open_m_p_mutex.html#af3c190c5fba832ce48db9edf6ea10552" title=" " alt="" coords="352,144,548,185"/>
 <area shape="rect" id="node3" href="$classg2o_1_1_base_multi_edge.html#ac260b65c12f6594165af680f815ac291" title=" " alt="" coords="5,5,292,47"/>
-<area shape="rect" id="node4" href="$classg2o_1_1_base_unary_edge.html#ad7e6dc44c571be159f066bdb961ade2b" title=" " alt="" coords="29,71,268,127"/>
-<area shape="rect" id="node5" href="$classg2o_1_1_base_unary_edge.html#a367f19b903938faf6e89dd1b0e4e722b" title=" " alt="" coords="29,151,268,207"/>
-<area shape="rect" id="node6" href="$classg2o_1_1_base_multi_edge.html#a6196a4cd1ddc2ef27c1474252bb60e9f" title=" " alt="" coords="53,231,244,287"/>
+<area shape="rect" id="node4" href="$classg2o_1_1_base_unary_edge.html#a367f19b903938faf6e89dd1b0e4e722b" title=" " alt="" coords="29,71,268,127"/>
+<area shape="rect" id="node5" href="$classg2o_1_1_base_multi_edge.html#a6196a4cd1ddc2ef27c1474252bb60e9f" title=" " alt="" coords="53,151,244,207"/>
 </map>

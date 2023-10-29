@@ -84,18 +84,19 @@ Collaboration diagram for DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;:</d
 <div class="dyncontent">
 <div class="center"><img src="class_d_bo_w2_1_1_templated_vocabulary__coll__graph.png" border="0" usemap="#_d_bo_w2_1_1_templated_vocabulary_3_01_t_descriptor_00_01_f_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="_d_bo_w2_1_1_templated_vocabulary_3_01_t_descriptor_00_01_f_01_4_coll__map" id="_d_bo_w2_1_1_templated_vocabulary_3_01_t_descriptor_00_01_f_01_4_coll__map">
-<area shape="rect" title="Generic Vocabulary." alt="" coords="1256,225,1475,266"/>
-<area shape="rect" title=" " alt="" coords="948,217,1119,273"/>
-<area shape="rect" href="struct_d_bo_w2_1_1_templated_vocabulary_1_1_node.html" title="Tree node." alt="" coords="504,155,723,197"/>
-<area shape="rect" title=" " alt="" coords="948,137,1119,193"/>
-<area shape="rect" title=" " alt="" coords="255,93,353,120"/>
-<area shape="rect" href="classdouble.html" title=" " alt="" coords="271,36,337,63"/>
-<area shape="rect" href="class_d_bo_w2_1_1_general_scoring.html" title="Base class of scoring functions." alt="" coords="747,11,924,37"/>
-<area shape="rect" href="classint.html" title=" " alt="" coords="285,321,323,348"/>
-<area shape="rect" title=" " alt="" coords="221,159,387,201"/>
-<area shape="rect" href="classunsigned_01int.html" title=" " alt="" coords="5,167,108,193"/>
-<area shape="rect" title=" " alt="" coords="974,297,1093,324"/>
-<area shape="rect" title=" " alt="" coords="983,399,1083,425"/>
+<area shape="rect" title="Generic Vocabulary." alt="" coords="1253,237,1472,278"/>
+<area shape="rect" title=" " alt="" coords="930,164,1101,220"/>
+<area shape="rect" href="struct_d_bo_w2_1_1_templated_vocabulary_1_1_node.html" title="Tree node." alt="" coords="471,109,689,150"/>
+<area shape="rect" title=" " alt="" coords="930,84,1101,140"/>
+<area shape="rect" title=" " alt="" coords="221,125,319,152"/>
+<area shape="rect" href="classdouble.html" title=" " alt="" coords="237,7,303,33"/>
+<area shape="rect" href="class_d_bo_w2_1_1_general_scoring.html" title="Base class of scoring functions." alt="" coords="713,5,891,32"/>
+<area shape="rect" title=" " alt="" coords="187,75,353,101"/>
+<area shape="rect" href="class_node_id.html" title=" " alt="" coords="5,75,73,101"/>
+<area shape="rect" href="classint.html" title=" " alt="" coords="251,221,289,248"/>
+<area shape="rect" title=" " alt="" coords="915,295,1116,321"/>
+<area shape="rect" title=" " alt="" coords="956,345,1075,372"/>
+<area shape="rect" title=" " alt="" coords="965,396,1065,423"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -1715,14 +1716,14 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l01594"></a><span class="lineno"> 1594</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0; i &lt; fn.size(); ++i)</div>
 <div class="line"><a name="l01595"></a><span class="lineno"> 1595</span>&#160;  {</div>
 <div class="line"><a name="l01596"></a><span class="lineno"> 1596</span>&#160;    <a class="code" href="class_node_id.html">NodeId</a> nid = (<a class="code" href="classint.html">int</a>)fn[i][<span class="stringliteral">&quot;nodeId&quot;</span>];</div>
-<div class="line"><a name="l01597"></a><span class="lineno"> 1597</span>&#160;    <a class="code" href="class_node_id.html">NodeId</a> pid = (<a class="code" href="classint.html">int</a>)fn[i][<span class="stringliteral">&quot;parentId&quot;</span>];</div>
-<div class="line"><a name="l01598"></a><span class="lineno"> 1598</span>&#160;    <a class="code" href="namespace_d_bo_w2.html#a55fcd7333e591a38e96b91f41bc182f6">WordValue</a> weight = (<a class="code" href="namespace_d_bo_w2.html#a55fcd7333e591a38e96b91f41bc182f6">WordValue</a>)fn[i][<span class="stringliteral">&quot;weight&quot;</span>];</div>
+<div class="line"><a name="l01597"></a><span class="lineno"> 1597</span>&#160;    <a class="code" href="class_node_id.html">NodeId</a> <a class="code" href="namespacecpu__monitor__psutil.html#ac02d123d75b70503a01701969ad5092b">pid</a> = (<a class="code" href="classint.html">int</a>)fn[i][<span class="stringliteral">&quot;parentId&quot;</span>];</div>
+<div class="line"><a name="l01598"></a><span class="lineno"> 1598</span>&#160;    <a class="code" href="class_word_value.html">WordValue</a> weight = (<a class="code" href="namespace_d_bo_w2.html#a55fcd7333e591a38e96b91f41bc182f6">WordValue</a>)fn[i][<span class="stringliteral">&quot;weight&quot;</span>];</div>
 <div class="line"><a name="l01599"></a><span class="lineno"> 1599</span>&#160;    <span class="keywordtype">string</span> d = (string)fn[i][<span class="stringliteral">&quot;descriptor&quot;</span>];</div>
 <div class="line"><a name="l01600"></a><span class="lineno"> 1600</span>&#160;    </div>
 <div class="line"><a name="l01601"></a><span class="lineno"> 1601</span>&#160;    <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[nid].id = nid;</div>
-<div class="line"><a name="l01602"></a><span class="lineno"> 1602</span>&#160;    <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[nid].parent = pid;</div>
+<div class="line"><a name="l01602"></a><span class="lineno"> 1602</span>&#160;    <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[nid].parent = <a class="code" href="namespacecpu__monitor__psutil.html#ac02d123d75b70503a01701969ad5092b">pid</a>;</div>
 <div class="line"><a name="l01603"></a><span class="lineno"> 1603</span>&#160;    <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[nid].weight = weight;</div>
-<div class="line"><a name="l01604"></a><span class="lineno"> 1604</span>&#160;    <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[pid].children.push_back(nid);</div>
+<div class="line"><a name="l01604"></a><span class="lineno"> 1604</span>&#160;    <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[<a class="code" href="namespacecpu__monitor__psutil.html#ac02d123d75b70503a01701969ad5092b">pid</a>].children.push_back(nid);</div>
 <div class="line"><a name="l01605"></a><span class="lineno"> 1605</span>&#160;    </div>
 <div class="line"><a name="l01606"></a><span class="lineno"> 1606</span>&#160;    F::fromString(<a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[nid].descriptor, d);</div>
 <div class="line"><a name="l01607"></a><span class="lineno"> 1607</span>&#160;  }</div>
@@ -1742,6 +1743,8 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l01621"></a><span class="lineno"> 1621</span>&#160;  }</div>
 <div class="line"><a name="l01622"></a><span class="lineno"> 1622</span>&#160;}</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="cpu__monitor__psutil_8py_source.html#l00050">cpu_monitor_psutil::pid</a>.</p>
+
 </div>
 </div>
 <a id="afdec2031c98b9109451b1454f73348b0"></a>
@@ -1804,17 +1807,17 @@ template&lt;class TDescriptor , class F &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="_templated_vocabulary_8h_source.html#l01338">1338</a> of file <a class="el" href="_templated_vocabulary_8h_source.html">TemplatedVocabulary.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l01339"></a><span class="lineno"> 1339</span>&#160;{</div>
-<div class="line"><a name="l01340"></a><span class="lineno"> 1340</span>&#160;    ifstream f;</div>
-<div class="line"><a name="l01341"></a><span class="lineno"> 1341</span>&#160;    f.open(filename.c_str());</div>
+<div class="line"><a name="l01340"></a><span class="lineno"> 1340</span>&#160;    ifstream <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>;</div>
+<div class="line"><a name="l01341"></a><span class="lineno"> 1341</span>&#160;    <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>.open(filename.c_str());</div>
 <div class="line"><a name="l01342"></a><span class="lineno"> 1342</span>&#160;    </div>
-<div class="line"><a name="l01343"></a><span class="lineno"> 1343</span>&#160;    <span class="keywordflow">if</span>(f.eof())</div>
+<div class="line"><a name="l01343"></a><span class="lineno"> 1343</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>.eof())</div>
 <div class="line"><a name="l01344"></a><span class="lineno"> 1344</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l01345"></a><span class="lineno"> 1345</span>&#160; </div>
 <div class="line"><a name="l01346"></a><span class="lineno"> 1346</span>&#160;    <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a1665546b54f954d2d54d59a6982df3ca">m_words</a>.clear();</div>
 <div class="line"><a name="l01347"></a><span class="lineno"> 1347</span>&#160;    <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>.clear();</div>
 <div class="line"><a name="l01348"></a><span class="lineno"> 1348</span>&#160; </div>
 <div class="line"><a name="l01349"></a><span class="lineno"> 1349</span>&#160;    <span class="keywordtype">string</span> s;</div>
-<div class="line"><a name="l01350"></a><span class="lineno"> 1350</span>&#160;    getline(f,s);</div>
+<div class="line"><a name="l01350"></a><span class="lineno"> 1350</span>&#160;    getline(<a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>,s);</div>
 <div class="line"><a name="l01351"></a><span class="lineno"> 1351</span>&#160;    stringstream ss;</div>
 <div class="line"><a name="l01352"></a><span class="lineno"> 1352</span>&#160;    ss &lt;&lt; s;</div>
 <div class="line"><a name="l01353"></a><span class="lineno"> 1353</span>&#160;    ss &gt;&gt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#aa5f7f829033a49833fe4fb5652b99337">m_k</a>;</div>
@@ -1842,10 +1845,10 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l01375"></a><span class="lineno"> 1375</span>&#160; </div>
 <div class="line"><a name="l01376"></a><span class="lineno"> 1376</span>&#160;    <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>.resize(1);</div>
 <div class="line"><a name="l01377"></a><span class="lineno"> 1377</span>&#160;    <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[0].id = 0;</div>
-<div class="line"><a name="l01378"></a><span class="lineno"> 1378</span>&#160;    <span class="keywordflow">while</span>(!f.eof())</div>
+<div class="line"><a name="l01378"></a><span class="lineno"> 1378</span>&#160;    <span class="keywordflow">while</span>(!<a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>.eof())</div>
 <div class="line"><a name="l01379"></a><span class="lineno"> 1379</span>&#160;    {</div>
 <div class="line"><a name="l01380"></a><span class="lineno"> 1380</span>&#160;        <span class="keywordtype">string</span> snode;</div>
-<div class="line"><a name="l01381"></a><span class="lineno"> 1381</span>&#160;        getline(f,snode);</div>
+<div class="line"><a name="l01381"></a><span class="lineno"> 1381</span>&#160;        getline(<a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>,snode);</div>
 <div class="line"><a name="l01382"></a><span class="lineno"> 1382</span>&#160;        stringstream ssnode;</div>
 <div class="line"><a name="l01383"></a><span class="lineno"> 1383</span>&#160;        ssnode &lt;&lt; snode;</div>
 <div class="line"><a name="l01384"></a><span class="lineno"> 1384</span>&#160; </div>
@@ -1853,10 +1856,10 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l01386"></a><span class="lineno"> 1386</span>&#160;        <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>.resize(<a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>.size()+1);</div>
 <div class="line"><a name="l01387"></a><span class="lineno"> 1387</span>&#160;    <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[nid].id = nid;</div>
 <div class="line"><a name="l01388"></a><span class="lineno"> 1388</span>&#160;    </div>
-<div class="line"><a name="l01389"></a><span class="lineno"> 1389</span>&#160;        <span class="keywordtype">int</span> pid ;</div>
-<div class="line"><a name="l01390"></a><span class="lineno"> 1390</span>&#160;        ssnode &gt;&gt; pid;</div>
-<div class="line"><a name="l01391"></a><span class="lineno"> 1391</span>&#160;        <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[nid].parent = pid;</div>
-<div class="line"><a name="l01392"></a><span class="lineno"> 1392</span>&#160;        <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[pid].children.push_back(nid);</div>
+<div class="line"><a name="l01389"></a><span class="lineno"> 1389</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="namespacecpu__monitor__psutil.html#ac02d123d75b70503a01701969ad5092b">pid</a> ;</div>
+<div class="line"><a name="l01390"></a><span class="lineno"> 1390</span>&#160;        ssnode &gt;&gt; <a class="code" href="namespacecpu__monitor__psutil.html#ac02d123d75b70503a01701969ad5092b">pid</a>;</div>
+<div class="line"><a name="l01391"></a><span class="lineno"> 1391</span>&#160;        <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[nid].parent = <a class="code" href="namespacecpu__monitor__psutil.html#ac02d123d75b70503a01701969ad5092b">pid</a>;</div>
+<div class="line"><a name="l01392"></a><span class="lineno"> 1392</span>&#160;        <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[<a class="code" href="namespacecpu__monitor__psutil.html#ac02d123d75b70503a01701969ad5092b">pid</a>].children.push_back(nid);</div>
 <div class="line"><a name="l01393"></a><span class="lineno"> 1393</span>&#160; </div>
 <div class="line"><a name="l01394"></a><span class="lineno"> 1394</span>&#160;        <span class="keywordtype">int</span> nIsLeaf;</div>
 <div class="line"><a name="l01395"></a><span class="lineno"> 1395</span>&#160;        ssnode &gt;&gt; nIsLeaf;</div>
@@ -1890,16 +1893,7 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l01423"></a><span class="lineno"> 1423</span>&#160; </div>
 <div class="line"><a name="l01424"></a><span class="lineno"> 1424</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_system_8cc_source.html#l00041">ORB_SLAM3::System::System()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_d_bo_w2_1_1_templated_vocabulary_a5447d0744100254c4da88ea039fb3414_icgraph.png" border="0" usemap="#class_d_bo_w2_1_1_templated_vocabulary_a5447d0744100254c4da88ea039fb3414_icgraph" alt=""/></div>
-<map name="class_d_bo_w2_1_1_templated_vocabulary_a5447d0744100254c4da88ea039fb3414_icgraph" id="class_d_bo_w2_1_1_templated_vocabulary_a5447d0744100254c4da88ea039fb3414_icgraph">
-<area shape="rect" title=" " alt="" coords="220,5,439,47"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5e4851c1b0d0de361c208a68e9950b2e" title=" " alt="" coords="5,5,172,47"/>
-</map>
-</div>
+<p class="reference">References <a class="el" href="evaluate__rpe_8py_source.html#l00346">evaluate_rpe::f</a>, and <a class="el" href="cpu__monitor__psutil_8py_source.html#l00050">cpu_monitor_psutil::pid</a>.</p>
 
 </div>
 </div>
@@ -2056,15 +2050,15 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l01504"></a><span class="lineno"> 1504</span>&#160;  <span class="comment">// The root node (index 0) is not included in the node vector</span></div>
 <div class="line"><a name="l01505"></a><span class="lineno"> 1505</span>&#160;  <span class="comment">//</span></div>
 <div class="line"><a name="l01506"></a><span class="lineno"> 1506</span>&#160;  </div>
-<div class="line"><a name="l01507"></a><span class="lineno"> 1507</span>&#160;  f &lt;&lt; name &lt;&lt; <span class="stringliteral">&quot;{&quot;</span>;</div>
+<div class="line"><a name="l01507"></a><span class="lineno"> 1507</span>&#160;  <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; name &lt;&lt; <span class="stringliteral">&quot;{&quot;</span>;</div>
 <div class="line"><a name="l01508"></a><span class="lineno"> 1508</span>&#160;  </div>
-<div class="line"><a name="l01509"></a><span class="lineno"> 1509</span>&#160;  f &lt;&lt; <span class="stringliteral">&quot;k&quot;</span> &lt;&lt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#aa5f7f829033a49833fe4fb5652b99337">m_k</a>;</div>
-<div class="line"><a name="l01510"></a><span class="lineno"> 1510</span>&#160;  f &lt;&lt; <span class="stringliteral">&quot;L&quot;</span> &lt;&lt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a16735d9e2c8b901f01d541faea67971e">m_L</a>;</div>
-<div class="line"><a name="l01511"></a><span class="lineno"> 1511</span>&#160;  f &lt;&lt; <span class="stringliteral">&quot;scoringType&quot;</span> &lt;&lt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a89d8aa037f2b5c3c5cc953734bb5cb9f">m_scoring</a>;</div>
-<div class="line"><a name="l01512"></a><span class="lineno"> 1512</span>&#160;  f &lt;&lt; <span class="stringliteral">&quot;weightingType&quot;</span> &lt;&lt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#abf03c6430d630674ddca5bab9c120c51">m_weighting</a>;</div>
+<div class="line"><a name="l01509"></a><span class="lineno"> 1509</span>&#160;  <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;k&quot;</span> &lt;&lt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#aa5f7f829033a49833fe4fb5652b99337">m_k</a>;</div>
+<div class="line"><a name="l01510"></a><span class="lineno"> 1510</span>&#160;  <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;L&quot;</span> &lt;&lt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a16735d9e2c8b901f01d541faea67971e">m_L</a>;</div>
+<div class="line"><a name="l01511"></a><span class="lineno"> 1511</span>&#160;  <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;scoringType&quot;</span> &lt;&lt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a89d8aa037f2b5c3c5cc953734bb5cb9f">m_scoring</a>;</div>
+<div class="line"><a name="l01512"></a><span class="lineno"> 1512</span>&#160;  <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;weightingType&quot;</span> &lt;&lt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#abf03c6430d630674ddca5bab9c120c51">m_weighting</a>;</div>
 <div class="line"><a name="l01513"></a><span class="lineno"> 1513</span>&#160;  </div>
 <div class="line"><a name="l01514"></a><span class="lineno"> 1514</span>&#160;  <span class="comment">// tree</span></div>
-<div class="line"><a name="l01515"></a><span class="lineno"> 1515</span>&#160;  f &lt;&lt; <span class="stringliteral">&quot;nodes&quot;</span> &lt;&lt; <span class="stringliteral">&quot;[&quot;</span>;</div>
+<div class="line"><a name="l01515"></a><span class="lineno"> 1515</span>&#160;  <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;nodes&quot;</span> &lt;&lt; <span class="stringliteral">&quot;[&quot;</span>;</div>
 <div class="line"><a name="l01516"></a><span class="lineno"> 1516</span>&#160;  vector&lt;NodeId&gt; parents, children;</div>
 <div class="line"><a name="l01517"></a><span class="lineno"> 1517</span>&#160;  vector&lt;NodeId&gt;::const_iterator pit;</div>
 <div class="line"><a name="l01518"></a><span class="lineno"> 1518</span>&#160; </div>
@@ -2072,10 +2066,10 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l01520"></a><span class="lineno"> 1520</span>&#160; </div>
 <div class="line"><a name="l01521"></a><span class="lineno"> 1521</span>&#160;  <span class="keywordflow">while</span>(!parents.empty())</div>
 <div class="line"><a name="l01522"></a><span class="lineno"> 1522</span>&#160;  {</div>
-<div class="line"><a name="l01523"></a><span class="lineno"> 1523</span>&#160;    <a class="code" href="class_node_id.html">NodeId</a> pid = parents.back();</div>
+<div class="line"><a name="l01523"></a><span class="lineno"> 1523</span>&#160;    <a class="code" href="class_node_id.html">NodeId</a> <a class="code" href="namespacecpu__monitor__psutil.html#ac02d123d75b70503a01701969ad5092b">pid</a> = parents.back();</div>
 <div class="line"><a name="l01524"></a><span class="lineno"> 1524</span>&#160;    parents.pop_back();</div>
 <div class="line"><a name="l01525"></a><span class="lineno"> 1525</span>&#160; </div>
-<div class="line"><a name="l01526"></a><span class="lineno"> 1526</span>&#160;    <span class="keyword">const</span> Node&amp; parent = <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[pid];</div>
+<div class="line"><a name="l01526"></a><span class="lineno"> 1526</span>&#160;    <span class="keyword">const</span> Node&amp; parent = <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[<a class="code" href="namespacecpu__monitor__psutil.html#ac02d123d75b70503a01701969ad5092b">pid</a>];</div>
 <div class="line"><a name="l01527"></a><span class="lineno"> 1527</span>&#160;    children = parent.children;</div>
 <div class="line"><a name="l01528"></a><span class="lineno"> 1528</span>&#160; </div>
 <div class="line"><a name="l01529"></a><span class="lineno"> 1529</span>&#160;    <span class="keywordflow">for</span>(pit = children.begin(); pit != children.end(); pit++)</div>
@@ -2083,12 +2077,12 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l01531"></a><span class="lineno"> 1531</span>&#160;      <span class="keyword">const</span> Node&amp; child = <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[*pit];</div>
 <div class="line"><a name="l01532"></a><span class="lineno"> 1532</span>&#160; </div>
 <div class="line"><a name="l01533"></a><span class="lineno"> 1533</span>&#160;      <span class="comment">// save node data</span></div>
-<div class="line"><a name="l01534"></a><span class="lineno"> 1534</span>&#160;      f &lt;&lt; <span class="stringliteral">&quot;{:&quot;</span>;</div>
-<div class="line"><a name="l01535"></a><span class="lineno"> 1535</span>&#160;      f &lt;&lt; <span class="stringliteral">&quot;nodeId&quot;</span> &lt;&lt; (<a class="code" href="classint.html">int</a>)child.id;</div>
-<div class="line"><a name="l01536"></a><span class="lineno"> 1536</span>&#160;      f &lt;&lt; <span class="stringliteral">&quot;parentId&quot;</span> &lt;&lt; (<span class="keywordtype">int</span>)pid;</div>
-<div class="line"><a name="l01537"></a><span class="lineno"> 1537</span>&#160;      f &lt;&lt; <span class="stringliteral">&quot;weight&quot;</span> &lt;&lt; (<a class="code" href="classdouble.html">double</a>)child.weight;</div>
-<div class="line"><a name="l01538"></a><span class="lineno"> 1538</span>&#160;      f &lt;&lt; <span class="stringliteral">&quot;descriptor&quot;</span> &lt;&lt; F::toString(child.descriptor);</div>
-<div class="line"><a name="l01539"></a><span class="lineno"> 1539</span>&#160;      f &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
+<div class="line"><a name="l01534"></a><span class="lineno"> 1534</span>&#160;      <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;{:&quot;</span>;</div>
+<div class="line"><a name="l01535"></a><span class="lineno"> 1535</span>&#160;      <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;nodeId&quot;</span> &lt;&lt; (<a class="code" href="classint.html">int</a>)child.id;</div>
+<div class="line"><a name="l01536"></a><span class="lineno"> 1536</span>&#160;      <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;parentId&quot;</span> &lt;&lt; (<span class="keywordtype">int</span>)<a class="code" href="namespacecpu__monitor__psutil.html#ac02d123d75b70503a01701969ad5092b">pid</a>;</div>
+<div class="line"><a name="l01537"></a><span class="lineno"> 1537</span>&#160;      <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;weight&quot;</span> &lt;&lt; (<a class="code" href="classdouble.html">double</a>)child.weight;</div>
+<div class="line"><a name="l01538"></a><span class="lineno"> 1538</span>&#160;      <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;descriptor&quot;</span> &lt;&lt; F::toString(child.descriptor);</div>
+<div class="line"><a name="l01539"></a><span class="lineno"> 1539</span>&#160;      <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
 <div class="line"><a name="l01540"></a><span class="lineno"> 1540</span>&#160;      </div>
 <div class="line"><a name="l01541"></a><span class="lineno"> 1541</span>&#160;      <span class="comment">// add to parent list</span></div>
 <div class="line"><a name="l01542"></a><span class="lineno"> 1542</span>&#160;      <span class="keywordflow">if</span>(!child.isLeaf())</div>
@@ -2098,28 +2092,28 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l01546"></a><span class="lineno"> 1546</span>&#160;    }</div>
 <div class="line"><a name="l01547"></a><span class="lineno"> 1547</span>&#160;  }</div>
 <div class="line"><a name="l01548"></a><span class="lineno"> 1548</span>&#160;  </div>
-<div class="line"><a name="l01549"></a><span class="lineno"> 1549</span>&#160;  f &lt;&lt; <span class="stringliteral">&quot;]&quot;</span>; <span class="comment">// nodes</span></div>
+<div class="line"><a name="l01549"></a><span class="lineno"> 1549</span>&#160;  <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;]&quot;</span>; <span class="comment">// nodes</span></div>
 <div class="line"><a name="l01550"></a><span class="lineno"> 1550</span>&#160; </div>
 <div class="line"><a name="l01551"></a><span class="lineno"> 1551</span>&#160;  <span class="comment">// words</span></div>
-<div class="line"><a name="l01552"></a><span class="lineno"> 1552</span>&#160;  f &lt;&lt; <span class="stringliteral">&quot;words&quot;</span> &lt;&lt; <span class="stringliteral">&quot;[&quot;</span>;</div>
+<div class="line"><a name="l01552"></a><span class="lineno"> 1552</span>&#160;  <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;words&quot;</span> &lt;&lt; <span class="stringliteral">&quot;[&quot;</span>;</div>
 <div class="line"><a name="l01553"></a><span class="lineno"> 1553</span>&#160;  </div>
 <div class="line"><a name="l01554"></a><span class="lineno"> 1554</span>&#160;  <span class="keyword">typename</span> vector&lt;Node*&gt;::const_iterator wit;</div>
 <div class="line"><a name="l01555"></a><span class="lineno"> 1555</span>&#160;  <span class="keywordflow">for</span>(wit = <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a1665546b54f954d2d54d59a6982df3ca">m_words</a>.begin(); wit != <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a1665546b54f954d2d54d59a6982df3ca">m_words</a>.end(); wit++)</div>
 <div class="line"><a name="l01556"></a><span class="lineno"> 1556</span>&#160;  {</div>
-<div class="line"><a name="l01557"></a><span class="lineno"> 1557</span>&#160;    <a class="code" href="namespace_d_bo_w2.html#ab1a0d3283b2d4690a383372ed20bfeb5">WordId</a> <span class="keywordtype">id</span> = wit - <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a1665546b54f954d2d54d59a6982df3ca">m_words</a>.begin();</div>
-<div class="line"><a name="l01558"></a><span class="lineno"> 1558</span>&#160;    f &lt;&lt; <span class="stringliteral">&quot;{:&quot;</span>;</div>
-<div class="line"><a name="l01559"></a><span class="lineno"> 1559</span>&#160;    f &lt;&lt; <span class="stringliteral">&quot;wordId&quot;</span> &lt;&lt; (<a class="code" href="classint.html">int</a>)<span class="keywordtype">id</span>;</div>
-<div class="line"><a name="l01560"></a><span class="lineno"> 1560</span>&#160;    f &lt;&lt; <span class="stringliteral">&quot;nodeId&quot;</span> &lt;&lt; (<a class="code" href="classint.html">int</a>)(*wit)-&gt;id;</div>
-<div class="line"><a name="l01561"></a><span class="lineno"> 1561</span>&#160;    f &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
+<div class="line"><a name="l01557"></a><span class="lineno"> 1557</span>&#160;    <a class="code" href="class_word_id.html">WordId</a> <span class="keywordtype">id</span> = wit - <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a1665546b54f954d2d54d59a6982df3ca">m_words</a>.begin();</div>
+<div class="line"><a name="l01558"></a><span class="lineno"> 1558</span>&#160;    <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;{:&quot;</span>;</div>
+<div class="line"><a name="l01559"></a><span class="lineno"> 1559</span>&#160;    <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;wordId&quot;</span> &lt;&lt; (<a class="code" href="classint.html">int</a>)<span class="keywordtype">id</span>;</div>
+<div class="line"><a name="l01560"></a><span class="lineno"> 1560</span>&#160;    <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;nodeId&quot;</span> &lt;&lt; (<a class="code" href="classint.html">int</a>)(*wit)-&gt;id;</div>
+<div class="line"><a name="l01561"></a><span class="lineno"> 1561</span>&#160;    <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
 <div class="line"><a name="l01562"></a><span class="lineno"> 1562</span>&#160;  }</div>
 <div class="line"><a name="l01563"></a><span class="lineno"> 1563</span>&#160;  </div>
-<div class="line"><a name="l01564"></a><span class="lineno"> 1564</span>&#160;  f &lt;&lt; <span class="stringliteral">&quot;]&quot;</span>; <span class="comment">// words</span></div>
+<div class="line"><a name="l01564"></a><span class="lineno"> 1564</span>&#160;  <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;]&quot;</span>; <span class="comment">// words</span></div>
 <div class="line"><a name="l01565"></a><span class="lineno"> 1565</span>&#160; </div>
-<div class="line"><a name="l01566"></a><span class="lineno"> 1566</span>&#160;  f &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
+<div class="line"><a name="l01566"></a><span class="lineno"> 1566</span>&#160;  <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <span class="stringliteral">&quot;}&quot;</span>;</div>
 <div class="line"><a name="l01567"></a><span class="lineno"> 1567</span>&#160; </div>
 <div class="line"><a name="l01568"></a><span class="lineno"> 1568</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_templated_vocabulary_8h_source.html#l00304">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::children</a>, <a class="el" href="_templated_vocabulary_8h_source.html#l00308">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::descriptor</a>, <a class="el" href="_templated_vocabulary_8h_source.html#l00300">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::id</a>, <a class="el" href="_templated_vocabulary_8h_source.html#l00328">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::isLeaf()</a>, and <a class="el" href="_templated_vocabulary_8h_source.html#l00302">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::weight</a>.</p>
+<p class="reference">References <a class="el" href="_templated_vocabulary_8h_source.html#l00304">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::children</a>, <a class="el" href="_templated_vocabulary_8h_source.html#l00308">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::descriptor</a>, <a class="el" href="evaluate__rpe_8py_source.html#l00346">evaluate_rpe::f</a>, <a class="el" href="_templated_vocabulary_8h_source.html#l00300">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::id</a>, <a class="el" href="_templated_vocabulary_8h_source.html#l00328">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::isLeaf()</a>, <a class="el" href="cpu__monitor__psutil_8py_source.html#l00050">cpu_monitor_psutil::pid</a>, and <a class="el" href="_templated_vocabulary_8h_source.html#l00302">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::weight</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2158,27 +2152,27 @@ template&lt;class TDescriptor , class F &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="_templated_vocabulary_8h_source.html#l01429">1429</a> of file <a class="el" href="_templated_vocabulary_8h_source.html">TemplatedVocabulary.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l01430"></a><span class="lineno"> 1430</span>&#160;{</div>
-<div class="line"><a name="l01431"></a><span class="lineno"> 1431</span>&#160;    fstream f;</div>
-<div class="line"><a name="l01432"></a><span class="lineno"> 1432</span>&#160;    f.open(filename.c_str(),ios_base::out);</div>
-<div class="line"><a name="l01433"></a><span class="lineno"> 1433</span>&#160;    f &lt;&lt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#aa5f7f829033a49833fe4fb5652b99337">m_k</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a16735d9e2c8b901f01d541faea67971e">m_L</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a89d8aa037f2b5c3c5cc953734bb5cb9f">m_scoring</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#abf03c6430d630674ddca5bab9c120c51">m_weighting</a> &lt;&lt; endl;</div>
+<div class="line"><a name="l01431"></a><span class="lineno"> 1431</span>&#160;    fstream <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>;</div>
+<div class="line"><a name="l01432"></a><span class="lineno"> 1432</span>&#160;    <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>.open(filename.c_str(),ios_base::out);</div>
+<div class="line"><a name="l01433"></a><span class="lineno"> 1433</span>&#160;    <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#aa5f7f829033a49833fe4fb5652b99337">m_k</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a16735d9e2c8b901f01d541faea67971e">m_L</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a89d8aa037f2b5c3c5cc953734bb5cb9f">m_scoring</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#abf03c6430d630674ddca5bab9c120c51">m_weighting</a> &lt;&lt; endl;</div>
 <div class="line"><a name="l01434"></a><span class="lineno"> 1434</span>&#160; </div>
 <div class="line"><a name="l01435"></a><span class="lineno"> 1435</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i=1; i&lt;<a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>.size();i++)</div>
 <div class="line"><a name="l01436"></a><span class="lineno"> 1436</span>&#160;    {</div>
 <div class="line"><a name="l01437"></a><span class="lineno"> 1437</span>&#160;        <span class="keyword">const</span> Node&amp; node = <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">m_nodes</a>[i];</div>
 <div class="line"><a name="l01438"></a><span class="lineno"> 1438</span>&#160; </div>
-<div class="line"><a name="l01439"></a><span class="lineno"> 1439</span>&#160;        f &lt;&lt; node.parent &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><a name="l01439"></a><span class="lineno"> 1439</span>&#160;        <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; node.parent &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
 <div class="line"><a name="l01440"></a><span class="lineno"> 1440</span>&#160;        <span class="keywordflow">if</span>(node.isLeaf())</div>
-<div class="line"><a name="l01441"></a><span class="lineno"> 1441</span>&#160;            f &lt;&lt; 1 &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><a name="l01441"></a><span class="lineno"> 1441</span>&#160;            <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; 1 &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
 <div class="line"><a name="l01442"></a><span class="lineno"> 1442</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01443"></a><span class="lineno"> 1443</span>&#160;            f &lt;&lt; 0 &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><a name="l01443"></a><span class="lineno"> 1443</span>&#160;            <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; 0 &lt;&lt; <span class="stringliteral">&quot; &quot;</span>;</div>
 <div class="line"><a name="l01444"></a><span class="lineno"> 1444</span>&#160; </div>
-<div class="line"><a name="l01445"></a><span class="lineno"> 1445</span>&#160;        f &lt;&lt; F::toString(node.descriptor) &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; (<a class="code" href="classdouble.html">double</a>)node.weight &lt;&lt; endl;</div>
+<div class="line"><a name="l01445"></a><span class="lineno"> 1445</span>&#160;        <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> &lt;&lt; F::toString(node.descriptor) &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; (<a class="code" href="classdouble.html">double</a>)node.weight &lt;&lt; endl;</div>
 <div class="line"><a name="l01446"></a><span class="lineno"> 1446</span>&#160;    }</div>
 <div class="line"><a name="l01447"></a><span class="lineno"> 1447</span>&#160; </div>
-<div class="line"><a name="l01448"></a><span class="lineno"> 1448</span>&#160;    f.close();</div>
+<div class="line"><a name="l01448"></a><span class="lineno"> 1448</span>&#160;    <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>.close();</div>
 <div class="line"><a name="l01449"></a><span class="lineno"> 1449</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_templated_vocabulary_8h_source.html#l00308">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::descriptor</a>, <a class="el" href="_templated_vocabulary_8h_source.html#l00328">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::isLeaf()</a>, <a class="el" href="_templated_vocabulary_8h_source.html#l00306">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::parent</a>, and <a class="el" href="_templated_vocabulary_8h_source.html#l00302">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::weight</a>.</p>
+<p class="reference">References <a class="el" href="_templated_vocabulary_8h_source.html#l00308">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::descriptor</a>, <a class="el" href="evaluate__rpe_8py_source.html#l00346">evaluate_rpe::f</a>, <a class="el" href="_templated_vocabulary_8h_source.html#l00328">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::isLeaf()</a>, <a class="el" href="_templated_vocabulary_8h_source.html#l00306">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::parent</a>, and <a class="el" href="_templated_vocabulary_8h_source.html#l00302">DBoW2::TemplatedVocabulary&lt; TDescriptor, F &gt;::Node::weight</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2241,34 +2235,25 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l01202"></a><span class="lineno"> 1202</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a34144d0e2056d6ed8b925a2937b67418">m_scoring_object</a>-&gt;<a class="code" href="class_d_bo_w2_1_1_general_scoring.html#a43b3f5fedb19e6a19e17b9813efd17e8">score</a>(v1, v2);</div>
 <div class="line"><a name="l01203"></a><span class="lineno"> 1203</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_key_frame_database_8cc_source.html#l00468">ORB_SLAM3::KeyFrameDatabase::DetectBestCandidates()</a>, <a class="el" href="_key_frame_database_8cc_source.html#l00228">ORB_SLAM3::KeyFrameDatabase::DetectCandidates()</a>, <a class="el" href="_key_frame_database_8cc_source.html#l00100">ORB_SLAM3::KeyFrameDatabase::DetectLoopCandidates()</a>, <a class="el" href="_key_frame_database_8cc_source.html#l00604">ORB_SLAM3::KeyFrameDatabase::DetectNBestCandidates()</a>, and <a class="el" href="_key_frame_database_8cc_source.html#l00733">ORB_SLAM3::KeyFrameDatabase::DetectRelocalizationCandidates()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="backup_2src_2_key_frame_database_8cc_source.html#l00468">ORB_SLAM3::KeyFrameDatabase::DetectBestCandidates()</a>, <a class="el" href="backup_2src_2_key_frame_database_8cc_source.html#l00228">ORB_SLAM3::KeyFrameDatabase::DetectCandidates()</a>, <a class="el" href="backup_2src_2_key_frame_database_8cc_source.html#l00100">ORB_SLAM3::KeyFrameDatabase::DetectLoopCandidates()</a>, <a class="el" href="backup_2src_2_key_frame_database_8cc_source.html#l00604">ORB_SLAM3::KeyFrameDatabase::DetectNBestCandidates()</a>, and <a class="el" href="backup_2src_2_key_frame_database_8cc_source.html#l00733">ORB_SLAM3::KeyFrameDatabase::DetectRelocalizationCandidates()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_d_bo_w2_1_1_templated_vocabulary_aedde9cc3255e41fd0441055eeb640346_icgraph.png" border="0" usemap="#class_d_bo_w2_1_1_templated_vocabulary_aedde9cc3255e41fd0441055eeb640346_icgraph" alt=""/></div>
 <map name="class_d_bo_w2_1_1_templated_vocabulary_aedde9cc3255e41fd0441055eeb640346_icgraph" id="class_d_bo_w2_1_1_templated_vocabulary_aedde9cc3255e41fd0441055eeb640346_icgraph">
-<area shape="rect" title=" " alt="" coords="1617,136,1836,177"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#a99e7f2942343ad3b7e2cf4a0015c8931" title=" " alt="" coords="1331,5,1569,47"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#a43ab3e0e970a318146fbbd5ee73368e1" title=" " alt="" coords="1331,71,1569,112"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#aa768d78a596e71e44068e5e191e710c5" title=" " alt="" coords="1331,136,1569,177"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#a838cba6df4bad4a5250738c593e6b29c" title=" " alt="" coords="1331,201,1569,243"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#a82e84b2873fca11271d8afbc668272d0" title=" " alt="" coords="1331,267,1569,308"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa8c70961dd01d543b419effd3fa75bd0" title=" " alt="" coords="1069,185,1283,227"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="799,189,1021,215"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5e4851c1b0d0de361c208a68e9950b2e" title=" " alt="" coords="582,176,749,217"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a4c65126443ba6c0f7ed57a36c76cae41" title=" " alt="" coords="1093,267,1259,308"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a9ae56ac238d5dfe53a860a0bc8100b44" title=" " alt="" coords="827,299,993,340"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a27af981c7e57c10fd41dfb0120915113" title=" " alt="" coords="580,241,751,283"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a18c1fdd1f5a94613fd3df5ea1f6957b9" title=" " alt="" coords="583,307,748,348"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a6d6dad2bc132a51b16b31d194ff7e71c" title=" " alt="" coords="583,372,748,413"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5301f3aaf838723535909b40e0afc349" title=" " alt="" coords="365,241,532,283"/>
-<area shape="rect" href="_monocular-_inertial_2mono__inertial__euroc_8cc.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="185,206,240,233"/>
-<area shape="rect" href="class_image_grabber.html#aeeabc012ca952da7f703bcece5ae13a9" title=" " alt="" coords="108,257,317,283"/>
-<area shape="rect" href="ros__mono__inertial_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,257,60,283"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a8ba14ed9907c46696cd020907728982f" title=" " alt="" coords="365,307,532,348"/>
-<area shape="rect" href="_r_g_b-_d-_inertial_2rgbd__inertial__realsense___d435i_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,314,240,341"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4" title=" " alt="" coords="365,372,532,413"/>
-<area shape="rect" href="_stereo-_inertial_2stereo__inertial__euroc_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,379,240,406"/>
+<area shape="rect" title=" " alt="" coords="1043,136,1261,177"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#a99e7f2942343ad3b7e2cf4a0015c8931" title=" " alt="" coords="757,5,994,47"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#a43ab3e0e970a318146fbbd5ee73368e1" title=" " alt="" coords="757,71,994,112"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#aa768d78a596e71e44068e5e191e710c5" title=" " alt="" coords="757,136,994,177"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#a838cba6df4bad4a5250738c593e6b29c" title=" " alt="" coords="757,201,994,243"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#a82e84b2873fca11271d8afbc668272d0" title=" " alt="" coords="756,267,995,308"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa8c70961dd01d543b419effd3fa75bd0" title=" " alt="" coords="495,201,708,243"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="224,209,447,235"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a4c65126443ba6c0f7ed57a36c76cae41" title=" " alt="" coords="519,267,684,308"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a9ae56ac238d5dfe53a860a0bc8100b44" title=" " alt="" coords="253,267,418,308"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a27af981c7e57c10fd41dfb0120915113" title=" " alt="" coords="5,201,176,243"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a18c1fdd1f5a94613fd3df5ea1f6957b9" title=" " alt="" coords="8,267,173,308"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a6d6dad2bc132a51b16b31d194ff7e71c" title=" " alt="" coords="8,332,173,373"/>
 </map>
 </div>
 
@@ -2336,7 +2321,7 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160; </div>
 <div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;      <span class="keywordflow">for</span>(fit = mit-&gt;begin(); fit &lt; mit-&gt;end(); ++fit)</div>
 <div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;      {</div>
-<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;        <a class="code" href="namespace_d_bo_w2.html#ab1a0d3283b2d4690a383372ed20bfeb5">WordId</a> word_id;</div>
+<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;        <a class="code" href="class_word_id.html">WordId</a> word_id;</div>
 <div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;        <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a01de3bebec37624439c7d3baf6651ff0">transform</a>(*fit, word_id);</div>
 <div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160; </div>
 <div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;        <span class="keywordflow">if</span>(!counted[word_id])</div>
@@ -2463,26 +2448,18 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l01003"></a><span class="lineno"> 1003</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a1665546b54f954d2d54d59a6982df3ca">m_words</a>.size();</div>
 <div class="line"><a name="l01004"></a><span class="lineno"> 1004</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_key_frame_database_8cc_source.html#l00068">ORB_SLAM3::KeyFrameDatabase::clear()</a>, <a class="el" href="_key_frame_database_8cc_source.html#l00032">ORB_SLAM3::KeyFrameDatabase::KeyFrameDatabase()</a>, <a class="el" href="_templated_vocabulary_8h_source.html#l01632">DBoW2::operator&lt;&lt;()</a>, and <a class="el" href="_key_frame_database_8cc_source.html#l00847">ORB_SLAM3::KeyFrameDatabase::SetORBVocabulary()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="backup_2src_2_key_frame_database_8cc_source.html#l00068">ORB_SLAM3::KeyFrameDatabase::clear()</a>, <a class="el" href="backup_2src_2_key_frame_database_8cc_source.html#l00032">ORB_SLAM3::KeyFrameDatabase::KeyFrameDatabase()</a>, <a class="el" href="_templated_vocabulary_8h_source.html#l01632">DBoW2::operator&lt;&lt;()</a>, and <a class="el" href="backup_2src_2_key_frame_database_8cc_source.html#l00847">ORB_SLAM3::KeyFrameDatabase::SetORBVocabulary()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_d_bo_w2_1_1_templated_vocabulary_a8baad280d6daf74ee43d7cd911363137_icgraph.png" border="0" usemap="#class_d_bo_w2_1_1_templated_vocabulary_a8baad280d6daf74ee43d7cd911363137_icgraph" alt=""/></div>
 <map name="class_d_bo_w2_1_1_templated_vocabulary_a8baad280d6daf74ee43d7cd911363137_icgraph" id="class_d_bo_w2_1_1_templated_vocabulary_a8baad280d6daf74ee43d7cd911363137_icgraph">
-<area shape="rect" title=" " alt="" coords="1079,201,1297,242"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#a51dc02e14aff8107b3ea812f2111c60e" title=" " alt="" coords="793,106,1031,147"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#a8da1eff74b3ed56b2372694eaebc9693" title=" " alt="" coords="793,171,1031,213"/>
-<area shape="rect" href="namespace_d_bo_w2.html#aecdf616fe16d2cf09f521a603b9d43f1" title=" " alt="" coords="835,237,989,264"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#abb949e87efaa71ebe4f19ef3dbcc59fb" title=" " alt="" coords="793,289,1031,330"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a9e27c5599a1a19529cbbb251c55b6d67" title=" " alt="" coords="580,106,745,147"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5301f3aaf838723535909b40e0afc349" title=" " alt="" coords="365,41,532,82"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a8ba14ed9907c46696cd020907728982f" title=" " alt="" coords="365,106,532,147"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4" title=" " alt="" coords="365,171,532,213"/>
-<area shape="rect" href="_monocular-_inertial_2mono__inertial__euroc_8cc.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="185,5,240,32"/>
-<area shape="rect" href="class_image_grabber.html#aeeabc012ca952da7f703bcece5ae13a9" title=" " alt="" coords="108,56,317,83"/>
-<area shape="rect" href="ros__mono__inertial_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,56,60,83"/>
-<area shape="rect" href="_r_g_b-_d-_inertial_2rgbd__inertial__realsense___d435i_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,113,240,140"/>
-<area shape="rect" href="_stereo-_inertial_2stereo__inertial__euroc_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,179,240,205"/>
+<area shape="rect" title=" " alt="" coords="504,100,723,141"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#a51dc02e14aff8107b3ea812f2111c60e" title=" " alt="" coords="219,5,456,47"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#a8da1eff74b3ed56b2372694eaebc9693" title=" " alt="" coords="219,71,456,112"/>
+<area shape="rect" href="namespace_d_bo_w2.html#aecdf616fe16d2cf09f521a603b9d43f1" title=" " alt="" coords="260,137,415,163"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#abb949e87efaa71ebe4f19ef3dbcc59fb" title=" " alt="" coords="219,188,456,229"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a9e27c5599a1a19529cbbb251c55b6d67" title=" " alt="" coords="5,5,171,47"/>
 </map>
 </div>
 
@@ -2594,8 +2571,8 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l01083"></a><span class="lineno"> 1083</span>&#160;  {</div>
 <div class="line"><a name="l01084"></a><span class="lineno"> 1084</span>&#160;    <span class="keywordflow">for</span>(fit = features.begin(); fit &lt; features.end(); ++fit)</div>
 <div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;    {</div>
-<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;      <a class="code" href="namespace_d_bo_w2.html#ab1a0d3283b2d4690a383372ed20bfeb5">WordId</a> id;</div>
-<div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;      <a class="code" href="namespace_d_bo_w2.html#a55fcd7333e591a38e96b91f41bc182f6">WordValue</a> w; </div>
+<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;      <a class="code" href="class_word_id.html">WordId</a> id;</div>
+<div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;      <a class="code" href="class_word_value.html">WordValue</a> w; </div>
 <div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160;      <span class="comment">// w is the idf value if TF_IDF, 1 if TF</span></div>
 <div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;      </div>
 <div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;      <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a01de3bebec37624439c7d3baf6651ff0">transform</a>(*fit, <span class="keywordtype">id</span>, w);</div>
@@ -2617,8 +2594,8 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;  {</div>
 <div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160;    <span class="keywordflow">for</span>(fit = features.begin(); fit &lt; features.end(); ++fit)</div>
 <div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;    {</div>
-<div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;      <a class="code" href="namespace_d_bo_w2.html#ab1a0d3283b2d4690a383372ed20bfeb5">WordId</a> id;</div>
-<div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;      <a class="code" href="namespace_d_bo_w2.html#a55fcd7333e591a38e96b91f41bc182f6">WordValue</a> w;</div>
+<div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;      <a class="code" href="class_word_id.html">WordId</a> id;</div>
+<div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;      <a class="code" href="class_word_value.html">WordValue</a> w;</div>
 <div class="line"><a name="l01111"></a><span class="lineno"> 1111</span>&#160;      <span class="comment">// w is idf if IDF, or 1 if BINARY</span></div>
 <div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;      </div>
 <div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;      <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a01de3bebec37624439c7d3baf6651ff0">transform</a>(*fit, <span class="keywordtype">id</span>, w);</div>
@@ -2634,7 +2611,7 @@ template&lt;class TDescriptor , class F &gt; </div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="_bow_vector_8cpp_source.html#l00050">DBoW2::BowVector::addIfNotExist()</a>, <a class="el" href="_bow_vector_8cpp_source.html#l00034">DBoW2::BowVector::addWeight()</a>, <a class="el" href="_bow_vector_8cpp_source.html#l00062">DBoW2::BowVector::normalize()</a>, <a class="el" href="_bow_vector_8h_source.html#l00042">DBoW2::TF</a>, and <a class="el" href="_bow_vector_8h_source.html#l00041">DBoW2::TF_IDF</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="_frame_8cc_source.html#l00738">ORB_SLAM3::Frame::ComputeBoW()</a>, and <a class="el" href="_key_frame_8cc_source.html#l00098">ORB_SLAM3::KeyFrame::ComputeBoW()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="backup_2src_2_frame_8cc_source.html#l01018">ORB_SLAM3::Frame::ComputeBoW()</a>, and <a class="el" href="backup_2src_2_key_frame_8cc_source.html#l00098">ORB_SLAM3::KeyFrame::ComputeBoW()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2651,35 +2628,26 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_d_bo_w2_1_1_templated_vocabulary_a01de3bebec37624439c7d3baf6651ff0_icgraph.png" border="0" usemap="#class_d_bo_w2_1_1_templated_vocabulary_a01de3bebec37624439c7d3baf6651ff0_icgraph" alt=""/></div>
 <map name="class_d_bo_w2_1_1_templated_vocabulary_a01de3bebec37624439c7d3baf6651ff0_icgraph" id="class_d_bo_w2_1_1_templated_vocabulary_a01de3bebec37624439c7d3baf6651ff0_icgraph">
-<area shape="rect" title=" " alt="" coords="1899,142,2117,183"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_frame.html#a2128e2002fe54942f0f5ea3a443ba824" title=" " alt="" coords="1380,113,1628,140"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame.html#ab0be918abef0dfe347ca26d1e199dc76" title=" " alt="" coords="1676,171,1851,213"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a4c65126443ba6c0f7ed57a36c76cae41" title=" " alt="" coords="1149,41,1315,82"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a55da5504ae1641b5d4c9dfc4038fb99e" title=" " alt="" coords="1134,106,1330,147"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a9ae56ac238d5dfe53a860a0bc8100b44" title=" " alt="" coords="885,106,1050,147"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a27af981c7e57c10fd41dfb0120915113" title=" " alt="" coords="606,41,777,82"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a18c1fdd1f5a94613fd3df5ea1f6957b9" title=" " alt="" coords="609,106,774,147"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a6d6dad2bc132a51b16b31d194ff7e71c" title=" " alt="" coords="609,171,774,213"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5301f3aaf838723535909b40e0afc349" title=" " alt="" coords="365,41,532,82"/>
-<area shape="rect" href="_monocular-_inertial_2mono__inertial__euroc_8cc.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="185,5,240,32"/>
-<area shape="rect" href="class_image_grabber.html#aeeabc012ca952da7f703bcece5ae13a9" title=" " alt="" coords="108,56,317,83"/>
-<area shape="rect" href="ros__mono__inertial_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,56,60,83"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a8ba14ed9907c46696cd020907728982f" title=" " alt="" coords="365,106,532,147"/>
-<area shape="rect" href="_r_g_b-_d-_inertial_2rgbd__inertial__realsense___d435i_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,113,240,140"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4" title=" " alt="" coords="365,171,532,213"/>
-<area shape="rect" href="_stereo-_inertial_2stereo__inertial__euroc_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,179,240,205"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a31b779f423e6a6b9f0119fa0d98eb511" title=" " alt="" coords="1401,171,1607,213"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#adce60fb98f070c4ac76d58a3a2e08e95" title=" " alt="" coords="1404,302,1604,343"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a6add3249e1be8a4630fc2d9e2e3681a6" title=" " alt="" coords="1143,171,1321,213"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#a702bf45ee92d85d37623209f023fadde" title=" " alt="" coords="1132,237,1332,278"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#abbd4bb45f894a3c0d2fc6ca0a227286f" title=" " alt="" coords="1132,302,1332,343"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#aa3bd8a66c4ee13694fe355eee1cdc9af" title=" " alt="" coords="851,368,1084,395"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#a22895e133b33b7b31eabe0703bad0ec9" title=" " alt="" coords="1132,419,1332,461"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa5ba3f14da84d05c97ac3a4a8aed0014" title=" " alt="" coords="873,171,1062,213"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ace9ff596b08a851a6823eefc6fa66fb3" title=" " alt="" coords="873,237,1062,278"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a73b9f9990537c4ce8ad21ca9a06fc1d8" title=" " alt="" coords="873,302,1062,343"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="580,277,803,304"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5e4851c1b0d0de361c208a68e9950b2e" title=" " alt="" coords="365,297,532,338"/>
+<area shape="rect" title=" " alt="" coords="1324,107,1543,148"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_frame.html#a2128e2002fe54942f0f5ea3a443ba824" title=" " alt="" coords="805,78,1053,105"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame.html#ab0be918abef0dfe347ca26d1e199dc76" title=" " alt="" coords="1101,136,1276,177"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a4c65126443ba6c0f7ed57a36c76cae41" title=" " alt="" coords="575,5,740,47"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a55da5504ae1641b5d4c9dfc4038fb99e" title=" " alt="" coords="559,71,755,112"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a9ae56ac238d5dfe53a860a0bc8100b44" title=" " alt="" coords="310,71,475,112"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a27af981c7e57c10fd41dfb0120915113" title=" " alt="" coords="31,5,202,47"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a18c1fdd1f5a94613fd3df5ea1f6957b9" title=" " alt="" coords="34,71,199,112"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a6d6dad2bc132a51b16b31d194ff7e71c" title=" " alt="" coords="34,136,199,177"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a31b779f423e6a6b9f0119fa0d98eb511" title=" " alt="" coords="826,136,1033,177"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#adce60fb98f070c4ac76d58a3a2e08e95" title=" " alt="" coords="829,267,1029,308"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a6add3249e1be8a4630fc2d9e2e3681a6" title=" " alt="" coords="568,136,747,177"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#a702bf45ee92d85d37623209f023fadde" title=" " alt="" coords="557,201,757,243"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#abbd4bb45f894a3c0d2fc6ca0a227286f" title=" " alt="" coords="557,267,757,308"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#aa3bd8a66c4ee13694fe355eee1cdc9af" title=" " alt="" coords="276,333,509,359"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#a22895e133b33b7b31eabe0703bad0ec9" title=" " alt="" coords="557,384,757,425"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa5ba3f14da84d05c97ac3a4a8aed0014" title=" " alt="" coords="298,136,487,177"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ace9ff596b08a851a6823eefc6fa66fb3" title=" " alt="" coords="298,201,487,243"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a73b9f9990537c4ce8ad21ca9a06fc1d8" title=" " alt="" coords="298,267,487,308"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="5,209,228,235"/>
 </map>
 </div>
 
@@ -2763,9 +2731,9 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i_feature = 0;</div>
 <div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;    <span class="keywordflow">for</span>(fit = features.begin(); fit &lt; features.end(); ++fit, ++i_feature)</div>
 <div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;    {</div>
-<div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;      <a class="code" href="namespace_d_bo_w2.html#ab1a0d3283b2d4690a383372ed20bfeb5">WordId</a> id;</div>
+<div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;      <a class="code" href="class_word_id.html">WordId</a> id;</div>
 <div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;      <a class="code" href="class_node_id.html">NodeId</a> nid;</div>
-<div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;      <a class="code" href="namespace_d_bo_w2.html#a55fcd7333e591a38e96b91f41bc182f6">WordValue</a> w; </div>
+<div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;      <a class="code" href="class_word_value.html">WordValue</a> w; </div>
 <div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;      <span class="comment">// w is the idf value if TF_IDF, 1 if TF</span></div>
 <div class="line"><a name="l01154"></a><span class="lineno"> 1154</span>&#160;      </div>
 <div class="line"><a name="l01155"></a><span class="lineno"> 1155</span>&#160;      <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a01de3bebec37624439c7d3baf6651ff0">transform</a>(*fit, <span class="keywordtype">id</span>, w, &amp;nid, levelsup);</div>
@@ -2791,9 +2759,9 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l01175"></a><span class="lineno"> 1175</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i_feature = 0;</div>
 <div class="line"><a name="l01176"></a><span class="lineno"> 1176</span>&#160;    <span class="keywordflow">for</span>(fit = features.begin(); fit &lt; features.end(); ++fit, ++i_feature)</div>
 <div class="line"><a name="l01177"></a><span class="lineno"> 1177</span>&#160;    {</div>
-<div class="line"><a name="l01178"></a><span class="lineno"> 1178</span>&#160;      <a class="code" href="namespace_d_bo_w2.html#ab1a0d3283b2d4690a383372ed20bfeb5">WordId</a> id;</div>
+<div class="line"><a name="l01178"></a><span class="lineno"> 1178</span>&#160;      <a class="code" href="class_word_id.html">WordId</a> id;</div>
 <div class="line"><a name="l01179"></a><span class="lineno"> 1179</span>&#160;      <a class="code" href="class_node_id.html">NodeId</a> nid;</div>
-<div class="line"><a name="l01180"></a><span class="lineno"> 1180</span>&#160;      <a class="code" href="namespace_d_bo_w2.html#a55fcd7333e591a38e96b91f41bc182f6">WordValue</a> w;</div>
+<div class="line"><a name="l01180"></a><span class="lineno"> 1180</span>&#160;      <a class="code" href="class_word_value.html">WordValue</a> w;</div>
 <div class="line"><a name="l01181"></a><span class="lineno"> 1181</span>&#160;      <span class="comment">// w is idf if IDF, or 1 if BINARY</span></div>
 <div class="line"><a name="l01182"></a><span class="lineno"> 1182</span>&#160;      </div>
 <div class="line"><a name="l01183"></a><span class="lineno"> 1183</span>&#160;      <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a01de3bebec37624439c7d3baf6651ff0">transform</a>(*fit, <span class="keywordtype">id</span>, w, &amp;nid, levelsup);</div>
@@ -2865,7 +2833,7 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="line"><a name="l01055"></a><span class="lineno"> 1055</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l01056"></a><span class="lineno"> 1056</span>&#160;  }</div>
 <div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160;  </div>
-<div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;  <a class="code" href="namespace_d_bo_w2.html#ab1a0d3283b2d4690a383372ed20bfeb5">WordId</a> wid;</div>
+<div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;  <a class="code" href="class_word_id.html">WordId</a> wid;</div>
 <div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;  <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a01de3bebec37624439c7d3baf6651ff0">transform</a>(feature, wid);</div>
 <div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160;  <span class="keywordflow">return</span> wid;</div>
 <div class="line"><a name="l01061"></a><span class="lineno"> 1061</span>&#160;}</div>
@@ -2917,7 +2885,7 @@ template&lt;class TDescriptor , class F &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="_templated_vocabulary_8h_source.html#l01209">1209</a> of file <a class="el" href="_templated_vocabulary_8h_source.html">TemplatedVocabulary.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l01210"></a><span class="lineno"> 1210</span>&#160;{</div>
-<div class="line"><a name="l01211"></a><span class="lineno"> 1211</span>&#160;  <a class="code" href="namespace_d_bo_w2.html#a55fcd7333e591a38e96b91f41bc182f6">WordValue</a> weight;</div>
+<div class="line"><a name="l01211"></a><span class="lineno"> 1211</span>&#160;  <a class="code" href="class_word_value.html">WordValue</a> weight;</div>
 <div class="line"><a name="l01212"></a><span class="lineno"> 1212</span>&#160;  <a class="code" href="class_d_bo_w2_1_1_templated_vocabulary.html#a01de3bebec37624439c7d3baf6651ff0">transform</a>(feature, <span class="keywordtype">id</span>, weight);</div>
 <div class="line"><a name="l01213"></a><span class="lineno"> 1213</span>&#160;}</div>
 </div><!-- fragment -->
@@ -3261,9 +3229,9 @@ template&lt;class TDescriptor , class F &gt; </div>
 <li>Thirdparty/DBoW2/DBoW2/<a class="el" href="_templated_vocabulary_8h_source.html">TemplatedVocabulary.h</a></li>
 </ul>
 </div><!-- contents -->
-<div class="ttc" id="anamespace_d_bo_w2_html_ab1a0d3283b2d4690a383372ed20bfeb5"><div class="ttname"><a href="namespace_d_bo_w2.html#ab1a0d3283b2d4690a383372ed20bfeb5">DBoW2::WordId</a></div><div class="ttdeci">unsigned int WordId</div><div class="ttdoc">Id of words.</div><div class="ttdef"><b>Definition:</b> <a href="_bow_vector_8h_source.html#l00023">BowVector.h:23</a></div></div>
 <div class="ttc" id="aclass_d_bo_w2_1_1_templated_vocabulary_html_a8baad280d6daf74ee43d7cd911363137"><div class="ttname"><a href="class_d_bo_w2_1_1_templated_vocabulary.html#a8baad280d6daf74ee43d7cd911363137">DBoW2::TemplatedVocabulary::size</a></div><div class="ttdeci">virtual unsigned int size() const</div><div class="ttdef"><b>Definition:</b> <a href="_templated_vocabulary_8h_source.html#l01001">TemplatedVocabulary.h:1001</a></div></div>
 <div class="ttc" id="anamespace_d_bo_w2_html_a5de5c8a307aca9a84ffefda2a9bc467aa15d1950b5707de9ac0760c2c6dae48bd"><div class="ttname"><a href="namespace_d_bo_w2.html#a5de5c8a307aca9a84ffefda2a9bc467aa15d1950b5707de9ac0760c2c6dae48bd">DBoW2::TF</a></div><div class="ttdeci">@ TF</div><div class="ttdef"><b>Definition:</b> <a href="_bow_vector_8h_source.html#l00042">BowVector.h:42</a></div></div>
+<div class="ttc" id="aclass_word_value_html"><div class="ttname"><a href="class_word_value.html">WordValue</a></div></div>
 <div class="ttc" id="aclass_d_bo_w2_1_1_templated_vocabulary_html_ace8155a70fa5163d117dc6a2ef923205"><div class="ttname"><a href="class_d_bo_w2_1_1_templated_vocabulary.html#ace8155a70fa5163d117dc6a2ef923205">DBoW2::TemplatedVocabulary::getFeatures</a></div><div class="ttdeci">void getFeatures(const vector&lt; vector&lt; TDescriptor &gt; &gt; &amp;training_features, vector&lt; pDescriptor &gt; &amp;features) const</div><div class="ttdef"><b>Definition:</b> <a href="_templated_vocabulary_8h_source.html#l00621">TemplatedVocabulary.h:621</a></div></div>
 <div class="ttc" id="anamespace_d_bo_w2_html_a5de5c8a307aca9a84ffefda2a9bc467aa5a1c1f7cd866c8bea4551e296298c3bc"><div class="ttname"><a href="namespace_d_bo_w2.html#a5de5c8a307aca9a84ffefda2a9bc467aa5a1c1f7cd866c8bea4551e296298c3bc">DBoW2::IDF</a></div><div class="ttdeci">@ IDF</div><div class="ttdef"><b>Definition:</b> <a href="_bow_vector_8h_source.html#l00043">BowVector.h:43</a></div></div>
 <div class="ttc" id="aclass_d_bo_w2_1_1_templated_vocabulary_html_ad7bbb3cf53f8f9f3610b9b67c551ba8e"><div class="ttname"><a href="class_d_bo_w2_1_1_templated_vocabulary.html#ad7bbb3cf53f8f9f3610b9b67c551ba8e">DBoW2::TemplatedVocabulary::empty</a></div><div class="ttdeci">virtual bool empty() const</div><div class="ttdef"><b>Definition:</b> <a href="_templated_vocabulary_8h_source.html#l01009">TemplatedVocabulary.h:1009</a></div></div>
@@ -3276,10 +3244,12 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="ttc" id="aclass_d_bo_w2_1_1_templated_vocabulary_html_abf03c6430d630674ddca5bab9c120c51"><div class="ttname"><a href="class_d_bo_w2_1_1_templated_vocabulary.html#abf03c6430d630674ddca5bab9c120c51">DBoW2::TemplatedVocabulary::m_weighting</a></div><div class="ttdeci">WeightingType m_weighting</div><div class="ttdoc">Weighting method.</div><div class="ttdef"><b>Definition:</b> <a href="_templated_vocabulary_8h_source.html#l00414">TemplatedVocabulary.h:414</a></div></div>
 <div class="ttc" id="aclass_d_bo_w2_1_1_templated_vocabulary_html_a01de3bebec37624439c7d3baf6651ff0"><div class="ttname"><a href="class_d_bo_w2_1_1_templated_vocabulary.html#a01de3bebec37624439c7d3baf6651ff0">DBoW2::TemplatedVocabulary::transform</a></div><div class="ttdeci">virtual void transform(const std::vector&lt; TDescriptor &gt; &amp;features, BowVector &amp;v) const</div><div class="ttdef"><b>Definition:</b> <a href="_templated_vocabulary_8h_source.html#l01066">TemplatedVocabulary.h:1066</a></div></div>
 <div class="ttc" id="aclass_d_bo_w2_1_1_general_scoring_html_a43b3f5fedb19e6a19e17b9813efd17e8"><div class="ttname"><a href="class_d_bo_w2_1_1_general_scoring.html#a43b3f5fedb19e6a19e17b9813efd17e8">DBoW2::GeneralScoring::score</a></div><div class="ttdeci">virtual double score(const BowVector &amp;v, const BowVector &amp;w) const =0</div></div>
+<div class="ttc" id="aclass_word_id_html"><div class="ttname"><a href="class_word_id.html">WordId</a></div></div>
 <div class="ttc" id="aclass_d_utils_1_1_random_html_aa25012101ecbca54025d5430bcf93d86"><div class="ttname"><a href="class_d_utils_1_1_random.html#aa25012101ecbca54025d5430bcf93d86">DUtils::Random::RandomInt</a></div><div class="ttdeci">static int RandomInt(int min, int max)</div><div class="ttdef"><b>Definition:</b> <a href="_random_8cpp_source.html#l00047">Random.cpp:47</a></div></div>
 <div class="ttc" id="anamespace_d_bo_w2_html_aa252a592dd607c6e60dede06ceef2722"><div class="ttname"><a href="namespace_d_bo_w2.html#aa252a592dd607c6e60dede06ceef2722">DBoW2::ScoringType</a></div><div class="ttdeci">ScoringType</div><div class="ttdoc">Scoring type.</div><div class="ttdef"><b>Definition:</b> <a href="_bow_vector_8h_source.html#l00048">BowVector.h:48</a></div></div>
 <div class="ttc" id="aclass_d_bo_w2_1_1_templated_vocabulary_html_af7bf0ecd2d1ecc7d31ddca3aa7d1ddc8"><div class="ttname"><a href="class_d_bo_w2_1_1_templated_vocabulary.html#af7bf0ecd2d1ecc7d31ddca3aa7d1ddc8">DBoW2::TemplatedVocabulary::setNodeWeights</a></div><div class="ttdeci">void setNodeWeights(const vector&lt; vector&lt; TDescriptor &gt; &gt; &amp;features)</div><div class="ttdef"><b>Definition:</b> <a href="_templated_vocabulary_8h_source.html#l00944">TemplatedVocabulary.h:944</a></div></div>
 <div class="ttc" id="aclass_d_bo_w2_1_1_templated_vocabulary_html_a16735d9e2c8b901f01d541faea67971e"><div class="ttname"><a href="class_d_bo_w2_1_1_templated_vocabulary.html#a16735d9e2c8b901f01d541faea67971e">DBoW2::TemplatedVocabulary::m_L</a></div><div class="ttdeci">int m_L</div><div class="ttdoc">Depth levels.</div><div class="ttdef"><b>Definition:</b> <a href="_templated_vocabulary_8h_source.html#l00411">TemplatedVocabulary.h:411</a></div></div>
+<div class="ttc" id="anamespacecpu__monitor__psutil_html_ac02d123d75b70503a01701969ad5092b"><div class="ttname"><a href="namespacecpu__monitor__psutil.html#ac02d123d75b70503a01701969ad5092b">cpu_monitor_psutil.pid</a></div><div class="ttdeci">pid</div><div class="ttdef"><b>Definition:</b> <a href="cpu__monitor__psutil_8py_source.html#l00050">cpu_monitor_psutil.py:50</a></div></div>
 <div class="ttc" id="aclassdouble_html"><div class="ttname"><a href="classdouble.html">double</a></div></div>
 <div class="ttc" id="aclass_d_bo_w2_1_1_templated_vocabulary_html_a82be6d310eae6f4f57a72d340489320b"><div class="ttname"><a href="class_d_bo_w2_1_1_templated_vocabulary.html#a82be6d310eae6f4f57a72d340489320b">DBoW2::TemplatedVocabulary::m_nodes</a></div><div class="ttdeci">std::vector&lt; Node &gt; m_nodes</div><div class="ttdoc">Tree nodes.</div><div class="ttdef"><b>Definition:</b> <a href="_templated_vocabulary_8h_source.html#l00423">TemplatedVocabulary.h:423</a></div></div>
 <div class="ttc" id="anamespace_d_bo_w2_html_aa252a592dd607c6e60dede06ceef2722a14556ffa1d80b1c7540ea68506eb5b56"><div class="ttname"><a href="namespace_d_bo_w2.html#aa252a592dd607c6e60dede06ceef2722a14556ffa1d80b1c7540ea68506eb5b56">DBoW2::DOT_PRODUCT</a></div><div class="ttdeci">@ DOT_PRODUCT</div><div class="ttdef"><b>Definition:</b> <a href="_bow_vector_8h_source.html#l00055">BowVector.h:55</a></div></div>
@@ -3288,6 +3258,7 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="ttc" id="aclass_d_bo_w2_1_1_templated_vocabulary_html_afdec2031c98b9109451b1454f73348b0"><div class="ttname"><a href="class_d_bo_w2_1_1_templated_vocabulary.html#afdec2031c98b9109451b1454f73348b0">DBoW2::TemplatedVocabulary::load</a></div><div class="ttdeci">void load(const std::string &amp;filename)</div><div class="ttdef"><b>Definition:</b> <a href="_templated_vocabulary_8h_source.html#l01465">TemplatedVocabulary.h:1465</a></div></div>
 <div class="ttc" id="anamespace_d_bo_w2_html_a5de5c8a307aca9a84ffefda2a9bc467aae517632073c3a0b980558ebb6519d759"><div class="ttname"><a href="namespace_d_bo_w2.html#a5de5c8a307aca9a84ffefda2a9bc467aae517632073c3a0b980558ebb6519d759">DBoW2::BINARY</a></div><div class="ttdeci">@ BINARY</div><div class="ttdef"><b>Definition:</b> <a href="_bow_vector_8h_source.html#l00044">BowVector.h:44</a></div></div>
 <div class="ttc" id="aclass_d_bo_w2_1_1_templated_vocabulary_html_a89d8aa037f2b5c3c5cc953734bb5cb9f"><div class="ttname"><a href="class_d_bo_w2_1_1_templated_vocabulary.html#a89d8aa037f2b5c3c5cc953734bb5cb9f">DBoW2::TemplatedVocabulary::m_scoring</a></div><div class="ttdeci">ScoringType m_scoring</div><div class="ttdoc">Scoring method.</div><div class="ttdef"><b>Definition:</b> <a href="_templated_vocabulary_8h_source.html#l00417">TemplatedVocabulary.h:417</a></div></div>
+<div class="ttc" id="anamespaceevaluate__rpe_html_a2ac8320bac68fa5f9dfb5df695e9841b"><div class="ttname"><a href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">evaluate_rpe.f</a></div><div class="ttdeci">f</div><div class="ttdef"><b>Definition:</b> <a href="evaluate__rpe_8py_source.html#l00346">evaluate_rpe.py:346</a></div></div>
 <div class="ttc" id="aclass_d_bo_w2_1_1_templated_vocabulary_html_a3915e44667d32130e17791147730b7da"><div class="ttname"><a href="class_d_bo_w2_1_1_templated_vocabulary.html#a3915e44667d32130e17791147730b7da">DBoW2::TemplatedVocabulary::initiateClusters</a></div><div class="ttdeci">virtual void initiateClusters(const vector&lt; pDescriptor &gt; &amp;descriptors, vector&lt; TDescriptor &gt; &amp;clusters) const</div><div class="ttdef"><b>Definition:</b> <a href="_templated_vocabulary_8h_source.html#l00825">TemplatedVocabulary.h:825</a></div></div>
 <div class="ttc" id="aclass_d_bo_w2_1_1_templated_vocabulary_html_a34144d0e2056d6ed8b925a2937b67418"><div class="ttname"><a href="class_d_bo_w2_1_1_templated_vocabulary.html#a34144d0e2056d6ed8b925a2937b67418">DBoW2::TemplatedVocabulary::m_scoring_object</a></div><div class="ttdeci">GeneralScoring * m_scoring_object</div><div class="ttdoc">Object for computing scores.</div><div class="ttdef"><b>Definition:</b> <a href="_templated_vocabulary_8h_source.html#l00420">TemplatedVocabulary.h:420</a></div></div>
 <div class="ttc" id="aclass_d_bo_w2_1_1_templated_vocabulary_html_a3244d5a3d0f75ba9c9ae905c5365335d"><div class="ttname"><a href="class_d_bo_w2_1_1_templated_vocabulary.html#a3244d5a3d0f75ba9c9ae905c5365335d">DBoW2::TemplatedVocabulary::createScoringObject</a></div><div class="ttdeci">void createScoringObject()</div><div class="ttdef"><b>Definition:</b> <a href="_templated_vocabulary_8h_source.html#l00463">TemplatedVocabulary.h:463</a></div></div>
@@ -3305,7 +3276,7 @@ template&lt;class TDescriptor , class F &gt; </div>
 <div class="ttc" id="anamespace_d_bo_w2_html_aa252a592dd607c6e60dede06ceef2722a607c4948ab28605098d7cedb9bce14ae"><div class="ttname"><a href="namespace_d_bo_w2.html#aa252a592dd607c6e60dede06ceef2722a607c4948ab28605098d7cedb9bce14ae">DBoW2::KL</a></div><div class="ttdeci">@ KL</div><div class="ttdef"><b>Definition:</b> <a href="_bow_vector_8h_source.html#l00053">BowVector.h:53</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 1 2022 22:35:27 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 26 2023 09:59:14 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

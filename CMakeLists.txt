@@ -12,21 +12,32 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall   -O3")
 set(CMAKE_C_FLAGS_RELEASE "${CMAKE_C_FLAGS_RELEASE} -march=native")
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -march=native")
 
+
+set(PLEORA_DIR "/opt/pleora/ebus_sdk/Ubuntu-20.04-x86_64/lib")
+set(PLEORA_INC "-I/opt/pleora/ebus_sdk/Ubuntu-20.04-x86_64/include")
+set(PLEORA_ARGS "${PLEORA_INC}" "-DQT_GUI_LIB" "-D_UNIX_")
+#set(PLEORA_ARGS "${PLEORA_INC}" "-DQT_GUI_LIB")
+
 # Check C++14 or C++0x support
 include(CheckCXXCompilerFlag)
-CHECK_CXX_COMPILER_FLAG("-std=c++14" COMPILER_SUPPORTS_CXX11)
+CHECK_CXX_COMPILER_FLAG("-std=c++17" COMPILER_SUPPORTS_CXX17)
 CHECK_CXX_COMPILER_FLAG("-std=c++0x" COMPILER_SUPPORTS_CXX0X)
-if(COMPILER_SUPPORTS_CXX11)
-   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
+if(COMPILER_SUPPORTS_CXX17)
+   #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
+   set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
    add_definitions(-DCOMPILEDWITHC11)
-   message(STATUS "Using flag -std=c++14.")
+   message(STATUS "Using flag -std=c++17.")
 elseif(COMPILER_SUPPORTS_CXX0X)
    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
    add_definitions(-DCOMPILEDWITHC0X)
    message(STATUS "Using flag -std=c++0x.")
 else()
-   message(FATAL_ERROR "The compiler ${CMAKE_CXX_COMPILER} has no C++14 support. Please use a different C++ compiler.")
+   message(FATAL_ERROR "The compiler ${CMAKE_CXX_COMPILER} has no C++17 support. Please use a different C++ compiler.")
 endif()
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 
 LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_modules)
 
@@ -40,7 +51,23 @@ MESSAGE(${OpenCV_VERSION})
 
 find_package(Eigen3 3.1.0 REQUIRED)
 find_package(Pangolin REQUIRED)
+find_package(PCL REQUIRED)
 find_package(realsense2)
+
+find_library(PvBase PvBase HINTS ${PLEORA_DIR} REQUIRED)
+find_library(PvBuffer PvBuffer HINTS ${PLEORA_DIR} REQUIRED)
+find_library(PvSystem PvSystem HINTS ${PLEORA_DIR} REQUIRED)
+find_library(PvDevice PvDevice HINTS ${PLEORA_DIR} REQUIRED)
+find_library(PvGenICam PvGenICam HINTS ${PLEORA_DIR} REQUIRED)
+find_library(PvStream PvStream HINTS ${PLEORA_DIR} REQUIRED)
+find_library(PvVirualDevice PvVirtualDevice PATHS ${PLEORA_DIR} REQUIRED)
+find_library(PvGUI PvGUI HINTS ${PLEORA_DIR} REQUIRED)
+find_library(PvAppUtils PvAppUtils HINTS ${PLEORA_DIR} REQUIRED)
+find_library(PvPersistence PvPersistence HINTS ${PLEORA_DIR} REQUIRED)
+
+if(CMAKE_CXX_COMPILER_ID MATCHES "GNU")
+    set(PLEORA_ARGS "${PLEORA_ARGS}" "-Wno-deprecated" "-Wno-non-virtual-dtor" "-Wno-unused-parameter" "-Wno-type-limits")
+endif()
 
 include_directories(
 ${PROJECT_SOURCE_DIR}
@@ -49,6 +76,8 @@ ${PROJECT_SOURCE_DIR}/include/CameraModels
 ${PROJECT_SOURCE_DIR}/Thirdparty/Sophus
 ${EIGEN3_INCLUDE_DIR}
 ${Pangolin_INCLUDE_DIRS}
+#/opt/pleora/ebus_sdk/Ubuntu-20.04-x86_64/include
+${PCL_INCLUDE_DIRS}
 )
 
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
@@ -120,6 +149,7 @@ target_link_libraries(${PROJECT_NAME}
 ${OpenCV_LIBS}
 ${EIGEN3_LIBS}
 ${Pangolin_LIBRARIES}
+${PCL_LIBRARIES}
 ${PROJECT_SOURCE_DIR}/Thirdparty/DBoW2/lib/libDBoW2.so
 ${PROJECT_SOURCE_DIR}/Thirdparty/g2o/lib/libg2o.so
 -lboost_serialization
@@ -177,6 +207,13 @@ add_executable(stereo_bottlenose
         Examples/Stereo/stereo_bottlenose.cc)
 target_link_libraries(stereo_bottlenose ${PROJECT_NAME})
 
+
+add_executable(stereo_bottlenose_gige
+        Examples/Stereo/stereo_bottlenose_gige.cc)
+target_link_libraries(stereo_bottlenose_gige ${PROJECT_NAME} ${OpenCV_LIBS} ${PvBase} ${PvBuffer} ${PvSystem} ${PvDevice} ${PvGenICam} ${PvStream} ${PvVirualDevice} ${PvGUI} ${PvAppUtils} ${PvPersistence})
+target_compile_options(stereo_bottlenose_gige PRIVATE ${PLEORA_ARGS})
+
+
 add_executable(stereo_tum_vi
         Examples/Stereo/stereo_tum_vi.cc)
 target_link_libraries(stereo_tum_vi ${PROJECT_NAME})
@@ -214,9 +251,22 @@ add_executable(mono_bottlenose
         Examples/Monocular/mono_bottlenose.cc)
 target_link_libraries(mono_bottlenose ${PROJECT_NAME})
 
+add_executable(mono_bottlenose_gige
+        Examples/Monocular/mono_bottlenose_gige.cc)
+#target_compile_options(mono_bottlenose_gige PRIVATE ${PLEORA_ARGS})
+target_link_libraries(mono_bottlenose_gige ${PROJECT_NAME} ${OpenCV_LIBS} ${PvBase} ${PvBuffer} ${PvSystem} ${PvDevice} ${PvGenICam} ${PvStream} ${PvVirualDevice} ${PvGUI} ${PvAppUtils} ${PvPersistence})
+#message("PLEORA_ARGS:" ${PLEORA_ARGS})
+#string(REPLACE " " ";" REPLACED_FLAGS ${CMAKE_CXX_FLAGS})
+#target_compile_options(mono_bottlenose_gige INTERFACE ${REPLACED_FLAGS} ${PLEORA_ARGS})
+target_compile_options(mono_bottlenose_gige PRIVATE ${PLEORA_ARGS})
+
 add_executable(mono_tum_vi
         Examples/Monocular/mono_tum_vi.cc)
 target_link_libraries(mono_tum_vi ${PROJECT_NAME})
+
+add_executable(mono_tum_vi_acc
+        Examples/Monocular/mono_tum_vi_acc.cc)
+target_link_libraries(mono_tum_vi_acc ${PROJECT_NAME})
 
 if(realsense2_FOUND)
     add_executable(mono_realsense_t265

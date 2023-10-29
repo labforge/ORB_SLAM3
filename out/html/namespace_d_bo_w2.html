@@ -485,11 +485,11 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  {</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    FeatureVector::const_iterator vit = v.begin();</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keyword">const</span> std::vector&lt;unsigned int&gt;* f = &amp;vit-&gt;second;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keyword">const</span> std::vector&lt;unsigned int&gt;* <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> = &amp;vit-&gt;second;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;&lt;&quot;</span> &lt;&lt; vit-&gt;first &lt;&lt; <span class="stringliteral">&quot;: [&quot;</span>;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">if</span>(!f-&gt;empty()) out &lt;&lt; (*f)[0];</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 1; i &lt; f-&gt;size(); ++i)</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>-&gt;empty()) out &lt;&lt; (*f)[0];</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 1; i &lt; <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>-&gt;size(); ++i)</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    {</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;      out &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; (*f)[i];</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
@@ -497,11 +497,11 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    </div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">for</span>(++vit; vit != v.end(); ++vit)</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    {</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      f = &amp;vit-&gt;second;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> = &amp;vit-&gt;second;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      </div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;      out &lt;&lt; <span class="stringliteral">&quot;, &lt;&quot;</span> &lt;&lt; vit-&gt;first &lt;&lt; <span class="stringliteral">&quot;: [&quot;</span>;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      <span class="keywordflow">if</span>(!f-&gt;empty()) out &lt;&lt; (*f)[0];</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 1; i &lt; f-&gt;size(); ++i)</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      <span class="keywordflow">if</span>(!<a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>-&gt;empty()) out &lt;&lt; (*f)[0];</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 1; i &lt; <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>-&gt;size(); ++i)</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      {</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        out &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; (*f)[i];</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;      }</div>
@@ -512,6 +512,8 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  <span class="keywordflow">return</span> out;  </div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="evaluate__rpe_8py_source.html#l00346">evaluate_rpe::f</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -523,13 +525,14 @@ Here is the call graph for this function:</div>
 <div class="ttc" id="anamespace_d_bo_w2_html_aa252a592dd607c6e60dede06ceef2722a14556ffa1d80b1c7540ea68506eb5b56"><div class="ttname"><a href="namespace_d_bo_w2.html#aa252a592dd607c6e60dede06ceef2722a14556ffa1d80b1c7540ea68506eb5b56">DBoW2::DOT_PRODUCT</a></div><div class="ttdeci">@ DOT_PRODUCT</div><div class="ttdef"><b>Definition:</b> <a href="_bow_vector_8h_source.html#l00055">BowVector.h:55</a></div></div>
 <div class="ttc" id="anamespace_d_bo_w2_html_a5de5c8a307aca9a84ffefda2a9bc467aaa3425e88466862008dff6883e07e205d"><div class="ttname"><a href="namespace_d_bo_w2.html#a5de5c8a307aca9a84ffefda2a9bc467aaa3425e88466862008dff6883e07e205d">DBoW2::TF_IDF</a></div><div class="ttdeci">@ TF_IDF</div><div class="ttdef"><b>Definition:</b> <a href="_bow_vector_8h_source.html#l00041">BowVector.h:41</a></div></div>
 <div class="ttc" id="anamespace_d_bo_w2_html_a5de5c8a307aca9a84ffefda2a9bc467aae517632073c3a0b980558ebb6519d759"><div class="ttname"><a href="namespace_d_bo_w2.html#a5de5c8a307aca9a84ffefda2a9bc467aae517632073c3a0b980558ebb6519d759">DBoW2::BINARY</a></div><div class="ttdeci">@ BINARY</div><div class="ttdef"><b>Definition:</b> <a href="_bow_vector_8h_source.html#l00044">BowVector.h:44</a></div></div>
+<div class="ttc" id="anamespaceevaluate__rpe_html_a2ac8320bac68fa5f9dfb5df695e9841b"><div class="ttname"><a href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">evaluate_rpe.f</a></div><div class="ttdeci">f</div><div class="ttdef"><b>Definition:</b> <a href="evaluate__rpe_8py_source.html#l00346">evaluate_rpe.py:346</a></div></div>
 <div class="ttc" id="anamespace_d_bo_w2_html_aa252a592dd607c6e60dede06ceef2722ad0bd4548b18fb1c165961506e199f38d"><div class="ttname"><a href="namespace_d_bo_w2.html#aa252a592dd607c6e60dede06ceef2722ad0bd4548b18fb1c165961506e199f38d">DBoW2::CHI_SQUARE</a></div><div class="ttdeci">@ CHI_SQUARE</div><div class="ttdef"><b>Definition:</b> <a href="_bow_vector_8h_source.html#l00052">BowVector.h:52</a></div></div>
 <div class="ttc" id="anamespace_d_bo_w2_html_a53e9e0bcfc25c861815e413a7cf3fa51aff96c9503798aa8504a954d3832e5eaa"><div class="ttname"><a href="namespace_d_bo_w2.html#a53e9e0bcfc25c861815e413a7cf3fa51aff96c9503798aa8504a954d3832e5eaa">DBoW2::L2</a></div><div class="ttdeci">@ L2</div><div class="ttdef"><b>Definition:</b> <a href="_bow_vector_8h_source.html#l00035">BowVector.h:35</a></div></div>
 <div class="ttc" id="anamespace_d_bo_w2_html_aa252a592dd607c6e60dede06ceef2722a22de570628b33a2662630def802a23cb"><div class="ttname"><a href="namespace_d_bo_w2.html#aa252a592dd607c6e60dede06ceef2722a22de570628b33a2662630def802a23cb">DBoW2::BHATTACHARYYA</a></div><div class="ttdeci">@ BHATTACHARYYA</div><div class="ttdef"><b>Definition:</b> <a href="_bow_vector_8h_source.html#l00054">BowVector.h:54</a></div></div>
 <div class="ttc" id="anamespace_d_bo_w2_html_aa252a592dd607c6e60dede06ceef2722a607c4948ab28605098d7cedb9bce14ae"><div class="ttname"><a href="namespace_d_bo_w2.html#aa252a592dd607c6e60dede06ceef2722a607c4948ab28605098d7cedb9bce14ae">DBoW2::KL</a></div><div class="ttdeci">@ KL</div><div class="ttdef"><b>Definition:</b> <a href="_bow_vector_8h_source.html#l00053">BowVector.h:53</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 1 2022 22:35:27 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 26 2023 09:59:14 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

@@ -1,6 +1,5 @@
 <map id="ORB_SLAM3::KeyFrame::SetErase" name="ORB_SLAM3::KeyFrame::SetErase">
-<area shape="rect" id="node1" title=" " alt="" coords="752,35,927,76"/>
-<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa8c70961dd01d543b419effd3fa75bd0" title=" " alt="" coords="491,5,704,47"/>
-<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="220,42,443,69"/>
-<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_system.html#a5e4851c1b0d0de361c208a68e9950b2e" title=" " alt="" coords="5,35,172,76"/>
+<area shape="rect" id="node1" title=" " alt="" coords="537,35,712,76"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa8c70961dd01d543b419effd3fa75bd0" title=" " alt="" coords="276,5,489,47"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="5,42,228,69"/>
 </map>

@@ -1,0 +1,8 @@
+<map id="tracked_mappoints_to_pointcloud" name="tracked_mappoints_to_pointcloud">
+<area shape="rect" id="node1" title=" " alt="" coords="564,23,731,65"/>
+<area shape="rect" id="node2" href="$common_8cc.html#a3f6fa2720a22afc1f8ce028c020c378e" title=" " alt="" coords="365,23,516,65"/>
+<area shape="rect" id="node3" href="$class_image_grabber.html#ab6df23b898365aa3df99628e4c925aee" title=" " alt="" coords="117,5,309,32"/>
+<area shape="rect" id="node5" href="$class_image_grabber.html#aeeabc012ca952da7f703bcece5ae13a9" title=" " alt="" coords="108,56,317,83"/>
+<area shape="rect" id="node4" href="$rgbd__node_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,60,32"/>
+<area shape="rect" id="node6" href="$mono__inertial__node_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,56,60,83"/>
+</map>

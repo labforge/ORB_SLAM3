@@ -1,7 +1,4 @@
 <map id="ORB_SLAM3::IC_Angle" name="ORB_SLAM3::IC_Angle">
-<area shape="rect" id="node1" title=" " alt="" coords="789,46,956,73"/>
-<area shape="rect" id="node2" href="$namespace_o_r_b___s_l_a_m3.html#a59b95aa823b03f96ba6ddbc40d693668" title=" " alt="" coords="501,46,741,73"/>
-<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_o_r_bextractor.html#ab140c81f966e3bc264197388b06f1f25" title=" " alt="" coords="251,5,453,47"/>
-<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_o_r_bextractor.html#a86323a71ddff7cf7480407302bbb0496" title=" " alt="" coords="253,71,451,112"/>
-<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_o_r_bextractor.html#a2679e80b954886adb9bde3a8deda3981" title=" " alt="" coords="5,5,203,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="293,5,460,32"/>
+<area shape="rect" id="node2" href="$namespace_o_r_b___s_l_a_m3.html#a59b95aa823b03f96ba6ddbc40d693668" title=" " alt="" coords="5,5,245,32"/>
 </map>

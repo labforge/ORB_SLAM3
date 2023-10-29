@@ -52,6 +52,9 @@ namespace ORB_SLAM3
         mvMatches12.clear();
         mvMatches12.reserve(mvKeys2.size());
         mvbMatched1.resize(mvKeys1.size());
+
+        //std::cout << "vMatches12.size: " << vMatches12.size() << std::endl;
+
         for(size_t i=0, iend=vMatches12.size();i<iend; i++)
         {
             if(vMatches12[i]>=0)
@@ -110,7 +113,11 @@ namespace ORB_SLAM3
         threadF.join();
 
         // Compute ratio of scores
-        if(SH+SF == 0.f) return false;
+        if(SH+SF == 0.f)
+        {
+            //std::cout << "SH+SF == 0.f" << std::endl;
+            return false;
+        }
         float RH = SH/(SH+SF);
 
         float minParallax = 1.0;
@@ -519,6 +526,7 @@ namespace ORB_SLAM3
         // If there is not a clear winner or not enough triangulated points reject initialization
         if(maxGood<nMinGood || nsimilar>1)
         {
+            //std::cout << "(maxGood<nMinGood || nsimilar>1)" << std::endl;
             return false;
         }
 
@@ -565,6 +573,7 @@ namespace ORB_SLAM3
             }
         }
 
+        //std::cout << "ReconstructF end" << std::endl;
         return false;
     }
 
@@ -596,6 +605,7 @@ namespace ORB_SLAM3
 
         if(d1/d2<1.00001 || d2/d3<1.00001)
         {
+            //std::cout << "(d1/d2<1.00001 || d2/d3<1.00001)" << std::endl;
             return false;
         }
 
@@ -730,6 +740,7 @@ namespace ORB_SLAM3
             return true;
         }
 
+        //std::cout << "ReconstructH end" << std::endl;
         return false;
     }
 
@@ -820,8 +831,10 @@ namespace ORB_SLAM3
         for(size_t i=0, iend=vMatches12.size();i<iend;i++)
         {
             if(!vbMatchesInliers[i])
+            {
+                //std::cout<<"!vbMatchesInliers[i]"<<std::endl;
                 continue;
-
+            }
             const cv::KeyPoint &kp1 = vKeys1[vMatches12[i].first];
             const cv::KeyPoint &kp2 = vKeys2[vMatches12[i].second];
 
@@ -834,6 +847,7 @@ namespace ORB_SLAM3
 
             if(!isfinite(p3dC1(0)) || !isfinite(p3dC1(1)) || !isfinite(p3dC1(2)))
             {
+                //std::cout<<"(!isfinite(p3dC1(0)) || !isfinite(p3dC1(1)) || !isfinite(p3dC1(2)))"<<std::endl;
                 vbGood[vMatches12[i].first]=false;
                 continue;
             }
@@ -849,14 +863,18 @@ namespace ORB_SLAM3
 
             // Check depth in front of first camera (only if enough parallax, as "infinite" points can easily go to negative depth)
             if(p3dC1(2)<=0 && cosParallax<0.99998)
+            {
+                //std::cout<<"(p3dC1(2)<=0 && cosParallax<0.99998)"<<std::endl;
                 continue;
-
+            }
             // Check depth in front of second camera (only if enough parallax, as "infinite" points can easily go to negative depth)
             Eigen::Vector3f p3dC2 = R * p3dC1 + t;
 
             if(p3dC2(2)<=0 && cosParallax<0.99998)
+            {
+                //std::cout<<"(p3dC2(2)<=0 && cosParallax<0.99998)"<<std::endl;
                 continue;
-
+            }
             // Check reprojection error in first image
             float im1x, im1y;
             float invZ1 = 1.0/p3dC1(2);
@@ -866,7 +884,10 @@ namespace ORB_SLAM3
             float squareError1 = (im1x-kp1.pt.x)*(im1x-kp1.pt.x)+(im1y-kp1.pt.y)*(im1y-kp1.pt.y);
 
             if(squareError1>th2)
+            {
+                //std::cout<<"(squareError1>th2)"<<std::endl;
                 continue;
+            }
 
             // Check reprojection error in second image
             float im2x, im2y;
@@ -877,14 +898,19 @@ namespace ORB_SLAM3
             float squareError2 = (im2x-kp2.pt.x)*(im2x-kp2.pt.x)+(im2y-kp2.pt.y)*(im2y-kp2.pt.y);
 
             if(squareError2>th2)
+            {
+                //std::cout<<"(squareError2>th2)"<<std::endl;
                 continue;
-
+            }
             vCosParallax.push_back(cosParallax);
             vP3D[vMatches12[i].first] = cv::Point3f(p3dC1(0), p3dC1(1), p3dC1(2));
             nGood++;
 
             if(cosParallax<0.99998)
+            {
                 vbGood[vMatches12[i].first]=true;
+                //nGood++;
+            }
         }
 
         if(nGood>0)
@@ -897,6 +923,7 @@ namespace ORB_SLAM3
         else
             parallax=0;
 
+        //std::cout << "nGood: " << nGood << std::endl;
         return nGood;
     }
 

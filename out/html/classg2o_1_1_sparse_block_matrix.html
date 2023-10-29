@@ -83,14 +83,12 @@ Collaboration diagram for g2o::SparseBlockMatrix&lt; MatrixType &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="classg2o_1_1_sparse_block_matrix__coll__graph.png" border="0" usemap="#g2o_1_1_sparse_block_matrix_3_01_matrix_type_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="g2o_1_1_sparse_block_matrix_3_01_matrix_type_01_4_coll__map" id="g2o_1_1_sparse_block_matrix_3_01_matrix_type_01_4_coll__map">
-<area shape="rect" title="Sparse matrix which uses blocks." alt="" coords="61,288,237,329"/>
-<area shape="rect" href="classbool.html" title=" " alt="" coords="5,184,56,211"/>
-<area shape="rect" title=" " alt="" coords="80,184,219,211"/>
-<area shape="rect" href="classint.html" title=" " alt="" coords="130,95,169,121"/>
-<area shape="rect" title=" " alt="" coords="243,184,445,211"/>
-<area shape="rect" title="STL class." alt="" coords="277,95,411,121"/>
-<area shape="rect" title=" " alt="" coords="291,5,330,32"/>
-<area shape="rect" title=" " alt="" coords="357,5,395,32"/>
+<area shape="rect" title="Sparse matrix which uses blocks." alt="" coords="61,199,237,240"/>
+<area shape="rect" href="classbool.html" title=" " alt="" coords="5,95,56,121"/>
+<area shape="rect" title=" " alt="" coords="80,95,219,121"/>
+<area shape="rect" href="classint.html" title=" " alt="" coords="130,5,169,32"/>
+<area shape="rect" title=" " alt="" coords="243,95,445,121"/>
+<area shape="rect" title=" " alt="" coords="293,5,395,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -526,9 +524,9 @@ template&lt;class MatrixType &gt; </div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordtype">int</span> cb=<a class="code" href="classg2o_1_1_sparse_block_matrix.html#afe3ef87aecd7a76eab27e91131dbe0c1">colsOfBlock</a>(c);</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        _block=<span class="keyword">new</span> <span class="keyword">typename</span> <a class="code" href="classg2o_1_1_sparse_block_matrix.html#ab2f7376cbf055803fda6527dcc43e3be">SparseBlockMatrix&lt;MatrixType&gt;::SparseMatrixBlock</a>(rb,cb);</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        _block-&gt;setZero();</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        std::pair &lt; typename SparseBlockMatrix&lt;MatrixType&gt;::IntBlockMap::iterator, <span class="keywordtype">bool</span>&gt; <a class="code" href="_se2___dx__exp__x_8cpp.html#a5f8b9464a27b0a4978897bf443a150ed">result</a></div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;          =<a class="code" href="classg2o_1_1_sparse_block_matrix.html#ae236d56a01ba4d292450a518621b41f8">_blockCols</a>[c].insert(std::make_pair(r,_block)); (void) <a class="code" href="_se2___dx__exp__x_8cpp.html#a5f8b9464a27b0a4978897bf443a150ed">result</a>;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        assert (<a class="code" href="_se2___dx__exp__x_8cpp.html#a5f8b9464a27b0a4978897bf443a150ed">result</a>.second);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        std::pair &lt; typename SparseBlockMatrix&lt;MatrixType&gt;::IntBlockMap::iterator, <span class="keywordtype">bool</span>&gt; <a class="code" href="namespaceevaluate__rpe.html#a4fc9b79d142635606a1be6b6c880cef3">result</a></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;          =<a class="code" href="classg2o_1_1_sparse_block_matrix.html#ae236d56a01ba4d292450a518621b41f8">_blockCols</a>[c].insert(std::make_pair(r,_block)); (void) <a class="code" href="namespaceevaluate__rpe.html#a4fc9b79d142635606a1be6b6c880cef3">result</a>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        assert (<a class="code" href="namespaceevaluate__rpe.html#a4fc9b79d142635606a1be6b6c880cef3">result</a>.second);</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;      }</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      _block=it-&gt;second;</div>
@@ -1415,10 +1413,10 @@ template&lt;class MatrixType &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="sparse__block__matrix_8hpp_source.html#l00354">354</a> of file <a class="el" href="sparse__block__matrix_8hpp_source.html">sparse_block_matrix.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;                                                            {</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <span class="keywordtype">size_t</span> count=0;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a>=0;</div>
 <div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i=0; i&lt;<a class="code" href="classg2o_1_1_sparse_block_matrix.html#ae236d56a01ba4d292450a518621b41f8">_blockCols</a>.size(); ++i)</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;      count+=<a class="code" href="classg2o_1_1_sparse_block_matrix.html#ae236d56a01ba4d292450a518621b41f8">_blockCols</a>[i].size();</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    <span class="keywordflow">return</span> count;</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;      <a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a>+=<a class="code" href="classg2o_1_1_sparse_block_matrix.html#ae236d56a01ba4d292450a518621b41f8">_blockCols</a>[i].size();</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a>;</div>
 <div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;  }</div>
 </div><!-- fragment -->
 </div>
@@ -1445,14 +1443,14 @@ template&lt;class MatrixType &gt; </div>
 <div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;      <span class="keywordtype">size_t</span> nnz = <a class="code" href="classg2o_1_1_sparse_block_matrix.html#a3f9e289e4039e668d33ad565a637e39a">nonZeroBlocks</a>() * MatrixType::SizeAtCompileTime;</div>
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;      <span class="keywordflow">return</span> nnz;</div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;      <span class="keywordtype">size_t</span> count=0;</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;      <span class="keywordtype">size_t</span> <a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a>=0;</div>
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i=0; i&lt;<a class="code" href="classg2o_1_1_sparse_block_matrix.html#ae236d56a01ba4d292450a518621b41f8">_blockCols</a>.size(); ++i){</div>
 <div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">typename</span> SparseBlockMatrix&lt;MatrixType&gt;::IntBlockMap::const_iterator it=<a class="code" href="classg2o_1_1_sparse_block_matrix.html#ae236d56a01ba4d292450a518621b41f8">_blockCols</a>[i].begin(); it!=<a class="code" href="classg2o_1_1_sparse_block_matrix.html#ae236d56a01ba4d292450a518621b41f8">_blockCols</a>[i].end(); ++it){</div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;          <span class="keyword">const</span> <span class="keyword">typename</span> <a class="code" href="classg2o_1_1_sparse_block_matrix.html#ab2f7376cbf055803fda6527dcc43e3be">SparseBlockMatrix&lt;MatrixType&gt;::SparseMatrixBlock</a>* a=it-&gt;second;</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;          count += a-&gt;cols()*a-&gt;rows();</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;          <a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a> += a-&gt;cols()*a-&gt;rows();</div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;        }</div>
 <div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;      }</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;      <span class="keywordflow">return</span> count;</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a>;</div>
 <div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    }</div>
 <div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;  }</div>
 </div><!-- fragment -->
@@ -2313,11 +2311,11 @@ template&lt;class MatrixType  = MatrixXd&gt; </div>
 <li>Thirdparty/g2o/g2o/core/<a class="el" href="sparse__block__matrix_8hpp_source.html">sparse_block_matrix.hpp</a></li>
 </ul>
 </div><!-- contents -->
+<div class="ttc" id="anamespaceevaluate__rpe_html_a4fc9b79d142635606a1be6b6c880cef3"><div class="ttname"><a href="namespaceevaluate__rpe.html#a4fc9b79d142635606a1be6b6c880cef3">evaluate_rpe.result</a></div><div class="ttdeci">def result</div><div class="ttdef"><b>Definition:</b> <a href="evaluate__rpe_8py_source.html#l00332">evaluate_rpe.py:332</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_sparse_block_matrix_html_af718590d044a1b44e4079136c29efcd1"><div class="ttname"><a href="classg2o_1_1_sparse_block_matrix.html#af718590d044a1b44e4079136c29efcd1">g2o::SparseBlockMatrix::rowBaseOfBlock</a></div><div class="ttdeci">int rowBaseOfBlock(int r) const</div><div class="ttdoc">where does the row at block-row r starts?</div><div class="ttdef"><b>Definition:</b> <a href="sparse__block__matrix_8h_source.html#l00108">sparse_block_matrix.h:108</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_sparse_block_matrix_html_a3f9e289e4039e668d33ad565a637e39a"><div class="ttname"><a href="classg2o_1_1_sparse_block_matrix.html#a3f9e289e4039e668d33ad565a637e39a">g2o::SparseBlockMatrix::nonZeroBlocks</a></div><div class="ttdeci">size_t nonZeroBlocks() const</div><div class="ttdoc">number of allocated blocks</div><div class="ttdef"><b>Definition:</b> <a href="sparse__block__matrix_8hpp_source.html#l00354">sparse_block_matrix.hpp:354</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_sparse_block_matrix_html_a637d4a6d2d6f444be55a158497c8a07c"><div class="ttname"><a href="classg2o_1_1_sparse_block_matrix.html#a637d4a6d2d6f444be55a158497c8a07c">g2o::SparseBlockMatrix::rowsOfBlock</a></div><div class="ttdeci">int rowsOfBlock(int r) const</div><div class="ttdoc">how many rows does the block at block-row r has?</div><div class="ttdef"><b>Definition:</b> <a href="sparse__block__matrix_8h_source.html#l00102">sparse_block_matrix.h:102</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_sparse_block_matrix_html_a502857f0a792ad37055964705a983590"><div class="ttname"><a href="classg2o_1_1_sparse_block_matrix.html#a502857f0a792ad37055964705a983590">g2o::SparseBlockMatrix::colBaseOfBlock</a></div><div class="ttdeci">int colBaseOfBlock(int c) const</div><div class="ttdoc">where does the col at block-col r starts?</div><div class="ttdef"><b>Definition:</b> <a href="sparse__block__matrix_8h_source.html#l00111">sparse_block_matrix.h:111</a></div></div>
-<div class="ttc" id="a_se2___dx__exp__x_8cpp_html_a5f8b9464a27b0a4978897bf443a150ed"><div class="ttname"><a href="_se2___dx__exp__x_8cpp.html#a5f8b9464a27b0a4978897bf443a150ed">result</a></div><div class="ttdeci">result[0]</div><div class="ttdef"><b>Definition:</b> <a href="_se2___dx__exp__x_8cpp_source.html#l00011">Se2_Dx_exp_x.cpp:11</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_sparse_block_matrix_hash_map_html_ae364a722296b90e32dd6c3a8fbeb49ae"><div class="ttname"><a href="classg2o_1_1_sparse_block_matrix_hash_map.html#ae364a722296b90e32dd6c3a8fbeb49ae">g2o::SparseBlockMatrixHashMap::SparseColumn</a></div><div class="ttdeci">std::tr1::unordered_map&lt; int, MatrixType * &gt; SparseColumn</div><div class="ttdef"><b>Definition:</b> <a href="sparse__block__matrix__ccs_8h_source.html#l00226">sparse_block_matrix_ccs.h:226</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_sparse_block_matrix_html_ae236d56a01ba4d292450a518621b41f8"><div class="ttname"><a href="classg2o_1_1_sparse_block_matrix.html#ae236d56a01ba4d292450a518621b41f8">g2o::SparseBlockMatrix::_blockCols</a></div><div class="ttdeci">std::vector&lt; IntBlockMap &gt; _blockCols</div><div class="ttdef"><b>Definition:</b> <a href="sparse__block__matrix_8h_source.html#l00218">sparse_block_matrix.h:218</a></div></div>
 <div class="ttc" id="anamespaceg2o_1_1internal_html_a3beb413c2d04c629c60a8ce5e05ddf8f"><div class="ttname"><a href="namespaceg2o_1_1internal.html#a3beb413c2d04c629c60a8ce5e05ddf8f">g2o::internal::axpy</a></div><div class="ttdeci">void axpy(const MatrixType &amp;A, const Eigen::Map&lt; const Eigen::VectorXd &gt; &amp;x, int xoff, Eigen::Map&lt; Eigen::VectorXd &gt; &amp;y, int yoff)</div><div class="ttdef"><b>Definition:</b> <a href="matrix__operations_8h_source.html#l00036">matrix_operations.h:36</a></div></div>
@@ -2325,6 +2323,7 @@ template&lt;class MatrixType  = MatrixXd&gt; </div>
 <div class="ttc" id="aclassg2o_1_1_sparse_block_matrix_html_ab818f8923b845d08a38e8de1145fbb65"><div class="ttname"><a href="classg2o_1_1_sparse_block_matrix.html#ab818f8923b845d08a38e8de1145fbb65">g2o::SparseBlockMatrix::blockCols</a></div><div class="ttdeci">const std::vector&lt; IntBlockMap &gt; &amp; blockCols() const</div><div class="ttdoc">the block matrices per block-column</div><div class="ttdef"><b>Definition:</b> <a href="sparse__block__matrix_8h_source.html#l00178">sparse_block_matrix.h:178</a></div></div>
 <div class="ttc" id="anamespaceg2o_1_1internal_html_ad176878dff85b91f1dbabed52cbf696e"><div class="ttname"><a href="namespaceg2o_1_1internal.html#ad176878dff85b91f1dbabed52cbf696e">g2o::internal::atxpy</a></div><div class="ttdeci">void atxpy(const MatrixType &amp;A, const Eigen::Map&lt; const Eigen::VectorXd &gt; &amp;x, int xoff, Eigen::Map&lt; Eigen::VectorXd &gt; &amp;y, int yoff)</div><div class="ttdef"><b>Definition:</b> <a href="matrix__operations_8h_source.html#l00054">matrix_operations.h:54</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_sparse_block_matrix_c_c_s_html_a4fc5dfe0a9ff9bd62065ca4b17f25bc1"><div class="ttname"><a href="classg2o_1_1_sparse_block_matrix_c_c_s.html#a4fc5dfe0a9ff9bd62065ca4b17f25bc1">g2o::SparseBlockMatrixCCS::SparseColumn</a></div><div class="ttdeci">std::vector&lt; RowBlock &gt; SparseColumn</div><div class="ttdef"><b>Definition:</b> <a href="sparse__block__matrix__ccs_8h_source.html#l00075">sparse_block_matrix_ccs.h:75</a></div></div>
+<div class="ttc" id="anamespacelogresize_html_acde72239d037eca80434f5f913ca4193"><div class="ttname"><a href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">logresize.count</a></div><div class="ttdeci">int count</div><div class="ttdef"><b>Definition:</b> <a href="logresize_8py_source.html#l00005">logresize.py:5</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_sparse_block_matrix_html_ae3f063a5efc2708b41806ac361fd3ca6"><div class="ttname"><a href="classg2o_1_1_sparse_block_matrix.html#ae3f063a5efc2708b41806ac361fd3ca6">g2o::SparseBlockMatrix::_hasStorage</a></div><div class="ttdeci">bool _hasStorage</div><div class="ttdef"><b>Definition:</b> <a href="sparse__block__matrix_8h_source.html#l00219">sparse_block_matrix.h:219</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_sparse_block_matrix_html_ac9dfcc991976a6c21dcbed961f06282d"><div class="ttname"><a href="classg2o_1_1_sparse_block_matrix.html#ac9dfcc991976a6c21dcbed961f06282d">g2o::SparseBlockMatrix::cols</a></div><div class="ttdeci">int cols() const</div><div class="ttdoc">columns of the matrix</div><div class="ttdef"><b>Definition:</b> <a href="sparse__block__matrix_8h_source.html#l00069">sparse_block_matrix.h:69</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_sparse_block_matrix_html_aaa6ca1ae454ed70f62992b6401645f4e"><div class="ttname"><a href="classg2o_1_1_sparse_block_matrix.html#aaa6ca1ae454ed70f62992b6401645f4e">g2o::SparseBlockMatrix::IntBlockMap</a></div><div class="ttdeci">std::map&lt; int, SparseMatrixBlock * &gt; IntBlockMap</div><div class="ttdef"><b>Definition:</b> <a href="sparse__block__matrix_8h_source.html#l00073">sparse_block_matrix.h:73</a></div></div>
@@ -2337,7 +2336,7 @@ template&lt;class MatrixType  = MatrixXd&gt; </div>
 <div class="ttc" id="aclassint_html"><div class="ttname"><a href="classint.html">int</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 1 2022 22:35:27 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 26 2023 09:59:15 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

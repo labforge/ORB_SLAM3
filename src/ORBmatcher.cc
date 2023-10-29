@@ -719,6 +719,7 @@ namespace ORB_SLAM3
                         if(rot<0.0)
                             rot+=360.0f;
                         int bin = round(rot*factor);
+                        //int bin = round(rot/(360.0f*factor));
                         if(bin==HISTO_LENGTH)
                             bin=0;
                         assert(bin>=0 && bin<HISTO_LENGTH);
@@ -1281,7 +1282,10 @@ namespace ORB_SLAM3
                     const float e2 = ex*ex+ey*ey+er*er;
 
                     if(e2*pKF->mvInvLevelSigma2[kpLevel]>7.8)
+                    {
+                        //std::cout << "Reprojection error"<<std::endl;
                         continue;
+                }
                 }
                 else
                 {
@@ -1292,7 +1296,10 @@ namespace ORB_SLAM3
                     const float e2 = ex*ex+ey*ey;
 
                     if(e2*pKF->mvInvLevelSigma2[kpLevel]>5.99)
+                    {
+                        //std::cout << "Reprojection error"<<std::endl;
                         continue;
+                    }
                 }
 
                 if(bRight) idx += pKF->NLeft;

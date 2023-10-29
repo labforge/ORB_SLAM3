@@ -1,7 +1,0 @@
-[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:[m[K In function ‘[01m[Kvoid keypointsToROS(const std::vector<cv::KeyPoint>&, BagFromImages::KeyPoints&)[m[K’:
-[01m[K/home/emslab/BagFromImages-master_catkin/catkim_ws/src/BagFromImages-master/main.cc:77:9:[m[K [01;31m[Kerror: [m[K‘[01m[KBagFromImages::KeyPoints[m[K’ {aka ‘[01m[Kstruct BagFromImages::KeyPoints_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kresize[m[K’
-   77 |     msg.[01;31m[Kresize[m[K(kpts.size());
-      |         [01;31m[K^~~~~~[m[K
-make[2]: *** [CMakeFiles/main.dir/build.make:66: CMakeFiles/main.dir/main.cc.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:1775: CMakeFiles/main.dir/all] Error 2
-make: *** [Makefile:144: all] Error 2

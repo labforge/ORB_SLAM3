@@ -125,7 +125,7 @@ $(function() {
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">template</span> &lt;<span class="keywordtype">int</span> D, <span class="keyword">typename</span> E, <span class="keyword">typename</span> VertexXiType, <span class="keyword">typename</span> VertexXjType&gt;</div>
 <div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="classg2o_1_1_base_binary_edge.html#a06a18745d95017c6d3c841f838a65364">   55</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classg2o_1_1_base_binary_edge.html">BaseBinaryEdge&lt;D, E, VertexXiType, VertexXjType&gt;::constructQuadraticForm</a>()</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <a class="code" href="classg2o_1_1_base_binary_edge.html#aa8e2b04b2c0c90adc48384d6d41063cc">VertexXiType</a>* from = <span class="keyword">static_cast&lt;</span><a class="code" href="classg2o_1_1_base_binary_edge.html#aa8e2b04b2c0c90adc48384d6d41063cc">VertexXiType</a>*<span class="keyword">&gt;</span>(_vertices[0]);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <a class="code" href="classg2o_1_1_base_binary_edge.html#aa8e2b04b2c0c90adc48384d6d41063cc">VertexXiType</a>* <a class="code" href="tum_2corridor1_21024_2mono_21000kpts_2acc_2rpe_8txt.html#ae56653fc0bbbcd0522ac0e1de068c689">from</a> = <span class="keyword">static_cast&lt;</span><a class="code" href="classg2o_1_1_base_binary_edge.html#aa8e2b04b2c0c90adc48384d6d41063cc">VertexXiType</a>*<span class="keyword">&gt;</span>(_vertices[0]);</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <a class="code" href="classg2o_1_1_base_binary_edge.html#aa489ae37680c37d7b2c3c1a197f90de9">VertexXjType</a>* to   = <span class="keyword">static_cast&lt;</span><a class="code" href="classg2o_1_1_base_binary_edge.html#aa489ae37680c37d7b2c3c1a197f90de9">VertexXjType</a>*<span class="keyword">&gt;</span>(_vertices[1]);</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <span class="comment">// get the Jacobian of the nodes in the manifold domain</span></div>
@@ -133,12 +133,12 @@ $(function() {
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <span class="keyword">const</span> <a class="code" href="classg2o_1_1_base_binary_edge.html#a83e5dec2135b33e86255c87be3b5d062">JacobianXjOplusType</a>&amp; B = jacobianOplusXj();</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordtype">bool</span> fromNotFixed = !(from-&gt;fixed());</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordtype">bool</span> fromNotFixed = !(<a class="code" href="tum_2corridor1_21024_2mono_21000kpts_2acc_2rpe_8txt.html#ae56653fc0bbbcd0522ac0e1de068c689">from</a>-&gt;fixed());</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  <span class="keywordtype">bool</span> toNotFixed = !(to-&gt;fixed());</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  <span class="keywordflow">if</span> (fromNotFixed || toNotFixed) {</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#ifdef G2O_OPENMP</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    from-&gt;lockQuadraticForm();</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="tum_2corridor1_21024_2mono_21000kpts_2acc_2rpe_8txt.html#ae56653fc0bbbcd0522ac0e1de068c689">from</a>-&gt;lockQuadraticForm();</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    to-&gt;lockQuadraticForm();</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keyword">const</span> <a class="code" href="classg2o_1_1_base_binary_edge.html#a4530ef6462aadaf2ab826d440d3b3318">InformationType</a>&amp; omega = _information;</div>
@@ -146,8 +146,8 @@ $(function() {
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">if</span> (this-&gt;robustKernel() == 0) {</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;      <span class="keywordflow">if</span> (fromNotFixed) {</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        Matrix&lt;double, VertexXiType::Dimension, D&gt; AtO = A.transpose() * omega;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        from-&gt;b().noalias() += A.transpose() * omega_r;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        from-&gt;A().noalias() += AtO*A;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <a class="code" href="tum_2corridor1_21024_2mono_21000kpts_2acc_2rpe_8txt.html#ae56653fc0bbbcd0522ac0e1de068c689">from</a>-&gt;b().noalias() += A.transpose() * omega_r;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <a class="code" href="tum_2corridor1_21024_2mono_21000kpts_2acc_2rpe_8txt.html#ae56653fc0bbbcd0522ac0e1de068c689">from</a>-&gt;A().noalias() += AtO*A;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">if</span> (toNotFixed ) {</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;          <span class="keywordflow">if</span> (_hessianRowMajor) <span class="comment">// we have to write to the block as transposed</span></div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            _hessianTransposed.noalias() += B.transpose() * AtO.transpose();</div>
@@ -169,8 +169,8 @@ $(function() {
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      omega_r *= rho[1];</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;      <span class="keywordflow">if</span> (fromNotFixed) {</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        from-&gt;b().noalias() += A.transpose() * omega_r;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        from-&gt;A().noalias() += A.transpose() * weightedOmega * A;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <a class="code" href="tum_2corridor1_21024_2mono_21000kpts_2acc_2rpe_8txt.html#ae56653fc0bbbcd0522ac0e1de068c689">from</a>-&gt;b().noalias() += A.transpose() * omega_r;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <a class="code" href="tum_2corridor1_21024_2mono_21000kpts_2acc_2rpe_8txt.html#ae56653fc0bbbcd0522ac0e1de068c689">from</a>-&gt;A().noalias() += A.transpose() * weightedOmega * A;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordflow">if</span> (toNotFixed ) {</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;          <span class="keywordflow">if</span> (_hessianRowMajor) <span class="comment">// we have to write to the block as transposed</span></div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            _hessianTransposed.noalias() += B.transpose() * weightedOmega * A;</div>
@@ -185,7 +185,7 @@ $(function() {
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor">#ifdef G2O_OPENMP</span></div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    to-&gt;unlockQuadraticForm();</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    from-&gt;unlockQuadraticForm();</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="tum_2corridor1_21024_2mono_21000kpts_2acc_2rpe_8txt.html#ae56653fc0bbbcd0522ac0e1de068c689">from</a>-&gt;unlockQuadraticForm();</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  }</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;}</div>
@@ -295,7 +295,8 @@ $(function() {
 <div class="ttc" id="aclassg2o_1_1_jacobian_workspace_html"><div class="ttname"><a href="classg2o_1_1_jacobian_workspace.html">g2o::JacobianWorkspace</a></div><div class="ttdoc">provide memory workspace for computing the Jacobians</div><div class="ttdef"><b>Definition:</b> <a href="jacobian__workspace_8h_source.html#l00050">jacobian_workspace.h:50</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_base_binary_edge_html_a7eadbbe6abffe4d2ebdf6231272789a5"><div class="ttname"><a href="classg2o_1_1_base_binary_edge.html#a7eadbbe6abffe4d2ebdf6231272789a5">g2o::BaseBinaryEdge&lt; 6, Vector6d, VertexPose4DoF, VertexPose4DoF &gt;::HessianBlockType</a></div><div class="ttdeci">Eigen::Map&lt; Matrix&lt; double, Di, Dj &gt;, Matrix&lt; double, Di, Dj &gt;::Flags &amp;AlignedBit ? Aligned :Unaligned &gt; HessianBlockType</div><div class="ttdef"><b>Definition:</b> <a href="base__binary__edge_8h_source.html#l00059">base_binary_edge.h:59</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_base_binary_edge_html_ab1cde84224b129603bcd95db027e0167"><div class="ttname"><a href="classg2o_1_1_base_binary_edge.html#ab1cde84224b129603bcd95db027e0167">g2o::BaseBinaryEdge&lt; 6, Vector6d, VertexPose4DoF, VertexPose4DoF &gt;::JacobianXiOplusType</a></div><div class="ttdeci">Matrix&lt; double, D, Di &gt;::AlignedMapType JacobianXiOplusType</div><div class="ttdef"><b>Definition:</b> <a href="base__binary__edge_8h_source.html#l00054">base_binary_edge.h:54</a></div></div>
-<div class="ttc" id="anamespace__setup__util_html_acdce690b925de33d6249bbbfa1109d61"><div class="ttname"><a href="namespace__setup__util.html#acdce690b925de33d6249bbbfa1109d61">_setup_util.e</a></div><div class="ttdeci">e</div><div class="ttdef"><b>Definition:</b> <a href="atomic__configure_2__setup__util_8py_source.html#l00266">_setup_util.py:266</a></div></div>
+<div class="ttc" id="atum_2corridor1_21024_2mono_21000kpts_2acc_2rpe_8txt_html_ae56653fc0bbbcd0522ac0e1de068c689"><div class="ttname"><a href="tum_2corridor1_21024_2mono_21000kpts_2acc_2rpe_8txt.html#ae56653fc0bbbcd0522ac0e1de068c689">from</a></div><div class="ttdeci">Loaded stamps and poses from</div><div class="ttdef"><b>Definition:</b> <a href="tum_2corridor1_21024_2mono_21000kpts_2acc_2rpe_8txt_source.html#l00021">rpe.txt:21</a></div></div>
+<div class="ttc" id="anamespace__setup__util_html_acdce690b925de33d6249bbbfa1109d61"><div class="ttname"><a href="namespace__setup__util.html#acdce690b925de33d6249bbbfa1109d61">_setup_util.e</a></div><div class="ttdeci">e</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00266">_setup_util.py:266</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_base_binary_edge_html_aa8e2b04b2c0c90adc48384d6d41063cc"><div class="ttname"><a href="classg2o_1_1_base_binary_edge.html#aa8e2b04b2c0c90adc48384d6d41063cc">g2o::BaseBinaryEdge&lt; 6, Vector6d, VertexPose4DoF, VertexPose4DoF &gt;::VertexXiType</a></div><div class="ttdeci">VertexPose4DoF VertexXiType</div><div class="ttdef"><b>Definition:</b> <a href="base__binary__edge_8h_source.html#l00046">base_binary_edge.h:46</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_base_binary_edge_html"><div class="ttname"><a href="classg2o_1_1_base_binary_edge.html">g2o::BaseBinaryEdge</a></div><div class="ttdef"><b>Definition:</b> <a href="base__binary__edge_8h_source.html#l00042">base_binary_edge.h:42</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_base_edge_html"><div class="ttname"><a href="classg2o_1_1_base_edge.html">g2o::BaseEdge</a></div><div class="ttdef"><b>Definition:</b> <a href="base__edge_8h_source.html#l00042">base_edge.h:42</a></div></div>
@@ -306,7 +307,7 @@ $(function() {
 <div class="ttc" id="aclassg2o_1_1_base_binary_edge_html_aa489ae37680c37d7b2c3c1a197f90de9"><div class="ttname"><a href="classg2o_1_1_base_binary_edge.html#aa489ae37680c37d7b2c3c1a197f90de9">g2o::BaseBinaryEdge&lt; 6, Vector6d, VertexPose4DoF, VertexPose4DoF &gt;::VertexXjType</a></div><div class="ttdeci">VertexPose4DoF VertexXjType</div><div class="ttdef"><b>Definition:</b> <a href="base__binary__edge_8h_source.html#l00047">base_binary_edge.h:47</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 1 2022 22:35:23 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 26 2023 09:59:11 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

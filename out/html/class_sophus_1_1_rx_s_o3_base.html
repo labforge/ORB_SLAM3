@@ -78,15 +78,6 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="rxso3_8hpp_source.html">rxso3.hpp</a>&gt;</code></p>
 <div class="dynheader">
-Inheritance diagram for Sophus::RxSO3Base&lt; Derived &gt;:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_sophus_1_1_rx_s_o3_base__inherit__graph.png" border="0" usemap="#_sophus_1_1_rx_s_o3_base_3_01_derived_01_4_inherit__map" alt="Inheritance graph"/></div>
-<map name="_sophus_1_1_rx_s_o3_base_3_01_derived_01_4_inherit__map" id="_sophus_1_1_rx_s_o3_base_3_01_derived_01_4_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,5,168,47"/>
-<area shape="rect" href="class_eigen_1_1_map_3_01_sophus_1_1_rx_s_o3_3_01_scalar___01_4_00_01_options_01_4.html" title=" " alt="" coords="9,95,165,151"/>
-</map>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
 Collaboration diagram for Sophus::RxSO3Base&lt; Derived &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_sophus_1_1_rx_s_o3_base__coll__graph.png" border="0" usemap="#_sophus_1_1_rx_s_o3_base_3_01_derived_01_4_coll__map" alt="Collaboration graph"/></div>
@@ -722,12 +713,12 @@ template&lt;class Derived &gt; </div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keyword">using</span> std::log;</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160; </div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <a class="code" href="class_sophus_1_1_rx_s_o3_base.html#a84f85da7323c2fcec1a2ec91716544c1">Scalar</a> <a class="code" href="class_sophus_1_1_rx_s_o3_base.html#a9e240755eac87778a12e156da63481a5">scale</a> = <a class="code" href="class_sophus_1_1_rx_s_o3_base.html#ab1943bdca98b8c664366c98f88f91cf6">quaternion</a>().squaredNorm();</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    TangentAndTheta <a class="code" href="_se2___dx__exp__x_8cpp.html#a5f8b9464a27b0a4978897bf443a150ed">result</a>;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <a class="code" href="_se2___dx__exp__x_8cpp.html#a5f8b9464a27b0a4978897bf443a150ed">result</a>.tangent[3] = <a class="code" href="class_sophus_1_1_rx_s_o3_base.html#ab7e27bb5978db91305f82500ddf439f4">log</a>(<a class="code" href="class_sophus_1_1_rx_s_o3_base.html#a9e240755eac87778a12e156da63481a5">scale</a>);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    TangentAndTheta <a class="code" href="namespaceevaluate__rpe.html#a4fc9b79d142635606a1be6b6c880cef3">result</a>;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <a class="code" href="namespaceevaluate__rpe.html#a4fc9b79d142635606a1be6b6c880cef3">result</a>.tangent[3] = <a class="code" href="class_sophus_1_1_rx_s_o3_base.html#ab7e27bb5978db91305f82500ddf439f4">log</a>(<a class="code" href="class_sophus_1_1_rx_s_o3_base.html#a9e240755eac87778a12e156da63481a5">scale</a>);</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keyword">auto</span> omega_and_theta = SO3&lt;Scalar&gt;(<a class="code" href="class_sophus_1_1_rx_s_o3_base.html#ab1943bdca98b8c664366c98f88f91cf6">quaternion</a>()).logAndTheta();</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <a class="code" href="_se2___dx__exp__x_8cpp.html#a5f8b9464a27b0a4978897bf443a150ed">result</a>.tangent.template head&lt;3&gt;() = omega_and_theta.tangent;</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <a class="code" href="_se2___dx__exp__x_8cpp.html#a5f8b9464a27b0a4978897bf443a150ed">result</a>.theta = omega_and_theta.theta;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="_se2___dx__exp__x_8cpp.html#a5f8b9464a27b0a4978897bf443a150ed">result</a>;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <a class="code" href="namespaceevaluate__rpe.html#a4fc9b79d142635606a1be6b6c880cef3">result</a>.tangent.template head&lt;3&gt;() = omega_and_theta.tangent;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <a class="code" href="namespaceevaluate__rpe.html#a4fc9b79d142635606a1be6b6c880cef3">result</a>.theta = omega_and_theta.theta;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="namespaceevaluate__rpe.html#a4fc9b79d142635606a1be6b6c880cef3">result</a>;</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  }</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="rxso3_8hpp_source.html#l00170">Sophus::RxSO3Base&lt; Map&lt; Sophus::RxSO3&lt; Scalar_ &gt; const, Options &gt; &gt;::log()</a>.</p>
@@ -1626,7 +1617,7 @@ template&lt;class Derived &gt; </div>
 <div class="ttc" id="aclass_sophus_1_1_rx_s_o3_base_html_a9e240755eac87778a12e156da63481a5"><div class="ttname"><a href="class_sophus_1_1_rx_s_o3_base.html#a9e240755eac87778a12e156da63481a5">Sophus::RxSO3Base::scale</a></div><div class="ttdeci">Scalar scale() const</div><div class="ttdef"><b>Definition:</b> <a href="rxso3_8hpp_source.html#l00350">rxso3.hpp:350</a></div></div>
 <div class="ttc" id="aclass_sophus_1_1_rx_s_o3_base_html_adf1fe0cd4e98c892681c0c13a6dc40ed"><div class="ttname"><a href="class_sophus_1_1_rx_s_o3_base.html#adf1fe0cd4e98c892681c0c13a6dc40ed">Sophus::RxSO3Base::quaternion_nonconst</a></div><div class="ttdeci">QuaternionType &amp; quaternion_nonconst()</div><div class="ttdef"><b>Definition:</b> <a href="rxso3_8hpp_source.html#l00405">rxso3.hpp:405</a></div></div>
 <div class="ttc" id="aclass_sophus_1_1_rx_s_o3_base_html_a872a2a4fd9dc5e929c538c57f2f169a8"><div class="ttname"><a href="class_sophus_1_1_rx_s_o3_base.html#a872a2a4fd9dc5e929c538c57f2f169a8">Sophus::RxSO3Base::Adjoint</a></div><div class="ttdeci">Matrix&lt; Scalar, DoF, DoF &gt; Adjoint</div><div class="ttdef"><b>Definition:</b> <a href="rxso3_8hpp_source.html#l00090">rxso3.hpp:90</a></div></div>
-<div class="ttc" id="a_se2___dx__exp__x_8cpp_html_a5f8b9464a27b0a4978897bf443a150ed"><div class="ttname"><a href="_se2___dx__exp__x_8cpp.html#a5f8b9464a27b0a4978897bf443a150ed">result</a></div><div class="ttdeci">result[0]</div><div class="ttdef"><b>Definition:</b> <a href="_se2___dx__exp__x_8cpp_source.html#l00011">Se2_Dx_exp_x.cpp:11</a></div></div>
+<div class="ttc" id="anamespaceevaluate__rpe_html_a4fc9b79d142635606a1be6b6c880cef3"><div class="ttname"><a href="namespaceevaluate__rpe.html#a4fc9b79d142635606a1be6b6c880cef3">evaluate_rpe.result</a></div><div class="ttdeci">def result</div><div class="ttdef"><b>Definition:</b> <a href="evaluate__rpe_8py_source.html#l00332">evaluate_rpe.py:332</a></div></div>
 <div class="ttc" id="aclass_sophus_1_1_rx_s_o3_base_html_a5563f4f9336e5fe381aa5c070564ddf7"><div class="ttname"><a href="class_sophus_1_1_rx_s_o3_base.html#a5563f4f9336e5fe381aa5c070564ddf7">Sophus::RxSO3Base::rotationMatrix</a></div><div class="ttdeci">Transformation rotationMatrix() const</div><div class="ttdef"><b>Definition:</b> <a href="rxso3_8hpp_source.html#l00341">rxso3.hpp:341</a></div></div>
 <div class="ttc" id="aclass_sophus_1_1_rx_s_o3_base_html_ab1943bdca98b8c664366c98f88f91cf6"><div class="ttname"><a href="class_sophus_1_1_rx_s_o3_base.html#ab1943bdca98b8c664366c98f88f91cf6">Sophus::RxSO3Base::quaternion</a></div><div class="ttdeci">QuaternionType const  &amp; quaternion() const</div><div class="ttdef"><b>Definition:</b> <a href="rxso3_8hpp_source.html#l00335">rxso3.hpp:335</a></div></div>
 <div class="ttc" id="acommon_8hpp_html_af56d9d7343d43bf8673a11efe87e4454"><div class="ttname"><a href="common_8hpp.html#af56d9d7343d43bf8673a11efe87e4454">SOPHUS_ENSURE</a></div><div class="ttdeci">#define SOPHUS_ENSURE(expr,...)</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00084">common.hpp:84</a></div></div>
@@ -1643,7 +1634,7 @@ template&lt;class Derived &gt; </div>
 <div class="ttc" id="aclass_sophus_1_1_rx_s_o3_base_html_aee2958a758e4940a5b9b927a58daf8e0"><div class="ttname"><a href="class_sophus_1_1_rx_s_o3_base.html#aee2958a758e4940a5b9b927a58daf8e0">Sophus::RxSO3Base::Transformation</a></div><div class="ttdeci">Matrix&lt; Scalar, N, N &gt; Transformation</div><div class="ttdef"><b>Definition:</b> <a href="rxso3_8hpp_source.html#l00085">rxso3.hpp:85</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 1 2022 22:35:29 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 26 2023 09:59:17 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

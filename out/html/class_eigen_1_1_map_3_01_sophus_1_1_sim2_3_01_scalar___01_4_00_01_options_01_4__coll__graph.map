@@ -1,7 +1,7 @@
 <map id="Eigen::Map&lt; Sophus::Sim2&lt; Scalar_ &gt;, Options &gt;" name="Eigen::Map&lt; Sophus::Sim2&lt; Scalar_ &gt;, Options &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="519,102,732,143"/>
-<area shape="rect" id="node2" href="$class_sophus_1_1_sim2_base.html" title=" " alt="" coords="204,21,389,77"/>
-<area shape="rect" id="node3" href="$classint.html" title=" " alt="" coords="5,36,44,63"/>
-<area shape="rect" id="node4" title=" " alt="" coords="211,102,382,143"/>
-<area shape="rect" id="node5" title=" " alt="" coords="214,167,379,209"/>
+<area shape="rect" id="node1" title=" " alt="" coords="627,102,840,143"/>
+<area shape="rect" id="node2" href="$class_sophus_1_1_sim2_base.html" title=" " alt="" coords="312,21,497,77"/>
+<area shape="rect" id="node3" href="$classstatic_01constexpr_01int.html" title=" " alt="" coords="5,36,152,63"/>
+<area shape="rect" id="node4" title=" " alt="" coords="319,102,490,143"/>
+<area shape="rect" id="node5" title=" " alt="" coords="322,167,487,209"/>
 </map>

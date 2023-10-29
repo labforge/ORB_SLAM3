@@ -76,6 +76,7 @@ public:
 
     Sophus::SE3f GrabImageRGBD(const cv::Mat &imRGB,const cv::Mat &imD, const double &timestamp, string filename);
     Sophus::SE3f GrabImageMonocular(const cv::Mat &im, const double &timestamp, string filename);
+    Sophus::SE3f GrabImageMonocular(const cv::Mat &im, const vector<cv::KeyPoint> &imKeypts, const cv::OutputArray imDescs, const double &timestamp, string filename);
 
     void GrabImuData(const IMU::Point &imuMeasurement);
 

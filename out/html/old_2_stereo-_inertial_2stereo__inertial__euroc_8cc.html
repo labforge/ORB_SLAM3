@@ -79,64 +79,26 @@ $(function() {
 <code>#include &lt;ctime&gt;</code><br />
 <code>#include &lt;sstream&gt;</code><br />
 <code>#include &lt;opencv2/core/core.hpp&gt;</code><br />
-<code>#include &lt;<a class="el" href="_system_8h_source.html">System.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="_imu_types_8h_source.html">ImuTypes.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="_optimizer_8h_source.html">Optimizer.h</a>&quot;</code><br />
+<code>#include &lt;System.h&gt;</code><br />
+<code>#include &quot;ImuTypes.h&quot;</code><br />
+<code>#include &quot;Optimizer.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for stereo_inertial_euroc.cc:</div>
 <div class="dyncontent">
 <div class="center"><img src="old_2_stereo-_inertial_2stereo__inertial__euroc_8cc__incl.png" border="0" usemap="#_examples__old_2_stereo-_inertial_2stereo__inertial__euroc_8cc" alt=""/></div>
 <map name="_examples__old_2_stereo-_inertial_2stereo__inertial__euroc_8cc" id="_examples__old_2_stereo-_inertial_2stereo__inertial__euroc_8cc">
-<area shape="rect" title=" " alt="" coords="2261,5,2432,61"/>
-<area shape="rect" title=" " alt="" coords="2528,481,2608,508"/>
-<area shape="rect" title=" " alt="" coords="2435,109,2520,136"/>
-<area shape="rect" title=" " alt="" coords="2222,481,2295,508"/>
-<area shape="rect" title=" " alt="" coords="2320,481,2395,508"/>
-<area shape="rect" title=" " alt="" coords="2544,109,2611,136"/>
-<area shape="rect" title=" " alt="" coords="2635,109,2693,136"/>
-<area shape="rect" title=" " alt="" coords="2717,109,2792,136"/>
-<area shape="rect" title=" " alt="" coords="529,951,698,978"/>
-<area shape="rect" href="_system_8h.html" title=" " alt="" coords="865,109,948,136"/>
-<area shape="rect" href="_imu_types_8h.html" title=" " alt="" coords="1928,795,2024,821"/>
-<area shape="rect" href="_optimizer_8h.html" title=" " alt="" coords="2359,184,2457,211"/>
-<area shape="rect" title=" " alt="" coords="104,869,179,896"/>
-<area shape="rect" title=" " alt="" coords="208,869,275,896"/>
-<area shape="rect" title=" " alt="" coords="302,869,373,896"/>
-<area shape="rect" title=" " alt="" coords="415,869,473,896"/>
-<area shape="rect" title=" " alt="" coords="1296,377,1360,404"/>
-<area shape="rect" href="_tracking_8h.html" title=" " alt="" coords="995,184,1085,211"/>
-<area shape="rect" href="_viewer_8h.html" title=" " alt="" coords="563,273,642,300"/>
-<area shape="rect" href="_frame_drawer_8h.html" title=" " alt="" coords="664,377,787,404"/>
-<area shape="rect" href="_o_r_b_vocabulary_8h.html" title=" " alt="" coords="1771,795,1903,821"/>
-<area shape="rect" href="_settings_8h.html" title=" " alt="" coords="297,795,383,821"/>
-<area shape="rect" href="_key_frame_database_8h.html" title=" " alt="" coords="1582,645,1743,672"/>
-<area shape="rect" href="_atlas_8h.html" title=" " alt="" coords="1036,481,1103,508"/>
-<area shape="rect" href="_map_drawer_8h.html" title=" " alt="" coords="811,377,920,404"/>
-<area shape="rect" href="_local_mapping_8h.html" title=" " alt="" coords="1097,377,1221,404"/>
-<area shape="rect" href="_loop_closing_8h.html" title=" " alt="" coords="1354,273,1467,300"/>
-<area shape="rect" href="_frame_8h.html" title=" " alt="" coords="1619,720,1693,747"/>
-<area shape="rect" title=" " alt="" coords="1056,869,1120,896"/>
-<area shape="rect" href="_map_point_8h.html" title=" " alt="" coords="1107,645,1202,672"/>
-<area shape="rect" href="_key_frame_8h.html" title=" " alt="" coords="1383,571,1481,597"/>
-<area shape="rect" href="_serialization_utils_8h.html" title=" " alt="" coords="1499,869,1645,896"/>
-<area shape="rect" title=" " alt="" coords="1490,944,1633,985"/>
-<area shape="rect" href="_map_8h.html" title=" " alt="" coords="1057,720,1119,747"/>
-<area shape="rect" title=" " alt="" coords="1289,944,1431,985"/>
-<area shape="rect" title=" " alt="" coords="2117,951,2179,978"/>
-<area shape="rect" title=" " alt="" coords="2270,951,2362,978"/>
-<area shape="rect" href="se3_8hpp.html" title=" " alt="" coords="1657,951,1730,978"/>
-<area shape="rect" title=" " alt="" coords="1999,869,2059,896"/>
-<area shape="rect" title=" " alt="" coords="2354,869,2481,896"/>
-<area shape="rect" title=" " alt="" coords="1873,869,1975,896"/>
-<area shape="rect" href="types__seven__dof__expmap_8h.html" title=" " alt="" coords="2927,363,3103,419"/>
-<area shape="rect" href="types__six__dof__expmap_8h.html" title=" " alt="" coords="2937,467,3093,523"/>
-<area shape="rect" title=" " alt="" coords="2374,273,2442,300"/>
-<area shape="rect" href="sparse__block__matrix_8h.html" title=" " alt="" coords="2329,370,2535,411"/>
-<area shape="rect" href="block__solver_8h.html" title=" " alt="" coords="3207,266,3359,307"/>
-<area shape="rect" href="optimization__algorithm__levenberg_8h.html" title=" " alt="" coords="2465,259,2676,315"/>
-<area shape="rect" href="optimization__algorithm__gauss__newton_8h.html" title=" " alt="" coords="2700,259,2911,315"/>
-<area shape="rect" href="linear__solver__eigen_8h.html" title=" " alt="" coords="2565,363,2726,419"/>
-<area shape="rect" href="robust__kernel__impl_8h.html" title=" " alt="" coords="2935,259,3081,315"/>
+<area shape="rect" title=" " alt="" coords="451,5,621,61"/>
+<area shape="rect" title=" " alt="" coords="5,109,85,136"/>
+<area shape="rect" title=" " alt="" coords="109,109,195,136"/>
+<area shape="rect" title=" " alt="" coords="219,109,293,136"/>
+<area shape="rect" title=" " alt="" coords="317,109,392,136"/>
+<area shape="rect" title=" " alt="" coords="416,109,483,136"/>
+<area shape="rect" title=" " alt="" coords="507,109,565,136"/>
+<area shape="rect" title=" " alt="" coords="589,109,664,136"/>
+<area shape="rect" title=" " alt="" coords="689,109,858,136"/>
+<area shape="rect" title=" " alt="" coords="883,109,965,136"/>
+<area shape="rect" title=" " alt="" coords="989,109,1085,136"/>
+<area shape="rect" title=" " alt="" coords="1109,109,1208,136"/>
 </map>
 </div>
 </div>
@@ -287,10 +249,10 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;            <span class="keywordtype">string</span> item;</div>
 <div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;            <span class="keywordtype">size_t</span> pos = 0;</div>
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;            <span class="keywordtype">double</span> data[7];</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;            <span class="keywordtype">int</span> count = 0;</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;            <span class="keywordtype">int</span> <a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a> = 0;</div>
 <div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;            <span class="keywordflow">while</span> ((pos = s.find(<span class="charliteral">&#39;,&#39;</span>)) != string::npos) {</div>
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                item = s.substr(0, pos);</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;                data[count++] = stod(item);</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;                data[<a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a>++] = stod(item);</div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;                s.erase(0, pos + 1);</div>
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;            }</div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;            item = s.substr(0, pos);</div>
@@ -303,6 +265,8 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    }</div>
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;}</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="logresize_8py_source.html#l00005">logresize::count</a>.</p>
+
 </div>
 </div>
 <a id="a3c04138a5bfe5d72780bb7e82a18e627"></a>
@@ -342,11 +306,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">int</span> num_seq = (argc-3)/2;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;num_seq = &quot;</span> &lt;&lt; num_seq &lt;&lt; endl;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">bool</span> bFileName= (((argc-3) % 2) == 1);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">string</span> file_name;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="namespacelogresize.html#aeb675d0230677c374b762715193f72cc">file_name</a>;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">if</span> (bFileName)</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        file_name = string(argv[argc-1]);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;file name: &quot;</span> &lt;&lt; file_name &lt;&lt; endl;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="namespacelogresize.html#aeb675d0230677c374b762715193f72cc">file_name</a> = string(argv[argc-1]);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;file name: &quot;</span> &lt;&lt; <a class="code" href="namespacelogresize.html#aeb675d0230677c374b762715193f72cc">file_name</a> &lt;&lt; endl;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">// Load all sequences:</span></div>
@@ -356,7 +320,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    vector&lt; vector&lt;double&gt; &gt; vTimestampsCam;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    vector&lt; vector&lt;cv::Point3f&gt; &gt; vAcc, vGyro;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    vector&lt; vector&lt;double&gt; &gt; vTimestampsImu;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    vector&lt;int&gt; nImages;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    vector&lt;int&gt; <a class="code" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#a373b9edf2aadce3f537069f127f5a42f">nImages</a>;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    vector&lt;int&gt; nImu;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    vector&lt;int&gt; first_imu(num_seq,0);</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
@@ -366,7 +330,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    vAcc.resize(num_seq);</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    vGyro.resize(num_seq);</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    vTimestampsImu.resize(num_seq);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    nImages.resize(num_seq);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#a373b9edf2aadce3f537069f127f5a42f">nImages</a>.resize(num_seq);</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    nImu.resize(num_seq);</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">int</span> tot_images = 0;</div>
@@ -388,11 +352,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <a class="code" href="_stereo-_inertial_2stereo__inertial__euroc_8cc.html#ac6b60cb66626cfe49700af747f267c14">LoadIMU</a>(pathImu, vTimestampsImu[seq], vAcc[seq], vGyro[seq]);</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        cout &lt;&lt; <span class="stringliteral">&quot;LOADED!&quot;</span> &lt;&lt; endl;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        nImages[seq] = vstrImageLeft[seq].size();</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        tot_images += nImages[seq];</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <a class="code" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#a373b9edf2aadce3f537069f127f5a42f">nImages</a>[seq] = vstrImageLeft[seq].size();</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        tot_images += <a class="code" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#a373b9edf2aadce3f537069f127f5a42f">nImages</a>[seq];</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        nImu[seq] = vTimestampsImu[seq].size();</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordflow">if</span>((nImages[seq]&lt;=0)||(nImu[seq]&lt;=0))</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordflow">if</span>((<a class="code" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#a373b9edf2aadce3f537069f127f5a42f">nImages</a>[seq]&lt;=0)||(nImu[seq]&lt;=0))</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        {</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            cerr &lt;&lt; <span class="stringliteral">&quot;ERROR: Failed to load images or IMU for sequence&quot;</span> &lt;&lt; seq &lt;&lt; endl;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            <span class="keywordflow">return</span> 1;</div>
@@ -444,15 +408,15 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="comment">// Vector for tracking time statistics</span></div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    vector&lt;float&gt; vTimesTrack;</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    vTimesTrack.resize(tot_images);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    vector&lt;float&gt; <a class="code" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#ad80db942c40af3979b78f217b52f5a81">vTimesTrack</a>;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <a class="code" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#ad80db942c40af3979b78f217b52f5a81">vTimesTrack</a>.resize(tot_images);</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160; </div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    cout &lt;&lt; endl &lt;&lt; <span class="stringliteral">&quot;-------&quot;</span> &lt;&lt; endl;</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    cout.precision(17);</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160; </div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="comment">// Create SLAM system. It initializes all system threads and gets ready to process frames.</span></div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a> SLAM(argv[1],argv[2],<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#aafb52f69567ea0d9256abe98f051d80da10e3c98ac4e9909b72a3d6b1285e57b1">ORB_SLAM3::System::IMU_STEREO</a>, <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keywordtype">float</span> imageScale = SLAM.GetImageScale();</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a> <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>(argv[1],argv[2],<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#aafb52f69567ea0d9256abe98f051d80dab997876e6643bdb12eb109598142787b">ORB_SLAM3::System::IMU_STEREO</a>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keywordtype">float</span> imageScale = <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a1ebf14c77d134ca955449a2704a9ffe8">GetImageScale</a>();</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160; </div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    cv::Mat imLeft, imRight, imLeftRect, imRightRect;</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordflow">for</span> (seq = 0; seq&lt;num_seq; seq++)</div>
@@ -463,8 +427,8 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordtype">double</span> t_resize = 0.f;</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="keywordtype">double</span> t_track = 0.f;</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <span class="keywordtype">int</span> num_rect = 0;</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="keywordtype">int</span> proccIm = 0;</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> ni=0; ni&lt;nImages[seq]; ni++, proccIm++)</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="mono__bottlenose__gige_8cc.html#a25613b483e32a0020b7bd8d22ccd11c6">proccIm</a> = 0;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> ni=0; ni&lt;<a class="code" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#a373b9edf2aadce3f537069f127f5a42f">nImages</a>[seq]; ni++, <a class="code" href="mono__bottlenose__gige_8cc.html#a25613b483e32a0020b7bd8d22ccd11c6">proccIm</a>++)</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        {</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            <span class="comment">// Read left and right images from file</span></div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            imLeft = cv::imread(vstrImageLeft[seq][ni],cv::IMREAD_UNCHANGED);</div>
@@ -501,12 +465,12 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="preprocessor">    #else</span></div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;            std::chrono::monotonic_clock::time_point t_End_Rect = std::chrono::monotonic_clock::now();</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            t_rect = std::chrono::duration_cast&lt;std::chrono::duration&lt;double,std::milli&gt; &gt;(t_End_Rect - t_Start_Rect).count();</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            SLAM.InsertRectTime(t_rect);</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            t_rect = std::chrono::duration_cast&lt;std::chrono::duration&lt;double&gt; &gt;(t_End_Rect - t_Start_Rect).count();</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            t_rect = std::chrono::duration_cast&lt;std::chrono::duration&lt;double,std::milli&gt; &gt;(t_End_Rect - t_Start_Rect).<a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a>();</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a63e0ff3d55d693d300904dbf948ecea7">InsertRectTime</a>(t_rect);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            t_rect = std::chrono::duration_cast&lt;std::chrono::duration&lt;double&gt; &gt;(t_End_Rect - t_Start_Rect).<a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a>();</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160; </div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;            <span class="keywordflow">if</span>(imageScale != 1.f)</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;            <span class="keywordflow">if</span>(imageScale != 1.<a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>)</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            {</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;<span class="preprocessor">#ifdef REGISTER_TIMES</span></div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;<span class="preprocessor">    #ifdef COMPILEDWITHC11</span></div>
@@ -525,8 +489,8 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="preprocessor">    #else</span></div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                std::chrono::monotonic_clock::time_point t_End_Resize = std::chrono::monotonic_clock::now();</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                t_resize = std::chrono::duration_cast&lt;std::chrono::duration&lt;double,std::milli&gt; &gt;(t_End_Resize - t_Start_Resize).count();</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                SLAM.InsertResizeTime(t_resize);</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                t_resize = std::chrono::duration_cast&lt;std::chrono::duration&lt;double,std::milli&gt; &gt;(t_End_Resize - t_Start_Resize).<a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a>();</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a0098053312b3603d7c5e22f80ac1e2bf">InsertResizeTime</a>(t_resize);</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            }</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160; </div>
@@ -551,7 +515,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="preprocessor">    #endif</span></div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160; </div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            <span class="comment">// Pass the images to the SLAM system</span></div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            SLAM.TrackStereo(imLeftRect,imRightRect,tframe,vImuMeas);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4">TrackStereo</a>(imLeftRect,imRightRect,tframe,vImuMeas);</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160; </div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="preprocessor">    #ifdef COMPILEDWITHC11</span></div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;            std::chrono::steady_clock::time_point t2 = std::chrono::steady_clock::now();</div>
@@ -560,36 +524,36 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor">    #endif</span></div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160; </div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="preprocessor">#ifdef REGISTER_TIMES</span></div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            t_track = t_rect + t_resize + std::chrono::duration_cast&lt;std::chrono::duration&lt;double,std::milli&gt; &gt;(t2 - t1).count();</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            SLAM.InsertTrackTime(t_track);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            t_track = t_rect + t_resize + std::chrono::duration_cast&lt;std::chrono::duration&lt;double,std::milli&gt; &gt;(t2 - t1).<a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a>();</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#ac0d0a0f54ff18c65aa4563c7ba9e98e8">InsertTrackTime</a>(t_track);</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160; </div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;            <span class="keywordtype">double</span> ttrack= std::chrono::duration_cast&lt;std::chrono::duration&lt;double&gt; &gt;(t2 - t1).count();</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;            <span class="keywordtype">double</span> <a class="code" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#ae9b19aef5bbe64bdf8492c914d6846dd">ttrack</a>= std::chrono::duration_cast&lt;std::chrono::duration&lt;double&gt; &gt;(t2 - t1).<a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a>();</div>
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160; </div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            vTimesTrack[ni]=ttrack;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            <a class="code" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#ad80db942c40af3979b78f217b52f5a81">vTimesTrack</a>[ni]=<a class="code" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#ae9b19aef5bbe64bdf8492c914d6846dd">ttrack</a>;</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160; </div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;            <span class="comment">// Wait to load the next frame</span></div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;            <span class="keywordtype">double</span> T=0;</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            <span class="keywordflow">if</span>(ni&lt;nImages[seq]-1)</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            <span class="keywordflow">if</span>(ni&lt;<a class="code" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#a373b9edf2aadce3f537069f127f5a42f">nImages</a>[seq]-1)</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                T = vTimestampsCam[seq][ni+1]-tframe;</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(ni&gt;0)</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                T = tframe-vTimestampsCam[seq][ni-1];</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160; </div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;            <span class="keywordflow">if</span>(ttrack&lt;T)</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                usleep((T-ttrack)*1e6); <span class="comment">// 1e6</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#ae9b19aef5bbe64bdf8492c914d6846dd">ttrack</a>&lt;T)</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                usleep((T-<a class="code" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#ae9b19aef5bbe64bdf8492c914d6846dd">ttrack</a>)*1e6); <span class="comment">// 1e6</span></div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        }</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160; </div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        <span class="keywordflow">if</span>(seq &lt; num_seq - 1)</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        {</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            cout &lt;&lt; <span class="stringliteral">&quot;Changing the dataset&quot;</span> &lt;&lt; endl;</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160; </div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;            SLAM.ChangeDataset();</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;            <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a3be7816140ffacc27218a956edb1a1c3">ChangeDataset</a>();</div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        }</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160; </div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160; </div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    }</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    <span class="comment">// Stop all threads</span></div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    SLAM.Shutdown();</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5733a59874cb63617aa98b2345f8e7ea">Shutdown</a>();</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160; </div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160; </div>
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    <span class="comment">// Save camera trajectory</span></div>
@@ -597,88 +561,105 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    {</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">string</span> kf_file =  <span class="stringliteral">&quot;kf_&quot;</span> + string(argv[argc-1]) + <span class="stringliteral">&quot;.txt&quot;</span>;</div>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">string</span> f_file =  <span class="stringliteral">&quot;f_&quot;</span> + string(argv[argc-1]) + <span class="stringliteral">&quot;.txt&quot;</span>;</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        SLAM.SaveTrajectoryEuRoC(f_file);</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        SLAM.SaveKeyFrameTrajectoryEuRoC(kf_file);</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#aae5c00c6de5c15962c967f62c1b65e48">SaveTrajectoryEuRoC</a>(f_file);</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#af09dc0d866db0851e587aebe25f0d594">SaveKeyFrameTrajectoryEuRoC</a>(kf_file);</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    }</div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    {</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        SLAM.SaveTrajectoryEuRoC(<span class="stringliteral">&quot;CameraTrajectory.txt&quot;</span>);</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        SLAM.SaveKeyFrameTrajectoryEuRoC(<span class="stringliteral">&quot;KeyFrameTrajectory.txt&quot;</span>);</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#aae5c00c6de5c15962c967f62c1b65e48">SaveTrajectoryEuRoC</a>(<span class="stringliteral">&quot;CameraTrajectory.txt&quot;</span>);</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#af09dc0d866db0851e587aebe25f0d594">SaveKeyFrameTrajectoryEuRoC</a>(<span class="stringliteral">&quot;KeyFrameTrajectory.txt&quot;</span>);</div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    }</div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160; </div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_system_8cc_source.html#l01367">ORB_SLAM3::System::ChangeDataset()</a>, <a class="el" href="_system_8cc_source.html#l01381">ORB_SLAM3::System::GetImageScale()</a>, <a class="el" href="_system_8h_source.html#l00092">ORB_SLAM3::System::IMU_STEREO</a>, <a class="el" href="_stereo-_inertial_2stereo__inertial__euroc_8cc_source.html#l00243">LoadImages()</a>, <a class="el" href="_stereo-_inertial_2stereo__inertial__euroc_8cc_source.html#l00269">LoadIMU()</a>, <a class="el" href="_system_8cc_source.html#l01057">ORB_SLAM3::System::SaveKeyFrameTrajectoryEuRoC()</a>, <a class="el" href="_system_8cc_source.html#l00662">ORB_SLAM3::System::SaveTrajectoryEuRoC()</a>, <a class="el" href="_system_8cc_source.html#l00515">ORB_SLAM3::System::Shutdown()</a>, and <a class="el" href="_system_8cc_source.html#l00244">ORB_SLAM3::System::TrackStereo()</a>.</p>
+<p class="reference">References <a class="el" href="backup_2src_2_system_8cc_source.html#l01547">ORB_SLAM3::System::ChangeDataset()</a>, <a class="el" href="logresize_8py_source.html#l00005">logresize::count</a>, <a class="el" href="evaluate__rpe_8py_source.html#l00346">evaluate_rpe::f</a>, <a class="el" href="logresize_8py_source.html#l00001">logresize::file_name</a>, <a class="el" href="backup_2src_2_system_8cc_source.html#l01561">ORB_SLAM3::System::GetImageScale()</a>, <a class="el" href="backup_2include_2_system_8h_source.html#l00092">ORB_SLAM3::System::IMU_STEREO</a>, <a class="el" href="class_o_r_b___s_l_a_m3_1_1_system.html#a63e0ff3d55d693d300904dbf948ecea7">ORB_SLAM3::System::InsertRectTime()</a>, <a class="el" href="class_o_r_b___s_l_a_m3_1_1_system.html#a0098053312b3603d7c5e22f80ac1e2bf">ORB_SLAM3::System::InsertResizeTime()</a>, <a class="el" href="class_o_r_b___s_l_a_m3_1_1_system.html#ac0d0a0f54ff18c65aa4563c7ba9e98e8">ORB_SLAM3::System::InsertTrackTime()</a>, <a class="el" href="_stereo-_inertial_2stereo__inertial__euroc_8cc_source.html#l00243">LoadImages()</a>, <a class="el" href="_stereo-_inertial_2stereo__inertial__euroc_8cc_source.html#l00269">LoadIMU()</a>, <a class="el" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc_source.html#l00046">nImages</a>, <a class="el" href="mono__bottlenose__gige_8cc_source.html#l00080">proccIm</a>, <a class="el" href="class_o_r_b___s_l_a_m3_1_1_system.html#af09dc0d866db0851e587aebe25f0d594">ORB_SLAM3::System::SaveKeyFrameTrajectoryEuRoC()</a>, <a class="el" href="class_o_r_b___s_l_a_m3_1_1_system.html#aae5c00c6de5c15962c967f62c1b65e48">ORB_SLAM3::System::SaveTrajectoryEuRoC()</a>, <a class="el" href="backup_2src_2_system_8cc_source.html#l00692">ORB_SLAM3::System::Shutdown()</a>, <a class="el" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>, <a class="el" href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4">ORB_SLAM3::System::TrackStereo()</a>, <a class="el" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc_source.html#l00044">ttrack</a>, and <a class="el" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc_source.html#l00047">vTimesTrack</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="old_2_stereo-_inertial_2stereo__inertial__euroc_8cc_a3c04138a5bfe5d72780bb7e82a18e627_cgraph.png" border="0" usemap="#old_2_stereo-_inertial_2stereo__inertial__euroc_8cc_a3c04138a5bfe5d72780bb7e82a18e627_cgraph" alt=""/></div>
 <map name="old_2_stereo-_inertial_2stereo__inertial__euroc_8cc_a3c04138a5bfe5d72780bb7e82a18e627_cgraph" id="old_2_stereo-_inertial_2stereo__inertial__euroc_8cc_a3c04138a5bfe5d72780bb7e82a18e627_cgraph">
-<area shape="rect" title=" " alt="" coords="5,1242,60,1269"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a3be7816140ffacc27218a956edb1a1c3" title=" " alt="" coords="108,224,275,265"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a1ebf14c77d134ca955449a2704a9ffe8" title=" " alt="" coords="108,1319,275,1360"/>
-<area shape="rect" href="_stereo-_inertial_2stereo__inertial__euroc_8cc.html#a1e49c51e24a0141717030d6719534be7" title=" " alt="" coords="141,1385,242,1411"/>
-<area shape="rect" href="_stereo-_inertial_2stereo__inertial__euroc_8cc.html#ac6b60cb66626cfe49700af747f267c14" title=" " alt="" coords="152,1435,231,1462"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#af09dc0d866db0851e587aebe25f0d594" title=" " alt="" coords="323,1424,549,1465"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#aae5c00c6de5c15962c967f62c1b65e48" title=" " alt="" coords="353,1489,519,1531"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5733a59874cb63617aa98b2345f8e7ea" title=" " alt="" coords="108,501,275,543"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4" title=" " alt="" coords="108,935,275,976"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#ac0cb3ce01f3ffb69bf400117ef5b82f0" title=" " alt="" coords="353,71,519,112"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_atlas.html#a12d374c0cb3b4f39b44b756bb83f6eb5" title=" " alt="" coords="597,378,848,405"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_map.html#aac0862ebf68f767ba236caffef8d7406" title=" " alt="" coords="327,136,545,177"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a039279fde46d3defa80663d5e1268e4e" title=" " alt="" coords="353,5,519,47"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#aea295ab5e9be7cdf29450e831aa26e65" title=" " alt="" coords="353,436,519,477"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_atlas.html#adc116f14d410bbfccc7fbc2e13656f89" title=" " alt="" coords="896,253,1091,295"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_verbose.html#a2e1cd79eff78762b1d39ce310673e6de" title=" " alt="" coords="641,195,804,236"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_atlas.html#a628870e4badc6e8ebe31581bbe245f96" title=" " alt="" coords="613,129,832,171"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_map.html#a9118845dec804ee5df2220038de0a0bc" title=" " alt="" coords="902,378,1085,405"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#aba8f34751974395c2a97421cecaa62db" title=" " alt="" coords="604,803,841,844"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_atlas.html#a23b1f0291e560f019ee31484a84f760e" title=" " alt="" coords="617,487,828,514"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_map.html#a4b1b7912e4206c44890153b9dd22b0fa" title=" " alt="" coords="617,1292,828,1333"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_atlas.html#a5450ec234a70eafbade9b594aa12d228" title=" " alt="" coords="609,1358,836,1385"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_map.html#ac7d12232401faf5e3a1582889dd927f5" title=" " alt="" coords="603,437,842,463"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_viewer.html#a7f54a31ee1748bf1258474966249ec52" title=" " alt="" coords="641,312,804,353"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame.html#aa58317abc58d81c8bc56fade6aabafd3" title=" " alt="" coords="906,1172,1081,1213"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a8ae75f2f4883f195e2516d1f9cbe097b" title=" " alt="" coords="353,1555,519,1596"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame.html#ad9d42b5a255635ee05d543d1d0a3a9b1" title=" " alt="" coords="635,1227,810,1268"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame.html#a5f1e59365572741bda9985b63cc090d3" title=" " alt="" coords="635,1161,810,1203"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame.html#a9e801be900d973e29f54d642507ea314" title=" " alt="" coords="635,1511,810,1552"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame.html#ade016417625728dde1445681ea6fdacc" title=" " alt="" coords="623,1409,822,1435"/>
-<area shape="rect" href="class_sophus_1_1_s_e3.html#a8125109180338d0d2c4fe74a11074d59" title=" " alt="" coords="633,1459,812,1486"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame.html#a22316350535432b8331b42eddfe5b566" title=" " alt="" coords="635,1628,810,1669"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame.html#a40e624325f3e66e4f473c9d0c9aae954" title=" " alt="" coords="635,1693,810,1735"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#a470ef318627915a609e31e5f3b5f3c27" title=" " alt="" coords="336,371,536,412"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a17970bdf1d4d19eace0bdc8eb63231a8" title=" " alt="" coords="341,501,531,543"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a233f5367058a3beabcce3bc07e7e9c2c" title=" " alt="" coords="353,567,519,608"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a6d6dad2bc132a51b16b31d194ff7e71c" title=" " alt="" coords="353,1228,519,1269"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#ad9f8d21fd15bcefe50fbf83b4368fddd" title=" " alt="" coords="353,1293,519,1335"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a6ab03891916f346b7cc5dcd406cde038" title=" " alt="" coords="353,1359,519,1400"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#ac562322942a14d4fc1333aa686579ba8" title=" " alt="" coords="336,632,536,673"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_settings.html#a20b1a28ab36411cb275ad5a1cfacf8e7" title=" " alt="" coords="339,698,533,725"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_settings.html#a7afab79e9d746e745194fd53746adbe8" title=" " alt="" coords="338,749,534,775"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_settings.html#ada7537a4065393ce963c82a061f9072b" title=" " alt="" coords="339,799,533,826"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_settings.html#ad1638483d322a1fb6836bbe176b10448" title=" " alt="" coords="338,850,534,877"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_settings.html#a5ac59e512e868f8a70f5d9b858c14b45" title=" " alt="" coords="355,901,517,943"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_settings.html#a176467ed4f397d63381f26236523e0ad" title=" " alt="" coords="355,967,517,1008"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_settings.html#afaf3d41416cdcd3d4906838124936dd7" title=" " alt="" coords="355,1032,517,1073"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#ac662093fcc85e2003f81d55e48bc4dae" title=" " alt="" coords="336,1097,536,1139"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#a2d6aabb7dadcd193a92e5b489ef794ea" title=" " alt="" coords="336,1163,536,1204"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a9e27c5599a1a19529cbbb251c55b6d67" title=" " alt="" coords="353,253,519,295"/>
+<area shape="rect" title=" " alt="" coords="5,882,60,909"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a3be7816140ffacc27218a956edb1a1c3" title=" " alt="" coords="138,551,305,592"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a1ebf14c77d134ca955449a2704a9ffe8" title=" " alt="" coords="138,620,305,661"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a63e0ff3d55d693d300904dbf948ecea7" title=" " alt="" coords="138,685,305,727"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a0098053312b3603d7c5e22f80ac1e2bf" title=" " alt="" coords="138,751,305,792"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#ac0d0a0f54ff18c65aa4563c7ba9e98e8" title=" " alt="" coords="138,816,305,857"/>
+<area shape="rect" href="_stereo-_inertial_2stereo__inertial__euroc_8cc.html#a1e49c51e24a0141717030d6719534be7" title=" " alt="" coords="171,882,272,909"/>
+<area shape="rect" href="_stereo-_inertial_2stereo__inertial__euroc_8cc.html#ac6b60cb66626cfe49700af747f267c14" title=" " alt="" coords="182,933,261,959"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#af09dc0d866db0851e587aebe25f0d594" title=" " alt="" coords="108,984,335,1025"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#aae5c00c6de5c15962c967f62c1b65e48" title=" " alt="" coords="138,1049,305,1091"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5733a59874cb63617aa98b2345f8e7ea" title=" " alt="" coords="409,1108,575,1149"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4" title=" " alt="" coords="138,1167,305,1208"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#ac0cb3ce01f3ffb69bf400117ef5b82f0" title=" " alt="" coords="409,667,575,708"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_atlas.html#a12d374c0cb3b4f39b44b756bb83f6eb5" title=" " alt="" coords="649,615,900,642"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_map.html#aac0862ebf68f767ba236caffef8d7406" title=" " alt="" coords="383,484,601,525"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a039279fde46d3defa80663d5e1268e4e" title=" " alt="" coords="409,549,575,591"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#aea295ab5e9be7cdf29450e831aa26e65" title=" " alt="" coords="409,397,575,439"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_atlas.html#adc116f14d410bbfccc7fbc2e13656f89" title=" " alt="" coords="964,693,1159,735"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_verbose.html#a2e1cd79eff78762b1d39ce310673e6de" title=" " alt="" coords="693,667,856,708"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_atlas.html#a628870e4badc6e8ebe31581bbe245f96" title=" " alt="" coords="665,784,884,825"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_map.html#aa4bd6723321415146bf819cec1fa5cde" title=" " alt="" coords="1253,701,1435,727"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_map.html#a4bb818db94ca6536f0b95d455f41ab30" title=" " alt="" coords="1232,846,1456,873"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_map.html#ac63101396c291b03d42af7d56ee977fe" title=" " alt="" coords="1223,650,1465,677"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_map.html#a2c39aae76b53eb36f4d784a1f241b943" title=" " alt="" coords="1225,751,1463,778"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_map.html#aeab7fa663b806b2317f055c713fd0572" title=" " alt="" coords="955,759,1168,800"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_map.html#a9118845dec804ee5df2220038de0a0bc" title=" " alt="" coords="970,615,1153,642"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame_database.html#aba8f34751974395c2a97421cecaa62db" title=" " alt="" coords="656,5,893,47"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_atlas.html#a23b1f0291e560f019ee31484a84f760e" title=" " alt="" coords="669,463,880,490"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_map.html#a4b1b7912e4206c44890153b9dd22b0fa" title=" " alt="" coords="669,397,880,439"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_atlas.html#a5450ec234a70eafbade9b594aa12d228" title=" " alt="" coords="948,565,1175,591"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_map.html#ac7d12232401faf5e3a1582889dd927f5" title=" " alt="" coords="655,514,894,541"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_viewer.html#a7f54a31ee1748bf1258474966249ec52" title=" " alt="" coords="693,71,856,112"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_viewer.html#ae18d75730ecc221ebcf61994f24604ab" title=" " alt="" coords="693,136,856,177"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#a4e05eaf648df777dbd6bb86ff41d6df9" title=" " alt="" coords="675,201,875,243"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a0706805348296b16272c563d53671d13" title=" " alt="" coords="680,267,869,308"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_viewer.html#a8d93e612cd468fe43cda9088794460b1" title=" " alt="" coords="693,332,856,373"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_key_frame.html#aa58317abc58d81c8bc56fade6aabafd3" title=" " alt="" coords="974,5,1149,47"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_map.html#afd728845759d7597768d0879135a1bef" title=" " alt="" coords="972,463,1151,490"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a8ae75f2f4883f195e2516d1f9cbe097b" title=" " alt="" coords="409,732,575,773"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_viewer.html#a6bf7cc6dca5e391fb789497af22a8a39" title=" " alt="" coords="693,915,856,956"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#afd6c082c0d07bbc24eeae577540cafae" title=" " alt="" coords="675,980,875,1021"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a756dcca4cb74ffb9ea70989c9128e851" title=" " alt="" coords="680,1045,869,1087"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#af1558dc9983493d016ac60ac32fb2e6a" title=" " alt="" coords="680,1111,869,1152"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a6f283d0ca991286c002913e3ae5f4758" title=" " alt="" coords="692,1176,857,1217"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_viewer.html#a414f2f743f4c71544bc48bd57bc47bab" title=" " alt="" coords="693,1241,856,1283"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#a470ef318627915a609e31e5f3b5f3c27" title=" " alt="" coords="675,1307,875,1348"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a17970bdf1d4d19eace0bdc8eb63231a8" title=" " alt="" coords="680,1372,869,1413"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a233f5367058a3beabcce3bc07e7e9c2c" title=" " alt="" coords="691,849,858,891"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a1fe0af2fcb11b05969f5140d02b6e2f8" title=" " alt="" coords="978,824,1145,865"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_atlas.html#ac06cc3e012b0fba7df056acb9200e9e3" title=" " alt="" coords="959,890,1163,917"/>
 </map>
 </div>
 
 </div>
 </div>
 </div><!-- contents -->
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a1ebf14c77d134ca955449a2704a9ffe8"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a1ebf14c77d134ca955449a2704a9ffe8">ORB_SLAM3::System::GetImageScale</a></div><div class="ttdeci">float GetImageScale()</div><div class="ttdef"><b>Definition:</b> <a href="backup_2src_2_system_8cc_source.html#l01561">System.cc:1561</a></div></div>
 <div class="ttc" id="a_stereo-_inertial_2stereo__inertial__euroc_8cc_html_a1e49c51e24a0141717030d6719534be7"><div class="ttname"><a href="_stereo-_inertial_2stereo__inertial__euroc_8cc.html#a1e49c51e24a0141717030d6719534be7">LoadImages</a></div><div class="ttdeci">void LoadImages(const string &amp;strPathLeft, const string &amp;strPathRight, const string &amp;strPathTimes, vector&lt; string &gt; &amp;vstrImageLeft, vector&lt; string &gt; &amp;vstrImageRight, vector&lt; double &gt; &amp;vTimeStamps)</div><div class="ttdef"><b>Definition:</b> <a href="_stereo-_inertial_2stereo__inertial__euroc_8cc_source.html#l00243">stereo_inertial_euroc.cc:243</a></div></div>
-<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_aafb52f69567ea0d9256abe98f051d80da10e3c98ac4e9909b72a3d6b1285e57b1"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#aafb52f69567ea0d9256abe98f051d80da10e3c98ac4e9909b72a3d6b1285e57b1">ORB_SLAM3::System::IMU_STEREO</a></div><div class="ttdeci">@ IMU_STEREO</div><div class="ttdef"><b>Definition:</b> <a href="_system_8h_source.html#l00092">System.h:92</a></div></div>
+<div class="ttc" id="amono__bottlenose__gige_8cc_html_a02bc2eece0a1a10e6021bba7376a3f58"><div class="ttname"><a href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a></div><div class="ttdeci">ORB_SLAM3::System SLAM(vocab_file, yaml_file, ORB_SLAM3::System::MONOCULAR, true, 0, string(&quot;Testrun&quot;))</div></div>
+<div class="ttc" id="amono__bottlenose__gige_8cc_html_a25613b483e32a0020b7bd8d22ccd11c6"><div class="ttname"><a href="mono__bottlenose__gige_8cc.html#a25613b483e32a0020b7bd8d22ccd11c6">proccIm</a></div><div class="ttdeci">int proccIm</div><div class="ttdef"><b>Definition:</b> <a href="mono__bottlenose__gige_8cc_source.html#l00080">mono_bottlenose_gige.cc:80</a></div></div>
+<div class="ttc" id="acatkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc_html_a373b9edf2aadce3f537069f127f5a42f"><div class="ttname"><a href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#a373b9edf2aadce3f537069f127f5a42f">nImages</a></div><div class="ttdeci">int nImages</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc_source.html#l00046">mono_acc_filtersubscriber.cc:46</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a5733a59874cb63617aa98b2345f8e7ea"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a5733a59874cb63617aa98b2345f8e7ea">ORB_SLAM3::System::Shutdown</a></div><div class="ttdeci">void Shutdown()</div><div class="ttdef"><b>Definition:</b> <a href="backup_2src_2_system_8cc_source.html#l00692">System.cc:692</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_af09dc0d866db0851e587aebe25f0d594"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#af09dc0d866db0851e587aebe25f0d594">ORB_SLAM3::System::SaveKeyFrameTrajectoryEuRoC</a></div><div class="ttdeci">void SaveKeyFrameTrajectoryEuRoC(const string &amp;filename)</div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_aafb52f69567ea0d9256abe98f051d80dab997876e6643bdb12eb109598142787b"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#aafb52f69567ea0d9256abe98f051d80dab997876e6643bdb12eb109598142787b">ORB_SLAM3::System::IMU_STEREO</a></div><div class="ttdeci">@ IMU_STEREO</div><div class="ttdef"><b>Definition:</b> <a href="backup_2include_2_system_8h_source.html#l00092">System.h:92</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_aae5c00c6de5c15962c967f62c1b65e48"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#aae5c00c6de5c15962c967f62c1b65e48">ORB_SLAM3::System::SaveTrajectoryEuRoC</a></div><div class="ttdeci">void SaveTrajectoryEuRoC(const string &amp;filename)</div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a05ad775f15134ca22413748c792d88f4"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4">ORB_SLAM3::System::TrackStereo</a></div><div class="ttdeci">Sophus::SE3f TrackStereo(const cv::Mat &amp;imLeft, const cv::Mat &amp;imRight, const double &amp;timestamp, const vector&lt; IMU::Point &gt; &amp;vImuMeas=vector&lt; IMU::Point &gt;(), string filename=&quot;&quot;)</div></div>
+<div class="ttc" id="anamespacelogresize_html_aeb675d0230677c374b762715193f72cc"><div class="ttname"><a href="namespacelogresize.html#aeb675d0230677c374b762715193f72cc">logresize.file_name</a></div><div class="ttdeci">string file_name</div><div class="ttdef"><b>Definition:</b> <a href="logresize_8py_source.html#l00001">logresize.py:1</a></div></div>
+<div class="ttc" id="acatkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc_html_ae9b19aef5bbe64bdf8492c914d6846dd"><div class="ttname"><a href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#ae9b19aef5bbe64bdf8492c914d6846dd">ttrack</a></div><div class="ttdeci">double ttrack</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc_source.html#l00044">mono_acc_filtersubscriber.cc:44</a></div></div>
+<div class="ttc" id="acatkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc_html_ad80db942c40af3979b78f217b52f5a81"><div class="ttname"><a href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc.html#ad80db942c40af3979b78f217b52f5a81">vTimesTrack</a></div><div class="ttdeci">std::vector&lt; float &gt; vTimesTrack</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc_source.html#l00047">mono_acc_filtersubscriber.cc:47</a></div></div>
 <div class="ttc" id="a_stereo-_inertial_2stereo__inertial__euroc_8cc_html_ac6b60cb66626cfe49700af747f267c14"><div class="ttname"><a href="_stereo-_inertial_2stereo__inertial__euroc_8cc.html#ac6b60cb66626cfe49700af747f267c14">LoadIMU</a></div><div class="ttdeci">void LoadIMU(const string &amp;strImuPath, vector&lt; double &gt; &amp;vTimeStamps, vector&lt; cv::Point3f &gt; &amp;vAcc, vector&lt; cv::Point3f &gt; &amp;vGyro)</div><div class="ttdef"><b>Definition:</b> <a href="_stereo-_inertial_2stereo__inertial__euroc_8cc_source.html#l00269">stereo_inertial_euroc.cc:269</a></div></div>
-<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a></div><div class="ttdef"><b>Definition:</b> <a href="_system_8h_source.html#l00083">System.h:83</a></div></div>
-<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_point_html"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_point.html">ORB_SLAM3::IMU::Point</a></div><div class="ttdef"><b>Definition:</b> <a href="_imu_types_8h_source.html#l00046">ImuTypes.h:46</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_ac0d0a0f54ff18c65aa4563c7ba9e98e8"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#ac0d0a0f54ff18c65aa4563c7ba9e98e8">ORB_SLAM3::System::InsertTrackTime</a></div><div class="ttdeci">void InsertTrackTime(double &amp;time)</div></div>
+<div class="ttc" id="anamespacelogresize_html_acde72239d037eca80434f5f913ca4193"><div class="ttname"><a href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">logresize.count</a></div><div class="ttdeci">int count</div><div class="ttdef"><b>Definition:</b> <a href="logresize_8py_source.html#l00005">logresize.py:5</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a3be7816140ffacc27218a956edb1a1c3"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a3be7816140ffacc27218a956edb1a1c3">ORB_SLAM3::System::ChangeDataset</a></div><div class="ttdeci">void ChangeDataset()</div><div class="ttdef"><b>Definition:</b> <a href="backup_2src_2_system_8cc_source.html#l01547">System.cc:1547</a></div></div>
+<div class="ttc" id="anamespaceevaluate__rpe_html_a2ac8320bac68fa5f9dfb5df695e9841b"><div class="ttname"><a href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">evaluate_rpe.f</a></div><div class="ttdeci">f</div><div class="ttdef"><b>Definition:</b> <a href="evaluate__rpe_8py_source.html#l00346">evaluate_rpe.py:346</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a63e0ff3d55d693d300904dbf948ecea7"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a63e0ff3d55d693d300904dbf948ecea7">ORB_SLAM3::System::InsertRectTime</a></div><div class="ttdeci">void InsertRectTime(double &amp;time)</div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a></div><div class="ttdef"><b>Definition:</b> <a href="backup_2include_2_system_8h_source.html#l00083">System.h:83</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a0098053312b3603d7c5e22f80ac1e2bf"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a0098053312b3603d7c5e22f80ac1e2bf">ORB_SLAM3::System::InsertResizeTime</a></div><div class="ttdeci">void InsertResizeTime(double &amp;time)</div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_point_html"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_i_m_u_1_1_point.html">ORB_SLAM3::IMU::Point</a></div><div class="ttdef"><b>Definition:</b> <a href="backup_2include_2_imu_types_8h_source.html#l00046">ImuTypes.h:46</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 1 2022 22:35:26 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 26 2023 09:59:13 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

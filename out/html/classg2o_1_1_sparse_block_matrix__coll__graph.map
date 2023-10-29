@@ -1,10 +1,8 @@
 <map id="g2o::SparseBlockMatrix&lt; MatrixType &gt;" name="g2o::SparseBlockMatrix&lt; MatrixType &gt;">
-<area shape="rect" id="node1" title="Sparse matrix which uses blocks." alt="" coords="61,288,237,329"/>
-<area shape="rect" id="node2" href="$classbool.html" title=" " alt="" coords="5,184,56,211"/>
-<area shape="rect" id="node3" title=" " alt="" coords="80,184,219,211"/>
-<area shape="rect" id="node4" href="$classint.html" title=" " alt="" coords="130,95,169,121"/>
-<area shape="rect" id="node5" title=" " alt="" coords="243,184,445,211"/>
-<area shape="rect" id="node6" title="STL class." alt="" coords="277,95,411,121"/>
-<area shape="rect" id="node7" title=" " alt="" coords="291,5,330,32"/>
-<area shape="rect" id="node8" title=" " alt="" coords="357,5,395,32"/>
+<area shape="rect" id="node1" title="Sparse matrix which uses blocks." alt="" coords="61,199,237,240"/>
+<area shape="rect" id="node2" href="$classbool.html" title=" " alt="" coords="5,95,56,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="80,95,219,121"/>
+<area shape="rect" id="node4" href="$classint.html" title=" " alt="" coords="130,5,169,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="243,95,445,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="293,5,395,32"/>
 </map>

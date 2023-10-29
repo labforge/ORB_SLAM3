@@ -81,7 +81,7 @@ $(function() {
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">class</span> G, <span class="keyword">class</span> Scalar2 = <span class="keyword">typename</span> G::Scalar&gt;</div>
 <div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="namespace_sophus.html#a62fcd52df44df127cc8ff0f5330d8a4d">   27</a></span>&#160;<a class="code" href="namespace_sophus.html#a4424dd9c3553f3bb3137e735d8c9d406">enable_if_t&lt;interp_details::Traits&lt;G&gt;::supported</a>, G&gt; <a class="code" href="namespace_sophus.html#a62fcd52df44df127cc8ff0f5330d8a4d">interpolate</a>(</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    G <span class="keyword">const</span>&amp; foo_T_bar, G <span class="keyword">const</span>&amp; foo_T_baz, Scalar2 p = Scalar2(0.5f)) {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    G <span class="keyword">const</span>&amp; foo_T_bar, G <span class="keyword">const</span>&amp; foo_T_baz, Scalar2 p = Scalar2(0.5<a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>)) {</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  <span class="keyword">using</span> Scalar = <span class="keyword">typename</span> G::Scalar;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  Scalar inter_p(p);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <a class="code" href="common_8hpp.html#af56d9d7343d43bf8673a11efe87e4454">SOPHUS_ENSURE</a>(inter_p &gt;= Scalar(0) &amp;&amp; inter_p &lt;= Scalar(1),</div>
@@ -98,9 +98,10 @@ $(function() {
 <div class="ttc" id="anamespace_sophus_html_a4424dd9c3553f3bb3137e735d8c9d406"><div class="ttname"><a href="namespace_sophus.html#a4424dd9c3553f3bb3137e735d8c9d406">Sophus::enable_if_t</a></div><div class="ttdeci">typename std::enable_if&lt; B, T &gt;::type enable_if_t</div><div class="ttdef"><b>Definition:</b> <a href="common_8hpp_source.html#l00168">common.hpp:168</a></div></div>
 <div class="ttc" id="ainterpolate__details_8hpp_html"><div class="ttname"><a href="interpolate__details_8hpp.html">interpolate_details.hpp</a></div></div>
 <div class="ttc" id="anamespace_sophus_html"><div class="ttname"><a href="namespace_sophus.html">Sophus</a></div><div class="ttdef"><b>Definition:</b> <a href="average_8hpp_source.html#l00017">average.hpp:17</a></div></div>
+<div class="ttc" id="anamespaceevaluate__rpe_html_a2ac8320bac68fa5f9dfb5df695e9841b"><div class="ttname"><a href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">evaluate_rpe.f</a></div><div class="ttdeci">f</div><div class="ttdef"><b>Definition:</b> <a href="evaluate__rpe_8py_source.html#l00346">evaluate_rpe.py:346</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 1 2022 22:35:23 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 26 2023 09:59:12 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

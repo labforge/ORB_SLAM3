@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['edgecontainer_7190',['EdgeContainer',['../structg2o_1_1_optimizable_graph.html#a2b43e807ae6d61ef8749ca1ef7c25f62',1,'g2o::OptimizableGraph']]],
-  ['edgeset_7191',['EdgeSet',['../classg2o_1_1_hyper_graph.html#a5e2970e236c0dcb4eff7c205d7b6b4ae',1,'g2o::HyperGraph']]],
-  ['enable_5fif_5ft_7192',['enable_if_t',['../namespace_sophus.html#a4424dd9c3553f3bb3137e735d8c9d406',1,'Sophus']]],
-  ['errorvector_7193',['ErrorVector',['../classg2o_1_1_base_binary_edge.html#ae1cccf6068b2446ece316b6a69a46acf',1,'g2o::BaseBinaryEdge::ErrorVector()'],['../classg2o_1_1_base_edge.html#af5b558dd24e4be2e437563cae4b3550d',1,'g2o::BaseEdge::ErrorVector()'],['../classg2o_1_1_base_multi_edge.html#ae17c6b5747bfed295214942207a6eb74',1,'g2o::BaseMultiEdge::ErrorVector()'],['../classg2o_1_1_base_unary_edge.html#abc04cfacb65fc72825156f1b3346dd48',1,'g2o::BaseUnaryEdge::ErrorVector()']]],
-  ['estimatetype_7194',['EstimateType',['../classg2o_1_1_base_vertex.html#aaffb179a0d591da4769ec7c3fc7f7daa',1,'g2o::BaseVertex']]]
+  ['descriptor_8632',['Descriptor',['../namespaceorb__slam3__ros__wrapper.html#a20f212415a9fb21515c8376d422465f2',1,'orb_slam3_ros_wrapper']]],
+  ['descriptorconstptr_8633',['DescriptorConstPtr',['../namespaceorb__slam3__ros__wrapper.html#a1b6361ee10eeecc5b2ae138b49c5c815',1,'orb_slam3_ros_wrapper']]],
+  ['descriptorptr_8634',['DescriptorPtr',['../namespaceorb__slam3__ros__wrapper.html#ab2ddd6b68e47162f4e15565cf61d1505',1,'orb_slam3_ros_wrapper']]],
+  ['diagonalvector_8635',['DiagonalVector',['../classg2o_1_1_sparse_block_matrix_diagonal.html#a2eb7fc4130fac5c499b57f3bec855812',1,'g2o::SparseBlockMatrixDiagonal']]],
+  ['doubleproperty_8636',['DoubleProperty',['../namespaceg2o.html#a9b4e25cbdaf9d69afa4431d6af6d7bed',1,'g2o']]]
 ];

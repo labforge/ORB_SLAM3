@@ -197,7 +197,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3bd233fd552daa166039acf47b69a5a7 inherit pub_methods_classg2o_1_1_optimizable_graph_1_1_edge"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fdad5ebfb4efec9f893b57f67e0fbe1 inherit pub_methods_classg2o_1_1_optimizable_graph_1_1_edge"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classg2o_1_1_optimizable_graph_1_1_edge.html#a0fdad5ebfb4efec9f893b57f67e0fbe1">linearizeOplus</a> (<a class="el" href="classg2o_1_1_jacobian_workspace.html">JacobianWorkspace</a> &amp;<a class="el" href="structg2o_1_1_optimizable_graph.html#aa669dbd1d6e34e49fecda711ff1b78c6">jacobianWorkspace</a>)=0</td></tr>
 <tr class="separator:a0fdad5ebfb4efec9f893b57f67e0fbe1 inherit pub_methods_classg2o_1_1_optimizable_graph_1_1_edge"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cef6ffa0f82f1ad3dd3d7a9f04425ee inherit pub_methods_classg2o_1_1_optimizable_graph_1_1_edge"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classdouble.html">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classg2o_1_1_optimizable_graph_1_1_edge.html#a1cef6ffa0f82f1ad3dd3d7a9f04425ee">initialEstimatePossible</a> (const <a class="el" href="classg2o_1_1_hyper_graph.html#a703938cdb4bb636860eed55a2489d70c">OptimizableGraph::VertexSet</a> &amp;from, <a class="el" href="classg2o_1_1_optimizable_graph_1_1_vertex.html">OptimizableGraph::Vertex</a> *to)</td></tr>
+<tr class="memitem:a1cef6ffa0f82f1ad3dd3d7a9f04425ee inherit pub_methods_classg2o_1_1_optimizable_graph_1_1_edge"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classdouble.html">double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classg2o_1_1_optimizable_graph_1_1_edge.html#a1cef6ffa0f82f1ad3dd3d7a9f04425ee">initialEstimatePossible</a> (const <a class="el" href="classg2o_1_1_hyper_graph.html#a703938cdb4bb636860eed55a2489d70c">OptimizableGraph::VertexSet</a> &amp;<a class="el" href="bkp_2tum_2corridor1_2512_23000kpts_2normal_2rpe_8txt.html#ae56653fc0bbbcd0522ac0e1de068c689">from</a>, <a class="el" href="classg2o_1_1_optimizable_graph_1_1_vertex.html">OptimizableGraph::Vertex</a> *to)</td></tr>
 <tr class="separator:a1cef6ffa0f82f1ad3dd3d7a9f04425ee inherit pub_methods_classg2o_1_1_optimizable_graph_1_1_edge"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25c2b618815622ab79705c497390d22f inherit pub_methods_classg2o_1_1_optimizable_graph_1_1_edge"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classint.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classg2o_1_1_optimizable_graph_1_1_edge.html#a25c2b618815622ab79705c497390d22f">level</a> () const</td></tr>
 <tr class="memdesc:a25c2b618815622ab79705c497390d22f inherit pub_methods_classg2o_1_1_optimizable_graph_1_1_edge"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the level of the edge  <a href="classg2o_1_1_optimizable_graph_1_1_edge.html#a25c2b618815622ab79705c497390d22f">More...</a><br /></td></tr>
@@ -472,34 +472,25 @@ template&lt;int D, typename E &gt; </div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="classg2o_1_1_base_edge.html#af31f4b0a67bb12b4de4a32dc42467836">_error</a>.dot(<a class="code" href="classg2o_1_1_base_edge.html#a405f8d52738e557a0860b52ac67a005b">information</a>()*<a class="code" href="classg2o_1_1_base_edge.html#af31f4b0a67bb12b4de4a32dc42467836">_error</a>);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_optimizer_8cc_source.html#l02115">ORB_SLAM3::Optimizer::OptimizeSim3()</a>, <a class="el" href="_optimizer_8cc_source.html#l04875">ORB_SLAM3::Optimizer::PoseInertialOptimizationLastFrame()</a>, and <a class="el" href="_optimizer_8cc_source.html#l04491">ORB_SLAM3::Optimizer::PoseInertialOptimizationLastKeyFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l02115">ORB_SLAM3::Optimizer::OptimizeSim3()</a>, <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l04875">ORB_SLAM3::Optimizer::PoseInertialOptimizationLastFrame()</a>, and <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l04491">ORB_SLAM3::Optimizer::PoseInertialOptimizationLastKeyFrame()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classg2o_1_1_base_edge_a8316137ded4396a2dbf7529d83888400_icgraph.png" border="0" usemap="#classg2o_1_1_base_edge_a8316137ded4396a2dbf7529d83888400_icgraph" alt=""/></div>
 <map name="classg2o_1_1_base_edge_a8316137ded4396a2dbf7529d83888400_icgraph" id="classg2o_1_1_base_edge_a8316137ded4396a2dbf7529d83888400_icgraph">
-<area shape="rect" title="computes the chi2 based on the cached error value, only valid after computeError has been called." alt="" coords="1681,118,1835,145"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#a6599cd62148dd9123e0b6219b86c5f2f" title=" " alt="" coords="1437,37,1611,79"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#ab5aeedc52034f807e277734ce7e318e8" title=" " alt="" coords="1415,103,1633,159"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#a618001695bb609c1eafe5fd1669af239" title=" " alt="" coords="1415,183,1633,239"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ab9af03a4facce7d36ef30911047743a4" title=" " alt="" coords="1112,5,1367,47"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ac98911cd2e089a0e5d88a5ef3dc7d809" title=" " alt="" coords="1116,71,1363,112"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa8c70961dd01d543b419effd3fa75bd0" title=" " alt="" coords="851,16,1064,57"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="580,23,803,50"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5e4851c1b0d0de361c208a68e9950b2e" title=" " alt="" coords="365,16,532,57"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#af2dc92eaa873b2c8bd91612d101793dd" title=" " alt="" coords="1157,147,1322,188"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a9ae56ac238d5dfe53a860a0bc8100b44" title=" " alt="" coords="875,147,1040,188"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a27af981c7e57c10fd41dfb0120915113" title=" " alt="" coords="606,81,777,123"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a18c1fdd1f5a94613fd3df5ea1f6957b9" title=" " alt="" coords="609,147,774,188"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a6d6dad2bc132a51b16b31d194ff7e71c" title=" " alt="" coords="609,212,774,253"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5301f3aaf838723535909b40e0afc349" title=" " alt="" coords="365,81,532,123"/>
-<area shape="rect" href="_monocular-_inertial_2mono__inertial__euroc_8cc.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="185,46,240,73"/>
-<area shape="rect" href="class_image_grabber.html#aeeabc012ca952da7f703bcece5ae13a9" title=" " alt="" coords="108,97,317,123"/>
-<area shape="rect" href="ros__mono__inertial_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,97,60,123"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a8ba14ed9907c46696cd020907728982f" title=" " alt="" coords="365,147,532,188"/>
-<area shape="rect" href="_r_g_b-_d-_inertial_2rgbd__inertial__realsense___d435i_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,154,240,181"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4" title=" " alt="" coords="365,212,532,253"/>
-<area shape="rect" href="_stereo-_inertial_2stereo__inertial__euroc_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,219,240,246"/>
+<area shape="rect" title="computes the chi2 based on the cached error value, only valid after computeError has been called." alt="" coords="1107,118,1260,145"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#a6599cd62148dd9123e0b6219b86c5f2f" title=" " alt="" coords="862,37,1037,79"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#ab5aeedc52034f807e277734ce7e318e8" title=" " alt="" coords="840,103,1059,159"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#a618001695bb609c1eafe5fd1669af239" title=" " alt="" coords="840,183,1059,239"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ab9af03a4facce7d36ef30911047743a4" title=" " alt="" coords="537,5,792,47"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ac98911cd2e089a0e5d88a5ef3dc7d809" title=" " alt="" coords="541,71,788,112"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa8c70961dd01d543b419effd3fa75bd0" title=" " alt="" coords="276,20,489,61"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="5,27,228,54"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#af2dc92eaa873b2c8bd91612d101793dd" title=" " alt="" coords="582,147,747,188"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a9ae56ac238d5dfe53a860a0bc8100b44" title=" " alt="" coords="300,147,465,188"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a27af981c7e57c10fd41dfb0120915113" title=" " alt="" coords="31,81,202,123"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a18c1fdd1f5a94613fd3df5ea1f6957b9" title=" " alt="" coords="34,147,199,188"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a6d6dad2bc132a51b16b31d194ff7e71c" title=" " alt="" coords="34,212,199,253"/>
 </map>
 </div>
 
@@ -691,7 +682,7 @@ template&lt;int D, typename E &gt; </div>
 <p class="definition">Definition at line <a class="el" href="base__edge_8h_source.html#l00069">69</a> of file <a class="el" href="base__edge_8h_source.html">base_edge.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="classg2o_1_1_base_edge.html#a49f11e3d1eaa8e666e1d4d3607279377">_information</a>;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_optimizer_8cc_source.html#l01785">ORB_SLAM3::Optimizer::OptimizeEssentialGraph()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l01785">ORB_SLAM3::Optimizer::OptimizeEssentialGraph()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -809,7 +800,7 @@ template&lt;int D, typename E &gt; </div>
 
 <p>Implements <a class="el" href="classg2o_1_1_optimizable_graph_1_1_edge.html#a9519f8892e97f03daacb44ea50ac7f4e">g2o::OptimizableGraph::Edge</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classg2o_1_1_base_unary_edge.html#a3d3311901116092cf817b094f6a0b44b">g2o::BaseUnaryEdge&lt; D, E, VertexXi &gt;</a>, <a class="el" href="classg2o_1_1_base_unary_edge.html#a3d3311901116092cf817b094f6a0b44b">g2o::BaseUnaryEdge&lt; 3, Eigen::Vector3d, VertexPose &gt;</a>, <a class="el" href="classg2o_1_1_base_unary_edge.html#a3d3311901116092cf817b094f6a0b44b">g2o::BaseUnaryEdge&lt; 3, Eigen::Vector3d, VertexAccBias &gt;</a>, <a class="el" href="classg2o_1_1_base_unary_edge.html#a3d3311901116092cf817b094f6a0b44b">g2o::BaseUnaryEdge&lt; 3, Eigen::Vector3d, VertexGyroBias &gt;</a>, <a class="el" href="classg2o_1_1_base_unary_edge.html#a3d3311901116092cf817b094f6a0b44b">g2o::BaseUnaryEdge&lt; 2, Vector2d, VertexSE3Expmap &gt;</a>, <a class="el" href="classg2o_1_1_base_unary_edge.html#a3d3311901116092cf817b094f6a0b44b">g2o::BaseUnaryEdge&lt; 2, Eigen::Vector2d, VertexPose &gt;</a>, <a class="el" href="classg2o_1_1_base_unary_edge.html#a3d3311901116092cf817b094f6a0b44b">g2o::BaseUnaryEdge&lt; 2, Eigen::Vector2d, g2o::VertexSE3Expmap &gt;</a>, <a class="el" href="classg2o_1_1_base_unary_edge.html#a3d3311901116092cf817b094f6a0b44b">g2o::BaseUnaryEdge&lt; 3, Vector3d, VertexSE3Expmap &gt;</a>, <a class="el" href="classg2o_1_1_edge_sim3.html#afac4cc093af6f54adb278c142f33dcca">g2o::EdgeSim3</a>, and <a class="el" href="classg2o_1_1_edge_s_e3.html#a0ff7d4868019d652e008553d9ed244b0">g2o::EdgeSE3</a>.</p>
+<p>Reimplemented in <a class="el" href="classg2o_1_1_base_unary_edge.html#a3d3311901116092cf817b094f6a0b44b">g2o::BaseUnaryEdge&lt; D, E, VertexXi &gt;</a>, <a class="el" href="classg2o_1_1_base_unary_edge.html#a3d3311901116092cf817b094f6a0b44b">g2o::BaseUnaryEdge&lt; 3, Eigen::Vector3d, VertexPose &gt;</a>, <a class="el" href="classg2o_1_1_base_unary_edge.html#a3d3311901116092cf817b094f6a0b44b">g2o::BaseUnaryEdge&lt; 3, Eigen::Vector3d, VertexAccBias &gt;</a>, <a class="el" href="classg2o_1_1_base_unary_edge.html#a3d3311901116092cf817b094f6a0b44b">g2o::BaseUnaryEdge&lt; 2, Vector2d, VertexSE3Expmap &gt;</a>, <a class="el" href="classg2o_1_1_base_unary_edge.html#a3d3311901116092cf817b094f6a0b44b">g2o::BaseUnaryEdge&lt; 3, Eigen::Vector3d, VertexGyroBias &gt;</a>, <a class="el" href="classg2o_1_1_base_unary_edge.html#a3d3311901116092cf817b094f6a0b44b">g2o::BaseUnaryEdge&lt; 2, Eigen::Vector2d, VertexPose &gt;</a>, <a class="el" href="classg2o_1_1_base_unary_edge.html#a3d3311901116092cf817b094f6a0b44b">g2o::BaseUnaryEdge&lt; 2, Eigen::Vector2d, g2o::VertexSE3Expmap &gt;</a>, <a class="el" href="classg2o_1_1_base_unary_edge.html#a3d3311901116092cf817b094f6a0b44b">g2o::BaseUnaryEdge&lt; 3, Vector3d, VertexSE3Expmap &gt;</a>, <a class="el" href="classg2o_1_1_edge_sim3.html#afac4cc093af6f54adb278c142f33dcca">g2o::EdgeSim3</a>, and <a class="el" href="classg2o_1_1_edge_s_e3.html#a0ff7d4868019d652e008553d9ed244b0">g2o::EdgeSE3</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="base__edge_8h_source.html#l00082">82</a> of file <a class="el" href="base__edge_8h_source.html">base_edge.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      {</div>
@@ -909,10 +900,10 @@ template&lt;int D, typename E &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="base__edge_8h_source.html#l00096">96</a> of file <a class="el" href="base__edge_8h_source.html">base_edge.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;      {</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <a class="code" href="classg2o_1_1_base_edge.html#a2e5a33343ac3f189d8a7d5ee4d8b73fc">InformationType</a> <a class="code" href="_se2___dx__exp__x_8cpp.html#a5f8b9464a27b0a4978897bf443a150ed">result</a> = rho[1] * <a class="code" href="classg2o_1_1_base_edge.html#a49f11e3d1eaa8e666e1d4d3607279377">_information</a>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <a class="code" href="classg2o_1_1_base_edge.html#a2e5a33343ac3f189d8a7d5ee4d8b73fc">InformationType</a> <a class="code" href="namespaceevaluate__rpe.html#a4fc9b79d142635606a1be6b6c880cef3">result</a> = rho[1] * <a class="code" href="classg2o_1_1_base_edge.html#a49f11e3d1eaa8e666e1d4d3607279377">_information</a>;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="comment">//ErrorVector weightedErrror = _information * _error;</span></div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="comment">//result.noalias() += 2 * rho[2] * (weightedErrror * weightedErrror.transpose());</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="_se2___dx__exp__x_8cpp.html#a5f8b9464a27b0a4978897bf443a150ed">result</a>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespaceevaluate__rpe.html#a4fc9b79d142635606a1be6b6c880cef3">result</a>;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;      }</div>
 </div><!-- fragment -->
 </div>
@@ -946,43 +937,30 @@ template&lt;int D, typename E &gt; </div>
 <p class="definition">Definition at line <a class="el" href="base__edge_8h_source.html#l00071">71</a> of file <a class="el" href="base__edge_8h_source.html">base_edge.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;{ <a class="code" href="classg2o_1_1_base_edge.html#a49f11e3d1eaa8e666e1d4d3607279377">_information</a> = <a class="code" href="classg2o_1_1_base_edge.html#a405f8d52738e557a0860b52ac67a005b">information</a>;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_optimizer_8cc_source.html#l00392">ORB_SLAM3::Optimizer::FullInertialBA()</a>, <a class="el" href="_optimizer_8cc_source.html#l03042">ORB_SLAM3::Optimizer::InertialOptimization()</a>, <a class="el" href="_optimizer_8cc_source.html#l02115">ORB_SLAM3::Optimizer::OptimizeSim3()</a>, <a class="el" href="_optimizer_8cc_source.html#l04875">ORB_SLAM3::Optimizer::PoseInertialOptimizationLastFrame()</a>, and <a class="el" href="_optimizer_8cc_source.html#l04491">ORB_SLAM3::Optimizer::PoseInertialOptimizationLastKeyFrame()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l03042">ORB_SLAM3::Optimizer::InertialOptimization()</a>, <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l02115">ORB_SLAM3::Optimizer::OptimizeSim3()</a>, <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l04875">ORB_SLAM3::Optimizer::PoseInertialOptimizationLastFrame()</a>, and <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l04491">ORB_SLAM3::Optimizer::PoseInertialOptimizationLastKeyFrame()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classg2o_1_1_base_edge_a9bb871a94d2413ec3113a147417f2dc4_icgraph.png" border="0" usemap="#classg2o_1_1_base_edge_a9bb871a94d2413ec3113a147417f2dc4_icgraph" alt=""/></div>
 <map name="classg2o_1_1_base_edge_a9bb871a94d2413ec3113a147417f2dc4_icgraph" id="classg2o_1_1_base_edge_a9bb871a94d2413ec3113a147417f2dc4_icgraph">
-<area shape="rect" title=" " alt="" coords="1701,261,1924,287"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#a0da3c185355ab346d740b94805af94c3" title=" " alt="" coords="1457,188,1631,229"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#a7ede71f0250b267adb3e911a1e439fde" title=" " alt="" coords="1457,93,1631,135"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#a6599cd62148dd9123e0b6219b86c5f2f" title=" " alt="" coords="1457,253,1631,295"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#ab5aeedc52034f807e277734ce7e318e8" title=" " alt="" coords="1435,399,1653,455"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#a618001695bb609c1eafe5fd1669af239" title=" " alt="" coords="1435,319,1653,375"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#abbd4bb45f894a3c0d2fc6ca0a227286f" title=" " alt="" coords="1159,123,1359,164"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ae839ce5697383d9b257573975f9a5fef" title=" " alt="" coords="1151,188,1368,229"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#aa3bd8a66c4ee13694fe355eee1cdc9af" title=" " alt="" coords="851,13,1084,39"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5e4851c1b0d0de361c208a68e9950b2e" title=" " alt="" coords="365,104,532,145"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa5ba3f14da84d05c97ac3a4a8aed0014" title=" " alt="" coords="873,195,1062,236"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ace9ff596b08a851a6823eefc6fa66fb3" title=" " alt="" coords="873,129,1062,171"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="580,137,803,163"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a73b9f9990537c4ce8ad21ca9a06fc1d8" title=" " alt="" coords="873,64,1062,105"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#a22895e133b33b7b31eabe0703bad0ec9" title=" " alt="" coords="1159,5,1359,47"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ab9af03a4facce7d36ef30911047743a4" title=" " alt="" coords="1132,319,1387,360"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ac98911cd2e089a0e5d88a5ef3dc7d809" title=" " alt="" coords="1136,253,1383,295"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa8c70961dd01d543b419effd3fa75bd0" title=" " alt="" coords="861,260,1074,301"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#af2dc92eaa873b2c8bd91612d101793dd" title=" " alt="" coords="1177,395,1342,436"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a9ae56ac238d5dfe53a860a0bc8100b44" title=" " alt="" coords="885,395,1050,436"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a27af981c7e57c10fd41dfb0120915113" title=" " alt="" coords="606,329,777,371"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a18c1fdd1f5a94613fd3df5ea1f6957b9" title=" " alt="" coords="609,395,774,436"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a6d6dad2bc132a51b16b31d194ff7e71c" title=" " alt="" coords="609,460,774,501"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5301f3aaf838723535909b40e0afc349" title=" " alt="" coords="365,329,532,371"/>
-<area shape="rect" href="_monocular-_inertial_2mono__inertial__euroc_8cc.html#a0ddf1224851353fc92bfbff6f499fa97" title=" " alt="" coords="185,294,240,321"/>
-<area shape="rect" href="class_image_grabber.html#aeeabc012ca952da7f703bcece5ae13a9" title=" " alt="" coords="108,345,317,371"/>
-<area shape="rect" href="ros__mono__inertial_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,345,60,371"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a8ba14ed9907c46696cd020907728982f" title=" " alt="" coords="365,395,532,436"/>
-<area shape="rect" href="_r_g_b-_d-_inertial_2rgbd__inertial__realsense___d435i_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,402,240,429"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4" title=" " alt="" coords="365,460,532,501"/>
-<area shape="rect" href="_stereo-_inertial_2stereo__inertial__euroc_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="185,467,240,494"/>
+<area shape="rect" title=" " alt="" coords="1127,233,1349,259"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#a7ede71f0250b267adb3e911a1e439fde" title=" " alt="" coords="882,97,1057,139"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#a6599cd62148dd9123e0b6219b86c5f2f" title=" " alt="" coords="882,188,1057,229"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#ab5aeedc52034f807e277734ce7e318e8" title=" " alt="" coords="860,254,1079,310"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#a618001695bb609c1eafe5fd1669af239" title=" " alt="" coords="860,334,1079,390"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#abbd4bb45f894a3c0d2fc6ca0a227286f" title=" " alt="" coords="585,5,785,47"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a73b9f9990537c4ce8ad21ca9a06fc1d8" title=" " alt="" coords="298,129,487,171"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#a22895e133b33b7b31eabe0703bad0ec9" title=" " alt="" coords="585,71,785,112"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_local_mapping.html#aa3bd8a66c4ee13694fe355eee1cdc9af" title=" " alt="" coords="276,46,509,73"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="5,169,228,195"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ab9af03a4facce7d36ef30911047743a4" title=" " alt="" coords="557,188,812,229"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ac98911cd2e089a0e5d88a5ef3dc7d809" title=" " alt="" coords="561,253,808,295"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa8c70961dd01d543b419effd3fa75bd0" title=" " alt="" coords="286,195,499,236"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#af2dc92eaa873b2c8bd91612d101793dd" title=" " alt="" coords="602,329,767,371"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a9ae56ac238d5dfe53a860a0bc8100b44" title=" " alt="" coords="310,329,475,371"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a27af981c7e57c10fd41dfb0120915113" title=" " alt="" coords="31,264,202,305"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a18c1fdd1f5a94613fd3df5ea1f6957b9" title=" " alt="" coords="34,329,199,371"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_tracking.html#a6d6dad2bc132a51b16b31d194ff7e71c" title=" " alt="" coords="34,395,199,436"/>
 </map>
 </div>
 
@@ -1017,20 +995,19 @@ template&lt;int D, typename E &gt; </div>
 <p class="definition">Definition at line <a class="el" href="base__edge_8h_source.html#l00078">78</a> of file <a class="el" href="base__edge_8h_source.html">base_edge.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;{ <a class="code" href="classg2o_1_1_base_edge.html#af2a6ab1df6e91601b4cab23e0e99e034">_measurement</a> = m;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="_optimizer_8cc_source.html#l01785">ORB_SLAM3::Optimizer::OptimizeEssentialGraph()</a>, and <a class="el" href="_optimizer_8cc_source.html#l02115">ORB_SLAM3::Optimizer::OptimizeSim3()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l01785">ORB_SLAM3::Optimizer::OptimizeEssentialGraph()</a>, and <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l02115">ORB_SLAM3::Optimizer::OptimizeSim3()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="classg2o_1_1_base_edge_a24aae7b4fc35d311158f104cfdd95aeb_icgraph.png" border="0" usemap="#classg2o_1_1_base_edge_a24aae7b4fc35d311158f104cfdd95aeb_icgraph" alt=""/></div>
 <map name="classg2o_1_1_base_edge_a24aae7b4fc35d311158f104cfdd95aeb_icgraph" id="classg2o_1_1_base_edge_a24aae7b4fc35d311158f104cfdd95aeb_icgraph">
-<area shape="rect" title=" " alt="" coords="1289,46,1525,73"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#a106d336a9600c7eb7d55ade48b39b6c4" title=" " alt="" coords="1055,5,1241,47"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#a6599cd62148dd9123e0b6219b86c5f2f" title=" " alt="" coords="1061,71,1235,112"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ab9af03a4facce7d36ef30911047743a4" title=" " alt="" coords="752,37,1007,79"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ac98911cd2e089a0e5d88a5ef3dc7d809" title=" " alt="" coords="756,103,1003,144"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa8c70961dd01d543b419effd3fa75bd0" title=" " alt="" coords="491,71,704,112"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="220,78,443,105"/>
-<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_system.html#a5e4851c1b0d0de361c208a68e9950b2e" title=" " alt="" coords="5,71,172,112"/>
+<area shape="rect" title=" " alt="" coords="1075,46,1311,73"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#a106d336a9600c7eb7d55ade48b39b6c4" title=" " alt="" coords="840,5,1027,47"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_optimizer.html#a6599cd62148dd9123e0b6219b86c5f2f" title=" " alt="" coords="846,71,1021,112"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ab9af03a4facce7d36ef30911047743a4" title=" " alt="" coords="537,37,792,79"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ac98911cd2e089a0e5d88a5ef3dc7d809" title=" " alt="" coords="541,103,788,144"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa8c70961dd01d543b419effd3fa75bd0" title=" " alt="" coords="276,71,489,112"/>
+<area shape="rect" href="class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="5,78,228,105"/>
 </map>
 </div>
 
@@ -1145,16 +1122,16 @@ template&lt;int D, typename E &gt; </div>
 <li>Thirdparty/g2o/g2o/core/<a class="el" href="base__edge_8h_source.html">base_edge.h</a></li>
 </ul>
 </div><!-- contents -->
+<div class="ttc" id="anamespaceevaluate__rpe_html_a4fc9b79d142635606a1be6b6c880cef3"><div class="ttname"><a href="namespaceevaluate__rpe.html#a4fc9b79d142635606a1be6b6c880cef3">evaluate_rpe.result</a></div><div class="ttdeci">def result</div><div class="ttdef"><b>Definition:</b> <a href="evaluate__rpe_8py_source.html#l00332">evaluate_rpe.py:332</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_base_edge_html_af31f4b0a67bb12b4de4a32dc42467836"><div class="ttname"><a href="classg2o_1_1_base_edge.html#af31f4b0a67bb12b4de4a32dc42467836">g2o::BaseEdge::_error</a></div><div class="ttdeci">ErrorVector _error</div><div class="ttdef"><b>Definition:</b> <a href="base__edge_8h_source.html#l00091">base_edge.h:91</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_base_edge_html_af2a6ab1df6e91601b4cab23e0e99e034"><div class="ttname"><a href="classg2o_1_1_base_edge.html#af2a6ab1df6e91601b4cab23e0e99e034">g2o::BaseEdge::_measurement</a></div><div class="ttdeci">Measurement _measurement</div><div class="ttdef"><b>Definition:</b> <a href="base__edge_8h_source.html#l00089">base_edge.h:89</a></div></div>
-<div class="ttc" id="a_se2___dx__exp__x_8cpp_html_a5f8b9464a27b0a4978897bf443a150ed"><div class="ttname"><a href="_se2___dx__exp__x_8cpp.html#a5f8b9464a27b0a4978897bf443a150ed">result</a></div><div class="ttdeci">result[0]</div><div class="ttdef"><b>Definition:</b> <a href="_se2___dx__exp__x_8cpp_source.html#l00011">Se2_Dx_exp_x.cpp:11</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_optimizable_graph_1_1_edge_html_a4e651628f7657c81d0e4c1b26caaa6aa"><div class="ttname"><a href="classg2o_1_1_optimizable_graph_1_1_edge.html#a4e651628f7657c81d0e4c1b26caaa6aa">g2o::OptimizableGraph::Edge::_dimension</a></div><div class="ttdeci">int _dimension</div><div class="ttdef"><b>Definition:</b> <a href="optimizable__graph_8h_source.html#l00497">optimizable_graph.h:497</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_base_edge_html_a49f11e3d1eaa8e666e1d4d3607279377"><div class="ttname"><a href="classg2o_1_1_base_edge.html#a49f11e3d1eaa8e666e1d4d3607279377">g2o::BaseEdge::_information</a></div><div class="ttdeci">InformationType _information</div><div class="ttdef"><b>Definition:</b> <a href="base__edge_8h_source.html#l00090">base_edge.h:90</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_base_edge_html_a2e5a33343ac3f189d8a7d5ee4d8b73fc"><div class="ttname"><a href="classg2o_1_1_base_edge.html#a2e5a33343ac3f189d8a7d5ee4d8b73fc">g2o::BaseEdge::InformationType</a></div><div class="ttdeci">Matrix&lt; double, D, D &gt; InformationType</div><div class="ttdef"><b>Definition:</b> <a href="base__edge_8h_source.html#l00049">base_edge.h:49</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_base_edge_html_a405f8d52738e557a0860b52ac67a005b"><div class="ttname"><a href="classg2o_1_1_base_edge.html#a405f8d52738e557a0860b52ac67a005b">g2o::BaseEdge::information</a></div><div class="ttdeci">const InformationType &amp; information() const</div><div class="ttdoc">information matrix of the constraint</div><div class="ttdef"><b>Definition:</b> <a href="base__edge_8h_source.html#l00069">base_edge.h:69</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 1 2022 22:35:27 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 26 2023 09:59:14 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

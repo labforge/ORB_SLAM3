@@ -33,7 +33,8 @@
 
 #include <mutex>
 #include <chrono>
-
+#include "Log.h"
+extern FILE *log_file;
 
 using namespace std;
 
@@ -1670,6 +1671,8 @@ Sophus::SE3f Tracking::GrabImageMonocular(const cv::Mat &im, const double &times
 
     if (mState==NO_IMAGES_YET)
         t0=timestamp;
+    
+    //cout << "mState: " << mState << endl;
 
     mCurrentFrame.mNameFile = filename;
     mCurrentFrame.mnDataset = mnNumDataset;
@@ -1684,6 +1687,60 @@ Sophus::SE3f Tracking::GrabImageMonocular(const cv::Mat &im, const double &times
     return mCurrentFrame.GetPose();
 }
 
+Sophus::SE3f Tracking::GrabImageMonocular(const cv::Mat &im, const vector<cv::KeyPoint> &imKeypts, const cv::OutputArray imDescs, const double &timestamp, string filename)
+{
+    mImGray = im;
+    if(mImGray.channels()==3)
+    {
+        if(mbRGB)
+            cvtColor(mImGray,mImGray,cv::COLOR_RGB2GRAY);
+        else
+            cvtColor(mImGray,mImGray,cv::COLOR_BGR2GRAY);
+    }
+    else if(mImGray.channels()==4)
+    {
+        if(mbRGB)
+            cvtColor(mImGray,mImGray,cv::COLOR_RGBA2GRAY);
+        else
+            cvtColor(mImGray,mImGray,cv::COLOR_BGRA2GRAY);
+    }
+
+    if (mSensor == System::MONOCULAR)
+    {
+        if(mState==NOT_INITIALIZED || mState==NO_IMAGES_YET ||(lastID - initID) < mMaxFrames)
+            //mCurrentFrame = Frame(mImGray,timestamp,mpIniORBextractor,mpORBVocabulary,mpCamera,mDistCoef,mbf,mThDepth);
+            mCurrentFrame = Frame(mImGray,imKeypts,imDescs,timestamp,mpIniORBextractor,mpORBVocabulary,mpCamera,mDistCoef,mbf,mThDepth);
+        else
+            //mCurrentFrame = Frame(mImGray,timestamp,mpORBextractorLeft,mpORBVocabulary,mpCamera,mDistCoef,mbf,mThDepth);
+            mCurrentFrame = Frame(mImGray,imKeypts,imDescs,timestamp,mpORBextractorLeft,mpORBVocabulary,mpCamera,mDistCoef,mbf,mThDepth);
+    }
+    else if(mSensor == System::IMU_MONOCULAR)
+    {
+        if(mState==NOT_INITIALIZED || mState==NO_IMAGES_YET)
+        {
+            mCurrentFrame = Frame(mImGray,timestamp,mpIniORBextractor,mpORBVocabulary,mpCamera,mDistCoef,mbf,mThDepth,&mLastFrame,*mpImuCalib);
+        }
+        else
+            mCurrentFrame = Frame(mImGray,timestamp,mpORBextractorLeft,mpORBVocabulary,mpCamera,mDistCoef,mbf,mThDepth,&mLastFrame,*mpImuCalib);
+    }
+
+    if (mState==NO_IMAGES_YET)
+        t0=timestamp;
+    
+    //cout << "mState: " << mState << endl;
+
+    mCurrentFrame.mNameFile = filename;
+    mCurrentFrame.mnDataset = mnNumDataset;
+
+#ifdef REGISTER_TIMES
+    vdORBExtract_ms.push_back(mCurrentFrame.mTimeORB_Ext);
+#endif
+
+    lastID = mCurrentFrame.mnId;
+    Track();
+
+    return mCurrentFrame.GetPose();
+}
 
 void Tracking::GrabImuData(const IMU::Point &imuMeasurement)
 {
@@ -2565,6 +2622,7 @@ void Tracking::MonocularInitialization()
         // Check if there are enough correspondences
         if(nmatches<100)
         {
+            std::cout << "Not enough correspondences" << endl;
             mbReadyToInitializate = false;
             return;
         }
@@ -3134,18 +3192,23 @@ bool Tracking::TrackLocalMap()
 
 bool Tracking::NeedNewKeyFrame()
 {
+    //fprintf(log_file,"%d,\n",mThDepth);
     if((mSensor == System::IMU_MONOCULAR || mSensor == System::IMU_STEREO || mSensor == System::IMU_RGBD) && !mpAtlas->GetCurrentMap()->isImuInitialized())
     {
         if (mSensor == System::IMU_MONOCULAR && (mCurrentFrame.mTimeStamp-mpLastKeyFrame->mTimeStamp)>=0.25)
-            return true;
+            {//DBG_LOG("True") 
+            return true;}
         else if ((mSensor == System::IMU_STEREO || mSensor == System::IMU_RGBD) && (mCurrentFrame.mTimeStamp-mpLastKeyFrame->mTimeStamp)>=0.25)
-            return true;
+            {//DBG_LOG("True") 
+            return true;}
         else
-            return false;
+            {//DBG_LOG("False") 
+            return false;}
     }
 
     if(mbOnlyTracking)
-        return false;
+        {//DBG_LOG("False") 
+        return false;}
 
     // If Local Mapping is freezed by a Loop Closure do not insert keyframes
     if(mpLocalMapper->isStopped() || mpLocalMapper->stopRequested()) {
@@ -3153,6 +3216,7 @@ bool Tracking::NeedNewKeyFrame()
         {
             std::cout << "NeedNewKeyFrame: localmap stopped" << std::endl;
         }*/
+        //DBG_LOG("False")
         return false;
     }
 
@@ -3161,6 +3225,7 @@ bool Tracking::NeedNewKeyFrame()
     // Do not insert keyframes if not enough frames have passed from last relocalisation
     if(mCurrentFrame.mnId<mnLastRelocFrameId+mMaxFrames && nKFs>mMaxFrames)
     {
+        //DBG_LOG("False")
         return false;
     }
 
@@ -3182,6 +3247,7 @@ bool Tracking::NeedNewKeyFrame()
         int N = (mCurrentFrame.Nleft == -1) ? mCurrentFrame.N : mCurrentFrame.Nleft;
         for(int i =0; i<N; i++)
         {
+            //fprintf(log_file,"%d ",mCurrentFrame.mvDepth[i]);
             if(mCurrentFrame.mvDepth[i]>0 && mCurrentFrame.mvDepth[i]<mThDepth)
             {
                 if(mCurrentFrame.mvpMapPoints[i] && !mCurrentFrame.mvbOutlier[i])
@@ -3255,12 +3321,16 @@ bool Tracking::NeedNewKeyFrame()
     else
         c4=false;
 
+    //fprintf(log_file,"FILE:%s, FUNC:%s, LINE:%d MSG: c1a:%d ,c1b:%d ,c1c:%d ,c2:%d ,c3:%d ,c4:%d \n",__FILE__,__func__,__LINE__,c1a ,c1b, c1c, c2, c3, c4);
+    //fprintf(log_file,"%d ,%d ,%d ,%d ,%d ,%d \n",c1a ,c1b, c1c, c2, c3, c4);
+
     if(((c1a||c1b||c1c) && c2)||c3 ||c4)
     {
         // If the mapping accepts keyframes, insert keyframe.
         // Otherwise send a signal to interrupt BA
         if(bLocalMappingIdle || mpLocalMapper->IsInitializing())
         {
+            //DBG_LOG("True")
             return true;
         }
         else
@@ -3269,19 +3339,29 @@ bool Tracking::NeedNewKeyFrame()
             if(mSensor!=System::MONOCULAR  && mSensor!=System::IMU_MONOCULAR)
             {
                 if(mpLocalMapper->KeyframesInQueue()<3)
+                {
+                    //DBG_LOG("True")
                     return true;
+                }
                 else
+                {
+                    //DBG_LOG("False")
                     return false;
+            }
             }
             else
             {
                 //std::cout << "NeedNewKeyFrame: localmap is busy" << std::endl;
+                //DBG_LOG("False")
                 return false;
             }
         }
     }
     else
+    {
+        //DBG_LOG("False")
         return false;
+    }
 }
 
 void Tracking::CreateNewKeyFrame()

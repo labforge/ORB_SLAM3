@@ -1,18 +1,10 @@
 var searchData=
 [
-  ['base_5fbinary_5fedge_2eh_4074',['base_binary_edge.h',['../base__binary__edge_8h.html',1,'']]],
-  ['base_5fbinary_5fedge_2ehpp_4075',['base_binary_edge.hpp',['../base__binary__edge_8hpp.html',1,'']]],
-  ['base_5fedge_2eh_4076',['base_edge.h',['../base__edge_8h.html',1,'']]],
-  ['base_5fmulti_5fedge_2eh_4077',['base_multi_edge.h',['../base__multi__edge_8h.html',1,'']]],
-  ['base_5fmulti_5fedge_2ehpp_4078',['base_multi_edge.hpp',['../base__multi__edge_8hpp.html',1,'']]],
-  ['base_5funary_5fedge_2eh_4079',['base_unary_edge.h',['../base__unary__edge_8h.html',1,'']]],
-  ['base_5funary_5fedge_2ehpp_4080',['base_unary_edge.hpp',['../base__unary__edge_8hpp.html',1,'']]],
-  ['base_5fvertex_2eh_4081',['base_vertex.h',['../base__vertex_8h.html',1,'']]],
-  ['base_5fvertex_2ehpp_4082',['base_vertex.hpp',['../base__vertex_8hpp.html',1,'']]],
-  ['batch_5fstats_2ecpp_4083',['batch_stats.cpp',['../batch__stats_8cpp.html',1,'']]],
-  ['batch_5fstats_2eh_4084',['batch_stats.h',['../batch__stats_8h.html',1,'']]],
-  ['block_5fsolver_2eh_4085',['block_solver.h',['../block__solver_8h.html',1,'']]],
-  ['block_5fsolver_2ehpp_4086',['block_solver.hpp',['../block__solver_8hpp.html',1,'']]],
-  ['bowvector_2ecpp_4087',['BowVector.cpp',['../_bow_vector_8cpp.html',1,'']]],
-  ['bowvector_2eh_4088',['BowVector.h',['../_bow_vector_8h.html',1,'']]]
+  ['_5f_5finit_5f_5f_2epy_4907',['__init__.py',['../catkin__ws_2devel_2lib_2python3_2dist-packages_2orb__slam3__ros__wrapper_2____init_____8py.html',1,'(Global Namespace)'],['../catkin__ws_2devel_2lib_2python3_2dist-packages_2orb__slam3__ros__wrapper_2msg_2____init_____8py.html',1,'(Global Namespace)'],['../_thirdparty_2_sophus_2py_2sophus_2____init_____8py.html',1,'(Global Namespace)']]],
+  ['_5fdescriptor_2epy_4908',['_Descriptor.py',['../___descriptor_8py.html',1,'']]],
+  ['_5fglobaldescriptor_2epy_4909',['_GlobalDescriptor.py',['../___global_descriptor_8py.html',1,'']]],
+  ['_5fkeypoint_2epy_4910',['_KeyPoint.py',['../___key_point_8py.html',1,'']]],
+  ['_5fkeypoints_2epy_4911',['_KeyPoints.py',['../___key_points_8py.html',1,'']]],
+  ['_5fpoint2f_2epy_4912',['_Point2f.py',['../___point2f_8py.html',1,'']]],
+  ['_5fsetup_5futil_2epy_4913',['_setup_util.py',['../catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py.html',1,'(Global Namespace)'],['../catkin__ws_2build_2catkin__tools__prebuild_2catkin__generated_2installspace_2__setup__util_8py.html',1,'(Global Namespace)'],['../catkin__ws_2build_2orb__slam3__ros__wrapper_2atomic__configure_2__setup__util_8py.html',1,'(Global Namespace)'],['../catkin__ws_2build_2orb__slam3__ros__wrapper_2catkin__generated_2installspace_2__setup__util_8py.html',1,'(Global Namespace)'],['../catkin__ws_2devel_2__setup__util_8py.html',1,'(Global Namespace)'],['../_examples__old_2_r_o_s_2_o_r_b___s_l_a_m3_2build_2atomic__configure_2__setup__util_8py.html',1,'(Global Namespace)'],['../_examples__old_2_r_o_s_2_o_r_b___s_l_a_m3_2build_2catkin__generated_2installspace_2__setup__util_8py.html',1,'(Global Namespace)'],['../_examples__old_2_r_o_s_2_o_r_b___s_l_a_m3_2build_2devel_2__setup__util_8py.html',1,'(Global Namespace)']]]
 ];

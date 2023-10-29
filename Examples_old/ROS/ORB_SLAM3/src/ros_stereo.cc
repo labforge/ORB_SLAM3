@@ -134,7 +134,8 @@ void ImageGrabber::GrabStereo(const sensor_msgs::ImageConstPtr& msgLeft,const se
     cv_bridge::CvImageConstPtr cv_ptrLeft;
     try
     {
-        cv_ptrLeft = cv_bridge::toCvShare(msgLeft);
+        //cv_ptrLeft = cv_bridge::toCvShare(msgLeft);
+        cv_ptrLeft = cv_bridge::toCvShare(msgLeft, sensor_msgs::image_encodings::MONO8);
     }
     catch (cv_bridge::Exception& e)
     {
@@ -145,7 +146,8 @@ void ImageGrabber::GrabStereo(const sensor_msgs::ImageConstPtr& msgLeft,const se
     cv_bridge::CvImageConstPtr cv_ptrRight;
     try
     {
-        cv_ptrRight = cv_bridge::toCvShare(msgRight);
+        //cv_ptrRight = cv_bridge::toCvShare(msgRight);
+        cv_ptrRight = cv_bridge::toCvShare(msgRight, sensor_msgs::image_encodings::MONO8);
     }
     catch (cv_bridge::Exception& e)
     {

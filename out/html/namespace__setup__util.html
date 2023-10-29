@@ -112,7 +112,7 @@ Variables</h2></td></tr>
 <tr class="separator:acdce690b925de33d6249bbbfa1109d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea63a1b32cc79bc3d872ab7cb30dd07e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace__setup__util.html#aea63a1b32cc79bc3d872ab7cb30dd07e">file</a></td></tr>
 <tr class="separator:aea63a1b32cc79bc3d872ab7cb30dd07e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a6756158bb4094ed7d259eb564d0578"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace__setup__util.html#a2a6756158bb4094ed7d259eb564d0578">CMAKE_PREFIX_PATH</a> = r'/opt/ros/noetic'.split(';')</td></tr>
+<tr class="memitem:a2a6756158bb4094ed7d259eb564d0578"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace__setup__util.html#a2a6756158bb4094ed7d259eb564d0578">CMAKE_PREFIX_PATH</a> = r'/home/emslab/ORB_SLAM3/catkin_ws/devel;/opt/ros/noetic'.split(';')</td></tr>
 <tr class="separator:a2a6756158bb4094ed7d259eb564d0578"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83d25140acd7788bbcb95843fe38e639"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace__setup__util.html#a83d25140acd7788bbcb95843fe38e639">base_path</a> = os.path.dirname(__file__)</td></tr>
 <tr class="separator:a83d25140acd7788bbcb95843fe38e639"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,7 +165,7 @@ Variables</h2></td></tr>
 
 :param include_fuerte: The flag if paths starting with '/opt/ros/fuerte' should be considered workspaces, ``bool``
 </pre> 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00122">122</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00122">122</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 <div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="keyword">def </span><a class="code" href="namespace__setup__util.html#ab2be07aa31918f1e1e34d6b7c4d66fcb">_get_workspaces</a>(environ, include_fuerte=False, include_non_existing=False):</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="stringliteral">&quot;&quot;&quot;</span></div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="stringliteral">    Based on CMAKE_PREFIX_PATH return all catkin workspaces.</span></div>
@@ -182,7 +182,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160; </div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00091">_rollback_env_variable()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00091">_rollback_env_variable()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -220,7 +220,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00254">254</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00254">254</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 <div class="fragment"><div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="keyword">def </span><a class="code" href="namespace__setup__util.html#a57d9ecb280810c9a5409d44aeb9d0a25">_parse_arguments</a>(args=None):</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    parser = argparse.ArgumentParser(description=<span class="stringliteral">&#39;Generates code blocks for the setup.SHELL script.&#39;</span>)</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    parser.add_argument(<span class="stringliteral">&#39;--extend&#39;</span>, action=<span class="stringliteral">&#39;store_true&#39;</span>, help=<span class="stringliteral">&#39;Skip unsetting previous environment variables to extend context&#39;</span>)</div>
@@ -280,7 +280,7 @@ Here is the caller graph for this function:</div>
 
 Adding any path in NEW_PATHS_STR without creating duplicate or empty items.
 </pre> 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00154">154</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00154">154</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 <div class="fragment"><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="keyword">def </span><a class="code" href="namespace__setup__util.html#a74a1f8575ed82282d03f7795c9ba6e45">_prefix_env_variable</a>(environ, name, paths, subfolders):</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="stringliteral">&quot;&quot;&quot;</span></div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="stringliteral">    Return the prefix to prepend to the environment variable NAME.</span></div>
@@ -310,7 +310,7 @@ Adding any path in NEW_PATHS_STR without creating duplicate or empty items.
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160; </div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160; </div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00137">prepend_env_variables()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00137">prepend_env_variables()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -367,7 +367,7 @@ Here is the caller graph for this function:</div>
 :param subfolders: list of str '' or subfoldername that may start with '/'
 :returns: the updated value of the environment variable.
 </pre> 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00091">91</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00091">91</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 <div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="keyword">def </span><a class="code" href="namespace__setup__util.html#af05661e87b3270e8bfd0fbc18a5eeec4">_rollback_env_variable</a>(environ, name, subfolders):</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="stringliteral">&quot;&quot;&quot;</span></div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="stringliteral">    For each catkin workspace in CMAKE_PREFIX_PATH remove the first entry from env[NAME] matching workspace + subfolder.</span></div>
@@ -400,9 +400,9 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00122">_get_workspaces()</a>.</p>
+<p class="reference">References <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00122">_get_workspaces()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00069">rollback_env_variables()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00069">rollback_env_variables()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -450,7 +450,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00182">182</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00182">182</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 <div class="fragment"><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="keyword">def </span><a class="code" href="namespace__setup__util.html#ad56c24837fa4eddc63c03fbc7035628f">assignment</a>(key, value):</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordflow">if</span> <span class="keywordflow">not</span> IS_WINDOWS:</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;export %s=&quot;%s&quot;&#39;</span> % (key, value)</div>
@@ -459,7 +459,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160; </div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00205">find_env_hooks()</a>, <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00196">prepend()</a>, and <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00069">rollback_env_variables()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00205">find_env_hooks()</a>, <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00196">prepend()</a>, and <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00069">rollback_env_variables()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -491,7 +491,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00189">189</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00189">189</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 <div class="fragment"><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="keyword">def </span><a class="code" href="namespace__setup__util.html#abe8c95c4cfe8b1374dacd5f91d984353">comment</a>(msg):</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordflow">if</span> <span class="keywordflow">not</span> IS_WINDOWS:</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;# %s&#39;</span> % msg</div>
@@ -500,7 +500,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160; </div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160; </div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00205">find_env_hooks()</a>, <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00137">prepend_env_variables()</a>, <a class="el" href="factory_8cpp_source.html#l00192">g2o::Factory.printRegisteredTypes()</a>, and <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00069">rollback_env_variables()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00205">find_env_hooks()</a>, <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00137">prepend_env_variables()</a>, <a class="el" href="factory_8cpp_source.html#l00192">g2o::Factory.printRegisteredTypes()</a>, and <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00069">rollback_env_variables()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -542,7 +542,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Generate shell code with found environment hooks for the all workspaces.</pre> 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00205">205</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00205">205</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 <div class="fragment"><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;<span class="keyword">def </span><a class="code" href="namespace__setup__util.html#a73de35ca77f260af6691470342ab49ce">find_env_hooks</a>(environ, cmake_prefix_path):</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="stringliteral">&quot;&quot;&quot;Generate shell code with found environment hooks for the all workspaces.&quot;&quot;&quot;</span></div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    lines = []</div>
@@ -593,7 +593,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160; </div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160; </div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00182">assignment()</a>, and <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00189">comment()</a>.</p>
+<p class="reference">References <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00182">assignment()</a>, and <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00189">comment()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -639,7 +639,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00196">196</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00196">196</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 <div class="fragment"><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="keyword">def </span><a class="code" href="namespace__setup__util.html#ae78d86b2c4279f5b8b1acaa146c35802">prepend</a>(environ, key, prefix):</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keywordflow">if</span> key <span class="keywordflow">not</span> <span class="keywordflow">in</span> environ <span class="keywordflow">or</span> <span class="keywordflow">not</span> environ[key]:</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="namespace__setup__util.html#ad56c24837fa4eddc63c03fbc7035628f">assignment</a>(key, prefix)</div>
@@ -650,9 +650,9 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160; </div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160; </div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00182">assignment()</a>.</p>
+<p class="reference">References <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00182">assignment()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00137">prepend_env_variables()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00137">prepend_env_variables()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -706,7 +706,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 <pre class="fragment">Generate shell code to prepend environment variables for the all workspaces.</pre> 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00137">137</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00137">137</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 <div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="keyword">def </span><a class="code" href="namespace__setup__util.html#a832417d18b85bd1d276a87547e86f860">prepend_env_variables</a>(environ, env_var_subfolders, workspaces):</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="stringliteral">&quot;&quot;&quot;Generate shell code to prepend environment variables for the all workspaces.&quot;&quot;&quot;</span></div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    lines = []</div>
@@ -725,7 +725,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00154">_prefix_env_variable()</a>, <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00189">comment()</a>, and <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00196">prepend()</a>.</p>
+<p class="reference">References <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00154">_prefix_env_variable()</a>, <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00189">comment()</a>, and <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00196">prepend()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -771,7 +771,7 @@ Here is the call graph for this function:</div>
 by unrolling modifications based on all workspaces in CMAKE_PREFIX_PATH.
 This does not cover modifications performed by environment hooks.
 </pre> 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00069">69</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00069">69</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 <div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keyword">def </span><a class="code" href="namespace__setup__util.html#af3030db6102b5aa35cd354a2fb6cca03">rollback_env_variables</a>(environ, env_var_subfolders):</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="stringliteral">&quot;&quot;&quot;</span></div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="stringliteral">    Generate shell code to reset environment variables.</span></div>
@@ -795,7 +795,7 @@ This does not cover modifications performed by environment hooks.
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00091">_rollback_env_variable()</a>, <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00182">assignment()</a>, and <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00189">comment()</a>.</p>
+<p class="reference">References <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00091">_rollback_env_variable()</a>, <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00182">assignment()</a>, and <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00189">comment()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -824,7 +824,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00264">264</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00264">264</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 
 </div>
 </div>
@@ -840,7 +840,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00276">276</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00276">276</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 
 </div>
 </div>
@@ -856,7 +856,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00047">47</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00047">47</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 
 </div>
 </div>
@@ -867,12 +867,12 @@ Here is the call graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">list _setup_util.CMAKE_PREFIX_PATH = r'/opt/ros/noetic'.split(';')</td>
+          <td class="memname">list _setup_util.CMAKE_PREFIX_PATH = r'/home/emslab/ORB_SLAM3/catkin_ws/devel;/opt/ros/noetic'.split(';')</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00271">271</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00271">271</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 
 </div>
 </div>
@@ -888,9 +888,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00266">266</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00266">266</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="sparse__optimizer_8cpp_source.html#l00090">g2o::SparseOptimizer.activeChi2()</a>, <a class="el" href="sparse__optimizer_8cpp_source.html#l00100">g2o::SparseOptimizer.activeRobustChi2()</a>, <a class="el" href="hyper__graph_8cpp_source.html#l00099">g2o::HyperGraph.addEdge()</a>, <a class="el" href="optimizable__graph_8cpp_source.html#l00264">g2o::OptimizableGraph.addEdge()</a>, <a class="el" href="optimizable__graph_8cpp_source.html#l00681">g2o::OptimizableGraph.addGraph()</a>, <a class="el" href="block__solver_8hpp_source.html#l00143">g2o::BlockSolver&lt; Traits &gt;.buildStructure()</a>, <a class="el" href="block__solver_8hpp_source.html#l00502">g2o::BlockSolver&lt; Traits &gt;.buildSystem()</a>, <a class="el" href="_optimizer_8cc_source.html#l00060">ORB_SLAM3::Optimizer.BundleAdjustment()</a>, <a class="el" href="_geometric_tools_8h_source.html#l00043">ORB_SLAM3::GeometricTools.CheckMatrices()</a>, <a class="el" href="optimizable__graph_8cpp_source.html#l00289">g2o::OptimizableGraph.chi2()</a>, <a class="el" href="sparse__optimizer_8cpp_source.html#l00061">g2o::SparseOptimizer.computeActiveErrors()</a>, <a class="el" href="sparse__optimizer_8cpp_source.html#l00306">g2o::SparseOptimizer.computeInitialGuess()</a>, <a class="el" href="_sim3_solver_8cc_source.html#l00311">ORB_SLAM3::Sim3Solver.ComputeSim3()</a>, <a class="el" href="_g2o_types_8h_source.html#l00711">ORB_SLAM3::ConstraintPoseImu.ConstraintPoseImu()</a>, <a class="el" href="cache_8cpp_source.html#l00129">g2o::CacheContainer.createCache()</a>, <a class="el" href="_g2o_types_8cc_source.html#l00492">ORB_SLAM3::EdgeInertial.EdgeInertial()</a>, <a class="el" href="_g2o_types_8cc_source.html#l00596">ORB_SLAM3::EdgeInertialGS.EdgeInertialGS()</a>, <a class="el" href="common_8hpp_source.html#l00094">Sophus::Constants&lt; Scalar &gt;.epsilon()</a>, <a class="el" href="common_8hpp_source.html#l00108">Sophus::Constants&lt; float &gt;.epsilon()</a>, <a class="el" href="se3mat_8cpp_source.html#l00012">g2o::SE3mat.ExpSO3()</a>, <a class="el" href="_g2o_types_8cc_source.html#l00782">ORB_SLAM3.ExpSO3()</a>, <a class="el" href="sparse__optimizer_8cpp_source.html#l00506">g2o::SparseOptimizer.findActiveEdge()</a>, <a class="el" href="_optimizer_8cc_source.html#l00392">ORB_SLAM3::Optimizer.FullInertialBA()</a>, <a class="el" href="sparse__optimizer_8cpp_source.html#l00137">g2o::SparseOptimizer.gaugeFreedom()</a>, <a class="el" href="rxso2_8hpp_source.html#l00495">Sophus::RxSO2&lt; Scalar, Options &gt;.generator()</a>, <a class="el" href="sim2_8hpp_source.html#l00518">Sophus::Sim2&lt; Scalar_, Options &gt;.generator()</a>, <a class="el" href="sim3_8hpp_source.html#l00534">Sophus::Sim3&lt; Scalar_, Options &gt;.generator()</a>, <a class="el" href="rxso3_8hpp_source.html#l00560">Sophus::RxSO3&lt; Scalar, Options &gt;.generator()</a>, <a class="el" href="se2_8hpp_source.html#l00610">Sophus::SE2&lt; Scalar_, Options &gt;.generator()</a>, <a class="el" href="so3_8hpp_source.html#l00649">Sophus::SO3&lt; Scalar, Options &gt;.generator()</a>, <a class="el" href="se3_8hpp_source.html#l00831">Sophus::SE3&lt; float &gt;.generator()</a>, <a class="el" href="timeutil_8cpp_source.html#l00113">g2o.get_monotonic_time()</a>, <a class="el" href="timeutil_8h_source.html#l00091">g2o.get_time()</a>, <a class="el" href="ros__mono__inertial_8cc_source.html#l00117">ImageGrabber.GetImage()</a>, <a class="el" href="ros__mono__ar_8cc_source.html#l00139">ImageGrabber.GrabImage()</a>, <a class="el" href="_tracking_8cc_source.html#l01520">ORB_SLAM3::Tracking.GrabImageRGBD()</a>, <a class="el" href="ros__rgbd_8cc_source.html#l00085">ImageGrabber.GrabRGBD()</a>, <a class="el" href="ros__stereo_8cc_source.html#l00131">ImageGrabber.GrabStereo()</a>, <a class="el" href="_local_mapping_8cc_source.html#l01173">ORB_SLAM3::LocalMapping.InitializeIMU()</a>, <a class="el" href="sparse__optimizer_8cpp_source.html#l00206">g2o::SparseOptimizer.initializeOptimization()</a>, <a class="el" href="_g2o_types_8cc_source.html#l00821">ORB_SLAM3.InverseRightJacobianSO3()</a>, <a class="el" href="_pinhole_8cpp_source.html#l00147">ORB_SLAM3::Pinhole.IsEqual()</a>, <a class="el" href="_kannala_brandt8_8cpp_source.html#l00408">ORB_SLAM3::KannalaBrandt8.IsEqual()</a>, <a class="el" href="_converter_8cc_source.html#l00260">ORB_SLAM3::Converter.isRotationMatrix()</a>, <a class="el" href="base__unary__edge_8hpp_source.html#l00082">g2o::BaseUnaryEdge&lt; 3, Vector3d, VertexSE3Expmap &gt;.linearizeOplus()</a>, <a class="el" href="base__multi__edge_8hpp_source.html#l00063">g2o::BaseMultiEdge&lt; 9, Vector9d &gt;.linearizeOplus()</a>, <a class="el" href="base__binary__edge_8hpp_source.html#l00131">g2o::BaseBinaryEdge&lt; 6, Vector6d, VertexPose4DoF, VertexPose4DoF &gt;.linearizeOplus()</a>, <a class="el" href="optimizable__graph_8cpp_source.html#l00356">g2o::OptimizableGraph.load()</a>, <a class="el" href="_monocular_2mono__euroc_8cc_source.html#l00206">LoadImages()</a>, <a class="el" href="_optimizer_8cc_source.html#l01116">ORB_SLAM3::Optimizer.LocalBundleAdjustment()</a>, <a class="el" href="_optimizer_8cc_source.html#l02383">ORB_SLAM3::Optimizer.LocalInertialBA()</a>, <a class="el" href="se3mat_8cpp_source.html#l00027">g2o::SE3mat.LogSO3()</a>, <a class="el" href="_g2o_types_8cc_source.html#l00800">ORB_SLAM3.LogSO3()</a>, <a class="el" href="recorder__realsense___d435i_8cc_source.html#l00089">main()</a>, <a class="el" href="_map_drawer_8cc_source.html#l00029">ORB_SLAM3::MapDrawer.MapDrawer()</a>, <a class="el" href="_optimizer_8cc_source.html#l02960">ORB_SLAM3::Optimizer.Marginalize()</a>, <a class="el" href="_optimizer_8cc_source.html#l03948">ORB_SLAM3::Optimizer.MergeInertialBA()</a>, <a class="el" href="_tracking_8cc_source.html#l00535">ORB_SLAM3::Tracking.newParameterLoader()</a>, <a class="el" href="estimate__propagator_8cpp_source.html#l00239">g2o::EstimatePropagatorCost.operator()()</a>, <a class="el" href="estimate__propagator_8cpp_source.html#l00254">g2o::EstimatePropagatorCostOdometry.operator()()</a>, <a class="el" href="estimate__propagator_8h_source.html#l00084">g2o::EstimatePropagator::PropagateAction.operator()()</a>, <a class="el" href="optimization__algorithm__dogleg_8cpp_source.html#l00041">g2o::OptimizationAlgorithmDogleg.OptimizationAlgorithmDogleg()</a>, <a class="el" href="optimization__algorithm__levenberg_8cpp_source.html#l00043">g2o::OptimizationAlgorithmLevenberg.OptimizationAlgorithmLevenberg()</a>, <a class="el" href="_optimizer_8cc_source.html#l01501">ORB_SLAM3::Optimizer.OptimizeEssentialGraph()</a>, <a class="el" href="_optimizer_8cc_source.html#l05292">ORB_SLAM3::Optimizer.OptimizeEssentialGraph4DoF()</a>, <a class="el" href="_tracking_8cc_source.html#l00619">ORB_SLAM3::Tracking.ParseCamParamFile()</a>, <a class="el" href="hyper__dijkstra_8cpp_source.html#l00039">g2o::HyperDijkstra::TreeAction.perform()</a>, <a class="el" href="_optimizer_8cc_source.html#l04875">ORB_SLAM3::Optimizer.PoseInertialOptimizationLastFrame()</a>, <a class="el" href="_optimizer_8cc_source.html#l04491">ORB_SLAM3::Optimizer.PoseInertialOptimizationLastKeyFrame()</a>, <a class="el" href="_optimizer_8cc_source.html#l00814">ORB_SLAM3::Optimizer.PoseOptimization()</a>, <a class="el" href="hyper__graph_8cpp_source.html#l00129">g2o::HyperGraph.removeEdge()</a>, <a class="el" href="_g2o_types_8cc_source.html#l00839">ORB_SLAM3.RightJacobianSO3()</a>, <a class="el" href="robust__kernel__impl_8cpp_source.html#l00078">g2o::RobustKernelHuber.robustify()</a>, <a class="el" href="robust__kernel__impl_8cpp_source.html#l00100">g2o::RobustKernelTukey.robustify()</a>, <a class="el" href="optimizable__graph_8cpp_source.html#l00589">g2o::OptimizableGraph.save()</a>, <a class="el" href="optimizable__graph_8cpp_source.html#l00843">g2o::OptimizableGraph.saveEdge()</a>, <a class="el" href="optimizable__graph_8cpp_source.html#l00625">g2o::OptimizableGraph.saveSubset()</a>, <a class="el" href="_local_mapping_8cc_source.html#l01429">ORB_SLAM3::LocalMapping.ScaleRefinement()</a>, <a class="el" href="optimization__algorithm__levenberg_8cpp_source.html#l00061">g2o::OptimizationAlgorithmLevenberg.solve()</a>, <a class="el" href="optimization__algorithm__dogleg_8cpp_source.html#l00057">g2o::OptimizationAlgorithmDogleg.solve()</a>, <a class="el" href="test__so3_8cpp_source.html#l00030">Sophus::Tests&lt; Scalar &gt;.Tests()</a>, <a class="el" href="test__velocities_8cpp_source.html#l00057">Sophus::experimental.tests_rotational_velocities()</a>, <a class="el" href="_converter_8cc_source.html#l00271">ORB_SLAM3::Converter.toEuler()</a>, <a class="el" href="_tracking_8cc_source.html#l00044">ORB_SLAM3::Tracking.Tracking()</a>, <a class="el" href="string__tools_8cpp_source.html#l00048">g2o.trim()</a>, <a class="el" href="string__tools_8cpp_source.html#l00059">g2o.trimLeft()</a>, <a class="el" href="string__tools_8cpp_source.html#l00070">g2o.trimRight()</a>, <a class="el" href="_kannala_brandt8_8cpp_source.html#l00116">ORB_SLAM3::KannalaBrandt8.unproject()</a>, <a class="el" href="sparse__optimizer_8cpp_source.html#l00446">g2o::SparseOptimizer.updateInitialization()</a>, <a class="el" href="jacobian__workspace_8cpp_source.html#l00059">g2o::JacobianWorkspace.updateSize()</a>, <a class="el" href="block__solver_8hpp_source.html#l00298">g2o::BlockSolver&lt; Traits &gt;.updateStructure()</a>, <a class="el" href="optimizable__graph_8cpp_source.html#l00867">g2o::OptimizableGraph.verifyInformationMatrices()</a>, and <a class="el" href="_viewer_8cc_source.html#l00028">ORB_SLAM3::Viewer.Viewer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="sparse__optimizer_8cpp_source.html#l00090">g2o::SparseOptimizer.activeChi2()</a>, <a class="el" href="sparse__optimizer_8cpp_source.html#l00100">g2o::SparseOptimizer.activeRobustChi2()</a>, <a class="el" href="hyper__graph_8cpp_source.html#l00099">g2o::HyperGraph.addEdge()</a>, <a class="el" href="optimizable__graph_8cpp_source.html#l00264">g2o::OptimizableGraph.addEdge()</a>, <a class="el" href="optimizable__graph_8cpp_source.html#l00681">g2o::OptimizableGraph.addGraph()</a>, <a class="el" href="block__solver_8hpp_source.html#l00143">g2o::BlockSolver&lt; Traits &gt;.buildStructure()</a>, <a class="el" href="block__solver_8hpp_source.html#l00502">g2o::BlockSolver&lt; Traits &gt;.buildSystem()</a>, <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l00060">ORB_SLAM3::Optimizer.BundleAdjustment()</a>, <a class="el" href="_examples__old_2_r_o_s_2_o_r_b___s_l_a_m3_2src_2mono__acc__filtersubscriber_8cc_source.html#l00134">catch()</a>, <a class="el" href="backup_2include_2_geometric_tools_8h_source.html#l00043">ORB_SLAM3::GeometricTools.CheckMatrices()</a>, <a class="el" href="optimizable__graph_8cpp_source.html#l00289">g2o::OptimizableGraph.chi2()</a>, <a class="el" href="sparse__optimizer_8cpp_source.html#l00061">g2o::SparseOptimizer.computeActiveErrors()</a>, <a class="el" href="sparse__optimizer_8cpp_source.html#l00306">g2o::SparseOptimizer.computeInitialGuess()</a>, <a class="el" href="backup_2src_2_sim3_solver_8cc_source.html#l00311">ORB_SLAM3::Sim3Solver.ComputeSim3()</a>, <a class="el" href="backup_2include_2_g2o_types_8h_source.html#l00711">ORB_SLAM3::ConstraintPoseImu.ConstraintPoseImu()</a>, <a class="el" href="cache_8cpp_source.html#l00129">g2o::CacheContainer.createCache()</a>, <a class="el" href="backup_2src_2_g2o_types_8cc_source.html#l00492">ORB_SLAM3::EdgeInertial.EdgeInertial()</a>, <a class="el" href="backup_2src_2_g2o_types_8cc_source.html#l00596">ORB_SLAM3::EdgeInertialGS.EdgeInertialGS()</a>, <a class="el" href="common_8hpp_source.html#l00094">Sophus::Constants&lt; Scalar &gt;.epsilon()</a>, <a class="el" href="common_8hpp_source.html#l00108">Sophus::Constants&lt; float &gt;.epsilon()</a>, <a class="el" href="se3mat_8cpp_source.html#l00012">g2o::SE3mat.ExpSO3()</a>, <a class="el" href="backup_2src_2_g2o_types_8cc_source.html#l00782">ORB_SLAM3.ExpSO3()</a>, <a class="el" href="sparse__optimizer_8cpp_source.html#l00506">g2o::SparseOptimizer.findActiveEdge()</a>, <a class="el" href="sparse__optimizer_8cpp_source.html#l00137">g2o::SparseOptimizer.gaugeFreedom()</a>, <a class="el" href="rxso2_8hpp_source.html#l00495">Sophus::RxSO2&lt; Scalar, Options &gt;.generator()</a>, <a class="el" href="sim2_8hpp_source.html#l00518">Sophus::Sim2&lt; Scalar_, Options &gt;.generator()</a>, <a class="el" href="sim3_8hpp_source.html#l00534">Sophus::Sim3&lt; Scalar_, Options &gt;.generator()</a>, <a class="el" href="rxso3_8hpp_source.html#l00560">Sophus::RxSO3&lt; Scalar, Options &gt;.generator()</a>, <a class="el" href="se2_8hpp_source.html#l00610">Sophus::SE2&lt; Scalar_, Options &gt;.generator()</a>, <a class="el" href="so3_8hpp_source.html#l00649">Sophus::SO3&lt; Scalar, Options &gt;.generator()</a>, <a class="el" href="se3_8hpp_source.html#l00831">Sophus::SE3&lt; float &gt;.generator()</a>, <a class="el" href="timeutil_8cpp_source.html#l00113">g2o.get_monotonic_time()</a>, <a class="el" href="timeutil_8h_source.html#l00091">g2o.get_time()</a>, <a class="el" href="mono__inertial__node_8cc_source.html#l00100">ImageGrabber.GetImage()</a>, <a class="el" href="mono__acc__filtersubscriber_01copy_8cc_source.html#l00154">ImageGrabber.GrabImage()</a>, <a class="el" href="backup_2src_2_tracking_8cc_source.html#l01591">ORB_SLAM3::Tracking.GrabImageRGBD()</a>, <a class="el" href="rgbd__node_8cc_source.html#l00075">ImageGrabber.GrabRGBD()</a>, <a class="el" href="stereo__node_8cc_source.html#l00110">ImageGrabber.GrabStereo()</a>, <a class="el" href="backup_2src_2_local_mapping_8cc_source.html#l01194">ORB_SLAM3::LocalMapping.InitializeIMU()</a>, <a class="el" href="sparse__optimizer_8cpp_source.html#l00206">g2o::SparseOptimizer.initializeOptimization()</a>, <a class="el" href="backup_2src_2_g2o_types_8cc_source.html#l00821">ORB_SLAM3.InverseRightJacobianSO3()</a>, <a class="el" href="backup_2src_2_camera_models_2_pinhole_8cpp_source.html#l00147">ORB_SLAM3::Pinhole.IsEqual()</a>, <a class="el" href="backup_2src_2_camera_models_2_kannala_brandt8_8cpp_source.html#l00412">ORB_SLAM3::KannalaBrandt8.IsEqual()</a>, <a class="el" href="backup_2src_2_converter_8cc_source.html#l00260">ORB_SLAM3::Converter.isRotationMatrix()</a>, <a class="el" href="base__unary__edge_8hpp_source.html#l00082">g2o::BaseUnaryEdge&lt; 3, Vector3d, VertexSE3Expmap &gt;.linearizeOplus()</a>, <a class="el" href="base__multi__edge_8hpp_source.html#l00063">g2o::BaseMultiEdge&lt; 9, Vector9d &gt;.linearizeOplus()</a>, <a class="el" href="base__binary__edge_8hpp_source.html#l00131">g2o::BaseBinaryEdge&lt; 6, Vector6d, VertexPose4DoF, VertexPose4DoF &gt;.linearizeOplus()</a>, <a class="el" href="optimizable__graph_8cpp_source.html#l00356">g2o::OptimizableGraph.load()</a>, <a class="el" href="mono__bottlenose_8cc_source.html#l00208">LoadImages()</a>, <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l01116">ORB_SLAM3::Optimizer.LocalBundleAdjustment()</a>, <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l02383">ORB_SLAM3::Optimizer.LocalInertialBA()</a>, <a class="el" href="se3mat_8cpp_source.html#l00027">g2o::SE3mat.LogSO3()</a>, <a class="el" href="backup_2src_2_g2o_types_8cc_source.html#l00800">ORB_SLAM3.LogSO3()</a>, <a class="el" href="recorder__realsense___d435i_8cc_source.html#l00089">main()</a>, <a class="el" href="backup_2src_2_map_drawer_8cc_source.html#l00034">ORB_SLAM3::MapDrawer.MapDrawer()</a>, <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l02960">ORB_SLAM3::Optimizer.Marginalize()</a>, <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l03948">ORB_SLAM3::Optimizer.MergeInertialBA()</a>, <a class="el" href="backup_2src_2_tracking_8cc_source.html#l00536">ORB_SLAM3::Tracking.newParameterLoader()</a>, <a class="el" href="estimate__propagator_8cpp_source.html#l00239">g2o::EstimatePropagatorCost.operator()()</a>, <a class="el" href="estimate__propagator_8cpp_source.html#l00254">g2o::EstimatePropagatorCostOdometry.operator()()</a>, <a class="el" href="estimate__propagator_8h_source.html#l00084">g2o::EstimatePropagator::PropagateAction.operator()()</a>, <a class="el" href="optimization__algorithm__dogleg_8cpp_source.html#l00041">g2o::OptimizationAlgorithmDogleg.OptimizationAlgorithmDogleg()</a>, <a class="el" href="optimization__algorithm__levenberg_8cpp_source.html#l00043">g2o::OptimizationAlgorithmLevenberg.OptimizationAlgorithmLevenberg()</a>, <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l01501">ORB_SLAM3::Optimizer.OptimizeEssentialGraph()</a>, <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l05292">ORB_SLAM3::Optimizer.OptimizeEssentialGraph4DoF()</a>, <a class="el" href="backup_2src_2_tracking_8cc_source.html#l00620">ORB_SLAM3::Tracking.ParseCamParamFile()</a>, <a class="el" href="hyper__dijkstra_8cpp_source.html#l00039">g2o::HyperDijkstra::TreeAction.perform()</a>, <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l04875">ORB_SLAM3::Optimizer.PoseInertialOptimizationLastFrame()</a>, <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l04491">ORB_SLAM3::Optimizer.PoseInertialOptimizationLastKeyFrame()</a>, <a class="el" href="backup_2src_2_optimizer_8cc_source.html#l00814">ORB_SLAM3::Optimizer.PoseOptimization()</a>, <a class="el" href="hyper__graph_8cpp_source.html#l00129">g2o::HyperGraph.removeEdge()</a>, <a class="el" href="backup_2src_2_g2o_types_8cc_source.html#l00839">ORB_SLAM3.RightJacobianSO3()</a>, <a class="el" href="robust__kernel__impl_8cpp_source.html#l00078">g2o::RobustKernelHuber.robustify()</a>, <a class="el" href="robust__kernel__impl_8cpp_source.html#l00100">g2o::RobustKernelTukey.robustify()</a>, <a class="el" href="optimizable__graph_8cpp_source.html#l00589">g2o::OptimizableGraph.save()</a>, <a class="el" href="optimizable__graph_8cpp_source.html#l00843">g2o::OptimizableGraph.saveEdge()</a>, <a class="el" href="optimizable__graph_8cpp_source.html#l00625">g2o::OptimizableGraph.saveSubset()</a>, <a class="el" href="backup_2src_2_local_mapping_8cc_source.html#l01450">ORB_SLAM3::LocalMapping.ScaleRefinement()</a>, <a class="el" href="optimization__algorithm__levenberg_8cpp_source.html#l00061">g2o::OptimizationAlgorithmLevenberg.solve()</a>, <a class="el" href="optimization__algorithm__dogleg_8cpp_source.html#l00057">g2o::OptimizationAlgorithmDogleg.solve()</a>, <a class="el" href="test__so3_8cpp_source.html#l00030">Sophus::Tests&lt; Scalar &gt;.Tests()</a>, <a class="el" href="test__velocities_8cpp_source.html#l00057">Sophus::experimental.tests_rotational_velocities()</a>, <a class="el" href="backup_2src_2_converter_8cc_source.html#l00271">ORB_SLAM3::Converter.toEuler()</a>, <a class="el" href="backup_2src_2_tracking_8cc_source.html#l00045">ORB_SLAM3::Tracking.Tracking()</a>, <a class="el" href="string__tools_8cpp_source.html#l00048">g2o.trim()</a>, <a class="el" href="string__tools_8cpp_source.html#l00059">g2o.trimLeft()</a>, <a class="el" href="string__tools_8cpp_source.html#l00070">g2o.trimRight()</a>, <a class="el" href="backup_2src_2_camera_models_2_kannala_brandt8_8cpp_source.html#l00116">ORB_SLAM3::KannalaBrandt8.unproject()</a>, <a class="el" href="sparse__optimizer_8cpp_source.html#l00446">g2o::SparseOptimizer.updateInitialization()</a>, <a class="el" href="jacobian__workspace_8cpp_source.html#l00059">g2o::JacobianWorkspace.updateSize()</a>, <a class="el" href="block__solver_8hpp_source.html#l00298">g2o::BlockSolver&lt; Traits &gt;.updateStructure()</a>, <a class="el" href="optimizable__graph_8cpp_source.html#l00867">g2o::OptimizableGraph.verifyInformationMatrices()</a>, and <a class="el" href="backup_2src_2_viewer_8cc_source.html#l00028">ORB_SLAM3::Viewer.Viewer()</a>.</p>
 
 </div>
 </div>
@@ -913,7 +913,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="stringliteral">&#39;PYTHONPATH&#39;</span>: <span class="stringliteral">&#39;lib/python3/dist-packages&#39;</span>,</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00060">60</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00060">60</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 
 </div>
 </div>
@@ -929,7 +929,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00286">286</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00286">286</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 
 </div>
 </div>
@@ -945,7 +945,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00266">266</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00266">266</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="common_8hpp_source.html#l00069">Sophus.defaultEnsure()</a>, <a class="el" href="example__ensure__handler_8cpp_source.html#l00007">Sophus.ensureFailed()</a>, <a class="el" href="catkin__ws_2src_2orb__slam3__ros__wrapper_2src_2mono__acc__filtersubscriber_8cc_source.html#l00064">main()</a>, and <a class="el" href="test__macros_8hpp_source.html#l00030">Sophus::details.testFailed()</a>.</p>
 
 </div>
 </div>
@@ -961,7 +963,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00050">50</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00050">50</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 
 </div>
 </div>
@@ -977,7 +979,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00051">51</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00051">51</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 
 </div>
 </div>
@@ -993,7 +995,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00287">287</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00287">287</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 
 </div>
 </div>
@@ -1009,7 +1011,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00053">53</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00053">53</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 
 </div>
 </div>
@@ -1025,24 +1027,24 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="atomic__configure_2__setup__util_8py_source.html#l00049">49</a> of file <a class="el" href="atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
+<p class="definition">Definition at line <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00049">49</a> of file <a class="el" href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html">_setup_util.py</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
-<div class="ttc" id="anamespace__setup__util_html_abe8c95c4cfe8b1374dacd5f91d984353"><div class="ttname"><a href="namespace__setup__util.html#abe8c95c4cfe8b1374dacd5f91d984353">_setup_util.comment</a></div><div class="ttdeci">def comment(msg)</div><div class="ttdef"><b>Definition:</b> <a href="atomic__configure_2__setup__util_8py_source.html#l00189">_setup_util.py:189</a></div></div>
-<div class="ttc" id="anamespace__setup__util_html_af05661e87b3270e8bfd0fbc18a5eeec4"><div class="ttname"><a href="namespace__setup__util.html#af05661e87b3270e8bfd0fbc18a5eeec4">_setup_util._rollback_env_variable</a></div><div class="ttdeci">def _rollback_env_variable(environ, name, subfolders)</div><div class="ttdef"><b>Definition:</b> <a href="atomic__configure_2__setup__util_8py_source.html#l00091">_setup_util.py:91</a></div></div>
-<div class="ttc" id="anamespace__setup__util_html_ad56c24837fa4eddc63c03fbc7035628f"><div class="ttname"><a href="namespace__setup__util.html#ad56c24837fa4eddc63c03fbc7035628f">_setup_util.assignment</a></div><div class="ttdeci">def assignment(key, value)</div><div class="ttdef"><b>Definition:</b> <a href="atomic__configure_2__setup__util_8py_source.html#l00182">_setup_util.py:182</a></div></div>
-<div class="ttc" id="anamespace__setup__util_html_a74a1f8575ed82282d03f7795c9ba6e45"><div class="ttname"><a href="namespace__setup__util.html#a74a1f8575ed82282d03f7795c9ba6e45">_setup_util._prefix_env_variable</a></div><div class="ttdeci">def _prefix_env_variable(environ, name, paths, subfolders)</div><div class="ttdef"><b>Definition:</b> <a href="atomic__configure_2__setup__util_8py_source.html#l00154">_setup_util.py:154</a></div></div>
-<div class="ttc" id="anamespace__setup__util_html_ab2be07aa31918f1e1e34d6b7c4d66fcb"><div class="ttname"><a href="namespace__setup__util.html#ab2be07aa31918f1e1e34d6b7c4d66fcb">_setup_util._get_workspaces</a></div><div class="ttdeci">def _get_workspaces(environ, include_fuerte=False, include_non_existing=False)</div><div class="ttdef"><b>Definition:</b> <a href="atomic__configure_2__setup__util_8py_source.html#l00122">_setup_util.py:122</a></div></div>
-<div class="ttc" id="anamespace__setup__util_html_af3030db6102b5aa35cd354a2fb6cca03"><div class="ttname"><a href="namespace__setup__util.html#af3030db6102b5aa35cd354a2fb6cca03">_setup_util.rollback_env_variables</a></div><div class="ttdeci">def rollback_env_variables(environ, env_var_subfolders)</div><div class="ttdef"><b>Definition:</b> <a href="atomic__configure_2__setup__util_8py_source.html#l00069">_setup_util.py:69</a></div></div>
-<div class="ttc" id="anamespace__setup__util_html_a57d9ecb280810c9a5409d44aeb9d0a25"><div class="ttname"><a href="namespace__setup__util.html#a57d9ecb280810c9a5409d44aeb9d0a25">_setup_util._parse_arguments</a></div><div class="ttdeci">def _parse_arguments(args=None)</div><div class="ttdef"><b>Definition:</b> <a href="atomic__configure_2__setup__util_8py_source.html#l00254">_setup_util.py:254</a></div></div>
-<div class="ttc" id="anamespace__setup__util_html_a832417d18b85bd1d276a87547e86f860"><div class="ttname"><a href="namespace__setup__util.html#a832417d18b85bd1d276a87547e86f860">_setup_util.prepend_env_variables</a></div><div class="ttdeci">def prepend_env_variables(environ, env_var_subfolders, workspaces)</div><div class="ttdef"><b>Definition:</b> <a href="atomic__configure_2__setup__util_8py_source.html#l00137">_setup_util.py:137</a></div></div>
-<div class="ttc" id="anamespace__setup__util_html_a73de35ca77f260af6691470342ab49ce"><div class="ttname"><a href="namespace__setup__util.html#a73de35ca77f260af6691470342ab49ce">_setup_util.find_env_hooks</a></div><div class="ttdeci">def find_env_hooks(environ, cmake_prefix_path)</div><div class="ttdef"><b>Definition:</b> <a href="atomic__configure_2__setup__util_8py_source.html#l00205">_setup_util.py:205</a></div></div>
-<div class="ttc" id="anamespace__setup__util_html_ae78d86b2c4279f5b8b1acaa146c35802"><div class="ttname"><a href="namespace__setup__util.html#ae78d86b2c4279f5b8b1acaa146c35802">_setup_util.prepend</a></div><div class="ttdeci">def prepend(environ, key, prefix)</div><div class="ttdef"><b>Definition:</b> <a href="atomic__configure_2__setup__util_8py_source.html#l00196">_setup_util.py:196</a></div></div>
+<div class="ttc" id="anamespace__setup__util_html_abe8c95c4cfe8b1374dacd5f91d984353"><div class="ttname"><a href="namespace__setup__util.html#abe8c95c4cfe8b1374dacd5f91d984353">_setup_util.comment</a></div><div class="ttdeci">def comment(msg)</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00189">_setup_util.py:189</a></div></div>
+<div class="ttc" id="anamespace__setup__util_html_af05661e87b3270e8bfd0fbc18a5eeec4"><div class="ttname"><a href="namespace__setup__util.html#af05661e87b3270e8bfd0fbc18a5eeec4">_setup_util._rollback_env_variable</a></div><div class="ttdeci">def _rollback_env_variable(environ, name, subfolders)</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00091">_setup_util.py:91</a></div></div>
+<div class="ttc" id="anamespace__setup__util_html_ad56c24837fa4eddc63c03fbc7035628f"><div class="ttname"><a href="namespace__setup__util.html#ad56c24837fa4eddc63c03fbc7035628f">_setup_util.assignment</a></div><div class="ttdeci">def assignment(key, value)</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00182">_setup_util.py:182</a></div></div>
+<div class="ttc" id="anamespace__setup__util_html_a74a1f8575ed82282d03f7795c9ba6e45"><div class="ttname"><a href="namespace__setup__util.html#a74a1f8575ed82282d03f7795c9ba6e45">_setup_util._prefix_env_variable</a></div><div class="ttdeci">def _prefix_env_variable(environ, name, paths, subfolders)</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00154">_setup_util.py:154</a></div></div>
+<div class="ttc" id="anamespace__setup__util_html_ab2be07aa31918f1e1e34d6b7c4d66fcb"><div class="ttname"><a href="namespace__setup__util.html#ab2be07aa31918f1e1e34d6b7c4d66fcb">_setup_util._get_workspaces</a></div><div class="ttdeci">def _get_workspaces(environ, include_fuerte=False, include_non_existing=False)</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00122">_setup_util.py:122</a></div></div>
+<div class="ttc" id="anamespace__setup__util_html_af3030db6102b5aa35cd354a2fb6cca03"><div class="ttname"><a href="namespace__setup__util.html#af3030db6102b5aa35cd354a2fb6cca03">_setup_util.rollback_env_variables</a></div><div class="ttdeci">def rollback_env_variables(environ, env_var_subfolders)</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00069">_setup_util.py:69</a></div></div>
+<div class="ttc" id="anamespace__setup__util_html_a57d9ecb280810c9a5409d44aeb9d0a25"><div class="ttname"><a href="namespace__setup__util.html#a57d9ecb280810c9a5409d44aeb9d0a25">_setup_util._parse_arguments</a></div><div class="ttdeci">def _parse_arguments(args=None)</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00254">_setup_util.py:254</a></div></div>
+<div class="ttc" id="anamespace__setup__util_html_a832417d18b85bd1d276a87547e86f860"><div class="ttname"><a href="namespace__setup__util.html#a832417d18b85bd1d276a87547e86f860">_setup_util.prepend_env_variables</a></div><div class="ttdeci">def prepend_env_variables(environ, env_var_subfolders, workspaces)</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00137">_setup_util.py:137</a></div></div>
+<div class="ttc" id="anamespace__setup__util_html_a73de35ca77f260af6691470342ab49ce"><div class="ttname"><a href="namespace__setup__util.html#a73de35ca77f260af6691470342ab49ce">_setup_util.find_env_hooks</a></div><div class="ttdeci">def find_env_hooks(environ, cmake_prefix_path)</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00205">_setup_util.py:205</a></div></div>
+<div class="ttc" id="anamespace__setup__util_html_ae78d86b2c4279f5b8b1acaa146c35802"><div class="ttname"><a href="namespace__setup__util.html#ae78d86b2c4279f5b8b1acaa146c35802">_setup_util.prepend</a></div><div class="ttdeci">def prepend(environ, key, prefix)</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00196">_setup_util.py:196</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 1 2022 22:35:27 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 26 2023 09:59:14 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

@@ -1,0 +1,14 @@
+<launch>
+
+    <node name="orb_slam3_mono_acc_filtersubscriber" pkg="orb_slam3_ros_wrapper" type="orb_slam3_ros_wrapper_mono_acc_filtersubscriber" output="screen">
+
+        <remap from="/camera/image_raw" to="/cam0/image_raw"/>
+        <remap from="/camera/keypoints" to="/cam0/keypoints"/>
+        <remap from="/camera/descriptors" to="/cam0/descriptors"/>
+
+        <!-- Parameters for original ORB-SLAM3 -->
+        <param name="voc_file"      type="string"   value="$(find orb_slam3_ros_wrapper)/config/ORBvoc.txt" />
+        <param name="settings_file" type="string"   value="$(find orb_slam3_ros_wrapper)/config/TUM-VI-mono.yaml" />
+    
+    </node>
+</launch>

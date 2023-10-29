@@ -7,21 +7,24 @@ File.version: "1.0"
 
 Camera.type: "KannalaBrandt8"
 
-# Camera calibration and distortion parameters (OpenCV) 
-Camera1.fx: 190.978477
-Camera1.fy: 190.973307
-Camera1.cx: 254.931706
-Camera1.cy: 256.897442
+# Left Camera calibration and distortion parameters (OpenCV)
+Camera1.fx: 190.97847715128717
+Camera1.fy: 190.9733070521226
+Camera1.cx: 254.93170605935475
+Camera1.cy: 256.8974428996504
 
-# Equidistant distortion 0.0034823894022493434, 0.0007150348452162257, -0.0020532361418706202, 0.00020293673591811182
-Camera1.k1: 0.003482389402
-Camera1.k2: 0.000715034845
-Camera1.k3: -0.002053236141
-Camera1.k4: 0.000202936736
+# Kannala-Brandt distortion parameters
+Camera1.k1: 0.0034823894022493434
+Camera1.k2: 0.0007150348452162257
+Camera1.k3: -0.0020532361418706202
+Camera1.k4: 0.00020293673591811182
     
 # Camera resolution
 Camera.width: 512
 Camera.height: 512
+
+#Camera.width: 1920
+#Camera.height: 1080
 
 # Camera frames per second 
 Camera.fps: 20
@@ -34,7 +37,7 @@ Camera.RGB: 1
 #--------------------------------------------------------------------------------------------
 
 # ORB Extractor: Number of features per image
-ORBextractor.nFeatures: 1500 # Tested with 1250
+ORBextractor.nFeatures: 1000 # Tested with 1250
 
 # ORB Extractor: Scale factor between levels in the scale pyramid 	
 ORBextractor.scaleFactor: 1.2
@@ -54,11 +57,22 @@ ORBextractor.minThFAST: 7
 #--------------------------------------------------------------------------------------------
 Viewer.KeyFrameSize: 0.05
 Viewer.KeyFrameLineWidth: 1.0
-Viewer.GraphLineWidth: 0.9
+Viewer.GraphLineWidth: 1.0
 Viewer.PointSize: 2.0
-Viewer.CameraSize: 0.08
-Viewer.CameraLineWidth: 3.0
+Viewer.CameraSize: 0.05
+Viewer.CameraLineWidth: 2.0
 Viewer.ViewpointX: 0.0
-Viewer.ViewpointY: -0.7
-Viewer.ViewpointZ: -3.5
-Viewer.ViewpointF: 500.0
+Viewer.ViewpointY: -10.0
+Viewer.ViewpointZ: -0.1
+Viewer.ViewpointF: 2000.0
+
+#Viewer.KeyFrameSize: 0.05
+#Viewer.KeyFrameLineWidth: 1.0
+#Viewer.GraphLineWidth: 0.9
+#Viewer.PointSize: 2.0
+#Viewer.CameraSize: 0.08
+#Viewer.CameraLineWidth: 3.0
+#Viewer.ViewpointX: 0.0
+#Viewer.ViewpointY: -0.7
+#Viewer.ViewpointZ: -3.5
+#Viewer.ViewpointF: 500.0

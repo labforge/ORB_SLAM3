@@ -136,16 +136,16 @@ template&lt;class Scalar , int N, int M&gt; </div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="namespace_sophus.html#abf9f6f1b37fa7bef4d2df65d63154cdf">Sophus::Vector&lt;Scalar, M&gt;</a> h;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    h.setZero();</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; M; ++i) {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;      h[i] = <a class="code" href="namespace_o_r_b___s_l_a_m3.html#a65f3577e02ba86d8117993a710cd8963">eps</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;      h[i] = <a class="code" href="namespace_o_r_b___s_l_a_m3_1_1_i_m_u.html#a32f79e605ebfa49c6c509ff6b5af5065">eps</a>;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;      J.col(i) =</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;          (vector_field(a + h) - vector_field(a - h)) / (Scalar(2) * <a class="code" href="namespace_o_r_b___s_l_a_m3.html#a65f3577e02ba86d8117993a710cd8963">eps</a>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;          (vector_field(a + h) - vector_field(a - h)) / (Scalar(2) * <a class="code" href="namespace_o_r_b___s_l_a_m3_1_1_i_m_u.html#a32f79e605ebfa49c6c509ff6b5af5065">eps</a>);</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;      h[i] = Scalar(0);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">return</span> J;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="_viewer_a_r_8cc_source.html#l00035">ORB_SLAM3::eps</a>.</p>
+<p class="reference">References <a class="el" href="backup_2src_2_imu_types_8cc_source.html#l00032">ORB_SLAM3::IMU::eps</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="num__diff_8hpp_source.html#l00084">Sophus::vectorFieldNumDiff()</a>.</p>
 <div class="dynheader">
@@ -164,11 +164,11 @@ Here is the caller graph for this function:</div>
 <li>Thirdparty/Sophus/sophus/<a class="el" href="num__diff_8hpp_source.html">num_diff.hpp</a></li>
 </ul>
 </div><!-- contents -->
-<div class="ttc" id="anamespace_o_r_b___s_l_a_m3_html_a65f3577e02ba86d8117993a710cd8963"><div class="ttname"><a href="namespace_o_r_b___s_l_a_m3.html#a65f3577e02ba86d8117993a710cd8963">ORB_SLAM3::eps</a></div><div class="ttdeci">const float eps</div><div class="ttdef"><b>Definition:</b> <a href="_viewer_a_r_8cc_source.html#l00035">ViewerAR.cc:35</a></div></div>
+<div class="ttc" id="anamespace_o_r_b___s_l_a_m3_1_1_i_m_u_html_a32f79e605ebfa49c6c509ff6b5af5065"><div class="ttname"><a href="namespace_o_r_b___s_l_a_m3_1_1_i_m_u.html#a32f79e605ebfa49c6c509ff6b5af5065">ORB_SLAM3::IMU::eps</a></div><div class="ttdeci">const float eps</div><div class="ttdef"><b>Definition:</b> <a href="backup_2src_2_imu_types_8cc_source.html#l00032">ImuTypes.cc:32</a></div></div>
 <div class="ttc" id="anamespace_sophus_html_abf9f6f1b37fa7bef4d2df65d63154cdf"><div class="ttname"><a href="namespace_sophus.html#abf9f6f1b37fa7bef4d2df65d63154cdf">Sophus::Vector</a></div><div class="ttdeci">Eigen::Matrix&lt; Scalar, M, 1, Options &gt; Vector</div><div class="ttdef"><b>Definition:</b> <a href="types_8hpp_source.html#l00013">types.hpp:13</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 1 2022 22:35:29 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 26 2023 09:59:17 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

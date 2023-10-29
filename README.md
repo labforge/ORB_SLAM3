@@ -65,6 +65,9 @@ We use [OpenCV](http://opencv.org) to manipulate images and features. Dowload an
 ## Eigen3
 Required by g2o (see below). Download and install instructions can be found at: http://eigen.tuxfamily.org. **Required at least 3.1.0**.
 
+## PCL (added by Awei)
+Required for saving the map in PCD format. I run the modified code with pcl-1.8 in Ubuntu 18.04. Here I just use the basic functions in PCL, so I think older versions of PCL also work.
+
 ## DBoW2 and g2o (Included in Thirdparty folder)
 We use modified versions of the [DBoW2](https://github.com/dorian3d/DBoW2) library to perform place recognition and [g2o](https://github.com/RainerKuemmerle/g2o) library to perform non-linear optimizations. Both modified libraries (which are BSD) are included in the *Thirdparty* folder.
 
@@ -233,3 +236,17 @@ A flag in `include\Config.h` activates time measurements. It is necessary to unc
 
 # 9. Calibration
 You can find a tutorial for visual-inertial calibration and a detailed description of the contents of valid configuration files at  `Calibration_Tutorial.pdf`
+
+# 10. Save function (added by Awei)
+I modified FrameDrawer.cc and MapDrawer.cc in src folder, and the modified ORB_SLAM3 will save a txt file containing the keypoints with frame IDs and a pcd file containing the map. These files are saved in the path where you run the program.
+
+I tested the modified ORB_SLAM3 with a EuRoC sequence (V1_01_easy) in Stereo mode. The saved txt file is shown below, you can edit a script to further process saved keypoints
+
+![Image text](https://github.com/DioVei/ORB_SLAM3_with_save/blob/master/example.png)
+
+and the save pcd file is shown below by pcl_viewer
+
+![Image text](https://github.com/DioVei/ORB_SLAM3_with_save/blob/master/result.png)
+
+# Update
+When you run the program in a large scene, you can rename MapDrawer.cc to MapDrawer_SmallScene.cc, and MapDrawer_BigScene.cc to MapDrawer.cc in the src folder. Then, you can rebuild the program to make the saving function adapt to large scenes.

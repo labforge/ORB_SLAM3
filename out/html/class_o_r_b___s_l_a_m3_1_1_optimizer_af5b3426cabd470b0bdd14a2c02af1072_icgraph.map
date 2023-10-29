@@ -1,0 +1,9 @@
+<map id="ORB_SLAM3::Optimizer::FullInertialBA" name="ORB_SLAM3::Optimizer::FullInertialBA">
+<area shape="rect" id="node1" title=" " alt="" coords="823,39,997,80"/>
+<area shape="rect" id="node2" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#abbd4bb45f894a3c0d2fc6ca0a227286f" title=" " alt="" coords="566,5,766,47"/>
+<area shape="rect" id="node4" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ae839ce5697383d9b257573975f9a5fef" title=" " alt="" coords="557,71,775,112"/>
+<area shape="rect" id="node3" href="$class_o_r_b___s_l_a_m3_1_1_local_mapping.html#aa3bd8a66c4ee13694fe355eee1cdc9af" title=" " alt="" coords="276,13,509,39"/>
+<area shape="rect" id="node5" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#aa5ba3f14da84d05c97ac3a4a8aed0014" title=" " alt="" coords="298,67,487,108"/>
+<area shape="rect" id="node7" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#ace9ff596b08a851a6823eefc6fa66fb3" title=" " alt="" coords="298,132,487,173"/>
+<area shape="rect" id="node6" href="$class_o_r_b___s_l_a_m3_1_1_loop_closing.html#a42da26bf21341d818f4f8543f345f405" title=" " alt="" coords="5,107,228,134"/>
+</map>

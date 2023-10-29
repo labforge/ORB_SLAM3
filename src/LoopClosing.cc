@@ -1204,6 +1204,7 @@ void LoopClosing::CorrectLoop()
         mnCorrectionGBA = mnNumCorrection;
 
         mpThreadGBA = new thread(&LoopClosing::RunGlobalBundleAdjustment, this, pLoopMap, mpCurrentKF->mnId);
+        pthread_setname_np(mpThreadGBA->native_handle(), "GlobalBundleAdjustment");
     }
 
     // Loop closed. Release Local Mapping.
@@ -1767,6 +1768,7 @@ void LoopClosing::MergeLocal()
         mbFinishedGBA = false;
         mbStopGBA = false;
         mpThreadGBA = new thread(&LoopClosing::RunGlobalBundleAdjustment,this, pMergeMap, mpCurrentKF->mnId);
+        pthread_setname_np(mpThreadGBA->native_handle(), "GlobalBundleAdjustment");
     }
 
     mpMergeMatchedKF->AddMergeEdge(mpCurrentKF);

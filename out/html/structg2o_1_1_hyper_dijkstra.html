@@ -750,11 +750,11 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160; </div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <span class="comment">//std::cerr &lt;&lt; &quot;q.size()&quot; &lt;&lt; q.size() &lt;&lt; endl;</span></div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keywordtype">int</span> count=0;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a>=0;</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keywordflow">while</span> (! q.empty()){</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;      HyperGraph::Vertex* parent=q.front();</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;      q.pop_front();</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;      ++count;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;      ++<a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a>;</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;      AdjacencyMap::iterator parentIt=amap.find(parent);</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;      <span class="keywordflow">if</span> (parentIt==amap.end()) {</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <span class="keywordflow">continue</span>;</div>
@@ -783,7 +783,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160; </div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;  }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="associate_8py_source.html#l00113">associate::action</a>, and <a class="el" href="hyper__dijkstra_8h_source.html#l00057">g2o::HyperDijkstra::AdjacencyMapEntry::parent()</a>.</p>
+<p class="reference">References <a class="el" href="associate_8py_source.html#l00115">associate::action</a>, <a class="el" href="logresize_8py_source.html#l00005">logresize::count</a>, and <a class="el" href="hyper__dijkstra_8h_source.html#l00057">g2o::HyperDijkstra::AdjacencyMapEntry::parent()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -929,12 +929,13 @@ Here is the caller graph for this function:</div>
 <div class="ttc" id="astructg2o_1_1_hyper_dijkstra_html_a55e844f4b596290cb36a0d9fe4140966"><div class="ttname"><a href="structg2o_1_1_hyper_dijkstra.html#a55e844f4b596290cb36a0d9fe4140966">g2o::HyperDijkstra::HyperDijkstra</a></div><div class="ttdeci">HyperDijkstra(HyperGraph *g)</div><div class="ttdef"><b>Definition:</b> <a href="hyper__dijkstra_8cpp_source.html#l00061">hyper_dijkstra.cpp:61</a></div></div>
 <div class="ttc" id="aclassg2o_1_1_hyper_graph_html_a95fcf7cd9d89562b2c26d99ede3548ed"><div class="ttname"><a href="classg2o_1_1_hyper_graph.html#a95fcf7cd9d89562b2c26d99ede3548ed">g2o::HyperGraph::vertices</a></div><div class="ttdeci">const VertexIDMap &amp; vertices() const</div><div class="ttdef"><b>Definition:</b> <a href="hyper__graph_8h_source.html#l00177">hyper_graph.h:177</a></div></div>
 <div class="ttc" id="astructg2o_1_1_hyper_dijkstra_html_a1bf21d65ddd6e0feeb6a76f58d7f2c6e"><div class="ttname"><a href="structg2o_1_1_hyper_dijkstra.html#a1bf21d65ddd6e0feeb6a76f58d7f2c6e">g2o::HyperDijkstra::_graph</a></div><div class="ttdeci">HyperGraph * _graph</div><div class="ttdef"><b>Definition:</b> <a href="hyper__dijkstra_8h_source.html#l00104">hyper_dijkstra.h:104</a></div></div>
-<div class="ttc" id="anamespaceassociate_html_acb2f4bd200df1b76013498517106d660"><div class="ttname"><a href="namespaceassociate.html#acb2f4bd200df1b76013498517106d660">associate.action</a></div><div class="ttdeci">action</div><div class="ttdef"><b>Definition:</b> <a href="associate_8py_source.html#l00113">associate.py:113</a></div></div>
+<div class="ttc" id="anamespaceassociate_html_acb2f4bd200df1b76013498517106d660"><div class="ttname"><a href="namespaceassociate.html#acb2f4bd200df1b76013498517106d660">associate.action</a></div><div class="ttdeci">action</div><div class="ttdef"><b>Definition:</b> <a href="associate_8py_source.html#l00115">associate.py:115</a></div></div>
 <div class="ttc" id="amacros_8h_html_a9c15fe1e91b07ea3280f5239f9841b67"><div class="ttname"><a href="macros_8h.html#a9c15fe1e91b07ea3280f5239f9841b67">__PRETTY_FUNCTION__</a></div><div class="ttdeci">#define __PRETTY_FUNCTION__</div><div class="ttdef"><b>Definition:</b> <a href="macros_8h_source.html#l00095">macros.h:95</a></div></div>
+<div class="ttc" id="anamespacelogresize_html_acde72239d037eca80434f5f913ca4193"><div class="ttname"><a href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">logresize.count</a></div><div class="ttdeci">int count</div><div class="ttdef"><b>Definition:</b> <a href="logresize_8py_source.html#l00005">logresize.py:5</a></div></div>
 <div class="ttc" id="astructg2o_1_1_hyper_dijkstra_html_ad9c39fd01a0740f2beff98c927aaebbd"><div class="ttname"><a href="structg2o_1_1_hyper_dijkstra.html#ad9c39fd01a0740f2beff98c927aaebbd">g2o::HyperDijkstra::reset</a></div><div class="ttdeci">void reset()</div><div class="ttdef"><b>Definition:</b> <a href="hyper__dijkstra_8cpp_source.html#l00069">hyper_dijkstra.cpp:69</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 1 2022 22:35:27 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 26 2023 09:59:15 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

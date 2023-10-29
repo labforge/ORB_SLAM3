@@ -116,11 +116,11 @@ $(function() {
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  {</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    FeatureVector::const_iterator vit = v.begin();</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keyword">const</span> std::vector&lt;unsigned int&gt;* f = &amp;vit-&gt;second;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keyword">const</span> std::vector&lt;unsigned int&gt;* <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> = &amp;vit-&gt;second;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    out &lt;&lt; <span class="stringliteral">&quot;&lt;&quot;</span> &lt;&lt; vit-&gt;first &lt;&lt; <span class="stringliteral">&quot;: [&quot;</span>;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">if</span>(!f-&gt;empty()) out &lt;&lt; (*f)[0];</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 1; i &lt; f-&gt;size(); ++i)</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>-&gt;empty()) out &lt;&lt; (*f)[0];</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 1; i &lt; <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>-&gt;size(); ++i)</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    {</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;      out &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; (*f)[i];</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
@@ -128,11 +128,11 @@ $(function() {
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    </div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">for</span>(++vit; vit != v.end(); ++vit)</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    {</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      f = &amp;vit-&gt;second;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a> = &amp;vit-&gt;second;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      </div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;      out &lt;&lt; <span class="stringliteral">&quot;, &lt;&quot;</span> &lt;&lt; vit-&gt;first &lt;&lt; <span class="stringliteral">&quot;: [&quot;</span>;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      <span class="keywordflow">if</span>(!f-&gt;empty()) out &lt;&lt; (*f)[0];</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 1; i &lt; f-&gt;size(); ++i)</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      <span class="keywordflow">if</span>(!<a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>-&gt;empty()) out &lt;&lt; (*f)[0];</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 1; i &lt; <a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>-&gt;size(); ++i)</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      {</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        out &lt;&lt; <span class="stringliteral">&quot;, &quot;</span> &lt;&lt; (*f)[i];</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;      }</div>
@@ -153,11 +153,12 @@ $(function() {
 <div class="ttc" id="aclass_d_bo_w2_1_1_feature_vector_html_ae9554bfcbebc85439616de08f47f2238"><div class="ttname"><a href="class_d_bo_w2_1_1_feature_vector.html#ae9554bfcbebc85439616de08f47f2238">DBoW2::FeatureVector::addFeature</a></div><div class="ttdeci">void addFeature(NodeId id, unsigned int i_feature)</div><div class="ttdef"><b>Definition:</b> <a href="_feature_vector_8cpp_source.html#l00031">FeatureVector.cpp:31</a></div></div>
 <div class="ttc" id="a_feature_vector_8h_html"><div class="ttname"><a href="_feature_vector_8h.html">FeatureVector.h</a></div></div>
 <div class="ttc" id="anamespace_d_bo_w2_html_a06d2058b1bde1cdc49f277fec62073e2"><div class="ttname"><a href="namespace_d_bo_w2.html#a06d2058b1bde1cdc49f277fec62073e2">DBoW2::operator&lt;&lt;</a></div><div class="ttdeci">std::ostream &amp; operator&lt;&lt;(std::ostream &amp;out, const BowVector &amp;v)</div><div class="ttdef"><b>Definition:</b> <a href="_bow_vector_8cpp_source.html#l00088">BowVector.cpp:88</a></div></div>
+<div class="ttc" id="anamespaceevaluate__rpe_html_a2ac8320bac68fa5f9dfb5df695e9841b"><div class="ttname"><a href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">evaluate_rpe.f</a></div><div class="ttdeci">f</div><div class="ttdef"><b>Definition:</b> <a href="evaluate__rpe_8py_source.html#l00346">evaluate_rpe.py:346</a></div></div>
 <div class="ttc" id="aclass_d_bo_w2_1_1_feature_vector_html_a66c069d269c8c98dcf3ae39cbc6f861b"><div class="ttname"><a href="class_d_bo_w2_1_1_feature_vector.html#a66c069d269c8c98dcf3ae39cbc6f861b">DBoW2::FeatureVector::FeatureVector</a></div><div class="ttdeci">FeatureVector(void)</div><div class="ttdef"><b>Definition:</b> <a href="_feature_vector_8cpp_source.html#l00019">FeatureVector.cpp:19</a></div></div>
 <div class="ttc" id="anamespace_d_bo_w2_html_a3a0fa9c50c0df508759362d6204566f2"><div class="ttname"><a href="namespace_d_bo_w2.html#a3a0fa9c50c0df508759362d6204566f2">DBoW2::NodeId</a></div><div class="ttdeci">unsigned int NodeId</div><div class="ttdoc">Id of nodes in the vocabulary treee.</div><div class="ttdef"><b>Definition:</b> <a href="_bow_vector_8h_source.html#l00029">BowVector.h:29</a></div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 1 2022 22:35:23 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 26 2023 09:59:11 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

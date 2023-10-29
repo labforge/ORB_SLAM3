@@ -86,9 +86,9 @@ $(function() {
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &lt;librealsense2/rs.hpp&gt;</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &quot;librealsense2/rsutil.h&quot;</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="_system_8h.html">System.h</a>&gt;</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include &lt;System.h&gt;</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">using namespace </span><a class="code" href="build_2_c_make_files_2mono__euroc_8dir_2link_8txt.html#a0b997b6ec44f7e87b762da2274325271">std</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">using namespace </span><a class="code" href="build_2_c_make_files_2mono__bottlenose_8dir_2link_8txt.html#a0b997b6ec44f7e87b762da2274325271">std</a>;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
 <div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="old_2_stereo_2stereo__realsense___d435i_8cc.html#a3d721e461359b2871edbdaefd34c6d50">   39</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="_stereo_2stereo__realsense___d435i_8cc.html#a3d721e461359b2871edbdaefd34c6d50">b_continue_session</a>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
@@ -153,10 +153,10 @@ $(function() {
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">string</span> file_name;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="namespacelogresize.html#aeb675d0230677c374b762715193f72cc">file_name</a>;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">if</span> (argc == 4) {</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        file_name = string(argv[argc - 1]);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <a class="code" href="namespacelogresize.html#aeb675d0230677c374b762715193f72cc">file_name</a> = string(argv[argc - 1]);</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keyword">struct </span>sigaction sigIntHandler;</div>
@@ -196,7 +196,7 @@ $(function() {
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            <a class="code" href="old_2_stereo_2stereo__realsense___d435i_8cc.html#a16fbef137ef90fad61c74a7dcb4d9edc">get_sensor_option</a>(sensor);</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            <span class="keywordflow">if</span> (index == 2){</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                <span class="comment">// RGB camera (not used here...)</span></div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                sensor.set_option(RS2_OPTION_EXPOSURE,100.f);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                sensor.set_option(RS2_OPTION_EXPOSURE,100.<a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>);</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            }</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        }</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160; </div>
@@ -292,8 +292,8 @@ $(function() {
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160; </div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160; </div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="comment">// Create SLAM system. It initializes all system threads and gets ready to process frames.</span></div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a> SLAM(argv[1],argv[2],<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#aafb52f69567ea0d9256abe98f051d80dad1a322598fa7c0a0d40a7007afe4ff4a">ORB_SLAM3::System::STEREO</a>, <span class="keyword">true</span>, 0, file_name);</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="keywordtype">float</span> imageScale = SLAM.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a1ebf14c77d134ca955449a2704a9ffe8">GetImageScale</a>();</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a> <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>(argv[1],argv[2],<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#aafb52f69567ea0d9256abe98f051d80da157220cf1f450a8c78452be73e2941db">ORB_SLAM3::System::STEREO</a>, <span class="keyword">true</span>, 0, <a class="code" href="namespacelogresize.html#aeb675d0230677c374b762715193f72cc">file_name</a>);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="keywordtype">float</span> imageScale = <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a1ebf14c77d134ca955449a2704a9ffe8">GetImageScale</a>();</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160; </div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="keywordtype">double</span> timestamp;</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    cv::Mat im, imRight;</div>
@@ -301,7 +301,7 @@ $(function() {
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="keywordtype">double</span> t_resize = 0.f;</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="keywordtype">double</span> t_track = 0.f;</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160; </div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">while</span> (!SLAM.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a3eb5076ceb0b051b0662f7697c70d795">isShutDown</a>())</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">while</span> (!<a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a3eb5076ceb0b051b0662f7697c70d795">isShutDown</a>())</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    {</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        std::vector&lt;rs2_vector&gt; vGyro;</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        std::vector&lt;double&gt; vGyro_times;</div>
@@ -330,7 +330,7 @@ $(function() {
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            image_ready = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        }</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160; </div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <span class="keywordflow">if</span>(imageScale != 1.f)</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <span class="keywordflow">if</span>(imageScale != 1.<a class="code" href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">f</a>)</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        {</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="preprocessor">#ifdef REGISTER_TIMES</span></div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="preprocessor">    #ifdef COMPILEDWITHC11</span></div>
@@ -350,8 +350,8 @@ $(function() {
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="preprocessor">    #else</span></div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;            std::chrono::monotonic_clock::time_point t_End_Resize = std::chrono::monotonic_clock::now();</div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            t_resize = std::chrono::duration_cast&lt;std::chrono::duration&lt;double,std::milli&gt; &gt;(t_End_Resize - t_Start_Resize).count();</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;            SLAM.InsertResizeTime(t_resize);</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            t_resize = std::chrono::duration_cast&lt;std::chrono::duration&lt;double,std::milli&gt; &gt;(t_End_Resize - t_Start_Resize).<a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a>();</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;            <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a0098053312b3603d7c5e22f80ac1e2bf">InsertResizeTime</a>(t_resize);</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        }</div>
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160; </div>
@@ -363,36 +363,41 @@ $(function() {
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="preprocessor">    #endif</span></div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        <span class="comment">// Stereo images are already rectified.</span></div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        SLAM.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4">TrackStereo</a>(im, imRight, timestamp);</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4">TrackStereo</a>(im, imRight, timestamp);</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="preprocessor">#ifdef REGISTER_TIMES</span></div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="preprocessor">    #ifdef COMPILEDWITHC11</span></div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        std::chrono::steady_clock::time_point t_End_Track = std::chrono::steady_clock::now();</div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;<span class="preprocessor">    #else</span></div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        std::chrono::monotonic_clock::time_point t_End_Track = std::chrono::monotonic_clock::now();</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        t_track = t_resize + std::chrono::duration_cast&lt;std::chrono::duration&lt;double,std::milli&gt; &gt;(t_End_Track - t_Start_Track).count();</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        SLAM.InsertTrackTime(t_track);</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        t_track = t_resize + std::chrono::duration_cast&lt;std::chrono::duration&lt;double,std::milli&gt; &gt;(t_End_Track - t_Start_Track).<a class="code" href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">count</a>();</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        <a class="code" href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a>.<a class="code" href="class_o_r_b___s_l_a_m3_1_1_system.html#ac0d0a0f54ff18c65aa4563c7ba9e98e8">InsertTrackTime</a>(t_track);</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    }</div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    cout &lt;&lt; <span class="stringliteral">&quot;System shutdown!\n&quot;</span>;</div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="a_system_8h_html"><div class="ttname"><a href="_system_8h.html">System.h</a></div></div>
-<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a1ebf14c77d134ca955449a2704a9ffe8"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a1ebf14c77d134ca955449a2704a9ffe8">ORB_SLAM3::System::GetImageScale</a></div><div class="ttdeci">float GetImageScale()</div><div class="ttdef"><b>Definition:</b> <a href="_system_8cc_source.html#l01381">System.cc:1381</a></div></div>
-<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_aafb52f69567ea0d9256abe98f051d80dad1a322598fa7c0a0d40a7007afe4ff4a"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#aafb52f69567ea0d9256abe98f051d80dad1a322598fa7c0a0d40a7007afe4ff4a">ORB_SLAM3::System::STEREO</a></div><div class="ttdeci">@ STEREO</div><div class="ttdef"><b>Definition:</b> <a href="_system_8h_source.html#l00089">System.h:89</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a1ebf14c77d134ca955449a2704a9ffe8"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a1ebf14c77d134ca955449a2704a9ffe8">ORB_SLAM3::System::GetImageScale</a></div><div class="ttdeci">float GetImageScale()</div><div class="ttdef"><b>Definition:</b> <a href="backup_2src_2_system_8cc_source.html#l01561">System.cc:1561</a></div></div>
+<div class="ttc" id="abuild_2_c_make_files_2mono__bottlenose_8dir_2link_8txt_html_a0b997b6ec44f7e87b762da2274325271"><div class="ttname"><a href="build_2_c_make_files_2mono__bottlenose_8dir_2link_8txt.html#a0b997b6ec44f7e87b762da2274325271">std</a></div><div class="ttdeci">usr bin c Wall O3 std</div><div class="ttdef"><b>Definition:</b> <a href="build_2_c_make_files_2mono__bottlenose_8dir_2link_8txt_source.html#l00001">link.txt:1</a></div></div>
+<div class="ttc" id="amono__bottlenose__gige_8cc_html_a02bc2eece0a1a10e6021bba7376a3f58"><div class="ttname"><a href="mono__bottlenose__gige_8cc.html#a02bc2eece0a1a10e6021bba7376a3f58">SLAM</a></div><div class="ttdeci">ORB_SLAM3::System SLAM(vocab_file, yaml_file, ORB_SLAM3::System::MONOCULAR, true, 0, string(&quot;Testrun&quot;))</div></div>
 <div class="ttc" id="a_stereo_2stereo__realsense___d435i_8cc_html_abc120d938ebee0b251ba51d52d424bf5"><div class="ttname"><a href="_stereo_2stereo__realsense___d435i_8cc.html#abc120d938ebee0b251ba51d52d424bf5">interpolateMeasure</a></div><div class="ttdeci">rs2_vector interpolateMeasure(const double target_time, const rs2_vector current_data, const double current_time, const rs2_vector prev_data, const double prev_time)</div><div class="ttdef"><b>Definition:</b> <a href="_monocular-_inertial_2mono__inertial__realsense___d435i_8cc_source.html#l00415">mono_inertial_realsense_D435i.cc:415</a></div></div>
-<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a05ad775f15134ca22413748c792d88f4"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4">ORB_SLAM3::System::TrackStereo</a></div><div class="ttdeci">Sophus::SE3f TrackStereo(const cv::Mat &amp;imLeft, const cv::Mat &amp;imRight, const double &amp;timestamp, const vector&lt; IMU::Point &gt; &amp;vImuMeas=vector&lt; IMU::Point &gt;(), string filename=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> <a href="_system_8cc_source.html#l00244">System.cc:244</a></div></div>
-<div class="ttc" id="anamespace__setup__util_html_acdce690b925de33d6249bbbfa1109d61"><div class="ttname"><a href="namespace__setup__util.html#acdce690b925de33d6249bbbfa1109d61">_setup_util.e</a></div><div class="ttdeci">e</div><div class="ttdef"><b>Definition:</b> <a href="atomic__configure_2__setup__util_8py_source.html#l00266">_setup_util.py:266</a></div></div>
-<div class="ttc" id="abuild_2_c_make_files_2mono__euroc_8dir_2link_8txt_html_a0b997b6ec44f7e87b762da2274325271"><div class="ttname"><a href="build_2_c_make_files_2mono__euroc_8dir_2link_8txt.html#a0b997b6ec44f7e87b762da2274325271">std</a></div><div class="ttdeci">usr bin c Wall O3 std</div><div class="ttdef"><b>Definition:</b> <a href="build_2_c_make_files_2mono__euroc_8dir_2link_8txt_source.html#l00001">link.txt:1</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a05ad775f15134ca22413748c792d88f4"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a05ad775f15134ca22413748c792d88f4">ORB_SLAM3::System::TrackStereo</a></div><div class="ttdeci">Sophus::SE3f TrackStereo(const cv::Mat &amp;imLeft, const cv::Mat &amp;imRight, const double &amp;timestamp, const vector&lt; IMU::Point &gt; &amp;vImuMeas=vector&lt; IMU::Point &gt;(), string filename=&quot;&quot;)</div></div>
+<div class="ttc" id="anamespace__setup__util_html_acdce690b925de33d6249bbbfa1109d61"><div class="ttname"><a href="namespace__setup__util.html#acdce690b925de33d6249bbbfa1109d61">_setup_util.e</a></div><div class="ttdeci">e</div><div class="ttdef"><b>Definition:</b> <a href="catkin__ws_2build_2catkin__tools__prebuild_2atomic__configure_2__setup__util_8py_source.html#l00266">_setup_util.py:266</a></div></div>
+<div class="ttc" id="anamespacelogresize_html_aeb675d0230677c374b762715193f72cc"><div class="ttname"><a href="namespacelogresize.html#aeb675d0230677c374b762715193f72cc">logresize.file_name</a></div><div class="ttdeci">string file_name</div><div class="ttdef"><b>Definition:</b> <a href="logresize_8py_source.html#l00001">logresize.py:1</a></div></div>
 <div class="ttc" id="a_stereo_2stereo__realsense___d435i_8cc_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="_stereo_2stereo__realsense___d435i_8cc.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> <a href="_stereo_2stereo__realsense___d435i_8cc_source.html#l00093">stereo_realsense_D435i.cc:93</a></div></div>
-<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a3eb5076ceb0b051b0662f7697c70d795"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a3eb5076ceb0b051b0662f7697c70d795">ORB_SLAM3::System::isShutDown</a></div><div class="ttdeci">bool isShutDown()</div><div class="ttdef"><b>Definition:</b> <a href="_system_8cc_source.html#l00564">System.cc:564</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a3eb5076ceb0b051b0662f7697c70d795"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a3eb5076ceb0b051b0662f7697c70d795">ORB_SLAM3::System::isShutDown</a></div><div class="ttdeci">bool isShutDown()</div><div class="ttdef"><b>Definition:</b> <a href="backup_2src_2_system_8cc_source.html#l00743">System.cc:743</a></div></div>
 <div class="ttc" id="a_stereo_2stereo__realsense___d435i_8cc_html_a60ba7fcd6b0328abee4a59edbecc349a"><div class="ttname"><a href="_stereo_2stereo__realsense___d435i_8cc.html#a60ba7fcd6b0328abee4a59edbecc349a">exit_loop_handler</a></div><div class="ttdeci">void exit_loop_handler(int s)</div><div class="ttdef"><b>Definition:</b> <a href="_stereo_2stereo__realsense___d435i_8cc_source.html#l00041">stereo_realsense_D435i.cc:41</a></div></div>
 <div class="ttc" id="aold_2_stereo_2stereo__realsense___d435i_8cc_html_a16fbef137ef90fad61c74a7dcb4d9edc"><div class="ttname"><a href="old_2_stereo_2stereo__realsense___d435i_8cc.html#a16fbef137ef90fad61c74a7dcb4d9edc">get_sensor_option</a></div><div class="ttdeci">static rs2_option get_sensor_option(const rs2::sensor &amp;sensor)</div><div class="ttdef"><b>Definition:</b> <a href="old_2_stereo_2stereo__realsense___d435i_8cc_source.html#l00051">stereo_realsense_D435i.cc:51</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_ac0d0a0f54ff18c65aa4563c7ba9e98e8"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#ac0d0a0f54ff18c65aa4563c7ba9e98e8">ORB_SLAM3::System::InsertTrackTime</a></div><div class="ttdeci">void InsertTrackTime(double &amp;time)</div></div>
+<div class="ttc" id="anamespacelogresize_html_acde72239d037eca80434f5f913ca4193"><div class="ttname"><a href="namespacelogresize.html#acde72239d037eca80434f5f913ca4193">logresize.count</a></div><div class="ttdeci">int count</div><div class="ttdef"><b>Definition:</b> <a href="logresize_8py_source.html#l00005">logresize.py:5</a></div></div>
+<div class="ttc" id="anamespaceevaluate__rpe_html_a2ac8320bac68fa5f9dfb5df695e9841b"><div class="ttname"><a href="namespaceevaluate__rpe.html#a2ac8320bac68fa5f9dfb5df695e9841b">evaluate_rpe.f</a></div><div class="ttdeci">f</div><div class="ttdef"><b>Definition:</b> <a href="evaluate__rpe_8py_source.html#l00346">evaluate_rpe.py:346</a></div></div>
 <div class="ttc" id="a_stereo_2stereo__realsense___d435i_8cc_html_a3d721e461359b2871edbdaefd34c6d50"><div class="ttname"><a href="_stereo_2stereo__realsense___d435i_8cc.html#a3d721e461359b2871edbdaefd34c6d50">b_continue_session</a></div><div class="ttdeci">bool b_continue_session</div><div class="ttdef"><b>Definition:</b> <a href="_stereo_2stereo__realsense___d435i_8cc_source.html#l00039">stereo_realsense_D435i.cc:39</a></div></div>
-<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a></div><div class="ttdef"><b>Definition:</b> <a href="_system_8h_source.html#l00083">System.h:83</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_aafb52f69567ea0d9256abe98f051d80da157220cf1f450a8c78452be73e2941db"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#aafb52f69567ea0d9256abe98f051d80da157220cf1f450a8c78452be73e2941db">ORB_SLAM3::System::STEREO</a></div><div class="ttdeci">@ STEREO</div><div class="ttdef"><b>Definition:</b> <a href="backup_2include_2_system_8h_source.html#l00089">System.h:89</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html">ORB_SLAM3::System</a></div><div class="ttdef"><b>Definition:</b> <a href="backup_2include_2_system_8h_source.html#l00083">System.h:83</a></div></div>
+<div class="ttc" id="aclass_o_r_b___s_l_a_m3_1_1_system_html_a0098053312b3603d7c5e22f80ac1e2bf"><div class="ttname"><a href="class_o_r_b___s_l_a_m3_1_1_system.html#a0098053312b3603d7c5e22f80ac1e2bf">ORB_SLAM3::System::InsertResizeTime</a></div><div class="ttdeci">void InsertResizeTime(double &amp;time)</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Aug 1 2022 22:35:23 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Aug 26 2023 09:59:10 for ORB_SLAM3 by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.17
 </small></address>

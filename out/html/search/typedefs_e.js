@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['orbvocabulary_7250',['ORBVocabulary',['../namespace_o_r_b___s_l_a_m3.html#a80d3d4241a673709e76cc085db6953f4',1,'ORB_SLAM3']]]
+  ['nodeid_8705',['NodeId',['../namespace_d_bo_w2.html#a3a0fa9c50c0df508759362d6204566f2',1,'DBoW2']]]
 ];

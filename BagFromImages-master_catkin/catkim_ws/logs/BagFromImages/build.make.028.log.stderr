@@ -1,1 +1,0 @@
-/usr/bin/ld: warning: libopencv_core.so.4.4, needed by /usr/local/lib/libopencv_imgcodecs.so.4.4.0, may conflict with libopencv_core.so.4.2
